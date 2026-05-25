@@ -67,6 +67,11 @@
       "symbol": "var_pushediceblock"
     },
     {
+      "id": "13",
+      "name": "Swimming",
+      "symbol": "var_swimming"
+    },
+    {
       "id": "f4f59ce0-749b-4144-a5bc-86d33f4cc9ac__L0",
       "name": "MainMenu",
       "symbol": "var_mainmenu"
@@ -130,6 +135,81 @@
       "id": "3d5d63c4-8718-4b28-ad58-b8cdfdb2644e__L0",
       "name": "Singles",
       "symbol": "var_singles_3"
+    },
+    {
+      "id": "0c5dbdad-fd17-4738-91b5-7e6e9ecae9c0__L0",
+      "name": "MenuOptions",
+      "symbol": "var_menuoptions"
+    },
+    {
+      "id": "b2f4ebc0-0bb8-49e5-8df6-85f21a0b2b98__L0",
+      "name": "MenuOptions",
+      "symbol": "var_menuoptions_0"
+    },
+    {
+      "id": "9fa1a7d4-8970-46f2-9da7-b6eaba2a7219__L0",
+      "name": "MenuOptions",
+      "symbol": "var_menuoptions_1"
+    },
+    {
+      "id": "76a0d65f-bd0e-4259-b375-ca8aef19ddd2__L0",
+      "name": "MenuOptions",
+      "symbol": "var_menuoptions_2"
+    },
+    {
+      "id": "db5b0dcc-880a-4538-b959-44f2fa09103e__L0",
+      "name": "MenuOptions",
+      "symbol": "var_menuoptions_3"
+    },
+    {
+      "id": "3a70ce70-4821-45a5-9d8b-a86dfaff1a46__L0",
+      "name": "MenuOptions",
+      "symbol": "var_menuoptions_4"
+    },
+    {
+      "id": "6e2541d0-216a-4042-92c6-215c0a1232e4__L0",
+      "name": "MenuOptions",
+      "symbol": "var_menuoptions_5"
+    },
+    {
+      "id": "0075278d-82d9-43dc-a15d-70bc7db5f302__L0",
+      "name": "MenuOptions",
+      "symbol": "var_menuoptions_6"
+    },
+    {
+      "id": "6904c3dc-05c4-4861-954f-ac6022fa1d1a__L0",
+      "name": "MenuOptions",
+      "symbol": "var_menuoptions_7"
+    },
+    {
+      "id": "7276231c-ecae-4ea7-af5a-fc867634a5c9__L0",
+      "name": "MenuOptions",
+      "symbol": "var_menuoptions_8"
+    },
+    {
+      "id": "c4fdf36e-32e0-4e94-95c4-ff95484a6090__L0",
+      "name": "MenuOptions",
+      "symbol": "var_menuoptions_9"
+    },
+    {
+      "id": "135a03e9-66df-4438-bfcb-b6438f6c68f5__L0",
+      "name": "MenuOptions",
+      "symbol": "var_menuoptions_10"
+    },
+    {
+      "id": "4952ead9-c5c9-48ad-b628-b8516aee45b5__L0",
+      "name": "MenuOptions",
+      "symbol": "var_menuoptions_11"
+    },
+    {
+      "id": "cb5a3828-f2fd-4f11-915e-8beeeca75fdc__L0",
+      "name": "MenuOptions",
+      "symbol": "var_menuoptions_12"
+    },
+    {
+      "id": "70662b83-5647-4881-a6c6-12c75c586424__L0",
+      "name": "MenuOptions",
+      "symbol": "var_menuoptions_13"
     }
   ],
   "constants": []

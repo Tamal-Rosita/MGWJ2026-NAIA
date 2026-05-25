@@ -1,0 +1,354 @@
+{
+  "_resourceType": "actor",
+  "id": "135a03e9-66df-4438-bfcb-b6438f6c68f5",
+  "name": "Water (Down Direction)",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dc80edbd-b8aa-46e3-b0ce-a35d83390f06",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "_index": 1,
+  "symbol": "actor_25",
+  "coordinateType": "tiles",
+  "x": 9,
+  "y": 8,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "0",
+        "__collapseElse": false,
+        "__collapse": false,
+        "condition": {
+          "type": "variable",
+          "value": "13"
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Climb up?"
+              ],
+              "avatarId": "",
+              "__collapse": false
+            },
+            "id": "85b00786-375c-46ae-b9fb-89170fd47114"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "L0",
+              "trueText": "Yes",
+              "falseText": "No",
+              "__collapse": false
+            },
+            "id": "3f8b0d60-b97f-45a8-b280-6ac375fd41fb"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "L0",
+              "__collapseElse": true,
+              "__collapse": false,
+              "condition": {
+                "type": "variable",
+                "value": "L0"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "__collapse": true
+                  },
+                  "id": "00c9d70c-d513-4599-81a7-46434559721c"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "player",
+                    "spriteStateId": "",
+                    "__collapse": true
+                  },
+                  "id": "4d0832ef-082d-4cc3-84a0-b0265dc1313d"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                  "args": {
+                    "actorId": "player",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": -3
+                    },
+                    "moveType": "vertical",
+                    "useCollisions": false,
+                    "__collapse": true,
+                    "collideWith": []
+                  },
+                  "id": "45345dcd-469e-4b7b-8536-fd0bc7539bdc"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "player",
+                    "direction": {
+                      "type": "direction",
+                      "value": "up"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "0c6aeee5-d947-47e9-9fe5-fd3cc0c1a5e5"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.5
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 30
+                    },
+                    "__collapse": true
+                  },
+                  "id": "825474ab-7def-4364-b948-680d94ceb21b"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                  "args": {
+                    "actorId": "player",
+                    "speed": 1,
+                    "__collapse": true
+                  },
+                  "id": "ad2b50d4-a2cf-4eab-a74a-d51346ad5ac9"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "13",
+                    "__collapse": false,
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "ab0ef7a5-2e18-4f27-972a-8c2016b40ed1"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 7
+                    },
+                    "__collapse": false
+                  },
+                  "id": "fde50c80-e316-4267-beb7-cf78aab033f3"
+                }
+              ],
+              "false": []
+            },
+            "id": "f36ac621-200d-43bd-a686-440963ed778e"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Do you want to go\nfor a swim?"
+              ],
+              "avatarId": "",
+              "__collapse": false
+            },
+            "id": "6a48503b-9754-4a70-9831-a778ba531783"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "L0",
+              "trueText": "Yes",
+              "falseText": "No",
+              "__collapse": false
+            },
+            "id": "9df26230-8bd7-454c-b8cd-5909c8989ba1"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "L0",
+              "__collapseElse": false,
+              "__collapse": false,
+              "condition": {
+                "type": "variable",
+                "value": "L0"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "__collapse": true
+                  },
+                  "id": "c8d56870-9946-431c-9420-2ce0bfdae14c"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "player",
+                    "spriteStateId": "JumpIntoWater(Down)",
+                    "__collapse": true
+                  },
+                  "id": "763e32ab-d639-420a-9792-f22d91fda85a"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                  "args": {
+                    "actorId": "player",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 2
+                    },
+                    "moveType": "vertical",
+                    "useCollisions": false,
+                    "__collapse": true,
+                    "collideWith": []
+                  },
+                  "id": "6541f3f7-fb4f-4629-a3ae-f0e6ab76f021"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+                  "args": {
+                    "actorId": "player",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  },
+                  "id": "64f04687-9ea3-421a-a52e-1757436f8c71"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.9
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 30
+                    },
+                    "__collapse": false
+                  },
+                  "id": "ac5cff80-18b2-427d-82b1-646202a5dae5"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "player",
+                    "spriteStateId": "Swimming",
+                    "__collapse": true
+                  },
+                  "id": "356cec2a-2c02-4862-9f5c-8d28a14dde4f"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                  "args": {
+                    "actorId": "player",
+                    "speed": 0.5,
+                    "__collapse": true
+                  },
+                  "id": "52ce85e0-61a1-4473-9777-1451f53da687"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "13",
+                    "__collapse": false,
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "ed18cfde-c3e2-4686-aa53-8e34d3c29912"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 6
+                    },
+                    "__collapse": false
+                  },
+                  "id": "575837f5-6d4d-42b0-8c6a-4c1ee9822ff6"
+                }
+              ],
+              "false": []
+            },
+            "id": "fd819c14-d508-48e1-9f30-3742d3ace335"
+          }
+        ]
+      },
+      "id": "18ccd33f-df66-40ea-a2d0-56618f985439"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

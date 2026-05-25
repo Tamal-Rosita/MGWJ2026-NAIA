@@ -1,28 +1,28 @@
 {
   "_resourceType": "actor",
-  "id": "566c8812-a204-45b5-b93a-c113c10c20de",
-  "_index": 0,
-  "symbol": "actor_13",
-  "prefabId": "",
+  "id": "8981d43b-d33f-44e1-a17d-c11b28071595",
   "name": "",
-  "coordinateType": "tiles",
-  "x": 12,
-  "y": 5,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "40dcd163-9f72-4861-8131-b01eb9baa000",
-  "paletteId": "",
+  "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
+  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
+  "_index": 0,
+  "symbol": "actor_26",
+  "coordinateType": "tiles",
+  "x": 12,
+  "y": 5,
   "script": [
     {
-      "id": "8208a6a1-7d0e-465b-ac1f-16868e6d250e",
+      "id": "8448dc57-870c-48a3-a947-614b4972781f",
       "command": "EVENT_IF",
       "args": {
         "variable": "2",
@@ -40,7 +40,7 @@
       "children": {
         "true": [
           {
-            "id": "94a866d1-d4cd-485b-8519-364104412bdb",
+            "id": "2008f188-b3d8-4401-8bda-1e0af53a5abe",
             "command": "EVENT_TEXT",
             "args": {
               "text": "Have you tried\nusing this radio?"
@@ -49,29 +49,29 @@
         ],
         "false": [
           {
-            "id": "aedfbb0e-a49e-4b10-a334-cc217f44e9d8",
+            "id": "54fcc828-ae08-4403-9694-fb19452d5efb",
             "command": "EVENT_TEXT",
             "args": {
               "text": "Yeah it doesn't\nfit does it?"
             }
           },
           {
-            "id": "6bd9950b-775e-4d5b-96f1-0e5488317c87",
+            "id": "6d92a7cc-5004-4b8a-bbca-e458736b4b71",
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
-              "actorId": "566c8812-a204-45b5-b93a-c113c10c20de",
+              "actorId": "8981d43b-d33f-44e1-a17d-c11b28071595",
               "emoteId": "a12f6e9c-2bb1-4164-8d5b-4dbdda4bdceb"
             }
           },
           {
-            "id": "5728dc6b-4c2c-4255-aa1b-b1f6211a2219",
+            "id": "c428db25-ad90-42e7-93f6-f7b500ae2173",
             "command": "EVENT_TEXT",
             "args": {
               "text": "But it's all I\nhave right now..."
             }
           },
           {
-            "id": "f06cbcf4-9788-46ed-80bb-f7aca4ec925f",
+            "id": "8e9bc456-365f-4df0-9793-7ee8e396fd30",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "6",

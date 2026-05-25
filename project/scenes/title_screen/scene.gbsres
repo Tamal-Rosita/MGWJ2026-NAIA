@@ -1,12 +1,12 @@
 {
   "_resourceType": "scene",
   "id": "4912bee2-387a-472f-ae4f-6679b6149517",
-  "_index": 6,
+  "_index": 5,
   "type": "TOPDOWN",
   "name": "Title Screen",
   "symbol": "scene_title_screen",
   "x": 64,
-  "y": 472,
+  "y": 448,
   "width": 20,
   "height": 18,
   "backgroundId": "78628dcd-0f6c-4d2d-859f-f1170379d612",
@@ -72,7 +72,7 @@
             "command": "EVENT_IF",
             "args": {
               "variable": "10",
-              "__collapse": true,
+              "__collapse": false,
               "__collapseElse": false,
               "condition": {
                 "type": "variable",
@@ -85,17 +85,18 @@
                   "id": "a5dddc76-e5fe-424a-9b2b-1ad1834acefb",
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "8a52b387-2a88-4741-8d4e-ca56acea4672",
+                    "sceneId": "1c89d36b-4f74-4e4e-8802-0686d43e87f8",
                     "x": {
                       "type": "number",
-                      "value": 5
+                      "value": 9
                     },
                     "y": {
                       "type": "number",
-                      "value": 5
+                      "value": 9
                     },
-                    "direction": "left",
-                    "fadeSpeed": "4"
+                    "direction": "down",
+                    "fadeSpeed": "4",
+                    "__collapse": false
                   }
                 }
               ],
@@ -105,7 +106,7 @@
                   "command": "EVENT_IF_SAVED_DATA",
                   "args": {
                     "saveSlot": 0,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [

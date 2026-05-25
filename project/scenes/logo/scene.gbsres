@@ -1,11 +1,11 @@
 {
   "_resourceType": "scene",
   "id": "382961a1-e615-4b92-92a7-f1a791b50b7a",
-  "_index": 2,
+  "_index": 1,
   "type": "TOPDOWN",
   "name": "Logo",
   "symbol": "scene_logo",
-  "x": 60,
+  "x": 64,
   "y": 232,
   "width": 20,
   "height": 18,
