@@ -1,30 +1,30 @@
 {
   "_resourceType": "trigger",
-  "id": "fc139bcd-a16b-4151-a9de-7b7e88e437d6",
-  "_index": 2,
-  "symbol": "trigger_2",
+  "id": "4916f378-602b-4df7-a453-baeaaad59c3c",
+  "_index": 1,
+  "symbol": "trigger_1",
   "prefabId": "",
-  "name": "",
-  "x": 10,
+  "name": "Hideout",
+  "x": 24,
   "y": 8,
   "width": 2,
   "height": 1,
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "e5c482c4-82fd-4633-be82-1b2bc398a20c",
+      "id": "6b1f21b9-e8c4-4264-8871-1f843172d128",
       "command": "EVENT_SWITCH_SCENE",
       "args": {
+        "sceneId": "27ce1f02-cdf0-4494-8686-9dadf9d93247",
         "x": {
           "type": "number",
           "value": 9
         },
         "y": {
           "type": "number",
-          "value": 14
+          "value": 5
         },
-        "direction": "up",
-        "sceneId": "1c89d36b-4f74-4e4e-8802-0686d43e87f8",
+        "direction": "down",
         "fadeSpeed": "2"
       }
     }

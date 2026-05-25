@@ -1,7 +1,7 @@
 {
   "_resourceType": "trigger",
   "id": "426115fe-f609-4bfd-84d0-8d65eab3b049",
-  "name": "",
+  "name": "HomeExit",
   "prefabId": "",
   "_index": 0,
   "symbol": "trigger_7",
