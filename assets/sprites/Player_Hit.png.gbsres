@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "5f7246ff-56c3-45aa-8d89-b928e6f836aa",
+  "name": "Player_Hit",
+  "symbol": "sprite_player_hit",
+  "states": [
+    {
+      "id": "1b57ba3e-262a-4861-a05f-9cc67e39f10c",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "c158cd14-0dc6-494c-8660-a14cf4dd80d2",
+          "frames": [
+            {
+              "id": "220331c0-5796-4dfa-a93e-2a20a1bf8e5b",
+              "tiles": [
+                {
+                  "id": "f3d78cd3-5f97-4705-bcfb-1bc6c14555ad",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "bbbf68e9-c27d-4b56-a1e5-38f65fdde836",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b12a93e6-f531-4f45-8db4-04d6adeb388f",
+          "frames": [
+            {
+              "id": "f2e6bf23-a0f8-4bdf-b9c9-aee967fea6ea",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "bde9b2c3-f50d-438f-8c95-9cf9b726798a",
+          "frames": [
+            {
+              "id": "77e40e0b-004a-4fb0-9da6-4d9097f02e32",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "97bb5db2-edc2-44dd-99a0-5d013e74cfc5",
+          "frames": [
+            {
+              "id": "2bdee182-7ca5-4231-b317-305cf60ca0af",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "54573067-b95b-43d0-a729-e507d9ab0e2a",
+          "frames": [
+            {
+              "id": "594e260f-8feb-48f9-873e-28ee59fee579",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d16ca282-4885-430a-923e-8cfecd1c545b",
+          "frames": [
+            {
+              "id": "332a1fa3-150a-4efd-97e6-373e1b57dea5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f4d8fdd6-d2ed-4f33-aeb9-94db15446367",
+          "frames": [
+            {
+              "id": "c546e0c4-5e30-40d0-a22d-5be31116154a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6fc1d474-58a5-4d7f-b08e-1bd8bbf1b1c8",
+          "frames": [
+            {
+              "id": "fd2e43a7-7124-4268-8c4a-fbfff1ae8f53",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Player_Hit.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "521517869c47d7a432275691e521814004b48e64"
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b94eaeaf-32f3-46b0-894a-d062921290fb",
+  "name": "battlescreen",
+  "symbol": "bg_battlescreen",
+  "tileColors": "",
+  "filename": "battlescreen.png",
+  "width": 22,
+  "height": 18,
+  "imageWidth": 176,
+  "imageHeight": 144
+}
