@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "15bd7c05-fcfc-4735-828a-827e4d730106",
+  "name": "credits-frame",
+  "symbol": "bg_credits_frame",
+  "tileColors": "",
+  "filename": "credits-frame.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

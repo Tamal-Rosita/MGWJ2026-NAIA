@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "04969332-e964-4e40-a5bb-6d04fcf0ab57",
+  "name": "Lake",
+  "symbol": "bg_lake",
+  "tileColors": "",
+  "filename": "Lake.png",
+  "width": 25,
+  "height": 20,
+  "imageWidth": 200,
+  "imageHeight": 160
+}

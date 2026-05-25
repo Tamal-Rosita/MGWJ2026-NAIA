@@ -5,11 +5,11 @@
   "type": "TOPDOWN",
   "name": "Logo",
   "symbol": "scene_logo",
-  "x": 111,
-  "y": 264,
+  "x": 72,
+  "y": 224,
   "width": 20,
   "height": 18,
-  "backgroundId": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
+  "backgroundId": "724a8c61-df01-44c5-a1f3-ab0591d01570",
   "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [],
@@ -31,6 +31,13 @@
         "x": 0,
         "y": 0
       }
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "f82235a5-145f-477a-88d5-d341f6893367"
+      },
+      "id": "9bd86ab3-d190-4c6f-9c48-78331ee81842"
     },
     {
       "id": "e88fcc15-89a0-4db6-b069-aeffe9cb222b",

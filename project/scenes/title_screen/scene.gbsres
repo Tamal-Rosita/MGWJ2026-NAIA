@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "Title Screen",
   "symbol": "scene_title_screen",
-  "x": 108,
-  "y": 509,
+  "x": 60,
+  "y": 472,
   "width": 20,
   "height": 18,
   "backgroundId": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -24,6 +24,13 @@
       }
     },
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "759a2285-cebf-451f-aa93-e8601d22a2a1"
+      },
+      "id": "472ba4bf-6dca-4879-a431-a760eb062bdf"
+    },
+    {
       "id": "41b284dc-047f-4bb1-ad5c-f8ade30d034e",
       "command": "EVENT_AWAIT_INPUT",
       "args": {
@@ -32,18 +39,23 @@
           "b",
           "start",
           "select"
-        ]
+        ],
+        "__collapse": true
       }
     },
     {
       "command": "EVENT_RNG_SEED",
-      "args": {},
+      "args": {
+        "__collapse": true
+      },
       "id": "11bfc6ff-9528-492b-8b81-b19dcf49f392"
     },
     {
       "id": "19a94599-0006-4e3f-9049-c5087d230ed8",
       "command": "EVENT_LOOP",
-      "args": {},
+      "args": {
+        "__collapse": true
+      },
       "children": {
         "true": [
           {
@@ -60,7 +72,7 @@
             "command": "EVENT_IF",
             "args": {
               "variable": "10",
-              "__collapse": false,
+              "__collapse": true,
               "__collapseElse": false,
               "condition": {
                 "type": "variable",
@@ -73,14 +85,14 @@
                   "id": "a5dddc76-e5fe-424a-9b2b-1ad1834acefb",
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
+                    "sceneId": "8a52b387-2a88-4741-8d4e-ca56acea4672",
                     "x": {
                       "type": "number",
-                      "value": 27
+                      "value": 7
                     },
                     "y": {
                       "type": "number",
-                      "value": 26
+                      "value": 25
                     },
                     "direction": "left",
                     "fadeSpeed": "4"
@@ -92,7 +104,8 @@
                   "id": "d2cd5812-f043-4aa5-b827-475dc79091e7",
                   "command": "EVENT_IF_SAVED_DATA",
                   "args": {
-                    "saveSlot": 0
+                    "saveSlot": 0,
+                    "__collapse": true
                   },
                   "children": {
                     "true": [

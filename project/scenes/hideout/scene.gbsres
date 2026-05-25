@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "27ce1f02-cdf0-4494-8686-9dadf9d93247",
+  "_index": 8,
+  "name": "Hideout",
+  "backgroundId": "b340b9a2-2865-4e05-91c0-148846a693c8",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "003d+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!0010+0f4+008+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 296,
+  "y": 296,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

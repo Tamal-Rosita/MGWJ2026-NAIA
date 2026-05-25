@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "dc80edbd-b8aa-46e3-b0ce-a35d83390f06",
+  "name": "Invisible Actor",
+  "symbol": "sprite_invisible_actor",
+  "states": [
+    {
+      "id": "f9b1c8fb-5d6b-4217-90f3-f44aa5322d1d",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "8fa34b1f-76f4-41c1-bc01-df2067904024",
+          "frames": [
+            {
+              "id": "fed6d144-dacd-408a-8865-77f6ac64c213",
+              "tiles": [
+                {
+                  "id": "fe072307-1d02-4491-ac44-6e1d735155e4",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "97cfa4fc-78cd-4f1d-b37a-75d36475237e",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fd8a5744-abde-4cc6-b11f-2f184e04488d",
+          "frames": [
+            {
+              "id": "11a31fb2-4731-49c7-a593-440c941d4fb8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "53d9745b-b51d-48ad-86c6-0ef5f6dfacb5",
+          "frames": [
+            {
+              "id": "43ca1ba3-40e7-46c9-b9f7-05468793c765",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3db7055a-ca12-49ad-a201-8c009d6db4a0",
+          "frames": [
+            {
+              "id": "8b86c2b5-275f-404f-a263-592c7b4f17eb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4db765c0-6878-41ba-b491-6c9af17c0557",
+          "frames": [
+            {
+              "id": "1ec586c7-ec66-4372-832e-6166aaf0bb44",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9cb78f1e-13a9-4a27-ae12-a085d88d8f26",
+          "frames": [
+            {
+              "id": "e5881d83-1cde-44e2-b187-3ddce855864c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0389a10d-05bd-43d4-9bd0-69779f034832",
+          "frames": [
+            {
+              "id": "59bc3b03-f011-4379-9cc1-759f61df60dc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "13a7b535-e232-4fcd-9b40-de3690cf6483",
+          "frames": [
+            {
+              "id": "bd22e8e5-a0c5-4cfe-94c7-e0ce03d960c0",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Invisible Actor.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "524f980a5456a600f746f8d8a007d72bc646755c"
+}

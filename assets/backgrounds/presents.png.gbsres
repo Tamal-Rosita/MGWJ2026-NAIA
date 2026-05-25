@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d681a947-5470-4af9-bcc0-1d8e326d1845",
+  "name": "presents",
+  "symbol": "bg_presents",
+  "tileColors": "",
+  "filename": "presents.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

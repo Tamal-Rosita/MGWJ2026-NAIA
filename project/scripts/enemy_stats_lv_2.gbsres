@@ -1,0 +1,64 @@
+{
+  "_resourceType": "script",
+  "id": "2a4123f1-c00b-41b4-aa90-b40fcd9cdef6",
+  "name": "Enemy Stats Lv. 2",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "id": "ae05e2ef-3fba-4e55-9e28-e9bf14ed2c39",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Set Enemy Stats",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "c7c66c62-91dc-47bb-939f-674555cb1e50",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "6",
+              "value": {
+                "type": "number",
+                "value": 55
+              },
+              "__collapse": true,
+              "__label": "Enemy HP"
+            }
+          },
+          {
+            "id": "427819fe-4fec-474c-9bc9-2603e84e6ade",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "12",
+              "value": {
+                "type": "number",
+                "value": 100
+              },
+              "__collapse": true
+            }
+          },
+          {
+            "id": "dfcdd596-163a-4476-aa4a-1099aab439fe",
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "12",
+              "operation": "div",
+              "other": "var",
+              "vectorY": "1",
+              "value": "1",
+              "minValue": "0",
+              "maxValue": "255",
+              "clamp": false,
+              "__collapse": true,
+              "__label": "Enemy Damage"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -65,6 +65,71 @@
       "id": "12",
       "name": "PushedIceBlock",
       "symbol": "var_pushediceblock"
+    },
+    {
+      "id": "f4f59ce0-749b-4144-a5bc-86d33f4cc9ac__L0",
+      "name": "MainMenu",
+      "symbol": "var_mainmenu"
+    },
+    {
+      "id": "f4f59ce0-749b-4144-a5bc-86d33f4cc9ac__L1",
+      "name": "ItemMenu",
+      "symbol": "var_itemmenu"
+    },
+    {
+      "id": "457a7be8-d1c3-4df5-916c-119778f9389f__L0",
+      "name": "Menu Option",
+      "symbol": "var_menu_option"
+    },
+    {
+      "id": "457a7be8-d1c3-4df5-916c-119778f9389f__L1",
+      "name": "Escape Chance",
+      "symbol": "var_escape_chance"
+    },
+    {
+      "id": "457a7be8-d1c3-4df5-916c-119778f9389f__L2",
+      "name": "Item Options",
+      "symbol": "var_item_options"
+    },
+    {
+      "id": "457a7be8-d1c3-4df5-916c-119778f9389f__L3",
+      "name": "Magic Options",
+      "symbol": "var_magic_options"
+    },
+    {
+      "id": "457a7be8-d1c3-4df5-916c-119778f9389f__L4",
+      "name": "Tens",
+      "symbol": "var_tens"
+    },
+    {
+      "id": "457a7be8-d1c3-4df5-916c-119778f9389f__L5",
+      "name": "Singles",
+      "symbol": "var_singles"
+    },
+    {
+      "id": "00ae47db-c05e-4eb1-8f26-77d05822dcac__L0",
+      "name": "Singles",
+      "symbol": "var_singles_0"
+    },
+    {
+      "id": "00ae47db-c05e-4eb1-8f26-77d05822dcac__L1",
+      "name": "Tens",
+      "symbol": "var_tens_0"
+    },
+    {
+      "id": "5cf7155b-d4ed-4023-8776-2c77a694f54c__L0",
+      "name": "Singles",
+      "symbol": "var_singles_1"
+    },
+    {
+      "id": "ffba037a-ab73-484c-a8dd-7555177addc8__L0",
+      "name": "Singles",
+      "symbol": "var_singles_2"
+    },
+    {
+      "id": "3d5d63c4-8718-4b28-ad58-b8cdfdb2644e__L0",
+      "name": "Singles",
+      "symbol": "var_singles_3"
     }
   ],
   "constants": []

@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "a7b8d4f1-8dbf-46eb-9d73-b6358b04d580",
+  "name": "Splash",
+  "symbol": "sprite_splash",
+  "states": [
+    {
+      "id": "849e5b2f-3010-49bd-9349-f0a5bb4f3961",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "fe2f3785-4476-4585-994d-df4dc0087986",
+          "frames": [
+            {
+              "id": "b6a9d9ba-bc7e-496b-9e5c-f9086d5f9391",
+              "tiles": [
+                {
+                  "id": "fef030a6-ffb2-425e-a140-1712b2dd1abd",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "0b8605f2-400a-4b42-a059-4f8042141b16",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "0373ea0f-2110-430b-8d96-2d53cee63966",
+          "frames": [
+            {
+              "id": "c09a809b-2cbc-4b22-9214-c7823a66b648",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "76bf01c3-2d02-449d-9b5c-1348e8e79737",
+          "frames": [
+            {
+              "id": "a9f0601b-8870-4d1a-ad90-5cbe3d30fca7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "796ff89d-8459-4448-817d-8ad636efa36b",
+          "frames": [
+            {
+              "id": "53e9e533-fbad-4c3a-936f-81a1aa470406",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3bcc9273-c9c5-4f2f-8c50-578de0d51f09",
+          "frames": [
+            {
+              "id": "d4b48e5a-8a66-4450-adfc-09e0c7ab6325",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "44cc554a-28d9-4407-b783-c85b399e6c67",
+          "frames": [
+            {
+              "id": "45616236-a480-49ed-97cb-db0cee635a74",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "10f95c72-2b8a-4036-92e1-bc82fe7c0416",
+          "frames": [
+            {
+              "id": "3c18f2eb-3c39-4ace-8e2b-ac3b853d9c04",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "84df3ebc-9014-4f6b-9a27-b0cbe2a82123",
+          "frames": [
+            {
+              "id": "86c14432-0fcc-43f6-9fef-2be52840426c",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Splash.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "d5dbadb1e0ab6f352422eaf3c7a4d85e823e90c1"
+}

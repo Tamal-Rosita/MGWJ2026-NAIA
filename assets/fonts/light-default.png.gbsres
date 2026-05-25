@@ -1,0 +1,10 @@
+{
+  "_resourceType": "font",
+  "id": "12b504f3-e943-4b6c-b77c-fd9dbdfed067",
+  "name": "Default Light",
+  "symbol": "font_default_light",
+  "width": 128,
+  "height": 112,
+  "mapping": {},
+  "filename": "light-default.png"
+}
