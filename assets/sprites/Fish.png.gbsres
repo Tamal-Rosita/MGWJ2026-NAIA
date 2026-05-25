@@ -7,8 +7,8 @@
     {
       "id": "279179c6-0a26-41e2-9e8d-276991dafe49",
       "name": "",
-      "animationType": "fixed",
-      "flipLeft": false,
+      "animationType": "horizontal",
+      "flipLeft": true,
       "animations": [
         {
           "id": "49cc70a2-d526-444a-88ee-0442430c46ae",

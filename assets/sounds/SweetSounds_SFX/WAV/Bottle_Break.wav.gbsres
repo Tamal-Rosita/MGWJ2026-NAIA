@@ -2,7 +2,7 @@
   "_resourceType": "sound",
   "id": "a28b0383-e88a-4b82-8b79-32458a09a9a1",
   "name": "SweetSounds_SFX/WAV/Bottle_Break.wav",
-  "symbol": "sound_sweetsounds_sfx_wav_b_0",
+  "symbol": "sound_sweetsounds_sfx_wav_b",
   "type": "wav",
   "filename": "SweetSounds_SFX/WAV/Bottle_Break.wav"
 }

@@ -2,7 +2,7 @@
   "_resourceType": "sound",
   "id": "3f22c2d9-3ab6-46ba-ae2a-ff734e63921e",
   "name": "SweetSounds_SFX/WAV/Laser_Gun.wav",
-  "symbol": "sound_sweetsounds_sfx_wav_l_0",
+  "symbol": "sound_sweetsounds_sfx_wav_l",
   "type": "wav",
   "filename": "SweetSounds_SFX/WAV/Laser_Gun.wav"
 }

@@ -2,7 +2,7 @@
   "_resourceType": "sound",
   "id": "2e06b2bc-1e5e-4787-964d-f90fc3311e6e",
   "name": "SweetSounds_SFX/WAV/Low_Health.wav",
-  "symbol": "sound_sweetsounds_sfx_wav_l",
+  "symbol": "sound_sweetsounds_sfx_wav_l_0",
   "type": "wav",
   "filename": "SweetSounds_SFX/WAV/Low_Health.wav"
 }
