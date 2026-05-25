@@ -7,10 +7,10 @@
   "name": "",
   "coordinateType": "tiles",
   "x": 25,
-  "y": 6,
+  "y": 23,
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
+  "spriteSheetId": "3791d41c-30be-4297-985a-e2aae614068c",
   "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -25,7 +25,13 @@
       "id": "23d657ea-f5fc-40b1-8cac-7b4f8d1fae85",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "How did you\nget here!?!?"
+        "text": [
+          "Como llegaste \nhasta aqui!"
+        ],
+        "text2": [
+          "How did you \nget here!!?"
+        ],
+        "languageVariable": "0"
       }
     },
     {
@@ -61,8 +67,15 @@
             "id": "3b543262-c74d-42a9-8f43-e53456587dee",
             "command": "EVENT_TEXT",
             "args": {
-              "text": "You have spoken to\nme $03$ time.",
-              "__collapse": false
+              "text": [
+                "Me has saludado\nen $03$ ocasiones."
+              ],
+              "__collapse": false,
+              "text2": [
+                "You've greeted\nme $03$ times."
+              ],
+              "__section": "text",
+              "avatarId": ""
             }
           }
         ],
@@ -71,7 +84,15 @@
             "id": "1e59d870-ec6e-4a5d-9cc2-218ec941adf1",
             "command": "EVENT_TEXT",
             "args": {
-              "text": "You have spoken to\nme $03$ times."
+              "text": [
+                "Me has saludado\nen $03$ ocasiones."
+              ],
+              "text2": [
+                "You've greeted\nme $03$ times."
+              ],
+              "__section": "text",
+              "showFrame": true,
+              "clearPrevious": true
             }
           }
         ]

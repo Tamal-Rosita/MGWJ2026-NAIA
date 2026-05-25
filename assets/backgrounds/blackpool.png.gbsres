@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "86dcc73d-9b93-43a3-ba66-ba520e54e2a4",
+  "name": "blackpool",
+  "symbol": "bg_blackpool",
+  "tileColors": "0032a+",
+  "filename": "blackpool.png",
+  "width": 30,
+  "height": 27,
+  "imageWidth": 240,
+  "imageHeight": 216
+}

@@ -46,7 +46,7 @@
     {
       "command": "EVENT_RNG_SEED",
       "args": {
-        "__collapse": true
+        "__collapse": false
       },
       "id": "11bfc6ff-9528-492b-8b81-b19dcf49f392"
     },
@@ -54,7 +54,7 @@
       "id": "19a94599-0006-4e3f-9049-c5087d230ed8",
       "command": "EVENT_LOOP",
       "args": {
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -88,11 +88,11 @@
                     "sceneId": "8a52b387-2a88-4741-8d4e-ca56acea4672",
                     "x": {
                       "type": "number",
-                      "value": 7
+                      "value": 5
                     },
                     "y": {
                       "type": "number",
-                      "value": 25
+                      "value": 5
                     },
                     "direction": "left",
                     "fadeSpeed": "4"
