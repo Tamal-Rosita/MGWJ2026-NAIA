@@ -58,7 +58,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Enemy Hp Counter",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -546,7 +546,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Player Hp Counter",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -1636,7 +1636,7 @@
                 "value": 16
               },
               "__collapseElse": false,
-              "__collapse": true,
+              "__collapse": false,
               "__label": "Switch",
               "__disableElse": true
             },
@@ -1657,17 +1657,17 @@
                         "args": {
                           "variable": "L0",
                           "items": 4,
-                          "option1": "Attack",
-                          "option2": "Magic",
-                          "option3": "Item",
-                          "option4": "Flee",
+                          "option1": "Ataque",
+                          "option2": "Magia",
+                          "option3": "Objeto",
+                          "option4": "Huir",
                           "option5": "",
                           "option6": "",
                           "option7": "",
                           "option8": "",
                           "cancelOnB": false,
                           "layout": "menu",
-                          "__collapse": true,
+                          "__collapse": false,
                           "__label": "Main Menu"
                         }
                       },
@@ -2289,7 +2289,7 @@
                                 "operator": "<=",
                                 "comparator": "0",
                                 "__collapseElse": false,
-                                "__collapse": true,
+                                "__collapse": false,
                                 "condition": {
                                   "type": "lte",
                                   "valueA": {
@@ -2348,10 +2348,10 @@
                                     "command": "EVENT_TEXT",
                                     "args": {
                                       "text": [
-                                        "The enemy has been\ndefeated."
+                                        "El enemigo ha sido\nvencido!"
                                       ],
                                       "avatarId": "",
-                                      "__collapse": true
+                                      "__collapse": false
                                     }
                                   },
                                   {
@@ -2445,7 +2445,7 @@
                           "operator": "==",
                           "comparator": 2,
                           "__collapseElse": false,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "Magic",
                           "__comment": false,
                           "__disableElse": true,
@@ -2469,8 +2469,8 @@
                               "args": {
                                 "variable": "L3",
                                 "items": 2,
-                                "option1": "Flame",
-                                "option2": "Quake",
+                                "option1": "Fuego",
+                                "option2": "Temblor",
                                 "option3": "Heal",
                                 "option4": "Poison",
                                 "option5": "",
@@ -2491,7 +2491,7 @@
                                 "operator": "==",
                                 "comparator": 1,
                                 "__collapseElse": false,
-                                "__collapse": false,
+                                "__collapse": true,
                                 "__label": "Fire",
                                 "condition": {
                                   "type": "eq",
@@ -2514,7 +2514,7 @@
                                       "variable": "5",
                                       "operator": ">=",
                                       "comparator": 5,
-                                      "__collapseElse": true,
+                                      "__collapseElse": false,
                                       "__collapse": false,
                                       "condition": {
                                         "type": "gte",
@@ -3217,7 +3217,7 @@
                                                 "command": "EVENT_GROUP",
                                                 "args": {
                                                   "__label": "Enemy Hp 0-",
-                                                  "__collapse": false
+                                                  "__collapse": true
                                                 },
                                                 "children": {
                                                   "true": [
@@ -3455,7 +3455,7 @@
                                                 "command": "EVENT_GROUP",
                                                 "args": {
                                                   "__label": "Enemy Hp -0",
-                                                  "__collapse": false
+                                                  "__collapse": true
                                                 },
                                                 "children": {
                                                   "true": [
@@ -3572,7 +3572,7 @@
                                                           "value": 16
                                                         },
                                                         "__collapseElse": false,
-                                                        "__collapse": false
+                                                        "__collapse": true
                                                       },
                                                       "children": {
                                                         "true0": [
@@ -3760,10 +3760,10 @@
                                                 "command": "EVENT_TEXT",
                                                 "args": {
                                                   "text": [
-                                                    "The enemy has been\ndefeated."
+                                                    "El enemigo ha sido\nvencido!"
                                                   ],
                                                   "avatarId": "",
-                                                  "__collapse": true
+                                                  "__collapse": false
                                                 }
                                               },
                                               {
@@ -3864,7 +3864,7 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "Not enough MP."
+                                              "No tienes suficiente MP."
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -5134,7 +5134,7 @@
                                                 "command": "EVENT_TEXT",
                                                 "args": {
                                                   "text": [
-                                                    "The enemy has been\ndefeated."
+                                                    "El enemigo ha sido\nvencido!"
                                                   ],
                                                   "avatarId": "",
                                                   "__collapse": true
@@ -5238,7 +5238,7 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "Not enough MP."
+                                              "No tienes suficiente MP."
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -5257,7 +5257,7 @@
                                 "variable": "L3",
                                 "operator": "==",
                                 "comparator": "0",
-                                "__collapseElse": true,
+                                "__collapseElse": false,
                                 "__collapse": true,
                                 "__label": "Return",
                                 "condition": {
@@ -5303,7 +5303,7 @@
                           "operator": "==",
                           "comparator": 3,
                           "__collapseElse": false,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "Item",
                           "__disableElse": true,
                           "condition": {
@@ -5326,9 +5326,9 @@
                               "args": {
                                 "variable": "L2",
                                 "items": 3,
-                                "option1": "Potion",
-                                "option2": "Ether",
-                                "option3": "Elixer",
+                                "option1": "Pocima",
+                                "option2": "Eter",
+                                "option3": "Elixir",
                                 "option4": "Back",
                                 "option5": "",
                                 "option6": "",
@@ -5336,7 +5336,7 @@
                                 "option8": "",
                                 "cancelOnB": true,
                                 "layout": "menu",
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__label": "Item Menu",
                                 "cancelOnLastOption": false
                               }
@@ -5402,10 +5402,10 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "You used a potion."
+                                              "Usaste una pocima!"
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                           }
                                         },
                                         {
@@ -5413,10 +5413,10 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "HP increased by\n15."
+                                              "Incrementdo el HP\npor 15."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                           }
                                         },
                                         {
@@ -5424,10 +5424,10 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "You have $26$\nPotions left."
+                                              "Aun te quedan\n$26$ pocimas."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                           }
                                         },
                                         {
@@ -5991,10 +5991,10 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "You don't have a\nPotion."
+                                              "Ya no tienes pocimas!"
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                           }
                                         },
                                         {
@@ -6054,7 +6054,7 @@
                                 "comparator": 2,
                                 "__collapseElse": false,
                                 "__label": "Ether",
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__disableElse": true,
                                 "condition": {
                                   "type": "eq",
@@ -6077,8 +6077,8 @@
                                       "variable": "10",
                                       "operator": ">=",
                                       "comparator": 1,
-                                      "__collapseElse": true,
-                                      "__collapse": false,
+                                      "__collapseElse": false,
+                                      "__collapse": true,
                                       "condition": {
                                         "type": "gte",
                                         "valueA": {
@@ -6106,10 +6106,10 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "You used an Ether."
+                                              "Usaste un Eter!"
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                           }
                                         },
                                         {
@@ -6117,10 +6117,10 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "MP increased by\n15."
+                                              "Incrementado el \nMP por 15."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                           }
                                         },
                                         {
@@ -6128,10 +6128,10 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "You have $28$\nEthers left."
+                                              "Aun tienes $28$\nEteres."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                           }
                                         },
                                         {
@@ -6694,10 +6694,10 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "You don't have an\nEther."
+                                              "Ya no tienes Eter."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                           }
                                         },
                                         {
@@ -6809,7 +6809,7 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "You used an\nElixer."
+                                              "Usaste un Elixir!"
                                             ],
                                             "avatarId": "",
                                             "__collapse": true
@@ -6820,7 +6820,7 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "HP and MP\nincreased by 100."
+                                              "Incrementados HP y MP\npor 100!"
                                             ],
                                             "avatarId": "",
                                             "__collapse": true
@@ -6831,7 +6831,7 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "You have $30$\nElixers left."
+                                              "Aun tienes $30$\nElixires."
                                             ],
                                             "avatarId": "",
                                             "__collapse": true
@@ -7939,7 +7939,7 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "You don't have an\nElixer."
+                                              "Ya no tienes Elixir."
                                             ],
                                             "avatarId": ""
                                           }
@@ -8004,7 +8004,7 @@
                           "operator": "==",
                           "comparator": 4,
                           "__collapseElse": true,
-                          "__collapse": true,
+                          "__collapse": false,
                           "__label": "Flee",
                           "__comment": false,
                           "__disableElse": true,
@@ -8033,7 +8033,8 @@
                                 "value": "1",
                                 "minValue": "0",
                                 "maxValue": 10,
-                                "clamp": false
+                                "clamp": false,
+                                "__collapse": true
                               }
                             },
                             {
@@ -8047,7 +8048,8 @@
                                 "value": "1",
                                 "minValue": "0",
                                 "maxValue": "255",
-                                "clamp": false
+                                "clamp": false,
+                                "__collapse": true
                               }
                             },
                             {
@@ -8058,7 +8060,7 @@
                                 "operator": ">=",
                                 "comparator": 7,
                                 "__collapseElse": false,
-                                "__collapse": false,
+                                "__collapse": true,
                                 "condition": {
                                   "type": "gte",
                                   "valueA": {
@@ -8097,7 +8099,7 @@
                                     "command": "EVENT_TEXT",
                                     "args": {
                                       "text": [
-                                        "Succesfully\nescaped."
+                                        "Escapaste con\nexito!"
                                       ],
                                       "avatarId": "",
                                       "__collapse": false
@@ -8118,7 +8120,7 @@
                                     "command": "EVENT_TEXT",
                                     "args": {
                                       "text": [
-                                        "Failed to escape."
+                                        "No pudiste huir..."
                                       ],
                                       "avatarId": "",
                                       "__collapse": false
@@ -8153,7 +8155,7 @@
                   "command": "EVENT_GROUP",
                   "args": {
                     "__label": "Enemy's Turn",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -8780,7 +8782,7 @@
                               "command": "EVENT_TEXT",
                               "args": {
                                 "text": [
-                                  "You have been\ndefeated."
+                                  "Fuiste \nderrotado..."
                                 ],
                                 "avatarId": "",
                                 "__collapse": true

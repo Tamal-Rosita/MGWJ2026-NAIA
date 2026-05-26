@@ -38,7 +38,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Climb up?"
+                "Salir del agua?"
               ],
               "avatarId": "",
               "__collapse": false
@@ -49,7 +49,7 @@
             "command": "EVENT_CHOICE",
             "args": {
               "variable": "L0",
-              "trueText": "Yes",
+              "trueText": "Si",
               "falseText": "No",
               "__collapse": false
             },
@@ -60,7 +60,7 @@
             "args": {
               "variable": "L0",
               "__collapseElse": true,
-              "__collapse": false,
+              "__collapse": true,
               "condition": {
                 "type": "variable",
                 "value": "L0"
@@ -186,7 +186,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Do you want to go\nfor a swim?"
+                "Quieres darte un\nchapuzon?"
               ],
               "avatarId": "",
               "__collapse": false
@@ -197,7 +197,7 @@
             "command": "EVENT_CHOICE",
             "args": {
               "variable": "L0",
-              "trueText": "Yes",
+              "trueText": "Si",
               "falseText": "No",
               "__collapse": false
             },

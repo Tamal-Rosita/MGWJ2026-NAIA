@@ -38,10 +38,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Climb up?"
+                "Salir del agua?"
               ],
               "avatarId": "",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "7680904f-aa7b-46e3-9c6a-0ea3b5ce6cf5"
           },
@@ -49,7 +49,7 @@
             "command": "EVENT_CHOICE",
             "args": {
               "variable": "L0",
-              "trueText": "Yes",
+              "trueText": "Si",
               "falseText": "No",
               "__collapse": true
             },
@@ -60,7 +60,7 @@
             "args": {
               "variable": "L0",
               "__collapseElse": true,
-              "__collapse": false,
+              "__collapse": true,
               "condition": {
                 "type": "variable",
                 "value": "L0"
@@ -202,10 +202,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Do you want to go\nfor a swim?"
+                "Quieres darte un\nchapuzon?"
               ],
               "avatarId": "",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "16bdf3fb-33e9-4d4e-8e74-c68e2d4e70c8"
           },
@@ -213,9 +213,9 @@
             "command": "EVENT_CHOICE",
             "args": {
               "variable": "L0",
-              "trueText": "Yes",
+              "trueText": "Si",
               "falseText": "No",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "d01de388-1249-4e8e-b22b-405c3e8c4119"
           },
@@ -224,7 +224,7 @@
             "args": {
               "variable": "L0",
               "__collapseElse": true,
-              "__collapse": false,
+              "__collapse": true,
               "condition": {
                 "type": "variable",
                 "value": "L0"
