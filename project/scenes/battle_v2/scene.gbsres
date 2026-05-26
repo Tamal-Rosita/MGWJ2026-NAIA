@@ -58,7 +58,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Enemy Hp Counter",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -78,7 +78,7 @@
                       "type": "variable",
                       "value": "18"
                     },
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "29f8f329-ffa0-4c8a-ab19-8d2fc4379346"
                 },
@@ -93,7 +93,7 @@
                     "minValue": "0",
                     "maxValue": "32767",
                     "clamp": false,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "8148bd6a-edb8-4d4c-a47b-6be363e726ef"
                 },
@@ -546,7 +546,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Player Hp Counter",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -566,7 +566,7 @@
                       "type": "variable",
                       "value": "15"
                     },
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "1f063754-780d-440b-95ac-c807ae7e3c4f"
                 },
@@ -581,7 +581,7 @@
                     "minValue": "0",
                     "maxValue": "32767",
                     "clamp": false,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "fa127144-bd25-4e88-bac7-ec1e22740d28"
                 },
@@ -671,7 +671,7 @@
                       "value": 16
                     },
                     "__collapseElse": false,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true0": [
@@ -1667,7 +1667,7 @@
                           "option8": "",
                           "cancelOnB": false,
                           "layout": "menu",
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "Main Menu"
                         }
                       },
@@ -1736,7 +1736,7 @@
                                     "command": "EVENT_ACTOR_SET_STATE",
                                     "args": {
                                       "actorId": "53a13642-19e2-4016-ba65-562b2ca04c28",
-                                      "spriteStateId": "SlimeHit",
+                                      "spriteStateId": "Hit",
                                       "__collapse": false
                                     },
                                     "id": "41b86503-7d01-4f27-8829-68ddfa4e04a8"
@@ -1774,7 +1774,7 @@
                               "args": {
                                 "actorId": "$self$",
                                 "spriteStateId": "",
-                                "__collapse": true
+                                "__collapse": false
                               },
                               "id": "2c05f523-4083-4cd0-8298-a76d81b4646e"
                             },
@@ -2348,35 +2348,105 @@
                                     "command": "EVENT_TEXT",
                                     "args": {
                                       "text": [
-                                        "El enemigo ha sido\nvencido!"
+                                        "Venciste al\nenemigo!"
                                       ],
                                       "avatarId": "",
-                                      "__collapse": false
+                                      "__collapse": true
                                     }
                                   },
                                   {
-                                    "command": "EVENT_SET_FLAGS",
+                                    "command": "EVENT_SWITCH",
                                     "args": {
-                                      "variable": "2",
-                                      "flag1": true,
-                                      "flag2": false,
-                                      "flag3": false,
-                                      "flag4": false,
-                                      "flag5": false,
-                                      "flag6": false,
-                                      "flag7": false,
-                                      "flag8": false,
-                                      "flag9": false,
-                                      "flag10": false,
-                                      "flag11": false,
-                                      "flag12": false,
-                                      "flag13": false,
-                                      "flag14": false,
-                                      "flag15": false,
-                                      "flag16": false,
-                                      "__collapse": true
+                                      "variable": "3",
+                                      "choices": 2,
+                                      "__collapseCase0": false,
+                                      "__collapseCase1": false,
+                                      "__collapseCase2": false,
+                                      "__collapseCase3": false,
+                                      "__collapseCase4": false,
+                                      "__collapseCase5": false,
+                                      "__collapseCase6": false,
+                                      "__collapseCase7": false,
+                                      "__collapseCase8": false,
+                                      "__collapseCase9": false,
+                                      "__collapseCase10": false,
+                                      "__collapseCase11": false,
+                                      "__collapseCase12": false,
+                                      "__collapseCase13": false,
+                                      "__collapseCase14": false,
+                                      "__collapseCase15": false,
+                                      "__collapseElse": false,
+                                      "__collapse": false,
+                                      "__label": "Save Defeat Enemy Type"
                                     },
-                                    "id": "f758f6b3-d6b8-44db-b54c-95174efd29cf"
+                                    "children": {
+                                      "true0": [
+                                        {
+                                          "command": "EVENT_ADD_FLAGS",
+                                          "args": {
+                                            "variable": "2",
+                                            "flag1": true,
+                                            "flag2": false,
+                                            "flag3": false,
+                                            "flag4": false,
+                                            "flag5": false,
+                                            "flag6": false,
+                                            "flag7": false,
+                                            "flag8": false,
+                                            "flag9": false,
+                                            "flag10": false,
+                                            "flag11": false,
+                                            "flag12": false,
+                                            "flag13": false,
+                                            "flag14": false,
+                                            "flag15": false,
+                                            "flag16": false
+                                          },
+                                          "id": "a3bb458d-67d5-4ca6-805e-7f0c0ecbe629"
+                                        }
+                                      ],
+                                      "true1": [
+                                        {
+                                          "command": "EVENT_ADD_FLAGS",
+                                          "args": {
+                                            "variable": "2",
+                                            "flag1": false,
+                                            "flag2": true,
+                                            "flag3": false,
+                                            "flag4": false,
+                                            "flag5": false,
+                                            "flag6": false,
+                                            "flag7": false,
+                                            "flag8": false,
+                                            "flag9": false,
+                                            "flag10": false,
+                                            "flag11": false,
+                                            "flag12": false,
+                                            "flag13": false,
+                                            "flag14": false,
+                                            "flag15": false,
+                                            "flag16": false
+                                          },
+                                          "id": "6def8ed2-7b0d-424e-992d-b2e3e7415ce0"
+                                        }
+                                      ],
+                                      "true2": [],
+                                      "true3": [],
+                                      "true4": [],
+                                      "true5": [],
+                                      "true6": [],
+                                      "true7": [],
+                                      "true8": [],
+                                      "true9": [],
+                                      "true10": [],
+                                      "true11": [],
+                                      "true12": [],
+                                      "true13": [],
+                                      "true14": [],
+                                      "true15": [],
+                                      "false": []
+                                    },
+                                    "id": "064b884c-b200-4dff-90cd-2aa4196ae832"
                                   },
                                   {
                                     "id": "d5cae495-33a9-47a7-a5e5-127137d6fa3b",
@@ -2445,7 +2515,7 @@
                           "operator": "==",
                           "comparator": 2,
                           "__collapseElse": false,
-                          "__collapse": true,
+                          "__collapse": false,
                           "__label": "Magic",
                           "__comment": false,
                           "__disableElse": true,
@@ -2491,7 +2561,7 @@
                                 "operator": "==",
                                 "comparator": 1,
                                 "__collapseElse": false,
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__label": "Fire",
                                 "condition": {
                                   "type": "eq",
@@ -2534,7 +2604,7 @@
                                           "command": "EVENT_GROUP",
                                           "args": {
                                             "__label": "Player Cast",
-                                            "__collapse": false
+                                            "__collapse": true
                                           },
                                           "children": {
                                             "true": [
@@ -2597,7 +2667,7 @@
                                             "minValue": "0",
                                             "maxValue": "255",
                                             "clamp": false,
-                                            "__collapse": false
+                                            "__collapse": true
                                           }
                                         },
                                         {
@@ -3092,8 +3162,8 @@
                                           "command": "EVENT_ACTOR_SET_STATE",
                                           "args": {
                                             "actorId": "53a13642-19e2-4016-ba65-562b2ca04c28",
-                                            "spriteStateId": "SlimeFlame",
-                                            "__collapse": false
+                                            "spriteStateId": "Flame",
+                                            "__collapse": true
                                           },
                                           "id": "6a99373b-a1d5-4eb2-9356-4f98dde07620"
                                         },
@@ -3140,7 +3210,7 @@
                                           "command": "EVENT_GROUP",
                                           "args": {
                                             "__label": "Enemy Hit Animation",
-                                            "__collapse": false
+                                            "__collapse": true
                                           },
                                           "children": {
                                             "true": [
@@ -3148,7 +3218,7 @@
                                                 "command": "EVENT_ACTOR_SET_STATE",
                                                 "args": {
                                                   "actorId": "53a13642-19e2-4016-ba65-562b2ca04c28",
-                                                  "spriteStateId": "SlimeHit",
+                                                  "spriteStateId": "Hit",
                                                   "__collapse": true
                                                 },
                                                 "id": "0ff675de-1c80-45fb-a666-1b044165d5d4"
@@ -3209,7 +3279,7 @@
                                           "command": "EVENT_GROUP",
                                           "args": {
                                             "__label": "Enemy Hp Counter",
-                                            "__collapse": false
+                                            "__collapse": true
                                           },
                                           "children": {
                                             "true": [
@@ -3760,35 +3830,105 @@
                                                 "command": "EVENT_TEXT",
                                                 "args": {
                                                   "text": [
-                                                    "El enemigo ha sido\nvencido!"
+                                                    "Venciste al\nenemigo!"
                                                   ],
                                                   "avatarId": "",
                                                   "__collapse": false
                                                 }
                                               },
                                               {
-                                                "command": "EVENT_SET_FLAGS",
+                                                "command": "EVENT_SWITCH",
                                                 "args": {
-                                                  "variable": "2",
-                                                  "flag1": true,
-                                                  "flag2": false,
-                                                  "flag3": false,
-                                                  "flag4": false,
-                                                  "flag5": false,
-                                                  "flag6": false,
-                                                  "flag7": false,
-                                                  "flag8": false,
-                                                  "flag9": false,
-                                                  "flag10": false,
-                                                  "flag11": false,
-                                                  "flag12": false,
-                                                  "flag13": false,
-                                                  "flag14": false,
-                                                  "flag15": false,
-                                                  "flag16": false,
-                                                  "__collapse": true
+                                                  "variable": "3",
+                                                  "choices": 2,
+                                                  "__collapseCase0": false,
+                                                  "__collapseCase1": false,
+                                                  "__collapseCase2": false,
+                                                  "__collapseCase3": false,
+                                                  "__collapseCase4": false,
+                                                  "__collapseCase5": false,
+                                                  "__collapseCase6": false,
+                                                  "__collapseCase7": false,
+                                                  "__collapseCase8": false,
+                                                  "__collapseCase9": false,
+                                                  "__collapseCase10": false,
+                                                  "__collapseCase11": false,
+                                                  "__collapseCase12": false,
+                                                  "__collapseCase13": false,
+                                                  "__collapseCase14": false,
+                                                  "__collapseCase15": false,
+                                                  "__collapseElse": false,
+                                                  "__collapse": false,
+                                                  "__label": "Save Defeat Enemy Type"
                                                 },
-                                                "id": "7106c757-8d17-4510-b20a-c0fd63566ec0"
+                                                "children": {
+                                                  "true0": [
+                                                    {
+                                                      "command": "EVENT_ADD_FLAGS",
+                                                      "args": {
+                                                        "variable": "2",
+                                                        "flag1": true,
+                                                        "flag2": false,
+                                                        "flag3": false,
+                                                        "flag4": false,
+                                                        "flag5": false,
+                                                        "flag6": false,
+                                                        "flag7": false,
+                                                        "flag8": false,
+                                                        "flag9": false,
+                                                        "flag10": false,
+                                                        "flag11": false,
+                                                        "flag12": false,
+                                                        "flag13": false,
+                                                        "flag14": false,
+                                                        "flag15": false,
+                                                        "flag16": false
+                                                      },
+                                                      "id": "29abf945-b37f-4d40-85f4-8df896e6679e"
+                                                    }
+                                                  ],
+                                                  "true1": [
+                                                    {
+                                                      "command": "EVENT_ADD_FLAGS",
+                                                      "args": {
+                                                        "variable": "2",
+                                                        "flag1": false,
+                                                        "flag2": true,
+                                                        "flag3": false,
+                                                        "flag4": false,
+                                                        "flag5": false,
+                                                        "flag6": false,
+                                                        "flag7": false,
+                                                        "flag8": false,
+                                                        "flag9": false,
+                                                        "flag10": false,
+                                                        "flag11": false,
+                                                        "flag12": false,
+                                                        "flag13": false,
+                                                        "flag14": false,
+                                                        "flag15": false,
+                                                        "flag16": false
+                                                      },
+                                                      "id": "57a413e8-275f-489c-9e80-1cc97fea1c93"
+                                                    }
+                                                  ],
+                                                  "true2": [],
+                                                  "true3": [],
+                                                  "true4": [],
+                                                  "true5": [],
+                                                  "true6": [],
+                                                  "true7": [],
+                                                  "true8": [],
+                                                  "true9": [],
+                                                  "true10": [],
+                                                  "true11": [],
+                                                  "true12": [],
+                                                  "true13": [],
+                                                  "true14": [],
+                                                  "true15": [],
+                                                  "false": []
+                                                },
+                                                "id": "0ca053f5-8c69-45e2-88f2-733710396085"
                                               },
                                               {
                                                 "id": "1cf25b63-928c-4fe5-b0fc-6b4a60dfc443",
@@ -3885,7 +4025,7 @@
                                 "operator": "==",
                                 "comparator": 2,
                                 "__collapseElse": false,
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__label": "Quake",
                                 "condition": {
                                   "type": "eq",
@@ -4522,8 +4662,8 @@
                                                 "command": "EVENT_ACTOR_SET_STATE",
                                                 "args": {
                                                   "actorId": "53a13642-19e2-4016-ba65-562b2ca04c28",
-                                                  "spriteStateId": "SlimeHit",
-                                                  "__collapse": true
+                                                  "spriteStateId": "Hit",
+                                                  "__collapse": false
                                                 },
                                                 "id": "75619083-ccf6-4220-9134-f2c33dc56862"
                                               },
@@ -5075,7 +5215,7 @@
                                             "operator": "<=",
                                             "comparator": "0",
                                             "__collapseElse": false,
-                                            "__collapse": true,
+                                            "__collapse": false,
                                             "condition": {
                                               "type": "lte",
                                               "valueA": {
@@ -5134,35 +5274,106 @@
                                                 "command": "EVENT_TEXT",
                                                 "args": {
                                                   "text": [
-                                                    "El enemigo ha sido\nvencido!"
+                                                    "Venciste al\nenemigo!"
                                                   ],
                                                   "avatarId": "",
                                                   "__collapse": true
                                                 }
                                               },
                                               {
-                                                "command": "EVENT_SET_FLAGS",
+                                                "command": "EVENT_SWITCH",
                                                 "args": {
-                                                  "variable": "2",
-                                                  "flag1": true,
-                                                  "flag2": false,
-                                                  "flag3": false,
-                                                  "flag4": false,
-                                                  "flag5": false,
-                                                  "flag6": false,
-                                                  "flag7": false,
-                                                  "flag8": false,
-                                                  "flag9": false,
-                                                  "flag10": false,
-                                                  "flag11": false,
-                                                  "flag12": false,
-                                                  "flag13": false,
-                                                  "flag14": false,
-                                                  "flag15": false,
-                                                  "flag16": false,
-                                                  "__collapse": true
+                                                  "variable": "3",
+                                                  "choices": 2,
+                                                  "__collapseCase0": false,
+                                                  "__collapseCase1": false,
+                                                  "__collapseCase2": false,
+                                                  "__collapseCase3": false,
+                                                  "__collapseCase4": false,
+                                                  "__collapseCase5": false,
+                                                  "__collapseCase6": false,
+                                                  "__collapseCase7": false,
+                                                  "__collapseCase8": false,
+                                                  "__collapseCase9": false,
+                                                  "__collapseCase10": false,
+                                                  "__collapseCase11": false,
+                                                  "__collapseCase12": false,
+                                                  "__collapseCase13": false,
+                                                  "__collapseCase14": false,
+                                                  "__collapseCase15": false,
+                                                  "__collapseElse": false,
+                                                  "__collapse": false,
+                                                  "__label": "Save Defeat Enemy Type"
                                                 },
-                                                "id": "718bbf86-0beb-47b7-b1ed-e48fc8388c32"
+                                                "children": {
+                                                  "true0": [
+                                                    {
+                                                      "command": "EVENT_ADD_FLAGS",
+                                                      "args": {
+                                                        "variable": "2",
+                                                        "flag1": true,
+                                                        "flag2": false,
+                                                        "flag3": false,
+                                                        "flag4": false,
+                                                        "flag5": false,
+                                                        "flag6": false,
+                                                        "flag7": false,
+                                                        "flag8": false,
+                                                        "flag9": false,
+                                                        "flag10": false,
+                                                        "flag11": false,
+                                                        "flag12": false,
+                                                        "flag13": false,
+                                                        "flag14": false,
+                                                        "flag15": false,
+                                                        "flag16": false,
+                                                        "__collapse": false
+                                                      },
+                                                      "id": "cac2616e-318a-4a09-854d-4bf5641b8f95"
+                                                    }
+                                                  ],
+                                                  "true1": [
+                                                    {
+                                                      "command": "EVENT_ADD_FLAGS",
+                                                      "args": {
+                                                        "variable": "2",
+                                                        "flag1": false,
+                                                        "flag2": true,
+                                                        "flag3": false,
+                                                        "flag4": false,
+                                                        "flag5": false,
+                                                        "flag6": false,
+                                                        "flag7": false,
+                                                        "flag8": false,
+                                                        "flag9": false,
+                                                        "flag10": false,
+                                                        "flag11": false,
+                                                        "flag12": false,
+                                                        "flag13": false,
+                                                        "flag14": false,
+                                                        "flag15": false,
+                                                        "flag16": false
+                                                      },
+                                                      "id": "a63bdd09-8a3c-4768-8b50-8bd1a68f3370"
+                                                    }
+                                                  ],
+                                                  "true2": [],
+                                                  "true3": [],
+                                                  "true4": [],
+                                                  "true5": [],
+                                                  "true6": [],
+                                                  "true7": [],
+                                                  "true8": [],
+                                                  "true9": [],
+                                                  "true10": [],
+                                                  "true11": [],
+                                                  "true12": [],
+                                                  "true13": [],
+                                                  "true14": [],
+                                                  "true15": [],
+                                                  "false": []
+                                                },
+                                                "id": "38f9a741-e2d8-4852-a3e4-3946ed71b309"
                                               },
                                               {
                                                 "id": "f70bb462-f88e-4500-a5e7-c0f1ca35bf57",
@@ -8004,7 +8215,7 @@
                           "operator": "==",
                           "comparator": 4,
                           "__collapseElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "Flee",
                           "__comment": false,
                           "__disableElse": true,
@@ -8174,7 +8385,7 @@
                           },
                           "moveType": "horizontal",
                           "useCollisions": false,
-                          "__collapse": false,
+                          "__collapse": true,
                           "collideWith": []
                         }
                       },
@@ -8825,7 +9036,7 @@
                           },
                           "moveType": "horizontal",
                           "useCollisions": false,
-                          "__collapse": false,
+                          "__collapse": true,
                           "collideWith": []
                         }
                       },
@@ -8837,7 +9048,7 @@
                             "type": "number",
                             "value": 0
                           },
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "id": "c74962eb-599b-4803-9d9f-72b48b00d7b0"
                       }

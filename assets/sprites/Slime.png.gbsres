@@ -206,7 +206,7 @@
     },
     {
       "id": "346682b2-3255-40bc-af36-08cbd287ab8f",
-      "name": "SlimeFlame",
+      "name": "Flame",
       "animations": [
         {
           "id": "f21fcb31-01cf-4fea-92b4-d943cf40d35c",
@@ -344,7 +344,7 @@
     },
     {
       "id": "cbd56a84-d318-4376-9848-495f4277598d",
-      "name": "SlimeHit",
+      "name": "Hit",
       "animations": [
         {
           "id": "fa965256-a4be-4955-95fb-9198adbc9746",

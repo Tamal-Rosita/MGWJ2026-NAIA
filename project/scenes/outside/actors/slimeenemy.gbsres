@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "3d5df728-7ae5-46f5-bb62-31ace3389c23",
-  "name": "Slime",
+  "id": "918eff43-5eee-408b-a27f-b96b257432cf",
+  "name": "SlimeEnemy",
   "frame": 0,
   "animate": true,
-  "spriteSheetId": "e6d3a8ce-8304-43c1-8611-e5eac1a6b727",
+  "spriteSheetId": "0525cd65-ba3e-4e1b-92bc-95851ebeeceb",
   "prefabId": "",
   "direction": "left",
   "moveSpeed": 1,
@@ -15,19 +15,30 @@
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "_index": 7,
-  "symbol": "actor_22",
+  "_index": 4,
+  "symbol": "actor_13",
   "coordinateType": "tiles",
-  "x": 24,
-  "y": 10,
+  "x": 11,
+  "y": 16,
   "script": [
     {
-      "id": "0297508e-409e-454b-8339-322c4c638c51",
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "f418d853-401a-4ff9-ba65-e698b67b1f9f"
+    },
+    {
+      "id": "0a0a05d2-0e4b-4b07-9750-391271b033f8",
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {}
     },
     {
-      "id": "f0a26073-8483-4e2d-a24c-f71c006cdb37",
+      "id": "62b6ea74-c99c-4eb1-adb8-d553980d950e",
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",

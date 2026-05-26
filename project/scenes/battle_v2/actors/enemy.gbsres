@@ -1,0 +1,159 @@
+{
+  "_resourceType": "actor",
+  "id": "53a13642-19e2-4016-ba65-562b2ca04c28",
+  "name": "Enemy",
+  "frame": 0,
+  "animate": true,
+  "spriteSheetId": "e6d3a8ce-8304-43c1-8611-e5eac1a6b727",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "_index": 0,
+  "symbol": "actor_24",
+  "coordinateType": "tiles",
+  "x": 5,
+  "y": 11,
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "3",
+        "choices": 2,
+        "__collapseCase0": false,
+        "__collapseCase1": false,
+        "__collapseCase2": false,
+        "__collapseCase3": false,
+        "__collapseCase4": false,
+        "__collapseCase5": false,
+        "__collapseCase6": false,
+        "__collapseCase7": false,
+        "__collapseCase8": false,
+        "__collapseCase9": false,
+        "__collapseCase10": false,
+        "__collapseCase11": false,
+        "__collapseCase12": false,
+        "__collapseCase13": false,
+        "__collapseCase14": false,
+        "__collapseCase15": false,
+        "__collapseElse": false,
+        "__collapse": false,
+        "__label": "Pick Correct Sprite Sheet"
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "e6d3a8ce-8304-43c1-8611-e5eac1a6b727",
+              "__collapse": false
+            },
+            "id": "5079d9d9-9065-45a4-acfd-203381fef326"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "0525cd65-ba3e-4e1b-92bc-95851ebeeceb",
+              "__collapse": false
+            },
+            "id": "c81f618a-b1be-4595-a926-d7beb4a8509b"
+          }
+        ],
+        "true2": [],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "e6d3a8ce-8304-43c1-8611-e5eac1a6b727",
+              "__collapse": false
+            },
+            "id": "f2a69c35-292a-49bf-96e9-0a8ca4f83140"
+          }
+        ]
+      },
+      "id": "c05510be-e7f4-4195-ab09-8b28564f2d41"
+    },
+    {
+      "id": "665b90a0-b6ef-4fa5-acc7-e8156a3f48ee",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Set Enemy Stats",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "id": "4a3ddbec-7d45-48c8-a9ed-3481ebe5098b",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "18",
+              "value": {
+                "type": "number",
+                "value": 35
+              },
+              "__collapse": false,
+              "__label": "Enemy HP"
+            }
+          },
+          {
+            "id": "7f5e17ba-ca03-45fd-bd1b-5ce6eee3f0b0",
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "19",
+              "value": {
+                "type": "number",
+                "value": 100
+              },
+              "__collapse": false
+            }
+          },
+          {
+            "id": "74d43bc8-a229-4838-bc96-95cab577b9ee",
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "19",
+              "operation": "div",
+              "other": "var",
+              "vectorY": "20",
+              "value": "1",
+              "minValue": "0",
+              "maxValue": "255",
+              "clamp": false,
+              "__collapse": false,
+              "__label": "Enemy Damage"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

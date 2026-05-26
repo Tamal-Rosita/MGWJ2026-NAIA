@@ -29,7 +29,7 @@
         "variable": "2",
         "flag": 0,
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -38,7 +38,7 @@
             "args": {
               "actorId": "3d5df728-7ae5-46f5-bb62-31ace3389c23"
             },
-            "id": "9ca2440b-a654-4028-8f45-8aa71d0c81fb"
+            "id": "83cc2420-76fd-4286-a9a4-226b76565472"
           }
         ],
         "false": [
@@ -47,7 +47,68 @@
             "args": {
               "actorId": "3d5df728-7ae5-46f5-bb62-31ace3389c23"
             },
+            "id": "8a72fed0-8e33-48e4-9220-fb608c3f433f"
+          }
+        ]
+      },
+      "id": "0a4fd21b-572a-4e11-9b05-dcfc631373a2"
+    },
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "2",
+        "flag": 1,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "918eff43-5eee-408b-a27f-b96b257432cf",
+              "__collapse": false
+            },
+            "id": "9ca2440b-a654-4028-8f45-8aa71d0c81fb"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "4a92bca4-0200-4ede-bed2-9a1c6166fb99",
+              "__collapse": false
+            },
+            "id": "6d8cd951-6aab-40b0-babb-3fa92f3986f3"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "b34ad0ea-849a-4748-98ec-6a504f49a1a8",
+              "__collapse": false
+            },
+            "id": "c54a1f71-49c5-46e3-90f5-28aac22e7ba8"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "918eff43-5eee-408b-a27f-b96b257432cf"
+            },
             "id": "fe5d3641-09cd-4494-bcd9-8afd3105e484"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "4a92bca4-0200-4ede-bed2-9a1c6166fb99"
+            },
+            "id": "a67ad21f-bfbb-4761-b682-f18fc4729fcb"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "b34ad0ea-849a-4748-98ec-6a504f49a1a8"
+            },
+            "id": "c450c442-384c-4821-84fe-0f359070c338"
           }
         ]
       },

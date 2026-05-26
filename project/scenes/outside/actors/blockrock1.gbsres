@@ -1,0 +1,39 @@
+{
+  "_resourceType": "actor",
+  "id": "4a92bca4-0200-4ede-bed2-9a1c6166fb99",
+  "name": "BlockRock1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3939e8d2-3987-4a22-953e-f1d82134eccf",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 0.5,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "_index": 6,
+  "symbol": "actor_6",
+  "coordinateType": "tiles",
+  "x": 14,
+  "y": 10,
+  "script": [
+    {
+      "id": "288d9e15-9622-47c0-9c34-001dc948bf88",
+      "command": "EVENT_ACTOR_PUSH",
+      "args": {
+        "continue": false,
+        "__comment": true,
+        "__collapse": false
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
