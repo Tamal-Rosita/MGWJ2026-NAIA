@@ -1,14 +1,14 @@
 {
   "_resourceType": "script",
-  "id": "2a4123f1-c00b-41b4-aa90-b40fcd9cdef6",
-  "name": "Enemy Stats Lv. 2",
+  "id": "2bb7f946-38a6-42ec-abb6-9888df6cdee0",
+  "name": "Enemy Stats Lv. 1",
   "description": "",
   "variables": {},
   "actors": {},
-  "symbol": "script_3",
+  "symbol": "script_5",
   "script": [
     {
-      "id": "ae05e2ef-3fba-4e55-9e28-e9bf14ed2c39",
+      "id": "c2a88ea6-b517-411c-8c12-6aeae425b8b0",
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Set Enemy Stats",
@@ -17,20 +17,20 @@
       "children": {
         "true": [
           {
-            "id": "c7c66c62-91dc-47bb-939f-674555cb1e50",
+            "id": "a6edbf9d-7dc2-4fde-bbd9-f493ed3d02d6",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "18",
               "value": {
                 "type": "number",
-                "value": 55
+                "value": 35
               },
               "__collapse": false,
               "__label": "Enemy HP"
             }
           },
           {
-            "id": "427819fe-4fec-474c-9bc9-2603e84e6ade",
+            "id": "3136d14b-349f-45ec-bd43-272bb06266c0",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "19",
@@ -42,7 +42,7 @@
             }
           },
           {
-            "id": "dfcdd596-163a-4476-aa4a-1099aab439fe",
+            "id": "45374a59-d53f-42a0-bc0f-9c9afb03511f",
             "command": "EVENT_VARIABLE_MATH",
             "args": {
               "vectorX": "19",

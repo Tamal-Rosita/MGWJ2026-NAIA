@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "Outside",
   "symbol": "scene_outside",
-  "x": 568,
-  "y": 136,
+  "x": 488,
+  "y": 216,
   "width": 32,
   "height": 32,
   "backgroundId": "1b7fa267-d716-40f0-b0d0-f4f966610e07",
@@ -22,6 +22,36 @@
         "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9"
       },
       "id": "5177b82a-d7ca-48d6-b88c-1567971e7ac7"
+    },
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "2",
+        "flag": 0,
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "3d5df728-7ae5-46f5-bb62-31ace3389c23"
+            },
+            "id": "9ca2440b-a654-4028-8f45-8aa71d0c81fb"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "3d5df728-7ae5-46f5-bb62-31ace3389c23"
+            },
+            "id": "fe5d3641-09cd-4494-bcd9-8afd3105e484"
+          }
+        ]
+      },
+      "id": "099af308-71de-49ae-ac7b-649e22d22270"
     }
   ],
   "playerHit1Script": [],

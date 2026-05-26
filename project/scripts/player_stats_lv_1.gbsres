@@ -1,14 +1,14 @@
 {
   "_resourceType": "script",
-  "id": "aac557c9-446a-4b97-920a-26fe08fba729",
-  "name": "Player Stats Lv. 2",
+  "id": "0bc61885-2ad2-443d-9047-f24f727d74cf",
+  "name": "Player Stats Lv. 1",
   "description": "",
   "variables": {},
   "actors": {},
-  "symbol": "script_2",
+  "symbol": "script_4",
   "script": [
     {
-      "id": "23d3e07e-a13d-4ec5-b7f2-34dbc9739d12",
+      "id": "40e89d24-0b60-457e-8c8b-882cf66a7138",
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Sets Player Stats.",
@@ -17,72 +17,72 @@
       "children": {
         "true": [
           {
-            "id": "276d298d-b706-4acb-b175-93deee512d68",
+            "id": "f6bc0957-bba1-47af-9bdf-361b7ad2ee38",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "14",
               "value": {
                 "type": "number",
-                "value": 9
+                "value": 8
               },
               "__collapse": false,
               "__label": "Strength: Increases melee damage dealt."
             }
           },
           {
-            "id": "3c6517eb-625d-4f1d-a293-d51c36d603a3",
+            "id": "b6d98be1-6ad1-41c1-b9b0-199c58d885c2",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "20",
               "value": {
                 "type": "number",
-                "value": 18
+                "value": 15
               },
               "__collapse": false,
               "__label": "Defence: Decreases damage dealt by enemies."
             }
           },
           {
-            "id": "b0753219-28d7-482a-ab33-f47aa046394a",
+            "id": "dff1bb51-f98a-41b4-bb8f-f3a9e3875eca",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "25",
               "value": {
                 "type": "number",
-                "value": 12
+                "value": 10
               },
               "__collapse": false,
               "__label": "Spirit: Increases damage dealt by magic."
             }
           },
           {
-            "id": "80b267f4-9df7-48a7-8f69-df4cc876a0ba",
+            "id": "81a62dff-af05-4d79-8e4a-4c197c0cc145",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "31",
               "value": {
                 "type": "number",
-                "value": 4
+                "value": 3
               },
               "__collapse": false,
               "__label": "Agility: Increases chances of escaping."
             }
           },
           {
-            "id": "9cf8a41d-9978-4657-b469-7f1df81afdd8",
+            "id": "1b817533-4ac9-43b8-8423-1bf6a6cdad8e",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "27",
               "value": {
                 "type": "number",
-                "value": 60
+                "value": 50
               },
               "__collapse": false,
               "__label": "Max HP"
             }
           },
           {
-            "id": "012489f0-add5-4da9-87dc-4f0b8306f06c",
+            "id": "6ba6de0c-2dda-4404-b886-2b134441730b",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "15",
@@ -95,20 +95,20 @@
             }
           },
           {
-            "id": "8c1439a2-ed3d-46b6-adaa-e91d1e9be69e",
+            "id": "8800ab3b-16db-4e50-97c5-62dee2ef494a",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "29",
               "value": {
                 "type": "number",
-                "value": 30
+                "value": 25
               },
               "__collapse": false,
               "__label": "Max MP"
             }
           },
           {
-            "id": "0688e22e-f7fb-4868-b35b-d9c70d74f18f",
+            "id": "bc7f6d14-675f-4294-8300-9d4585fb9724",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "16",
@@ -121,7 +121,7 @@
             }
           },
           {
-            "id": "9db92b1b-3abd-4673-bef8-0e577aee4ef5",
+            "id": "3aaec4cf-f325-469b-9df3-5cd04ebc7109",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "26",
@@ -134,7 +134,7 @@
             }
           },
           {
-            "id": "6fe2fb53-519c-4cd9-afbc-129f31c67d78",
+            "id": "bda22ffa-c4eb-49ab-974b-4e446ac40433",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "28",
@@ -147,7 +147,7 @@
             }
           },
           {
-            "id": "8b400b02-f52e-484e-89f3-66fb1cea292a",
+            "id": "c38cbc40-2e58-49ea-91d3-435602bb5a39",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "30",

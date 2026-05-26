@@ -1,0 +1,83 @@
+{
+  "_resourceType": "scene",
+  "id": "c24d9db9-e013-4667-b4a2-8363ebd0af15",
+  "_index": 10,
+  "name": "Game Over",
+  "backgroundId": "763fce72-1f8c-4dfc-b551-b11d5e5026ef",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 1000,
+  "y": 56,
+  "script": [
+    {
+      "id": "a218d3de-326d-408a-a41c-35d5549fa946",
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      }
+    },
+    {
+      "id": "24608266-915c-4fb9-b4c4-376bdeca2e7f",
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 0,
+        "y": 0,
+        "__collapse": true
+      }
+    },
+    {
+      "id": "99c1021e-de5a-4412-bc5b-f5530c4fd6ef",
+      "command": "EVENT_OVERLAY_MOVE_TO",
+      "args": {
+        "x": 0,
+        "y": 18,
+        "speed": 1,
+        "__collapse": true
+      }
+    },
+    {
+      "id": "150cabed-3d16-498e-a6a2-ae83b17f43db",
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 3
+        },
+        "frames": {
+          "type": "number",
+          "value": 30
+        }
+      }
+    },
+    {
+      "id": "edcbe1ef-c4cb-43c6-ae32-7c68e37f627e",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "1c89d36b-4f74-4e4e-8802-0686d43e87f8",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

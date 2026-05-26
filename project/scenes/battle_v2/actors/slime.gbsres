@@ -1,14 +1,29 @@
 {
-  "_resourceType": "script",
-  "id": "2a4123f1-c00b-41b4-aa90-b40fcd9cdef6",
-  "name": "Enemy Stats Lv. 2",
-  "description": "",
-  "variables": {},
-  "actors": {},
-  "symbol": "script_3",
-  "script": [
+  "_resourceType": "actor",
+  "id": "53a13642-19e2-4016-ba65-562b2ca04c28",
+  "name": "Slime",
+  "frame": 0,
+  "animate": true,
+  "spriteSheetId": "0525cd65-ba3e-4e1b-92bc-95851ebeeceb",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "_index": 0,
+  "symbol": "actor_24",
+  "coordinateType": "tiles",
+  "x": 5,
+  "y": 11,
+  "script": [],
+  "startScript": [
     {
-      "id": "ae05e2ef-3fba-4e55-9e28-e9bf14ed2c39",
+      "id": "665b90a0-b6ef-4fa5-acc7-e8156a3f48ee",
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Set Enemy Stats",
@@ -17,20 +32,20 @@
       "children": {
         "true": [
           {
-            "id": "c7c66c62-91dc-47bb-939f-674555cb1e50",
+            "id": "4a3ddbec-7d45-48c8-a9ed-3481ebe5098b",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "18",
               "value": {
                 "type": "number",
-                "value": 55
+                "value": 35
               },
               "__collapse": false,
               "__label": "Enemy HP"
             }
           },
           {
-            "id": "427819fe-4fec-474c-9bc9-2603e84e6ade",
+            "id": "7f5e17ba-ca03-45fd-bd1b-5ce6eee3f0b0",
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "19",
@@ -42,7 +57,7 @@
             }
           },
           {
-            "id": "dfcdd596-163a-4476-aa4a-1099aab439fe",
+            "id": "74d43bc8-a229-4838-bc96-95cab577b9ee",
             "command": "EVENT_VARIABLE_MATH",
             "args": {
               "vectorX": "19",
@@ -60,5 +75,9 @@
         ]
       }
     }
-  ]
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
 }

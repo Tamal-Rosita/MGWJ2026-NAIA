@@ -13,8 +13,8 @@
     },
     {
       "id": "2",
-      "name": "Used Radio",
-      "symbol": "var_used_radio"
+      "name": "Enemies",
+      "symbol": "var_enemies"
     },
     {
       "id": "3",
@@ -210,6 +210,151 @@
       "id": "70662b83-5647-4881-a6c6-12c75c586424__L0",
       "name": "MenuOptions",
       "symbol": "var_menuoptions_13"
+    },
+    {
+      "id": "1794882b-a642-441e-955d-b76b4e36a851__L0",
+      "name": "Menu Option",
+      "symbol": "var_menu_option_0"
+    },
+    {
+      "id": "1794882b-a642-441e-955d-b76b4e36a851__L1",
+      "name": "Escape Chance",
+      "symbol": "var_escape_chance_0"
+    },
+    {
+      "id": "1794882b-a642-441e-955d-b76b4e36a851__L2",
+      "name": "Item Options",
+      "symbol": "var_item_options_0"
+    },
+    {
+      "id": "1794882b-a642-441e-955d-b76b4e36a851__L3",
+      "name": "Magic Options",
+      "symbol": "var_magic_options_0"
+    },
+    {
+      "id": "1794882b-a642-441e-955d-b76b4e36a851__L4",
+      "name": "Tens",
+      "symbol": "var_tens_1"
+    },
+    {
+      "id": "1794882b-a642-441e-955d-b76b4e36a851__L5",
+      "name": "Singles",
+      "symbol": "var_singles_4"
+    },
+    {
+      "id": "53a13642-19e2-4016-ba65-562b2ca04c28__L0",
+      "name": "Singles",
+      "symbol": "var_singles_5"
+    },
+    {
+      "id": "53a13642-19e2-4016-ba65-562b2ca04c28__L1",
+      "name": "Tens",
+      "symbol": "var_tens_2"
+    },
+    {
+      "id": "f56050c9-6ec4-4c91-b3fa-47062546d4ab__L0",
+      "name": "Singles",
+      "symbol": "var_singles_6"
+    },
+    {
+      "id": "ebcce914-33b2-4806-aec0-38dcbf6e1c23__L0",
+      "name": "Singles",
+      "symbol": "var_singles_7"
+    },
+    {
+      "id": "11e53cf2-5c79-4440-884c-8ae52f29416d__L0",
+      "name": "Singles",
+      "symbol": "var_singles_8"
+    },
+    {
+      "id": "17",
+      "name": "Battle",
+      "symbol": "var_battle"
+    },
+    {
+      "id": "15",
+      "name": "HP",
+      "symbol": "var_hp"
+    },
+    {
+      "id": "18",
+      "name": "Enemy HP",
+      "symbol": "var_enemy_hp"
+    },
+    {
+      "id": "19",
+      "name": "Enemy Damage",
+      "symbol": "var_enemy_damage"
+    },
+    {
+      "id": "20",
+      "name": "Defense",
+      "symbol": "var_defense"
+    },
+    {
+      "id": "21",
+      "name": "HP Tens",
+      "symbol": "var_hp_tens"
+    },
+    {
+      "id": "22",
+      "name": "HP Singles",
+      "symbol": "var_hp_singles"
+    },
+    {
+      "id": "23",
+      "name": "MP Tens",
+      "symbol": "var_mp_tens"
+    },
+    {
+      "id": "16",
+      "name": "MP",
+      "symbol": "var_mp"
+    },
+    {
+      "id": "24",
+      "name": "MP Singles",
+      "symbol": "var_mp_singles"
+    },
+    {
+      "id": "14",
+      "name": "Strength",
+      "symbol": "var_strength"
+    },
+    {
+      "id": "25",
+      "name": "Spirit",
+      "symbol": "var_spirit"
+    },
+    {
+      "id": "26",
+      "name": "Potion Count",
+      "symbol": "var_potion_count"
+    },
+    {
+      "id": "27",
+      "name": "Max HP",
+      "symbol": "var_max_hp"
+    },
+    {
+      "id": "28",
+      "name": "Ether Count",
+      "symbol": "var_ether_count"
+    },
+    {
+      "id": "29",
+      "name": "Max MP",
+      "symbol": "var_max_mp"
+    },
+    {
+      "id": "30",
+      "name": "Elixer Count",
+      "symbol": "var_elixer_count"
+    },
+    {
+      "id": "31",
+      "name": "Agility",
+      "symbol": "var_agility"
     }
   ],
   "constants": []
