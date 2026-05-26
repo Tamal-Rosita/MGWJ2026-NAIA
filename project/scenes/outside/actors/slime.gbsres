@@ -4,7 +4,7 @@
   "name": "Slime",
   "frame": 0,
   "animate": true,
-  "spriteSheetId": "0525cd65-ba3e-4e1b-92bc-95851ebeeceb",
+  "spriteSheetId": "e6d3a8ce-8304-43c1-8611-e5eac1a6b727",
   "prefabId": "",
   "direction": "left",
   "moveSpeed": 1,
@@ -19,7 +19,7 @@
   "symbol": "actor_22",
   "coordinateType": "tiles",
   "x": 24,
-  "y": 9,
+  "y": 10,
   "script": [
     {
       "id": "0297508e-409e-454b-8339-322c4c638c51",

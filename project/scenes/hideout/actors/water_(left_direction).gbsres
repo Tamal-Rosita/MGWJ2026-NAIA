@@ -60,7 +60,7 @@
             "args": {
               "variable": "L0",
               "__collapseElse": true,
-              "__collapse": true,
+              "__collapse": false,
               "condition": {
                 "type": "variable",
                 "value": "L0"

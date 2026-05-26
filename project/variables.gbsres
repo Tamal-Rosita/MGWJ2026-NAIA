@@ -72,6 +72,96 @@
       "symbol": "var_swimming"
     },
     {
+      "id": "14",
+      "name": "Strength",
+      "symbol": "var_strength"
+    },
+    {
+      "id": "15",
+      "name": "HP",
+      "symbol": "var_hp"
+    },
+    {
+      "id": "16",
+      "name": "MP",
+      "symbol": "var_mp"
+    },
+    {
+      "id": "17",
+      "name": "Battle",
+      "symbol": "var_battle"
+    },
+    {
+      "id": "18",
+      "name": "Enemy HP",
+      "symbol": "var_enemy_hp"
+    },
+    {
+      "id": "19",
+      "name": "Enemy Damage",
+      "symbol": "var_enemy_damage"
+    },
+    {
+      "id": "20",
+      "name": "Defense",
+      "symbol": "var_defense"
+    },
+    {
+      "id": "21",
+      "name": "HP Tens",
+      "symbol": "var_hp_tens"
+    },
+    {
+      "id": "22",
+      "name": "HP Singles",
+      "symbol": "var_hp_singles"
+    },
+    {
+      "id": "23",
+      "name": "MP Tens",
+      "symbol": "var_mp_tens"
+    },
+    {
+      "id": "24",
+      "name": "MP Singles",
+      "symbol": "var_mp_singles"
+    },
+    {
+      "id": "25",
+      "name": "Spirit",
+      "symbol": "var_spirit"
+    },
+    {
+      "id": "26",
+      "name": "Potion Count",
+      "symbol": "var_potion_count"
+    },
+    {
+      "id": "27",
+      "name": "Max HP",
+      "symbol": "var_max_hp"
+    },
+    {
+      "id": "28",
+      "name": "Ether Count",
+      "symbol": "var_ether_count"
+    },
+    {
+      "id": "29",
+      "name": "Max MP",
+      "symbol": "var_max_mp"
+    },
+    {
+      "id": "30",
+      "name": "Elixer Count",
+      "symbol": "var_elixer_count"
+    },
+    {
+      "id": "31",
+      "name": "Agility",
+      "symbol": "var_agility"
+    },
+    {
       "id": "f4f59ce0-749b-4144-a5bc-86d33f4cc9ac__L0",
       "name": "MainMenu",
       "symbol": "var_mainmenu"
@@ -265,96 +355,6 @@
       "id": "11e53cf2-5c79-4440-884c-8ae52f29416d__L0",
       "name": "Singles",
       "symbol": "var_singles_8"
-    },
-    {
-      "id": "17",
-      "name": "Battle",
-      "symbol": "var_battle"
-    },
-    {
-      "id": "15",
-      "name": "HP",
-      "symbol": "var_hp"
-    },
-    {
-      "id": "18",
-      "name": "Enemy HP",
-      "symbol": "var_enemy_hp"
-    },
-    {
-      "id": "19",
-      "name": "Enemy Damage",
-      "symbol": "var_enemy_damage"
-    },
-    {
-      "id": "20",
-      "name": "Defense",
-      "symbol": "var_defense"
-    },
-    {
-      "id": "21",
-      "name": "HP Tens",
-      "symbol": "var_hp_tens"
-    },
-    {
-      "id": "22",
-      "name": "HP Singles",
-      "symbol": "var_hp_singles"
-    },
-    {
-      "id": "23",
-      "name": "MP Tens",
-      "symbol": "var_mp_tens"
-    },
-    {
-      "id": "16",
-      "name": "MP",
-      "symbol": "var_mp"
-    },
-    {
-      "id": "24",
-      "name": "MP Singles",
-      "symbol": "var_mp_singles"
-    },
-    {
-      "id": "14",
-      "name": "Strength",
-      "symbol": "var_strength"
-    },
-    {
-      "id": "25",
-      "name": "Spirit",
-      "symbol": "var_spirit"
-    },
-    {
-      "id": "26",
-      "name": "Potion Count",
-      "symbol": "var_potion_count"
-    },
-    {
-      "id": "27",
-      "name": "Max HP",
-      "symbol": "var_max_hp"
-    },
-    {
-      "id": "28",
-      "name": "Ether Count",
-      "symbol": "var_ether_count"
-    },
-    {
-      "id": "29",
-      "name": "Max MP",
-      "symbol": "var_max_mp"
-    },
-    {
-      "id": "30",
-      "name": "Elixer Count",
-      "symbol": "var_elixer_count"
-    },
-    {
-      "id": "31",
-      "name": "Agility",
-      "symbol": "var_agility"
     }
   ],
   "constants": []

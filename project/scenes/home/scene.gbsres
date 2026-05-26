@@ -25,11 +25,28 @@
       "id": "932576f8-85ba-4416-ac58-6ffa73ee32c6"
     },
     {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "526e7869-8327-45c7-af48-233df4bd4841"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9"
       },
       "id": "1b43a50e-8107-4e35-9d10-b29ce625c87b"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "8213fc6f-9c70-4c7e-8b11-b353e7fa13ed"
     }
   ],
   "playerHit1Script": [],

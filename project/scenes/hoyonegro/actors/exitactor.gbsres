@@ -18,6 +18,16 @@
   "symbol": "actor_20",
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "13",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "63ccb381-fd0f-421a-8379-fc35a74fc591"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "1c89d36b-4f74-4e4e-8802-0686d43e87f8",
