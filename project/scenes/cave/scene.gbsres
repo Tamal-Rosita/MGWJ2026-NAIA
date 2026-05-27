@@ -25,6 +25,79 @@
       "id": "73600b38-1b67-4b91-920e-b97faa41ed65"
     },
     {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true,
+        "__comment": false
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "0",
+              "__collapseElse": false,
+              "__collapse": false,
+              "condition": {
+                "type": "variable",
+                "value": "13"
+              }
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "Swimming",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "1853e64b-3d39-4135-b37b-b4b08347bffb"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 0.5,
+                    "__collapse": true
+                  },
+                  "id": "a19cfaf5-343b-4082-9575-7cc5c525bf1f"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "5e90563e-fa6e-4b7c-a8a1-0f73a66013c4"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+                  "args": {
+                    "actorId": "$self$",
+                    "speed": 1,
+                    "__collapse": true
+                  },
+                  "id": "60fee530-62dc-48d3-9c27-4718962fa494"
+                }
+              ]
+            },
+            "id": "68575f17-21a5-4375-bbb2-41895ec8d964"
+          }
+        ]
+      },
+      "id": "6335135c-9731-409a-971f-35c1e8d7b5db"
+    },
+    {
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",
