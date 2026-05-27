@@ -22,11 +22,11 @@
         },
         "y": {
           "type": "number",
-          "value": 29
+          "value": 28
         },
         "direction": "up",
         "fadeSpeed": "2",
-        "__comment": true
+        "__comment": false
       }
     }
   ],

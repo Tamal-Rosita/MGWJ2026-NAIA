@@ -80,6 +80,23 @@
                       "type": "true"
                     }
                   }
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
+                    "x": {
+                      "type": "number",
+                      "value": 25
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 16
+                    },
+                    "direction": "left",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "288d2576-57ec-48ba-81e9-32a3454b267b"
                 }
               ],
               "false": []

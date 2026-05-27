@@ -23,15 +23,25 @@
         "value": {
           "type": "number",
           "value": 1
-        }
+        },
+        "__collapse": true
       },
       "id": "54730b9d-1350-4356-9303-8358ab894f2d"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "f82235a5-145f-477a-88d5-d341f6893367",
+        "__collapse": true
+      },
+      "id": "9bd86ab3-d190-4c6f-9c48-78331ee81842"
     },
     {
       "id": "8343c54c-07a1-4d30-892c-91db234b8d9b",
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "actorId": "player"
+        "actorId": "player",
+        "__collapse": true
       }
     },
     {
@@ -40,15 +50,9 @@
       "args": {
         "color": "black",
         "x": 0,
-        "y": 0
+        "y": 0,
+        "__collapse": true
       }
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "f82235a5-145f-477a-88d5-d341f6893367"
-      },
-      "id": "9bd86ab3-d190-4c6f-9c48-78331ee81842"
     },
     {
       "id": "e88fcc15-89a0-4db6-b069-aeffe9cb222b",
@@ -56,7 +60,8 @@
       "args": {
         "x": 0,
         "y": 18,
-        "speed": 2
+        "speed": 2,
+        "__collapse": true
       }
     },
     {
@@ -70,7 +75,8 @@
         "frames": {
           "type": "number",
           "value": 30
-        }
+        },
+        "__collapse": true
       }
     },
     {
@@ -87,12 +93,15 @@
           "value": 0
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__collapse": true
       }
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "00168+"
+  "collisions": "00168+",
+  "autoFadeEventCollapse": true,
+  "labelColor": "blue"
 }

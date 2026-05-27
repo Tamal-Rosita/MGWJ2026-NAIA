@@ -14,8 +14,8 @@
   "collisions": "003d+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!0010+0f4+008+",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
-  "x": 280,
-  "y": 288,
+  "x": 288,
+  "y": 224,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -36,7 +36,8 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9"
+        "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9",
+        "__comment": true
       },
       "id": "1b43a50e-8107-4e35-9d10-b29ce625c87b"
     },
@@ -52,5 +53,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "8f8cac02-2047-4737-a13e-dd4b0fbd978b"
+  "playerSpriteSheetId": "8f8cac02-2047-4737-a13e-dd4b0fbd978b",
+  "labelColor": "orange"
 }

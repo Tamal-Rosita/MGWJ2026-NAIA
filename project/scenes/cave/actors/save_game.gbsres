@@ -1,41 +1,41 @@
 {
   "_resourceType": "actor",
-  "id": "b5594786-5675-48cf-b382-18b6341b855c",
-  "_index": 5,
-  "symbol": "actor_12",
-  "prefabId": "",
-  "name": "",
-  "coordinateType": "tiles",
-  "x": 14,
-  "y": 11,
+  "id": "c87bb426-44d6-465a-8284-2c620f7f939c",
+  "name": "Save Game",
   "frame": 0,
   "animate": true,
   "spriteSheetId": "000a6dde-cb60-436e-b357-30a529daa139",
-  "paletteId": "",
+  "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 31,
+  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
+  "_index": 5,
+  "symbol": "actor_1",
+  "coordinateType": "tiles",
+  "x": 15,
+  "y": 12,
   "script": [
     {
-      "id": "81000601-b8bc-4468-a5bf-ed54884e3b06",
+      "id": "aa4711d0-79e7-48e5-a4db-ee8b3e8b4505",
       "command": "EVENT_CHOICE",
       "args": {
         "variable": "11",
-        "trueText": "Save Game",
-        "falseText": "Cancel"
+        "trueText": "Guardar juego",
+        "falseText": "Cancelar"
       }
     },
     {
-      "id": "4d69294c-02dc-4246-9141-653260617b93",
+      "id": "c8a2cd20-723b-4887-a83f-1de1127b7f80",
       "command": "EVENT_IF",
       "args": {
         "variable": "11",
-        "__collapseElse": true,
+        "__collapseElse": false,
         "condition": {
           "type": "variable",
           "value": "11"
@@ -44,25 +44,30 @@
       "children": {
         "true": [
           {
-            "id": "c967dfe8-e42d-4d80-a0be-36a772930f86",
+            "id": "0fa80ab7-ce61-42d9-8ad8-89a42e2e69b3",
             "command": "EVENT_SAVE_DATA",
             "args": {
-              "saveSlot": 0
+              "saveSlot": 0,
+              "__scriptTabs": "load"
             },
             "children": {
               "true": [
                 {
-                  "id": "b3e842cf-3a49-411b-a588-28e7811dddd8",
+                  "id": "7e38ed63-2208-43e7-832c-4107fa7b3c6e",
                   "command": "EVENT_TEXT",
                   "args": {
-                    "text": "Game progress has\nbeen saved."
+                    "text": [
+                      "Progreso del juego\n "
+                    ]
                   }
                 },
                 {
-                  "id": "4720e024-f89f-410e-8534-f67fbff8e673",
+                  "id": "5c72e70e-cad3-4c75-b49a-a9fff7579d4a",
                   "command": "EVENT_TEXT",
                   "args": {
-                    "text": "It is now safe to\nturn off your\nsystem."
+                    "text": [
+                      "Ya puedes apagar\ntu sistema."
+                    ]
                   }
                 }
               ]

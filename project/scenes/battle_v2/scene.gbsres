@@ -3,7 +3,7 @@
   "id": "1794882b-a642-441e-955d-b76b4e36a851",
   "_index": 9,
   "name": "Battle v2",
-  "backgroundId": "b94eaeaf-32f3-46b0-894a-d062921290fb",
+  "backgroundId": "27fdbe60-8015-446a-8e6d-04856c79f764",
   "tilesetId": "",
   "width": 22,
   "height": 18,
@@ -14,8 +14,8 @@
   "collisions": "",
   "autoFadeSpeed": null,
   "symbol": "scene_0",
-  "x": 768,
-  "y": 56,
+  "x": 776,
+  "y": 32,
   "autoFadeEventCollapse": true,
   "script": [
     {
@@ -1545,7 +1545,7 @@
       "id": "32066a0a-e8b8-41e3-b2b7-c541151eab16",
       "command": "EVENT_LOOP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Battle Loop"
       },
       "children": {
@@ -9081,5 +9081,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "8f8cac02-2047-4737-a13e-dd4b0fbd978b"
+  "playerSpriteSheetId": "8f8cac02-2047-4737-a13e-dd4b0fbd978b",
+  "labelColor": "yellow"
 }
