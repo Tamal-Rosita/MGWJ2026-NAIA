@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "bad0512f-a4e4-4adb-9eee-b2c4b72ecf8c",
+  "id": "b6a3dab5-6f05-4cc1-8aa8-1a5c72c7adcd",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+  "spriteSheetId": "e9e61bf7-88fd-491d-ae01-4b7f76909108",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,27 +15,12 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "_index": 3,
-  "symbol": "actor_30",
+  "_index": 4,
+  "symbol": "actor_15",
   "coordinateType": "tiles",
-  "x": 3,
-  "y": 5,
-  "script": [
-    {
-      "id": "56f386f8-9bf7-40e2-8c67-36a9b7cdbecb",
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": "This room is\npretty empty."
-      }
-    },
-    {
-      "id": "3f8ee34a-0a33-42ef-8a4b-204ea6f6eeb9",
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": "Try to edit\nhouse.png"
-      }
-    }
-  ],
+  "x": 9,
+  "y": 10,
+  "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

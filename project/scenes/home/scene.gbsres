@@ -3,7 +3,7 @@
   "id": "1c89d36b-4f74-4e4e-8802-0686d43e87f8",
   "_index": 8,
   "name": "Home",
-  "backgroundId": "b340b9a2-2865-4e05-91c0-148846a693c8",
+  "backgroundId": "eb9704af-a664-4feb-a33c-c8c182494519",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -11,7 +11,7 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "003d+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+009+0f!002+0f!0010+0f4+008+",
+  "collisions": "0017+0fe+005+0f2+00c+0f2+003+0f2+00e+0f2+002+0f!005+0f5+006+0f!002+0f!004+0f!005+0f!005+0f!002+0f!004+0f!005+0f!005+0f!002+0f!004+0f!005+0f!005+0f!002+0f!004+0f7+005+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f2+00e+0f2+003+0f2+00c+0f2+005+0f5+004+0f5+00a+0f2+002+0f2+007+",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
   "x": 288,
@@ -54,5 +54,5 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "8f8cac02-2047-4737-a13e-dd4b0fbd978b",
-  "labelColor": "orange"
+  "labelColor": "yellow"
 }

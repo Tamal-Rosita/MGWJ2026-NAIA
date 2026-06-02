@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "85470079-f377-4998-9fd4-f6dc239ee6c9",
+  "id": "89b2765e-6390-4701-8847-af9412b96185",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+  "spriteSheetId": "e9e61bf7-88fd-491d-ae01-4b7f76909108",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,20 +15,12 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "_index": 2,
-  "symbol": "actor_29",
+  "_index": 0,
+  "symbol": "actor_2",
   "coordinateType": "tiles",
-  "x": 4,
-  "y": 13,
-  "script": [
-    {
-      "id": "d3d9d89a-c134-4d5a-a83e-513e54f66ece",
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": "Add backgrounds to\nassets/backgrounds"
-      }
-    }
-  ],
+  "x": 6,
+  "y": 12,
+  "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

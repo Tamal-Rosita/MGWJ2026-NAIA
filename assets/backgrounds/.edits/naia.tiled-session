@@ -1,0 +1,62 @@
+{
+    "activeFile": "shelter.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "cave.tsx": {
+            "scaleInDock": 2.0957,
+            "scaleInEditor": 3
+        },
+        "cave_scene.tmx": {
+            "scale": 3.1728,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3.782148260211798,
+                "y": 89.03807362581946
+            }
+        },
+        "shelter.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 91.33333333333333,
+                "y": 93.16666666666664
+            }
+        },
+        "small-village-tileset.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 5.5
+        },
+        "tileset-indoor.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 5.5
+        }
+    },
+    "last.imagePath": "/home/dorito/Developer/GBStudio/NaiaTresor/assets/backgrounds",
+    "map.height": 16,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 20,
+    "openFiles": [
+        "cave.tsx",
+        "small-village-tileset.tsx",
+        "cave_scene.tmx",
+        "shelter.tmx",
+        "tileset-indoor.tsx"
+    ],
+    "project": "naia.tiled-project",
+    "recentFiles": [
+        "cave.tsx",
+        "small-village-tileset.tsx",
+        "cave_scene.tmx",
+        "tileset-indoor.tsx",
+        "shelter.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
+}

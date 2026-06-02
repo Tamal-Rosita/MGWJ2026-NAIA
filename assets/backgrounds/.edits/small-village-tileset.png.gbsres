@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "71ee1c4b-2db0-4425-9327-dfde551ec81a",
+  "name": "small-village-tileset",
+  "symbol": "bg_small_village_tileset",
+  "tileColors": "",
+  "filename": "small-village-tileset.png",
+  "width": 14,
+  "height": 13,
+  "imageWidth": 112,
+  "imageHeight": 104
+}

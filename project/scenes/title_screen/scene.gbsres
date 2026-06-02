@@ -93,9 +93,9 @@
                     },
                     "y": {
                       "type": "number",
-                      "value": 9
+                      "value": 11
                     },
-                    "direction": "down",
+                    "direction": "up",
                     "fadeSpeed": "4",
                     "__collapse": false
                   }
@@ -145,5 +145,5 @@
   "playerHit3Script": [],
   "collisions": "",
   "autoFadeEventCollapse": true,
-  "labelColor": "blue"
+  "labelColor": "green"
 }

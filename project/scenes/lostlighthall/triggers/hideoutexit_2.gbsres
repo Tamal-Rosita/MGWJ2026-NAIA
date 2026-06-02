@@ -1,31 +1,32 @@
 {
   "_resourceType": "trigger",
-  "id": "426115fe-f609-4bfd-84d0-8d65eab3b049",
-  "name": "HomeExit",
+  "id": "bb5062f4-dcd1-4d6f-8a73-369e9f675264",
+  "name": "HideoutExit",
   "prefabId": "",
-  "_index": 0,
-  "symbol": "trigger_7",
-  "x": 9,
+  "_index": 1,
+  "symbol": "trigger_9",
+  "x": 8,
   "y": 17,
-  "width": 2,
+  "width": 4,
   "height": 1,
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "bd8a9479-e383-4627-9a1b-a40fbd46b4ce",
+      "id": "d186cbdc-113d-46af-810d-ac5e5ceabbd1",
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
         "x": {
           "type": "number",
-          "value": 10
+          "value": 24
         },
         "y": {
           "type": "number",
           "value": 10
         },
         "direction": "down",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__comment": false
       }
     }
   ],

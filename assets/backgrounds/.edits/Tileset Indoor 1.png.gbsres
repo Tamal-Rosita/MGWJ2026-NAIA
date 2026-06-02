@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "7b0c4a60-91f6-4cf1-9892-b66a356596f3",
+  "name": "Tileset Indoor 1",
+  "symbol": "bg_tileset_indoor_1",
+  "tileColors": "",
+  "filename": "Tileset Indoor 1.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

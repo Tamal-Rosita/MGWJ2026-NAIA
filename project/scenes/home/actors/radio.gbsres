@@ -15,11 +15,11 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "_index": 4,
+  "_index": 3,
   "symbol": "actor_27",
   "coordinateType": "tiles",
-  "x": 15,
-  "y": 5,
+  "x": 10,
+  "y": 3,
   "script": [
     {
       "id": "548a42e5-153f-4664-a442-668eadfb4413",

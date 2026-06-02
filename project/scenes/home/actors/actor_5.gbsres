@@ -1,34 +1,26 @@
 {
   "_resourceType": "actor",
-  "id": "3da499cb-a978-4fc4-a210-55609f331290",
+  "id": "d2bbd0db-8de7-40a4-bd21-54cc54ae9b61",
   "name": "",
   "frame": 0,
-  "animate": false,
-  "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+  "animate": true,
+  "spriteSheetId": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 7,
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "_index": 1,
-  "symbol": "actor_28",
+  "_index": 5,
+  "symbol": "actor_16",
   "coordinateType": "tiles",
-  "x": 14,
-  "y": 13,
-  "script": [
-    {
-      "id": "c7bf569b-f28e-4376-b2f8-1f20ed87f62e",
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": "Add sprites to\nassets/sprites"
-      }
-    }
-  ],
+  "x": 9,
+  "y": 8,
+  "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

@@ -18,8 +18,8 @@
   "_index": 3,
   "symbol": "actor_22",
   "coordinateType": "tiles",
-  "x": 24,
-  "y": 10,
+  "x": 22,
+  "y": 15,
   "script": [
     {
       "command": "EVENT_SET_VALUE",

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6909c1a7-ea88-440c-b3d4-e58cce9ce249",
+  "name": "gb_studio_outdoors",
+  "symbol": "bg_gb_studio_outdoors",
+  "tileColors": "",
+  "filename": "gb_studio_outdoors.png",
+  "width": 24,
+  "height": 30,
+  "imageWidth": 192,
+  "imageHeight": 240
+}
