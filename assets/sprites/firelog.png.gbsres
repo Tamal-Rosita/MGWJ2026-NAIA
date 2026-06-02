@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "1fd55270-e846-4471-85c9-0f3eb814c0f7",
+  "name": "firelog",
+  "symbol": "sprite_firelog",
+  "states": [
+    {
+      "id": "2ee7b709-7552-4cb0-8ec1-482baa8b14e0",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "4c0cf2d6-1b2b-4834-967e-7527ed4779c3",
+          "frames": [
+            {
+              "id": "a827af92-9faf-43fc-bfc5-28f246d0bcf0",
+              "tiles": [
+                {
+                  "id": "a0fe5719-5215-4a62-83ae-0269fa3aa648",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": -8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "7237fae3-66d5-4814-ad00-09c7803ca60b",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": -8,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "0e2c1c4e-a090-452b-b955-2da73089a3d0",
+          "frames": [
+            {
+              "id": "76cc8dc5-47fc-4c97-9813-3d34b7599d31",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cffbb4ee-b8cf-43ec-b7a8-5a7d8d5311dc",
+          "frames": [
+            {
+              "id": "c71a77e6-b5a5-451a-af1d-13f886fc2824",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f72d341c-5138-4bbf-9c30-6d5f06a09ba9",
+          "frames": [
+            {
+              "id": "ff96a6e0-399f-475f-afd7-5bf9212a0c55",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c53964c1-5e56-45f0-971f-cae3d9eabbdc",
+          "frames": [
+            {
+              "id": "3c76598b-993b-4d87-8017-0a81c62a6238",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1b08fa74-4916-4916-9f9e-c764d7a665cf",
+          "frames": [
+            {
+              "id": "cf9a8933-db7b-42d1-92c0-cf3ce782163c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f61d9108-0d8f-4699-8e98-e25bb8d70bfd",
+          "frames": [
+            {
+              "id": "8b1bc34a-6c62-4da1-af9f-e7ea3545c790",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a7d8ccc1-1c5f-4deb-ac25-4f91bc9f1798",
+          "frames": [
+            {
+              "id": "d8ab2160-0121-473f-b88d-88ba706a243c",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "firelog.png",
+  "width": 16,
+  "height": 8,
+  "checksum": "95c3d970f7d6db188b34f79a58ba8a387da02ea1"
+}

@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
   "id": "517437ce-8895-4540-867d-fff81b3f82fd",
-  "name": "Radio",
+  "name": "Drums",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "a0442b6a-634f-44da-9962-77938e3ed839",
+  "spriteSheetId": "e4995c67-1203-4b83-bfc8-f4330cf1b6a2",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "_index": 3,
+  "_index": 2,
   "symbol": "actor_27",
   "coordinateType": "tiles",
   "x": 10,
@@ -30,7 +30,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "2"
+            "value": "39"
           },
           "valueB": {
             "type": "false"
@@ -51,7 +51,7 @@
             "id": "e80055ae-2b45-4ce3-9c62-336065d3d5fd",
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "2",
+              "variable": "39",
               "value": {
                 "type": "true"
               }
@@ -68,7 +68,7 @@
             "id": "20e4beef-b8f1-40dd-8179-ea658785305a",
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "2",
+              "variable": "39",
               "value": {
                 "type": "false"
               }

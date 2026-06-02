@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "8981d43b-d33f-44e1-a17d-c11b28071595",
-  "name": "",
+  "name": "Roomie",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "40dcd163-9f72-4861-8131-b01eb9baa000",
@@ -30,7 +30,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "2"
+            "value": "39"
           },
           "valueB": {
             "type": "false"
@@ -43,7 +43,9 @@
             "id": "2008f188-b3d8-4401-8bda-1e0af53a5abe",
             "command": "EVENT_TEXT",
             "args": {
-              "text": "Have you tried\nusing this radio?"
+              "text": [
+                "Sabes tocar los\ntambores??"
+              ]
             }
           }
         ],
@@ -52,7 +54,9 @@
             "id": "54fcc828-ae08-4403-9694-fb19452d5efb",
             "command": "EVENT_TEXT",
             "args": {
-              "text": "Yeah it doesn't\nfit does it?"
+              "text": [
+                "Buen ritmo! No le \nva bien, cierto?"
+              ]
             }
           },
           {
@@ -67,14 +71,16 @@
             "id": "c428db25-ad90-42e7-93f6-f7b500ae2173",
             "command": "EVENT_TEXT",
             "args": {
-              "text": "But it's all I\nhave right now..."
+              "text": [
+                "Pero es lo que hay\npor ahora! "
+              ]
             }
           },
           {
             "id": "8e9bc456-365f-4df0-9793-7ee8e396fd30",
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "6",
+              "variable": "4",
               "value": {
                 "type": "true"
               }

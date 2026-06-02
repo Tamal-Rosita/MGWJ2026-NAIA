@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "3da499cb-a978-4fc4-a210-55609f331290",
-  "name": "",
+  "name": "Reservation",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
@@ -25,7 +25,9 @@
       "id": "c7bf569b-f28e-4376-b2f8-1f20ed87f62e",
       "command": "EVENT_TEXT",
       "args": {
-        "text": "Add sprites to\nassets/sprites"
+        "text": [
+          "Hamaca reservada!"
+        ]
       }
     }
   ],

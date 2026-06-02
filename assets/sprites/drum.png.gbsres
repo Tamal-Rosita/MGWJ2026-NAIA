@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "e4995c67-1203-4b83-bfc8-f4330cf1b6a2",
+  "name": "drum",
+  "symbol": "sprite_drum",
+  "states": [
+    {
+      "id": "01cb3d6e-9111-440c-b596-363ec959b16f",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "c31c6310-7002-4b8a-8926-cb81d35759c0",
+          "frames": [
+            {
+              "id": "d0c6513b-f839-459c-b01b-d11a668c3e34",
+              "tiles": [
+                {
+                  "id": "b6df465e-6fcb-434b-881d-583b22ac7c2a",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "faf8505d-909f-4fd5-a1e6-951d83d9a0c1",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5b688382-f1de-4e4a-80fe-2bada3fad8cd",
+          "frames": [
+            {
+              "id": "f3471e3c-ac2d-48c5-ba6b-d08804c16739",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0f6f166c-0b39-4b49-b92d-ad020f71a08a",
+          "frames": [
+            {
+              "id": "3f97de16-daf3-4864-b854-f70bcdb5c4c2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "eea86701-e89b-43bf-9ea4-a64ef2fd9cd3",
+          "frames": [
+            {
+              "id": "43f7c0e1-8f10-43d1-a543-be19386e17c5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "067c1fa1-0ac1-41e1-84fe-6bbdef6335fe",
+          "frames": [
+            {
+              "id": "919a1d60-2b64-4667-a251-88ee44c3396f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "32acef90-0669-48d1-b801-c32ac8c23cbd",
+          "frames": [
+            {
+              "id": "bbcd5748-039f-4a4f-a1e2-1956f9c5d259",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "142b60da-d81b-42b6-94a8-580bcbfaa5d3",
+          "frames": [
+            {
+              "id": "4a791093-966f-41cf-9524-3e14afb71187",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "af521672-5be8-4af9-ae34-34272e6a6c60",
+          "frames": [
+            {
+              "id": "22d90121-c344-463e-a773-97b3f7e0db70",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "drum.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "a4f5f297ecef7adfed4c32aa6eaeb57268f58ccf"
+}

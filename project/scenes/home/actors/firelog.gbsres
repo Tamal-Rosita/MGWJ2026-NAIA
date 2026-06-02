@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "85470079-f377-4998-9fd4-f6dc239ee6c9",
-  "name": "",
+  "id": "b6a3dab5-6f05-4cc1-8aa8-1a5c72c7adcd",
+  "name": "Firelog",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
+  "spriteSheetId": "1fd55270-e846-4471-85c9-0f3eb814c0f7",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,20 +15,12 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "_index": 2,
-  "symbol": "actor_29",
+  "_index": 3,
+  "symbol": "actor_15",
   "coordinateType": "tiles",
-  "x": 4,
-  "y": 13,
-  "script": [
-    {
-      "id": "d3d9d89a-c134-4d5a-a83e-513e54f66ece",
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": "Add backgrounds to\nassets/backgrounds"
-      }
-    }
-  ],
+  "x": 8,
+  "y": 9,
+  "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
