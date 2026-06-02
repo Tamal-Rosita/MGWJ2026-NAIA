@@ -162,6 +162,11 @@
       "symbol": "var_agility"
     },
     {
+      "id": "39",
+      "name": "PlayingDrums",
+      "symbol": "var_playingdrums"
+    },
+    {
       "id": "f4f59ce0-749b-4144-a5bc-86d33f4cc9ac__L0",
       "name": "MainMenu",
       "symbol": "var_mainmenu"
@@ -355,11 +360,6 @@
       "id": "11e53cf2-5c79-4440-884c-8ae52f29416d__L0",
       "name": "Singles",
       "symbol": "var_singles_8"
-    },
-    {
-      "id": "39",
-      "name": "PlayingDrums",
-      "symbol": "var_playingdrums"
     }
   ],
   "constants": []

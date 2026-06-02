@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "918eff43-5eee-408b-a27f-b96b257432cf",
-  "name": "SlimeEnemy",
+  "id": "0f770e08-488c-41ef-aef6-2172ad7312d1",
+  "name": "BlockingEnemy",
   "frame": 0,
   "animate": true,
-  "spriteSheetId": "0525cd65-ba3e-4e1b-92bc-95851ebeeceb",
+  "spriteSheetId": "55561033-cbbb-4d7b-9961-4db33c1d596c",
   "prefabId": "",
   "direction": "left",
   "moveSpeed": 1,
@@ -15,11 +15,11 @@
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "_index": 2,
-  "symbol": "actor_13",
+  "_index": 0,
+  "symbol": "actor_29",
   "coordinateType": "tiles",
-  "x": 11,
-  "y": 16,
+  "x": 12,
+  "y": 9,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -27,18 +27,18 @@
         "variable": "3",
         "value": {
           "type": "number",
-          "value": 2
+          "value": 3
         }
       },
-      "id": "f418d853-401a-4ff9-ba65-e698b67b1f9f"
+      "id": "d3b49cee-7d17-4fd3-8aa5-8fcea8d3c0bf"
     },
     {
-      "id": "0a0a05d2-0e4b-4b07-9750-391271b033f8",
+      "id": "1f50fb25-bbda-4532-9201-b7ed2b10b346",
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {}
     },
     {
-      "id": "62b6ea74-c99c-4eb1-adb8-d553980d950e",
+      "id": "866e9ac0-4e10-4b0b-a7e1-4d5c66e1ef70",
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",

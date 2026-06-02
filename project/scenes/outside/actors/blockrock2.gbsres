@@ -15,18 +15,18 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "_index": 5,
+  "_index": 3,
   "symbol": "actor_4",
   "coordinateType": "tiles",
-  "x": 13,
-  "y": 13,
+  "x": 16,
+  "y": 10,
   "script": [
     {
       "id": "a20722a9-6056-44ed-8554-023547af6851",
       "command": "EVENT_ACTOR_PUSH",
       "args": {
         "continue": false,
-        "__comment": true,
+        "__comment": false,
         "__collapse": false
       }
     }

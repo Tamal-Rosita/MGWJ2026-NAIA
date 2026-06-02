@@ -14,8 +14,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_11",
-  "x": 1000,
-  "y": 56,
+  "x": 760,
+  "y": 360,
   "script": [
     {
       "id": "a218d3de-326d-408a-a41c-35d5549fa946",

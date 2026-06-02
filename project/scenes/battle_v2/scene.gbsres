@@ -14,8 +14,8 @@
   "collisions": "",
   "autoFadeSpeed": null,
   "symbol": "scene_0",
-  "x": 776,
-  "y": 32,
+  "x": 760,
+  "y": 176,
   "autoFadeEventCollapse": true,
   "script": [
     {
