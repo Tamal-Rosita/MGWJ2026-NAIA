@@ -11,7 +11,7 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0017+0fe+005+0f2+00c+0f2+003+0f2+00e+0f2+002+0f!005+0f5+006+0f!002+0f!004+0f!005+0f!005+0f!002+0f!004+0f!005+0f!005+0f!002+0f!004+0f!005+0f!005+0f!002+0f!004+0f7+005+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!002+02!00d+0f!002+0f!00!0f3+00c+0f!002+0f2+00e+0f2+003+0f2+00c+0f2+005+0f5+004+0f5+00a+0f2+002+0f2+007+",
+  "collisions": "0017+0fe+005+0f2+00c+0f2+003+0f2+00e+0f2+002+0f!005+0f5+006+0f!002+0f!004+0f!005+0f!005+0f!002+0f!004+0f!005+0f!005+0f!002+0f!004+0f!005+0f!005+0f!002+0f!004+0f7+005+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!002+02!00d+0f!002+0f!00!0f3+00c+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f2+00e+0f2+003+0f7+002+0f7+002+",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
   "x": 264,
@@ -48,6 +48,44 @@
         "speed": 1
       },
       "id": "8213fc6f-9c70-4c7e-8b11-b353e7fa13ed"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 7
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "tilesetId": "undefined",
+              "tileIndex": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "variable": "L0"
+            },
+            "id": "da98ed31-3bbf-4b92-acad-07230165a46a"
+          }
+        ]
+      },
+      "id": "55daea18-4324-4531-a6ef-14556c24fd85"
     }
   ],
   "playerHit1Script": [],
