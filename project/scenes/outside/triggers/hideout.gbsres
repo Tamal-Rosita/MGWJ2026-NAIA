@@ -5,9 +5,9 @@
   "symbol": "trigger_1",
   "prefabId": "",
   "name": "Hideout",
-  "x": 24,
-  "y": 8,
-  "width": 2,
+  "x": 28,
+  "y": 5,
+  "width": 1,
   "height": 1,
   "prefabScriptOverrides": {},
   "script": [
@@ -22,7 +22,7 @@
         },
         "y": {
           "type": "number",
-          "value": 14
+          "value": 13
         },
         "direction": "up",
         "fadeSpeed": "2"

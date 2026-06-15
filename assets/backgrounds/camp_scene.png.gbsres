@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "663a613a-7c17-468b-9f62-666682e54a7c",
+  "name": "camp_scene",
+  "symbol": "bg_camp_scene",
+  "tileColors": "",
+  "filename": "camp_scene.png",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256
+}
