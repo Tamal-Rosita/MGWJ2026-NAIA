@@ -25,6 +25,36 @@
       "id": "58ccd46d-1e5e-40a3-9836-bd05b85553a2"
     },
     {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "2",
+        "flag": 3,
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "e402d595-7eb3-442e-ac80-7801c815b561"
+            },
+            "id": "c8f06165-d75b-4678-a771-67f46d461c1c"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "e402d595-7eb3-442e-ac80-7801c815b561"
+            },
+            "id": "73cf1cb4-96d2-4fd3-be96-019f758f486f"
+          }
+        ]
+      },
+      "id": "c31c813d-ff07-48b2-a062-0fc0e6ab6583"
+    },
+    {
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",

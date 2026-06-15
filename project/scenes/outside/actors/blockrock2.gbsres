@@ -18,8 +18,8 @@
   "_index": 3,
   "symbol": "actor_4",
   "coordinateType": "tiles",
-  "x": 16,
-  "y": 10,
+  "x": 14,
+  "y": 26,
   "script": [
     {
       "id": "a20722a9-6056-44ed-8554-023547af6851",

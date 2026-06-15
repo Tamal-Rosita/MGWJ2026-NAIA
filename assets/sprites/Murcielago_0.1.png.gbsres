@@ -1,0 +1,183 @@
+{
+  "_resourceType": "sprite",
+  "id": "99de8726-5505-4575-827f-5c649675fe1a",
+  "name": "Murcielago_0.1",
+  "symbol": "sprite_murcielago_0_1",
+  "states": [
+    {
+      "id": "9885cb2a-f8a0-4df5-aa76-cb44de2e3c8d",
+      "name": "",
+      "animationType": "multi",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "6b1148df-1434-49ec-9b3d-d094c0704e78",
+          "frames": [
+            {
+              "id": "ff53f828-1c83-426c-a63a-3d392672d8e6",
+              "tiles": [
+                {
+                  "id": "e2c02237-ec5e-483a-834c-215f38439f90",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "09b48e78-2b4f-4dc5-b4fd-6e5f8486822e",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "b71d736b-5aa0-493b-bebb-a0a76887f27b",
+          "frames": [
+            {
+              "id": "7d3cfd11-0033-44a0-93e1-fef344bc3322",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "91ab698f-d6a0-4d58-8603-33e42a2f504f",
+          "frames": [
+            {
+              "id": "00100eba-5aaf-4f44-84fb-b27bc92cae51",
+              "tiles": [
+                {
+                  "id": "43ee235d-7fcf-4b61-b15e-01cceae62585",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "30529933-8227-4514-9e12-4817d32ae655",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8d05ab61-0a30-4b72-ae16-9535130b8120",
+          "frames": [
+            {
+              "id": "364e5427-f073-46b3-bd0c-f6732961dff6",
+              "tiles": [
+                {
+                  "id": "cbba0e14-bf1f-4a3f-868a-5d120d61785a",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "9f4ef01f-a88b-4b4b-8f18-a6154723be56",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "38778db7-663e-4dc6-b457-3ab94b828c20",
+          "frames": [
+            {
+              "id": "dc1c25e4-656f-4842-a679-f565f5f45338",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ee15686e-a154-4ee0-abd3-f86dd63ffc2e",
+          "frames": [
+            {
+              "id": "d883a7a4-80c1-4feb-b013-06c5cde0da8b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "689bdfbf-e381-48c2-a3a3-050b95b48a79",
+          "frames": [
+            {
+              "id": "00754331-4a52-479e-a0f8-0761f62445bb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "97cfd15b-c706-40a7-a7e8-af3ab8c5a31b",
+          "frames": [
+            {
+              "id": "ddd89d33-2baf-4125-ae8f-fe214dd5af83",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Murcielago_0.1.png",
+  "width": 48,
+  "height": 16,
+  "checksum": "681a4cbe8c634213fb3a2e1f979c945a494fd48c"
+}
