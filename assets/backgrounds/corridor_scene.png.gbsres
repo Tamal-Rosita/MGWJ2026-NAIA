@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "9ea9efe1-456b-408b-bb9a-0c4bac78f925",
+  "name": "corridor_scene",
+  "symbol": "bg_corridor_scene",
+  "tileColors": "00600+",
+  "filename": "corridor_scene.png",
+  "width": 64,
+  "height": 24,
+  "imageWidth": 512,
+  "imageHeight": 192
+}

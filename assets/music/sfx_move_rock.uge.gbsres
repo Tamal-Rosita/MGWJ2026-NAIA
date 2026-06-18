@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "d0434df8-a17a-424e-894f-1b088e2f4422",
+  "name": "sfx_move_rock",
+  "symbol": "song_sfx_move_rock",
+  "settings": {},
+  "filename": "sfx_move_rock.uge",
+  "type": "uge"
+}

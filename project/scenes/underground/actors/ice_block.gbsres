@@ -7,7 +7,7 @@
   "name": "Ice Block",
   "coordinateType": "tiles",
   "x": 24,
-  "y": 18,
+  "y": 17,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "09ad70c6-3ce5-4b97-9e96-466221418a45",
