@@ -6,11 +6,11 @@
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "Camp_scene.tmx": {
-            "scale": 2,
-            "selectedLayer": 2,
+            "scale": 3,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 128,
-                "y": 128
+                "x": 152.16666666666666,
+                "y": 104.83333333333334
             }
         },
         "cave.tsx": {
@@ -21,16 +21,16 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 79.99999999999997,
-                "y": 72
+                "x": 80,
+                "y": 71.83333333333334
             }
         },
         "corridor_scene.tmx": {
             "scale": 4,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 256,
-                "y": 96
+                "x": 192.375,
+                "y": 95.875
             }
         },
         "gb_studio_outdoors.tsx": {
@@ -41,16 +41,16 @@
             "scale": 5.5,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 49.54545454545453,
-                "y": 42.63636363636364
+                "x": 98.36363636363637,
+                "y": 61.54545454545455
             }
         },
         "shelter.tmx": {
             "scale": 3,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 79.99999999999997,
-                "y": 72
+                "x": 80,
+                "y": 71.83333333333334
             }
         },
         "small-village-tileset.tsx": {
@@ -62,7 +62,7 @@
             "scaleInEditor": 3
         }
     },
-    "last.imagePath": "/home/dorito/Developer/GBStudio/NaiaTresor/assets/backgrounds/.edits",
+    "last.imagePath": "/home/dorito/Developer/GBStudio/NAIA/assets/tilesets",
     "map.height": 18,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
@@ -81,13 +81,13 @@
     ],
     "project": "naia.tiled-project",
     "recentFiles": [
+        "Camp_scene.tmx",
         "cave.tsx",
         "gb_studio_outdoors.tsx",
         "small-village-tileset.tsx",
         "tileset-indoor.tsx",
         "cave_scene.tmx",
         "shelter.tmx",
-        "Camp_scene.tmx",
         "corridor_scene.tmx",
         "hall_scene.tmx"
     ],

@@ -8,8 +8,8 @@
     },
     {
       "id": "1",
-      "name": "Seen duck",
-      "symbol": "var_seen_duck"
+      "name": "RandomEncounter",
+      "symbol": "var_randomencounter"
     },
     {
       "id": "2",
@@ -165,6 +165,11 @@
       "id": "39",
       "name": "PlayingDrums",
       "symbol": "var_playingdrums"
+    },
+    {
+      "id": "50",
+      "name": "MonstersOutside",
+      "symbol": "var_monstersoutside"
     },
     {
       "id": "f4f59ce0-749b-4144-a5bc-86d33f4cc9ac__L0",
