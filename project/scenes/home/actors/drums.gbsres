@@ -65,6 +65,14 @@
             "args": {}
           },
           {
+            "id": "e224b8cf-0118-491f-9f71-07bd13e46dfd",
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "759a2285-cebf-451f-aa93-e8601d22a2a1",
+              "loop": true
+            }
+          },
+          {
             "id": "20e4beef-b8f1-40dd-8179-ea658785305a",
             "command": "EVENT_SET_VALUE",
             "args": {

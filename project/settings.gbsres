@@ -103,7 +103,27 @@
   "colorCorrection": "default",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
-  "scriptEventPresets": {},
+  "scriptEventPresets": {
+    "EVENT_TEXT": {
+      "1702e053-af77-42ab-8bc7-c02b451bcef6": {
+        "id": "1702e053-af77-42ab-8bc7-c02b451bcef6",
+        "name": "TextX_2",
+        "groups": [
+          "layout"
+        ],
+        "args": {
+          "position": "bottom",
+          "minHeight": 4,
+          "maxHeight": 7,
+          "textX": 2,
+          "textY": 1,
+          "textHeight": 5,
+          "clearPrevious": true,
+          "showFrame": "true"
+        }
+      }
+    }
+  },
   "scriptEventDefaultPresets": {},
   "runSceneSelectionOnly": false,
   "spriteMode": "8x16",
