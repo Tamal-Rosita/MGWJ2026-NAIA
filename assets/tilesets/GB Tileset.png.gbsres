@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "99dce0aa-5fe4-49d6-b65e-a8dd504ecc65",
+  "name": "GB Tileset",
+  "symbol": "tileset_gb_tileset",
+  "width": 8,
+  "height": 8,
+  "imageWidth": 64,
+  "imageHeight": 64,
+  "filename": "GB Tileset.png"
+}

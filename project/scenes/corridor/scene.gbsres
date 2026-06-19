@@ -11,7 +11,7 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f41+00b+0f35+00b+0f2+002+0ff+0020+0f2+004+0f2+005+0f2+00f+0f2+0020+0f2+004+0f2+005+0fb+002+0f2+002+0f2+002+0f10+005+0fb+004+0f2+005+0fb+002+0f2+002+0f2+002+0f10+005+0fb+004+0f2+00c+0f2+008+0f2+0010+0f2+005+0f2+007+0f2+004+0fc+002+0f2+008+0f2+0010+0f2+005+0f2+007+0f2+004+0fc+002+0f4+002+0f2+002+0f10+002+0f2+00e+0f2+004+0f2+00c+0f4+002+0f2+002+0f10+002+0f2+00e+0f2+004+0f4+00a+0f2+004+0f2+0014+0f2+00e+0f2+004+0f4+004+0f2+004+0f2+004+0f2+002+0f7+007+0f2+002+0f2+00e+0f2+004+0f2+006+0f8+004+0f2+002+0f7+007+0f2+002+0f2+00e+0f2+004+0f2+006+0f8+004+0f2+002+0f2+00c+0f2+002+0f2+00e+0f2+004+0f2+006+0f2+00a+0f2+002+0f2+003+0f7+002+0f2+002+0f2+005+0f2+007+0f2+004+0f2+002+0f2+00e+0f2+002+0f2+003+0f7+002+0f2+002+0f2+005+0f2+007+0f2+004+0f2+002+0f2+00e+0f2+002+0f2+003+0f2+007+0f2+002+0f2+005+0fb+004+0f2+002+0f2+00e+0f2+002+0f2+003+0f2+007+0f2+002+0f2+005+0fb+004+0f2+002+0f6+002+0fa+007+0f2+00b+0f2+00d+0f3+004+0f2+002+0f6+002+0fa+007+0f2+00b+0f2+00d+0f3+003d+0f3+003d+0f82+",
+  "collisions": "0f41+00b+0f35+00b+0f2+002+0ff+0020+0f2+004+0f2+005+0f2+00f+0f2+0020+0f2+004+0f2+005+0fb+002+0f2+002+0f2+002+0f10+005+0fb+004+0f2+005+0fb+002+0f2+002+0f2+002+0f10+005+0fb+004+0f2+00c+0f2+008+0f2+0010+0f2+005+0f2+007+0f2+004+0fc+002+0f2+008+0f2+0010+0f2+005+0f2+007+0f2+004+0fc+002+0f4+002+0f2+002+0f10+002+0f2+00e+0f2+004+0f2+00c+0f4+002+0f2+002+0f10+002+0f2+00e+0f!005+0f4+00a+0f2+004+0f2+0014+0f2+00e+0f!005+0f4+004+0f2+004+0f2+004+0f2+002+0f7+007+0f2+002+0f2+00f+0f!004+0f2+006+0f8+004+0f2+002+0f7+007+0f2+002+0f2+00e+0f2+004+0f2+006+0f8+004+0f2+002+0f2+00c+0f2+002+0f2+00e+0f2+004+0f2+006+0f2+00a+0f2+002+0f2+003+0f7+002+0f2+002+0f2+005+0f2+007+0f2+004+0f2+002+0f2+00e+0f2+002+0f2+003+0f7+002+0f2+002+0f2+005+0f2+007+0f2+004+0f2+002+0f2+00e+0f2+002+0f2+003+0f2+007+0f2+002+0f2+005+0fb+004+0f2+002+0f2+00e+0f2+002+0f2+003+0f2+007+0f2+002+0f2+005+0fb+004+0f2+002+0f6+002+0fa+007+0f2+00b+0f2+00d+0f3+004+0f2+002+0f6+002+0fa+007+0f2+00b+0f2+00d+0f3+003d+0f3+003d+0f82+",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
   "x": 560,
@@ -23,10 +23,77 @@
         "musicId": "6ae51d44-7ae8-4426-bec1-c009fbfc4e72"
       },
       "id": "eee16c05-3b08-47a6-977c-cd2fef2fdde8"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.2,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": false,
+        "__label": "Creek Animation"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 20
+              },
+              "tilesetId": "84cfe354-1a00-4e88-a2b8-e400542a953d",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L0",
+              "__collapse": false
+            },
+            "id": "149da2af-98ed-4cd6-b133-dfb7b5a54b14"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 21
+              },
+              "tilesetId": "84cfe354-1a00-4e88-a2b8-e400542a953d",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L0",
+              "__collapse": false
+            },
+            "id": "4b53469c-42c6-4603-a3e1-1d8fa01ffcfc"
+          }
+        ]
+      },
+      "id": "510a6ab5-6d75-4f69-9ec6-c9c2db93eaf7"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "8f8cac02-2047-4737-a13e-dd4b0fbd978b"
+  "playerSpriteSheetId": "8f8cac02-2047-4737-a13e-dd4b0fbd978b",
+  "labelColor": "yellow"
 }

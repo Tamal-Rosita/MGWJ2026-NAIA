@@ -11,7 +11,7 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00168+",
+  "collisions": "0f2a+008+0fc+008+0fc+008+0f2+006+0f4+008+0f2+006+0f4+008+0f!007+0f4+0010+0f2+0012+0f2+0012+0f4+0010+0f4+009+0f!006+0f4+008+0f2+006+0f4+008+0f2+006+0f4+008+0fc+008+0f32+",
   "autoFadeSpeed": 1,
   "symbol": "scene_14",
   "x": 1150,
@@ -20,5 +20,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "8f8cac02-2047-4737-a13e-dd4b0fbd978b"
+  "playerSpriteSheetId": "8f8cac02-2047-4737-a13e-dd4b0fbd978b",
+  "labelColor": "orange"
 }

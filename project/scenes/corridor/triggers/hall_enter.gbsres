@@ -1,0 +1,34 @@
+{
+  "_resourceType": "trigger",
+  "id": "650e2967-3791-4c08-9b28-028554df48a1",
+  "name": "Hall Enter",
+  "prefabId": "",
+  "_index": 0,
+  "symbol": "trigger_6",
+  "x": 62,
+  "y": 10,
+  "width": 1,
+  "height": 2,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "85a901cf-af00-422c-af2d-a8e43bfb7b2a",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e9c71df2-2113-42dc-8160-e2c9ac1b242d",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "right",
+        "fadeSpeed": "2",
+        "__comment": false
+      }
+    }
+  ],
+  "leaveScript": []
+}

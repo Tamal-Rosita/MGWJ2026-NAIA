@@ -1,31 +1,32 @@
 {
   "_resourceType": "trigger",
-  "id": "6afacec9-b7fb-4c71-82e6-b463e58f1180",
-  "_index": 0,
-  "symbol": "trigger_5",
+  "id": "bb5062f4-dcd1-4d6f-8a73-369e9f675264",
+  "name": "Hall Exit",
   "prefabId": "",
-  "name": "",
-  "x": 21,
-  "y": 31,
-  "width": 2,
+  "_index": 1,
+  "symbol": "trigger_9",
+  "x": 8,
+  "y": 17,
+  "width": 4,
   "height": 1,
   "prefabScriptOverrides": {},
   "script": [
     {
-      "id": "6f0aa602-8bf8-4eb2-8f25-ef4c82216eff",
+      "id": "d186cbdc-113d-46af-810d-ac5e5ceabbd1",
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
         "x": {
           "type": "number",
-          "value": 7
+          "value": 27
         },
         "y": {
           "type": "number",
-          "value": 3
+          "value": 8
         },
         "direction": "down",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__comment": false
       }
     }
   ],

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "443d293e-3261-4f51-9a6c-ddff5b419c81",
+  "name": "Tileset Indoor 1",
+  "symbol": "tileset_tileset_indoor_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Tileset Indoor 1.png"
+}

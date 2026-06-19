@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "5e1a21b0-0ce1-428a-be2c-e45723aaedc5",
+  "name": "gb_studio_outdoors",
+  "symbol": "tileset_gb_studio_outdoors",
+  "width": 24,
+  "height": 30,
+  "imageWidth": 192,
+  "imageHeight": 240,
+  "filename": "gb_studio_outdoors.png"
+}

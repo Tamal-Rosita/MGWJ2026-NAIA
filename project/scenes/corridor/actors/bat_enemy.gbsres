@@ -1,0 +1,63 @@
+{
+  "_resourceType": "actor",
+  "id": "e402d595-7eb3-442e-ac80-7801c815b561",
+  "name": "Bat Enemy",
+  "frame": 0,
+  "animate": true,
+  "spriteSheetId": "99de8726-5505-4575-827f-5c649675fe1a",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "_index": 13,
+  "symbol": "actor_9",
+  "coordinateType": "tiles",
+  "x": 51,
+  "y": 11,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 4
+        }
+      },
+      "id": "ede4ecec-2b4c-4f0a-95c2-15625e976568"
+    },
+    {
+      "id": "fbd9c300-2fe0-47c8-9682-fbc34c72c9d4",
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {}
+    },
+    {
+      "id": "8293becb-3866-41fe-9edb-f578cdd64180",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "left",
+        "fadeSpeed": "2"
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

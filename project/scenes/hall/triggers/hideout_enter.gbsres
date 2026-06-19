@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "e4ea97e8-29f2-4500-9cfe-ada2020bdc7c",
-  "name": "Trigger 2",
+  "id": "a1d968a3-863c-4f11-be13-dc275e980e3f",
+  "name": "Hideout Enter",
   "prefabId": "",
   "x": 16,
-  "y": 12,
-  "symbol": "trigger_15",
+  "y": 8,
+  "symbol": "trigger_14",
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 2,
@@ -13,21 +13,21 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "e9c71df2-2113-42dc-8160-e2c9ac1b242d",
+        "sceneId": "27ce1f02-cdf0-4494-8686-9dadf9d93247",
         "x": {
           "type": "number",
-          "value": 5
+          "value": 9
         },
         "y": {
           "type": "number",
-          "value": 13
+          "value": 5
         },
-        "direction": "up",
+        "direction": "down",
         "fadeSpeed": "2"
       },
-      "id": "f390e835-0f12-4a00-b641-821d4f352eb9"
+      "id": "034e280a-244c-4a9d-9e10-521a8acfb22b"
     }
   ],
   "leaveScript": [],
-  "_index": 2
+  "_index": 1
 }
