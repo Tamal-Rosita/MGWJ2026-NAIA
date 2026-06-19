@@ -6,3 +6,6 @@ cache/
 *.icloud
 
 user_settings.gbsres
+
+# MacOS trash files
+.DS_Store
