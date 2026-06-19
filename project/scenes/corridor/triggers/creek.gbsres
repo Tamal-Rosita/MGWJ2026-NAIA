@@ -1,0 +1,70 @@
+{
+  "_resourceType": "trigger",
+  "id": "dedc85aa-f4f3-4af5-ada2-04c5e976643c",
+  "name": "Creek",
+  "prefabId": "",
+  "x": 6,
+  "y": 20,
+  "symbol": "trigger_11",
+  "prefabScriptOverrides": {},
+  "width": 56,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 2,
+        "duration": 0.1,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": -1
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "6785df88-d42d-4a16-9566-ee9dd02c10ba"
+          }
+        ]
+      },
+      "id": "2d42497f-d2e5-4933-9686-ddb9fb54f30f"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 0.25
+      },
+      "id": "f7233acf-5dfd-4f4d-b26c-483a52d67287"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 2,
+        "__collapse": false
+      },
+      "id": "aec7a703-6977-48dc-bfd7-49b9684ca461"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "6d1bf13d-a643-4a61-96d6-5f20d9dcee03"
+    }
+  ],
+  "_index": 2
+}

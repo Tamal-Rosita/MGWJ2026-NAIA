@@ -11,43 +11,46 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0017+0fe+005+0f2+00c+0f2+003+0f2+00e+0f2+002+0f!005+0f5+006+0f!002+0f!004+0f!005+0f!005+0f!002+0f!004+0f!005+0f!005+0f!002+0f!004+0f!005+0f!005+0f!002+0f!004+0f7+005+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!002+02!00d+0f!002+0f!00!0f3+00c+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f2+00e+0f2+003+0f7+002+0f7+002+",
+  "collisions": "0017+0fe+005+0f2+00c+0f2+003+0f2+00e+0f2+002+0f!005+0f5+006+0f!002+0f!004+0f!005+0f!005+0f!002+0f!004+0f!005+0f!005+0f!002+0f!004+0f!005+0f!005+0f!002+0f!004+0f7+005+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!002+0f!00d+0f!002+0f!00!0f3+00c+0f!002+0f2+00e+0f2+002+0f3+00c+0f3+002+0f7+004+0f7+003+0f7+002+0f7+002+",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
   "x": 264,
   "y": 224,
   "script": [
     {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "customEventId": "aac557c9-446a-4b97-920a-26fe08fba729"
+        "musicId": "759a2285-cebf-451f-aa93-e8601d22a2a1",
+        "__collapse": true
       },
-      "id": "932576f8-85ba-4416-ac58-6ffa73ee32c6"
+      "id": "55f55f82-b490-4e34-8d9b-ff9f7bd21750"
     },
     {
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",
         "spriteStateId": "",
-        "loopAnim": true
+        "loopAnim": true,
+        "__collapse": true
       },
       "id": "526e7869-8327-45c7-af48-233df4bd4841"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9",
-        "__comment": true
-      },
-      "id": "1b43a50e-8107-4e35-9d10-b29ce625c87b"
     },
     {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 1
+        "speed": 1,
+        "__collapse": true
       },
       "id": "8213fc6f-9c70-4c7e-8b11-b353e7fa13ed"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0bc61885-2ad2-443d-9047-f24f727d74cf",
+        "__collapse": true
+      },
+      "id": "932576f8-85ba-4416-ac58-6ffa73ee32c6"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -55,7 +58,9 @@
         "timer": 1,
         "duration": 0.5,
         "frames": 30,
-        "__scriptTabs": "end"
+        "__scriptTabs": "end",
+        "__collapse": false,
+        "__comment": false
       },
       "children": {
         "script": [
@@ -70,22 +75,57 @@
                 "type": "number",
                 "value": 6
               },
-              "tilesetId": "undefined",
+              "tilesetId": "e7269d3d-0ac5-47a4-9a28-76532eaeeefc",
               "tileIndex": {
                 "type": "number",
-                "value": 1
+                "value": 15
               },
               "frames": {
                 "type": "number",
-                "value": 1
+                "value": 3
               },
-              "variable": "L0"
+              "variable": "L0",
+              "__collapse": false
             },
             "id": "da98ed31-3bbf-4b92-acad-07230165a46a"
+          },
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "tilesetId": "e7269d3d-0ac5-47a4-9a28-76532eaeeefc",
+              "tileIndex": {
+                "type": "number",
+                "value": 15
+              },
+              "frames": {
+                "type": "number",
+                "value": 3
+              },
+              "variable": "L0",
+              "__collapse": false
+            },
+            "id": "5b7f7bc7-e359-468a-a860-aea8573928f1"
           }
         ]
       },
       "id": "55daea18-4324-4531-a6ef-14556c24fd85"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "872f61cf-bd62-4e58-92ee-a751e7335fe9",
+        "__comment": true,
+        "__collapse": true
+      },
+      "id": "1b43a50e-8107-4e35-9d10-b29ce625c87b"
     }
   ],
   "playerHit1Script": [],

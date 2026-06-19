@@ -1,0 +1,34 @@
+{
+  "_resourceType": "trigger",
+  "id": "3293a62a-7598-4aa5-a12b-0e1658e7665c",
+  "name": "Hoyo Negro Enter",
+  "prefabId": "",
+  "_index": 0,
+  "symbol": "trigger_8",
+  "x": 9,
+  "y": 17,
+  "width": 2,
+  "height": 1,
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "id": "aa830f91-a7b4-464a-8245-91dc14f36127",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "8a52b387-2a88-4741-8d4e-ca56acea4672",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 4
+        },
+        "direction": "right",
+        "fadeSpeed": "2",
+        "__comment": false
+      }
+    }
+  ],
+  "leaveScript": []
+}
