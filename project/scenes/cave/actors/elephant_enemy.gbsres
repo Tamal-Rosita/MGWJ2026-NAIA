@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "0f770e08-488c-41ef-aef6-2172ad7312d1",
-  "name": "BlockingEnemy",
+  "name": "Elephant Enemy",
   "frame": 0,
   "animate": true,
   "spriteSheetId": "55561033-cbbb-4d7b-9961-4db33c1d596c",
@@ -27,7 +27,7 @@
         "variable": "3",
         "value": {
           "type": "number",
-          "value": 3
+          "value": 4
         }
       },
       "id": "d3b49cee-7d17-4fd3-8aa5-8fcea8d3c0bf"

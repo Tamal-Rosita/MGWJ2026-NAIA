@@ -7,11 +7,6 @@
       "symbol": "var_language"
     },
     {
-      "id": "2",
-      "name": "Enemies",
-      "symbol": "var_enemies"
-    },
-    {
       "id": "3",
       "name": "EnemyID",
       "symbol": "var_enemyid"
@@ -360,6 +355,11 @@
       "id": "94c18861-b352-4f49-a64d-52f2e3415077__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
+    },
+    {
+      "id": "40",
+      "name": "Enemies01",
+      "symbol": "var_enemies01"
     }
   ],
   "constants": []

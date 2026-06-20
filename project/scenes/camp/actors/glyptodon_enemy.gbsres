@@ -29,7 +29,7 @@
           "type": "number",
           "value": 1
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "967210ae-5807-43b3-8ceb-a260bfee0266"
     },

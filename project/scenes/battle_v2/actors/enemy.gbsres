@@ -26,7 +26,7 @@
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "3",
-        "choices": 3,
+        "choices": 4,
         "__collapseCase0": false,
         "__collapseCase1": false,
         "__collapseCase2": false,
@@ -45,7 +45,19 @@
         "__collapseCase15": false,
         "__collapseElse": false,
         "__collapse": false,
-        "__label": "Pick Correct Sprite Sheet"
+        "__label": "Pick Correct Sprite Sheet",
+        "value1": {
+          "type": "number",
+          "value": 2
+        },
+        "value2": {
+          "type": "number",
+          "value": 3
+        },
+        "value3": {
+          "type": "number",
+          "value": 4
+        }
       },
       "children": {
         "true0": [
@@ -64,7 +76,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "0525cd65-ba3e-4e1b-92bc-95851ebeeceb",
+              "spriteSheetId": "99de8726-5505-4575-827f-5c649675fe1a",
               "__collapse": false
             },
             "id": "c81f618a-b1be-4595-a926-d7beb4a8509b"
@@ -75,13 +87,23 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "55561033-cbbb-4d7b-9961-4db33c1d596c",
+              "spriteSheetId": "99de8726-5505-4575-827f-5c649675fe1a",
               "__collapse": false
             },
             "id": "05c6fa74-f5b0-47d7-be9c-88fd75d1b78c"
           }
         ],
-        "true3": [],
+        "true3": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "55561033-cbbb-4d7b-9961-4db33c1d596c",
+              "__collapse": false
+            },
+            "id": "1f6fbc72-44b6-4e99-9d38-cfd215fe0bee"
+          }
+        ],
         "true4": [],
         "true5": [],
         "true6": [],
@@ -99,7 +121,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "e6d3a8ce-8304-43c1-8611-e5eac1a6b727",
+              "spriteSheetId": "0525cd65-ba3e-4e1b-92bc-95851ebeeceb",
               "__collapse": false
             },
             "id": "f2a69c35-292a-49bf-96e9-0a8ca4f83140"
@@ -107,59 +129,6 @@
         ]
       },
       "id": "c05510be-e7f4-4195-ab09-8b28564f2d41"
-    },
-    {
-      "id": "665b90a0-b6ef-4fa5-acc7-e8156a3f48ee",
-      "command": "EVENT_GROUP",
-      "args": {
-        "__label": "Set Enemy Stats",
-        "__collapse": false
-      },
-      "children": {
-        "true": [
-          {
-            "id": "4a3ddbec-7d45-48c8-a9ed-3481ebe5098b",
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "18",
-              "value": {
-                "type": "number",
-                "value": 35
-              },
-              "__collapse": false,
-              "__label": "Enemy HP"
-            }
-          },
-          {
-            "id": "7f5e17ba-ca03-45fd-bd1b-5ce6eee3f0b0",
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "19",
-              "value": {
-                "type": "number",
-                "value": 100
-              },
-              "__collapse": false
-            }
-          },
-          {
-            "id": "74d43bc8-a229-4838-bc96-95cab577b9ee",
-            "command": "EVENT_VARIABLE_MATH",
-            "args": {
-              "vectorX": "19",
-              "operation": "div",
-              "other": "var",
-              "vectorY": "20",
-              "value": "1",
-              "minValue": "0",
-              "maxValue": "255",
-              "clamp": false,
-              "__collapse": false,
-              "__label": "Enemy Damage"
-            }
-          }
-        ]
-      }
     }
   ],
   "updateScript": [],
