@@ -13,6 +13,14 @@
                 "y": 104.83333333333334
             }
         },
+        "camp_scene.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 120,
+                "y": 136.5
+            }
+        },
         "cave.tsx": {
             "scaleInDock": 2.5,
             "scaleInEditor": 2
@@ -21,16 +29,16 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
-                "y": 71.83333333333334
+                "x": 84.33333333333333,
+                "y": 73.83333333333334
             }
         },
         "corridor_scene.tmx": {
-            "scale": 4,
+            "scale": 1.5,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 192.375,
-                "y": 95.875
+                "x": 268.66666666666663,
+                "y": 167
             }
         },
         "gb_studio_outdoors.tsx": {
@@ -38,19 +46,19 @@
             "scaleInEditor": 3
         },
         "hall_scene.tmx": {
-            "scale": 5.5,
+            "scale": 3,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 98.36363636363637,
-                "y": 61.54545454545455
+                "x": 79.66666666666666,
+                "y": 58.16666666666666
             }
         },
         "shelter.tmx": {
             "scale": 3,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 80,
-                "y": 71.83333333333334
+                "x": 78,
+                "y": 75.16666666666666
             }
         },
         "small-village-tileset.tsx": {

@@ -1,0 +1,120 @@
+{
+  "_resourceType": "script",
+  "id": "0683bdf9-6b08-4aa3-a333-58f4256d9b3b",
+  "name": "Random Encounters Init",
+  "description": "Set random encounters for each scene at the beginning Init.",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_6",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "f4b13359-77a2-4f9f-8652-cefd62e66e04"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "79018d71-97a3-4d73-b595-924cce465f96"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left",
+          "up",
+          "down",
+          "right"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "4"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                  "args": {
+                    "variable": "5",
+                    "expression": "$05$ + 1",
+                    "__collapse": false
+                  },
+                  "id": "13e1ff5c-ea5d-4c7a-9a83-a9deeebfa4c9"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "expression",
+                      "value": "$05$ > $06$"
+                    },
+                    "__collapseElse": true,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "id": "9ff8ced5-af77-484a-b9a9-ff273436c9e2",
+                        "command": "EVENT_SCENE_PUSH_STATE",
+                        "args": {
+                          "__collapse": false
+                        }
+                      },
+                      {
+                        "id": "a6d04320-fcd5-4598-8f1c-cbd40cf8c73f",
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",
+                          "x": {
+                            "type": "number",
+                            "value": 15
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 11
+                          },
+                          "direction": "left",
+                          "fadeSpeed": "2",
+                          "__collapse": false
+                        }
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "89fbbc84-1d04-494c-a8e5-4aa8774af09d"
+                }
+              ],
+              "false": []
+            },
+            "id": "86419590-e951-4f5d-b0e4-444326ea97de"
+          }
+        ]
+      },
+      "id": "5b0eac93-9a95-4535-8b9d-f73b539eefd6"
+    }
+  ]
+}

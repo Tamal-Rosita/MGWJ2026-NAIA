@@ -28,14 +28,17 @@
         "value": {
           "type": "number",
           "value": 1
-        }
+        },
+        "__collapse": true
       },
       "id": "967210ae-5807-43b3-8ceb-a260bfee0266"
     },
     {
       "id": "0297508e-409e-454b-8339-322c4c638c51",
       "command": "EVENT_SCENE_PUSH_STATE",
-      "args": {}
+      "args": {
+        "__collapse": true
+      }
     },
     {
       "id": "f0a26073-8483-4e2d-a24c-f71c006cdb37",
@@ -51,7 +54,8 @@
           "value": 11
         },
         "direction": "left",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__collapse": true
       }
     }
   ],
