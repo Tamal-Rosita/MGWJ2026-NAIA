@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "44100900-8867-48dc-8f79-e6204f6dcf3a",
+  "name": "doctor_0.1",
+  "symbol": "sprite_doctor_0_1",
+  "states": [
+    {
+      "id": "28c28b61-c253-4605-8889-cc4098b4590e",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "3d163ec1-2cfa-4104-9c8d-02fa801d70fa",
+          "frames": [
+            {
+              "id": "b78fe39a-24a2-4768-91d1-7ca5a40c8cc4",
+              "tiles": [
+                {
+                  "id": "f7f62941-6b7e-4452-a4df-27ce56a09029",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "1c4dee09-2196-4920-b4b0-fbd46e2e16b4",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "97e038f4-7c50-42d3-9740-dd096d04e506",
+          "frames": [
+            {
+              "id": "04845adb-ced9-4ca9-8f84-d7e225fe93cb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "15797f9e-3aac-45da-b4d4-8edb7b63a4cb",
+          "frames": [
+            {
+              "id": "cf758d40-c67f-4a6e-8a04-658e655bf51e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fca71df9-a4a3-4ca7-91be-165dc8c6c0eb",
+          "frames": [
+            {
+              "id": "564557fe-31b2-416e-b0f3-d4e0c2b73be0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "60074a13-55d9-4aad-9057-d4d57644428c",
+          "frames": [
+            {
+              "id": "618c0917-7961-480b-8ce2-b2a133792781",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "285e04d7-d4a6-42da-ade6-9359f38b5e37",
+          "frames": [
+            {
+              "id": "1b79b7a1-c878-4202-9266-f1469733959c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "acabd213-a78b-4ec0-a3af-507175b8e670",
+          "frames": [
+            {
+              "id": "f066cc6c-a5d5-4a33-8c81-c54d12864a54",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "df90e8b3-4d18-4c30-8143-6cfb50357f3c",
+          "frames": [
+            {
+              "id": "bb348d7a-ae61-4d7e-b939-e03f2a42c57d",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "doctor_0.1.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "9471db7c27e1e47afe555421debc679833167ccd"
+}

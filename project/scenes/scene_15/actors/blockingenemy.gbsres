@@ -4,7 +4,7 @@
   "name": "BlockingEnemy",
   "frame": 0,
   "animate": true,
-  "spriteSheetId": "55561033-cbbb-4d7b-9961-4db33c1d596c",
+  "spriteSheetId": "f8d838e0-edb5-4a5f-825f-fe0fca4b6180",
   "prefabId": "",
   "direction": "left",
   "moveSpeed": 1,
@@ -18,8 +18,8 @@
   "_index": 0,
   "symbol": "actor_29",
   "coordinateType": "tiles",
-  "x": 12,
-  "y": 9,
+  "x": 34,
+  "y": 1,
   "script": [
     {
       "command": "EVENT_SET_VALUE",

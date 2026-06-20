@@ -18,17 +18,25 @@
   "_index": 1,
   "symbol": "actor_28",
   "coordinateType": "tiles",
-  "x": 14,
+  "x": 15,
   "y": 13,
   "script": [
     {
-      "id": "c7bf569b-f28e-4376-b2f8-1f20ed87f62e",
-      "command": "EVENT_TEXT",
+      "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "text": [
-          "Hamaca reservada!"
-        ]
-      }
+        "sceneId": "eafc85ba-1f8d-440b-b3a3-06ac809f75c1",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "90948eea-9235-436e-b8e7-4f683a00e83b"
     }
   ],
   "startScript": [],

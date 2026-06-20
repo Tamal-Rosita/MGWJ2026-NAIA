@@ -1,0 +1,119 @@
+{
+  "_resourceType": "scene",
+  "id": "eafc85ba-1f8d-440b-b3a3-06ac809f75c1",
+  "_index": 15,
+  "name": "Lab",
+  "backgroundId": "7e2496e9-8708-4683-983b-55fd2c4c8202",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_16",
+  "x": 64,
+  "y": 648,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "2de8867a-b3d4-4a22-bfb9-8abea22ba63a"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "86c3a6f9-79ab-4868-8ae4-caf12a1ce582"
+      },
+      "id": "32535dd8-7aa8-45bf-97d1-57562381f145"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hola, me da gusto\nque vinieras...",
+          "a saludar.",
+          "Estamos en el...\n",
+          "Centro INAH\nCampeche.",
+          "Hoy es un día\nmuy importante.",
+          "Nuestros colegas\nespeleobuzos",
+          "encontraron un\nesqueleto en ",
+          "la Cueva de Hoyo\nNegro, muy cerca",
+          "de Tulum.",
+          "Y hoy los\ncomenzarán a traer",
+          "justo a este\nlugar.",
+          "Sabemos que son\nhuesos de humano.",
+          "Y creemos que son\nbastante antigüos.",
+          "Después de muchos\nesfuerzos ",
+          "Podrán extraer del\nagua los huesos.",
+          "Ese es un\nprocedimiento muy",
+          "complejo y\npeligroso.",
+          "Si no se realiza\ncorrectamente,",
+          "los huesos se\npueden desmoronar",
+          "al sacarlos del\nagua.",
+          "¡Como un mazapán!",
+          "Eso sería\nterrible.",
+          "Hay mucha\ninformación del",
+          "pasado que podemos\naprender si",
+          "estudiamos estos\nhuesos.",
+          "Por eso, es\nimportante ",
+          "conservar los\nobjetos del pasado",
+          "Incluso si los \nencontramos",
+          "debajo del agua.",
+          "Cuando lleguen\naquí, realizaremos",
+          "un registro \nmicrotomográfico",
+          "y otros estudios\npara descubrir",
+          "que historia hay\ndetrás de este",
+          "descubrimiento.",
+          "...",
+          "Me pregunto...",
+          "¿quién habrá sido\nesta persona?",
+          "¿cómo habrá sido\nsu vida?",
+          "..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "28585599-5caf-4cd6-92c6-eb8ed2a2331d"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "1c89d36b-4f74-4e4e-8802-0686d43e87f8",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "2a060906-c3c1-4dc1-8c2a-ab7047d988ea"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "purple"
+}
