@@ -1,5 +1,5 @@
 {
-    "activeFile": "hall_scene.tmx",
+    "activeFile": "cave.tsx",
     "expandedProjectPaths": [
         "."
     ],
@@ -62,7 +62,7 @@
             }
         },
         "small-village-tileset.tsx": {
-            "scaleInDock": 2.5,
+            "scaleInDock": 4,
             "scaleInEditor": 4
         },
         "tileset-indoor.tsx": {
@@ -83,21 +83,22 @@
         "tileset-indoor.tsx",
         "cave_scene.tmx",
         "shelter.tmx",
-        "Camp_scene.tmx",
         "corridor_scene.tmx",
-        "hall_scene.tmx"
+        "hall_scene.tmx",
+        "camp_scene.tmx"
     ],
     "project": "naia.tiled-project",
     "recentFiles": [
-        "Camp_scene.tmx",
-        "cave.tsx",
-        "gb_studio_outdoors.tsx",
-        "small-village-tileset.tsx",
-        "tileset-indoor.tsx",
-        "cave_scene.tmx",
-        "shelter.tmx",
+        "camp_scene.tmx",
+        "hall_scene.tmx",
         "corridor_scene.tmx",
-        "hall_scene.tmx"
+        "shelter.tmx",
+        "cave_scene.tmx",
+        "tileset-indoor.tsx",
+        "small-village-tileset.tsx",
+        "gb_studio_outdoors.tsx",
+        "cave.tsx",
+        "Camp_scene.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

@@ -55,7 +55,7 @@
                 ],
                 "rows": [
                   {
-                    "label": "0",
+                    "label": "Slime",
                     "values": [
                       {
                         "type": "number",
@@ -68,7 +68,7 @@
                     ]
                   },
                   {
-                    "label": "1",
+                    "label": "Glyptodon",
                     "values": [
                       {
                         "type": "number",
@@ -81,7 +81,7 @@
                     ]
                   },
                   {
-                    "label": "2",
+                    "label": "Murcielago_Rnd",
                     "values": [
                       {
                         "type": "number",
@@ -94,7 +94,7 @@
                     ]
                   },
                   {
-                    "label": "3",
+                    "label": "Murcielago_Fxd",
                     "values": [
                       {
                         "type": "number",
@@ -107,7 +107,7 @@
                     ]
                   },
                   {
-                    "label": "4",
+                    "label": "Elefante",
                     "values": [
                       {
                         "type": "number",
