@@ -1,0 +1,40 @@
+{
+  "_resourceType": "script",
+  "id": "cc93a56c-681c-4160-a0a8-86c7e965b974",
+  "name": "Exit Random Encounter Area",
+  "description": "Attach this to a trigger area for random encounters correct disabl.",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_9",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "a69fe936-90f7-4675-8cd0-36d0060fed81"
+    },
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left",
+          "up",
+          "down",
+          "right"
+        ]
+      },
+      "id": "3966dba4-6518-4a16-8760-05cd3cb43299"
+    },
+    {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 4
+      },
+      "id": "c31f9159-6c72-4225-a3a7-e9699ba6e93a"
+    }
+  ]
+}

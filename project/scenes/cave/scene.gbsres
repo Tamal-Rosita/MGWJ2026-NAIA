@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "Cave",
   "symbol": "scene_cave",
-  "x": 568,
-  "y": 536,
+  "x": 1136,
+  "y": 680,
   "width": 20,
   "height": 18,
   "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
@@ -96,6 +96,49 @@
         ]
       },
       "id": "6335135c-9731-409a-971f-35c1e8d7b5db"
+    },
+    {
+      "id": "5d78076f-67d0-4d1e-828c-02a76fccae0d",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "Enemy Actors Init"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "40",
+              "flag": 4,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "0f770e08-488c-41ef-aef6-2172ad7312d1",
+                    "__collapse": false
+                  },
+                  "id": "3f0d72a9-eaa5-44d3-9ea3-ecabcbe6fbde"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_ACTIVATE",
+                  "args": {
+                    "actorId": "0f770e08-488c-41ef-aef6-2172ad7312d1"
+                  },
+                  "id": "3849a40a-e201-41af-a9c4-8a5a0081b356"
+                }
+              ]
+            },
+            "id": "067f3e73-1178-4512-8094-e7738e474198"
+          }
+        ]
+      }
     },
     {
       "command": "EVENT_ACTOR_SET_STATE",

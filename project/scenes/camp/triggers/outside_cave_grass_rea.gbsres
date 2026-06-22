@@ -1,0 +1,36 @@
+{
+  "_resourceType": "trigger",
+  "id": "991a21ec-b2c3-46ec-83fb-69e5777b5bc3",
+  "name": "Outside Cave Grass REA",
+  "prefabId": "",
+  "x": 20,
+  "y": 7,
+  "symbol": "trigger_16",
+  "prefabScriptOverrides": {},
+  "width": 11,
+  "height": 7,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d258e5bd-77ab-4e34-b5a7-fabcd739d4b2",
+        "__collapse": false,
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "9f58067b-4921-4647-9676-a2e08f701e5d"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "cc93a56c-681c-4160-a0a8-86c7e965b974"
+      },
+      "id": "e5231982-88df-47eb-b116-7659218921b1"
+    }
+  ],
+  "_index": 3
+}

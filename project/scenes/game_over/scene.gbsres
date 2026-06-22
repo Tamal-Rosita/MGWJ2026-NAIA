@@ -14,8 +14,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_11",
-  "x": 760,
-  "y": 360,
+  "x": 744,
+  "y": 216,
   "script": [
     {
       "id": "a218d3de-326d-408a-a41c-35d5549fa946",
@@ -80,6 +80,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "green",
+  "labelColor": "yellow",
   "playerSpriteSheetId": "8f8cac02-2047-4737-a13e-dd4b0fbd978b"
 }
