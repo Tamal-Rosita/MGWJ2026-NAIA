@@ -19,6 +19,13 @@
   "autoFadeEventCollapse": true,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6"
+      },
+      "id": "6398d191-6136-4744-972c-358526c829d0"
+    },
+    {
       "command": "EVENT_CAMERA_MOVE_TO",
       "args": {
         "x": {
@@ -39,7 +46,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Set Enemy Stats",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -55,7 +62,7 @@
                 ],
                 "rows": [
                   {
-                    "label": "Slime",
+                    "label": "Slime_Fxd",
                     "values": [
                       {
                         "type": "number",
@@ -81,15 +88,15 @@
                     ]
                   },
                   {
-                    "label": "Murcielago_Rnd",
+                    "label": "Slime_Rnd",
                     "values": [
                       {
                         "type": "number",
-                        "value": 20
+                        "value": 15
                       },
                       {
                         "type": "number",
-                        "value": 60
+                        "value": 30
                       }
                     ]
                   },
@@ -102,12 +109,25 @@
                       },
                       {
                         "type": "number",
-                        "value": 100
+                        "value": 50
                       }
                     ]
                   },
                   {
-                    "label": "Elefante",
+                    "label": "Murcielago_Rnd",
+                    "values": [
+                      {
+                        "type": "number",
+                        "value": 20
+                      },
+                      {
+                        "type": "number",
+                        "value": 30
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Elephant",
                     "values": [
                       {
                         "type": "number",
@@ -120,7 +140,7 @@
                     ]
                   },
                   {
-                    "label": "Fish",
+                    "label": "Fish_Rnd",
                     "values": [
                       {
                         "type": "number",

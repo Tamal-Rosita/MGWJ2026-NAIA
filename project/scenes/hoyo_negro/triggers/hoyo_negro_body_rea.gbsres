@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
   "id": "01798ddf-d5dc-4315-9a8c-2ddb6ee6dffa",
-  "name": "Corridor Body REA",
+  "name": "Hoyo Negro Body REA",
   "prefabId": "",
   "x": 0,
-  "y": 0,
+  "y": 1,
   "symbol": "trigger_19",
   "prefabScriptOverrides": {},
   "width": 30,
-  "height": 19,
+  "height": 20,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",

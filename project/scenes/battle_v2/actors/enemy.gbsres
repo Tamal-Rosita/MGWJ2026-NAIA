@@ -48,15 +48,19 @@
         "__label": "Pick Correct Sprite Sheet",
         "value1": {
           "type": "number",
-          "value": 2
+          "value": 3
         },
         "value2": {
           "type": "number",
-          "value": 3
+          "value": 4
         },
         "value3": {
           "type": "number",
-          "value": 4
+          "value": 5
+        },
+        "value4": {
+          "type": "number",
+          "value": 6
         }
       },
       "children": {

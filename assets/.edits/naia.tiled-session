@@ -1,5 +1,5 @@
 {
-    "activeFile": "corridor_scene.tmx",
+    "activeFile": "camp_scene.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -14,11 +14,11 @@
             }
         },
         "camp_scene.tmx": {
-            "scale": 4,
+            "scale": 2,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 128,
-                "y": 127.875
+                "x": 135,
+                "y": 146.75
             }
         },
         "cave.tsx": {
@@ -37,8 +37,8 @@
             "scale": 1.5,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 256,
-                "y": 95.66666666666669
+                "x": 250.66666666666663,
+                "y": 167
             }
         },
         "gb_studio_outdoors.tsx": {
@@ -100,10 +100,10 @@
         "tileset-indoor.tsx",
         "cave_scene.tmx",
         "shelter.tmx",
+        "corridor_scene.tmx",
+        "hall_scene.tmx",
         "water-anim-left.tsx",
         "camp_scene.tmx",
-        "hall_scene.tmx",
-        "corridor_scene.tmx",
         "Camp_scene.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
