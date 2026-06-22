@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "Camp",
   "symbol": "scene_outside",
-  "x": 464,
-  "y": 216,
+  "x": 456,
+  "y": 256,
   "width": 32,
   "height": 32,
   "backgroundId": "663a613a-7c17-468b-9f62-666682e54a7c",
@@ -28,7 +28,8 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "0683bdf9-6b08-4aa3-a333-58f4256d9b3b",
-        "__collapse": true
+        "__collapse": false,
+        "__comment": false
       },
       "id": "725b641a-ce5c-4977-9fae-37cdb2165de0"
     },
@@ -36,7 +37,7 @@
       "id": "18a78df1-7db4-4cab-b28d-a24d8452c178",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Enemy Actors Init"
       },
       "children": {
@@ -127,7 +128,7 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0f5+005+0fe+008+0f!002+0f2+0012+0f!008+0f!002+0f2+00a+0f4+004+0f!008+0f3+002+0f!008+0f6+003+0f!008+0f!00d+0f2+002+0f2+003+0f5+00!0f4+006+0f2+0016+0f2+006+0f2+0016+0f2+006+0f!0017+0f2+001e+0f2+001e+0f2+005+0f2+005+0f2+0010+0f2+005+0f2+005+0f2+0010+0f2+004+0f4+004+0f2+0010+0f2+004+0f2+00!0f!004+0f2+0010+0f2+00c+0f2+0010+0f2+00c+0f2+0010+0f2+00c+0f2+00b+0f4+00!0f2+0018+0f8+0018+0f2+002+0f4+003+0f2+0019+0f2+002+0f4+0018+0f2+002+0f!002+0f!0019+0f!0016+0fa+0015+0f!009+0f!0014+0f!00a+0f!004+0f2+00d+0f!00b+0f!004+0f2+00c+0f!00c+0f!004+0f!00c+0f!00d+0f!0010+0f!00e+0f!00f+0f!00f+0f!00e+0f!0010+0f10+0010+",
+  "collisions": "0f5+005+0fe+008+0f!002+0f2+00f+0f4+008+0f!002+0f2+00a+0f4+00!0f4+008+0f3+002+0f!008+0f6+00!0fc+00d+0f2+002+0f2+00!0f6+002+0f4+006+0f2+00c+0f2+008+0f2+006+0f2+00c+0f2+008+0f2+006+0f!0017+0f2+001e+0f2+001e+0f2+005+0f2+0017+0f2+005+0f2+0017+0f2+004+0f4+0016+0f2+004+0f2+00!0f!0016+0f2+001e+0f2+001e+0f2+0019+0f4+00!0f2+0018+0f8+0018+0f2+002+0f4+003+0f2+0019+0f2+002+0f4+0018+0f2+002+0f!002+0f!0019+0f!0016+0fa+0015+0f!009+0f!0014+0f!00a+0f!004+0f2+00d+0f!00b+0f!004+0f2+00c+0f!00c+0f!004+0f!00c+0f!00d+0f!0010+0f!00e+0f!00f+0f!00f+0f!00e+0f!0010+0f10+0010+",
   "playerSpriteSheetId": "8f8cac02-2047-4737-a13e-dd4b0fbd978b",
   "labelColor": "green",
   "autoFadeEventCollapse": true

@@ -11,7 +11,7 @@
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "3",
-        "choices": 4,
+        "choices": 5,
         "__collapseCase0": false,
         "__collapseCase1": false,
         "__collapseCase2": false,
@@ -41,7 +41,15 @@
         },
         "value2": {
           "type": "number",
+          "value": 2
+        },
+        "value3": {
+          "type": "number",
           "value": 3
+        },
+        "value4": {
+          "type": "number",
+          "value": 4
         }
       },
       "children": {
@@ -145,7 +153,31 @@
             "id": "c7a58977-8da9-4a6f-9d5d-de56fe7d3332"
           }
         ],
-        "true4": [],
+        "true4": [
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "40",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": true,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "38d7f0ad-0fa6-444a-9b77-dbcc957bf9c3"
+          }
+        ],
         "true5": [],
         "true6": [],
         "true7": [],

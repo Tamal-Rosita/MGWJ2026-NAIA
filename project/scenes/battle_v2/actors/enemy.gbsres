@@ -26,7 +26,7 @@
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "3",
-        "choices": 4,
+        "choices": 5,
         "__collapseCase0": false,
         "__collapseCase1": false,
         "__collapseCase2": false,
@@ -104,7 +104,17 @@
             "id": "1f6fbc72-44b6-4e99-9d38-cfd215fe0bee"
           }
         ],
-        "true4": [],
+        "true4": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "c0cab8f8-138e-421d-b8cc-8c0b71a4bcde",
+              "__collapse": false
+            },
+            "id": "71089667-add0-40a9-8868-54f6485e38b2"
+          }
+        ],
         "true5": [],
         "true6": [],
         "true7": [],

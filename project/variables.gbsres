@@ -13,8 +13,8 @@
     },
     {
       "id": "4",
-      "name": "RandomEncounter",
-      "symbol": "var_randomencounter_0"
+      "name": "Random Encounter Enabled",
+      "symbol": "var_random_encounter_enable"
     },
     {
       "id": "5",
@@ -23,23 +23,23 @@
     },
     {
       "id": "6",
-      "name": "EncounterThreshold",
-      "symbol": "var_encounterthreshold"
+      "name": "Random Encounter Threshold",
+      "symbol": "var_random_encounter_thresh"
     },
     {
       "id": "7",
-      "name": "Quest4",
-      "symbol": "var_quest4"
+      "name": "Random Encounter Area ID",
+      "symbol": "var_random_encounter_area_i"
     },
     {
       "id": "8",
-      "name": "Quest5",
-      "symbol": "var_quest5"
+      "name": "Random Encounter Min Threshold",
+      "symbol": "var_random_encounter_min_th"
     },
     {
       "id": "9",
-      "name": "Quest6",
-      "symbol": "var_quest6"
+      "name": "Random Encounter Max Threshold",
+      "symbol": "var_random_encounter_max_th"
     },
     {
       "id": "10",

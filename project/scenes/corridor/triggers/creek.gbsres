@@ -3,11 +3,11 @@
   "id": "dedc85aa-f4f3-4af5-ada2-04c5e976643c",
   "name": "Creek",
   "prefabId": "",
-  "x": 6,
+  "x": 5,
   "y": 20,
   "symbol": "trigger_11",
   "prefabScriptOverrides": {},
-  "width": 56,
+  "width": 57,
   "height": 2,
   "script": [
     {

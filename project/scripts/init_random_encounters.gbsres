@@ -1,0 +1,42 @@
+{
+  "_resourceType": "script",
+  "id": "0683bdf9-6b08-4aa3-a333-58f4256d9b3b",
+  "name": "Init Random Encounters",
+  "description": "Set random encounters for each scene at the beginning Init.",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_6",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "f4b13359-77a2-4f9f-8652-cefd62e66e04"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "false"
+        },
+        "__collapse": true
+      },
+      "id": "79018d71-97a3-4d73-b595-924cce465f96"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "6",
+        "expression": "rnd($09$ - $08$) + $08$"
+      },
+      "id": "fd5de6ea-8904-4a09-80ac-e4dbda280510"
+    }
+  ]
+}

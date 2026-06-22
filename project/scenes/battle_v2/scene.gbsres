@@ -14,8 +14,8 @@
   "collisions": "0018c+",
   "autoFadeSpeed": null,
   "symbol": "scene_0",
-  "x": 760,
-  "y": 176,
+  "x": 736,
+  "y": 416,
   "autoFadeEventCollapse": true,
   "script": [
     {
@@ -116,6 +116,19 @@
                       {
                         "type": "number",
                         "value": 100
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Fish",
+                    "values": [
+                      {
+                        "type": "number",
+                        "value": 15
+                      },
+                      {
+                        "type": "number",
+                        "value": 30
                       }
                     ]
                   }
@@ -1768,7 +1781,7 @@
                           "operator": "==",
                           "comparator": 1,
                           "__collapseElse": false,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "Attack",
                           "__disableElse": true,
                           "condition": {
@@ -2518,7 +2531,7 @@
                           "operator": "==",
                           "comparator": 2,
                           "__collapseElse": false,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "Magic",
                           "__comment": false,
                           "__disableElse": true,
@@ -8045,7 +8058,7 @@
                           "operator": "==",
                           "comparator": 4,
                           "__collapseElse": true,
-                          "__collapse": true,
+                          "__collapse": false,
                           "__label": "Flee",
                           "__comment": false,
                           "__disableElse": true,
@@ -8075,7 +8088,7 @@
                                 "minValue": "0",
                                 "maxValue": 10,
                                 "clamp": false,
-                                "__collapse": true
+                                "__collapse": false
                               }
                             },
                             {
@@ -8090,7 +8103,7 @@
                                 "minValue": "0",
                                 "maxValue": "255",
                                 "clamp": false,
-                                "__collapse": true
+                                "__collapse": false
                               }
                             },
                             {
@@ -8101,7 +8114,7 @@
                                 "operator": ">=",
                                 "comparator": 7,
                                 "__collapseElse": false,
-                                "__collapse": true,
+                                "__collapse": false,
                                 "condition": {
                                   "type": "gte",
                                   "valueA": {

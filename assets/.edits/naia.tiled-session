@@ -1,5 +1,5 @@
 {
-    "activeFile": "cave.tsx",
+    "activeFile": "corridor_scene.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -14,11 +14,11 @@
             }
         },
         "camp_scene.tmx": {
-            "scale": 3,
-            "selectedLayer": 0,
+            "scale": 4,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 175.83333333333331,
-                "y": 73.83333333333334
+                "x": 128,
+                "y": 127.875
             }
         },
         "cave.tsx": {
@@ -29,16 +29,16 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 126.83333333333333,
-                "y": 73.83333333333334
+                "x": 80,
+                "y": 71.83333333333334
             }
         },
         "corridor_scene.tmx": {
             "scale": 1.5,
-            "selectedLayer": 2,
+            "selectedLayer": 4,
             "viewCenter": {
-                "x": 353.66666666666663,
-                "y": 167
+                "x": 256,
+                "y": 95.66666666666669
             }
         },
         "gb_studio_outdoors.tsx": {
@@ -49,16 +49,16 @@
             "scale": 3,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 122.16666666666666,
-                "y": 58.16666666666666
+                "x": 80.33333333333331,
+                "y": 72.5
             }
         },
         "shelter.tmx": {
             "scale": 3,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 120.49999999999997,
-                "y": 75.16666666666666
+                "x": 80,
+                "y": 71.83333333333334
             }
         },
         "small-village-tileset.tsx": {
@@ -68,6 +68,10 @@
         "tileset-indoor.tsx": {
             "scaleInDock": 2.5,
             "scaleInEditor": 3
+        },
+        "water-anim-left.tsx": {
+            "scaleInDock": 8,
+            "scaleInEditor": 1
         }
     },
     "last.imagePath": "/home/dorito/Developer/GBStudio/NAIA/assets/tilesets",
@@ -85,19 +89,21 @@
         "shelter.tmx",
         "corridor_scene.tmx",
         "hall_scene.tmx",
-        "camp_scene.tmx"
+        "camp_scene.tmx",
+        "water-anim-left.tsx"
     ],
     "project": "naia.tiled-project",
     "recentFiles": [
+        "cave.tsx",
+        "gb_studio_outdoors.tsx",
+        "small-village-tileset.tsx",
+        "tileset-indoor.tsx",
+        "cave_scene.tmx",
+        "shelter.tmx",
+        "water-anim-left.tsx",
         "camp_scene.tmx",
         "hall_scene.tmx",
         "corridor_scene.tmx",
-        "shelter.tmx",
-        "cave_scene.tmx",
-        "tileset-indoor.tsx",
-        "small-village-tileset.tsx",
-        "gb_studio_outdoors.tsx",
-        "cave.tsx",
         "Camp_scene.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",

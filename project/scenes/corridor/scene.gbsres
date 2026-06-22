@@ -14,8 +14,8 @@
   "collisions": "0f41+00b+0f35+00b+0f2+002+0ff+0020+0f2+004+0f2+005+0f2+00f+0f2+0020+0f2+004+0f2+005+0fb+002+0f2+002+0f2+002+0f10+005+0fb+004+0f2+005+0fb+002+0f2+002+0f2+002+0f10+005+0fb+004+0f2+00c+0f2+008+0f2+0010+0f2+005+0f2+007+0f2+004+0fc+002+0f2+008+0f2+0010+0f2+005+0f2+007+0f2+004+0fc+002+0f4+002+0f2+002+0f10+002+0f2+00e+0f2+004+0f2+00c+0f4+002+0f2+002+0f10+002+0f2+00e+0f!005+0f4+00a+0f2+004+0f2+0014+0f2+00e+0f!005+0f4+004+0f2+004+0f2+004+0f2+002+0f7+007+0f2+002+0f2+00f+0f!004+0f2+006+0f8+004+0f2+002+0f7+007+0f2+002+0f2+00e+0f2+004+0f2+006+0f8+004+0f2+002+0f2+00c+0f2+002+0f2+00e+0f2+004+0f2+006+0f2+00a+0f2+002+0f2+003+0f7+002+0f2+002+0f2+005+0f2+007+0f2+004+0f2+002+0f2+00e+0f2+002+0f2+003+0f7+002+0f2+002+0f2+005+0f2+007+0f2+004+0f2+002+0f2+00e+0f2+002+0f2+003+0f2+007+0f2+002+0f2+005+0fb+004+0f2+002+0f2+00e+0f2+002+0f2+003+0f2+007+0f2+002+0f2+005+0fb+004+0f2+002+0f6+002+0fa+007+0f2+00b+0f2+00d+0f3+004+0f2+002+0f6+002+0fa+007+0f2+00b+0f2+00d+0f3+003d+0f3+003d+0f82+",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
-  "x": 560,
-  "y": 728,
+  "x": 240,
+  "y": 592,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -24,6 +24,57 @@
         "__collapse": true
       },
       "id": "eee16c05-3b08-47a6-977c-cd2fef2fdde8"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0683bdf9-6b08-4aa3-a333-58f4256d9b3b",
+        "__collapse": true
+      },
+      "id": "2db2b054-f8f3-4408-a9f6-6d32268caf0c"
+    },
+    {
+      "id": "f5b753bb-1571-4322-9707-6e17e4bdc10e",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "Enemy Actors Init"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "40",
+              "flag": 3,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "e402d595-7eb3-442e-ac80-7801c815b561",
+                    "__collapse": false
+                  },
+                  "id": "1a83f195-e3ab-45e4-b1da-f7bec620b61d"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_ACTIVATE",
+                  "args": {
+                    "actorId": "e402d595-7eb3-442e-ac80-7801c815b561"
+                  },
+                  "id": "63b71638-5b36-4530-85a4-eac1ecc5e780"
+                }
+              ]
+            },
+            "id": "4d8528ba-15e1-4d9f-8084-57ee814f26e8"
+          }
+        ]
+      }
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -92,49 +143,6 @@
       "id": "510a6ab5-6d75-4f69-9ec6-c9c2db93eaf7"
     },
     {
-      "id": "f5b753bb-1571-4322-9707-6e17e4bdc10e",
-      "command": "EVENT_GROUP",
-      "args": {
-        "__collapse": true,
-        "__label": "Enemy Actors Init"
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_IF_FLAGS_COMPARE",
-            "args": {
-              "variable": "40",
-              "flag": 2,
-              "__collapseElse": false,
-              "__collapse": false
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_ACTOR_DEACTIVATE",
-                  "args": {
-                    "actorId": "e402d595-7eb3-442e-ac80-7801c815b561",
-                    "__collapse": false
-                  },
-                  "id": "1a83f195-e3ab-45e4-b1da-f7bec620b61d"
-                }
-              ],
-              "false": [
-                {
-                  "command": "EVENT_ACTOR_ACTIVATE",
-                  "args": {
-                    "actorId": "e402d595-7eb3-442e-ac80-7801c815b561"
-                  },
-                  "id": "63b71638-5b36-4530-85a4-eac1ecc5e780"
-                }
-              ]
-            },
-            "id": "4d8528ba-15e1-4d9f-8084-57ee814f26e8"
-          }
-        ]
-      }
-    },
-    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "0bc61885-2ad2-443d-9047-f24f727d74cf",
@@ -148,5 +156,5 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "8f8cac02-2047-4737-a13e-dd4b0fbd978b",
-  "labelColor": "yellow"
+  "labelColor": "green"
 }

@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "Cave",
   "symbol": "scene_cave",
-  "x": 568,
-  "y": 536,
+  "x": 1136,
+  "y": 680,
   "width": 20,
   "height": 18,
   "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
@@ -110,7 +110,7 @@
             "command": "EVENT_IF_FLAGS_COMPARE",
             "args": {
               "variable": "40",
-              "flag": 3,
+              "flag": 4,
               "__collapseElse": false,
               "__collapse": false
             },
