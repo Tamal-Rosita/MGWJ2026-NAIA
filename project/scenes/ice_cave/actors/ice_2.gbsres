@@ -1,0 +1,93 @@
+{
+  "_resourceType": "actor",
+  "id": "ed0997ef-4c90-48ca-aea9-6c4abfaeecba",
+  "name": "Ice 2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "09ad70c6-3ce5-4b97-9e96-466221418a45",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_46",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_PUSH",
+      "args": {
+        "continue": true
+      },
+      "id": "c3e48b1b-58d6-4e51-96d7-5b4208083e6b"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "3505838a-46e6-49f7-bd85-57248d1d7e79",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "d9b15f46-dfc4-4ea6-9abf-71eaf94113b5"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "5d109b8a-9b2b-4b7b-8cce-6f7dd5d0c927"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 45
+        },
+        "y": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "db75701c-c169-420e-8bc3-22b40b11ff93"
+            },
+            "id": "4687e7df-844c-41b5-8990-371cccc89661"
+          }
+        ],
+        "false": []
+      },
+      "id": "e18761a9-fdbe-46e1-b23c-b0ebbe554dc2"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 49,
+  "y": 19,
+  "_index": 3
+}

@@ -1,0 +1,59 @@
+{
+  "_resourceType": "trigger",
+  "id": "adff6ff2-e5cd-4712-a3c8-fda812ee0afb",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 2,
+  "symbol": "trigger_24",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "dc6b02bd-7d34-4a73-b712-e4e7370f2094"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Encontraste restos\nde megafauna...",
+          "Los observas\ndetenidamente...",
+          "Memorizas su\nforma...",
+          "Los dejas en su\nsitio...",
+          "Y sigues tu\ncamino."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4f35d4e5-e2f7-4a03-bc14-8ad2b49e8fcb"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

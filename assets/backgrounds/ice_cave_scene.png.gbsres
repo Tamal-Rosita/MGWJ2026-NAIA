@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "248cd7fd-f879-4152-b081-0a4130a994e0",
+  "name": "ice_cave_scene",
+  "symbol": "bg_ice_cave_scene",
+  "tileColors": "",
+  "filename": "ice_cave_scene.png",
+  "width": 64,
+  "height": 24,
+  "imageWidth": 512,
+  "imageHeight": 192
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "431bfb83-40db-41b2-b1a2-c07fd5d90746",
+  "name": "store",
+  "symbol": "bg_store",
+  "tileColors": "",
+  "filename": "store.png",
+  "width": 13,
+  "height": 30,
+  "imageWidth": 104,
+  "imageHeight": 240
+}

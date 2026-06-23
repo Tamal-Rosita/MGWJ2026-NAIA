@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "d1a6a015-0ea2-4271-8878-32b53eaadd84",
-  "name": "",
+  "id": "6a9e2ae3-49e7-4cb3-84cf-4934ae411aa9",
+  "name": "Hideout Enter",
   "prefabId": "",
-  "x": 16,
-  "y": 8,
-  "symbol": "trigger_21",
+  "x": 10,
+  "y": 12,
+  "symbol": "trigger_15",
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 2,
@@ -14,8 +14,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Para entrar a la\nPuerta del último\nvoto...",
-          "Necesitas los tres\nfavores de los\nguardianes."
+          "¿Quieres entrar\na la cueva de la\nlos ríos?"
         ],
         "__section": "text",
         "avatarId": "",
@@ -34,9 +33,18 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "8f245429-2115-4fb9-9676-da743a405c1f"
+      "id": "38961bd0-2baf-49ea-b214-e92ec08e89fb"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Entrar",
+        "falseText": "Más tarde"
+      },
+      "id": "08be79fe-713a-4844-b575-072588180c08"
     }
   ],
   "leaveScript": [],
-  "_index": 4
+  "_index": 3
 }

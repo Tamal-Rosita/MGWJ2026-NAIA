@@ -3,7 +3,7 @@
   "id": "a1d968a3-863c-4f11-be13-dc275e980e3f",
   "name": "Hideout Enter",
   "prefabId": "",
-  "x": 16,
+  "x": 10,
   "y": 8,
   "symbol": "trigger_14",
   "prefabScriptOverrides": {},
@@ -11,21 +11,38 @@
   "height": 2,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_TEXT",
       "args": {
-        "sceneId": "27ce1f02-cdf0-4494-8686-9dadf9d93247",
-        "x": {
-          "type": "number",
-          "value": 9
-        },
-        "y": {
-          "type": "number",
-          "value": 5
-        },
-        "direction": "down",
-        "fadeSpeed": "2"
+        "text": [
+          "¿Quieres entrar\na la cueva de la\nlluvia?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "034e280a-244c-4a9d-9e10-521a8acfb22b"
+      "id": "fedb149d-5a99-4436-99b3-4e9c8f96e81a"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Entrar",
+        "falseText": "Más tarde"
+      },
+      "id": "788f5be7-1f08-4b35-b5b6-d73926f08e10"
     }
   ],
   "leaveScript": [],

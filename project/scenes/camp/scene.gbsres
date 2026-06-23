@@ -28,7 +28,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "0683bdf9-6b08-4aa3-a333-58f4256d9b3b",
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "id": "725b641a-ce5c-4977-9fae-37cdb2165de0"
@@ -37,7 +37,7 @@
       "id": "18a78df1-7db4-4cab-b28d-a24d8452c178",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Enemy Actors Init"
       },
       "children": {

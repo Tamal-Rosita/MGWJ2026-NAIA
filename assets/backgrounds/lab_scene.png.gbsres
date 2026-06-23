@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "7e2496e9-8708-4683-983b-55fd2c4c8202",
+  "name": "lab_scene",
+  "symbol": "bg_lab_scene",
+  "tileColors": "",
+  "filename": "lab_scene.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
