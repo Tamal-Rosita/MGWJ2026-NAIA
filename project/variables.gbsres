@@ -365,6 +365,11 @@
       "id": "11e53cf2-5c79-4440-884c-8ae52f29416d__L0",
       "name": "Singles",
       "symbol": "var_singles_8"
+    },
+    {
+      "id": "66f0b56b-eb83-4ce6-a765-0ac8a9627645__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
     }
   ],
   "constants": []

@@ -1,5 +1,5 @@
 {
-    "activeFile": "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/ice_cave_scene.tmx",
+    "activeFile": "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/hall_scene.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -37,46 +37,46 @@
             "scale": 6.029861111111111,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 89.388460209605,
-                "y": 72.05804445468158
+                "x": 80.01842681101003,
+                "y": 71.97512380513648
             }
         },
         "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/camp_scene.tmx": {
             "scale": 3.391796875,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 125.7445583323736,
-                "y": 125.74455833237361
+                "x": 128.1031901416561,
+                "y": 127.95577565357597
             }
         },
         "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/cave.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 2
         },
         "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/cave_scene.tmx": {
             "scale": 6.029861111111111,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80.01842681101002,
-                "y": 72.05804445468158
+                "x": 80.01842681101003,
+                "y": 71.97512380513648
             }
         },
         "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/corridor_scene.tmx": {
             "scale": 2.7646484375,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 255.90957258919113,
-                "y": 96.03391027905334
+                "x": 255.90957258919104,
+                "y": 95.85305545743552
             }
         },
         "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/gb_studio_outdoors.tsx": {
             "scaleInDock": 2
         },
         "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/hall_scene.tmx": {
-            "scale": 5.988275862068965,
-            "selectedLayer": 0,
+            "scale": 4,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 80.57411033053091,
-                "y": 72.55844754117241
+                "x": 65,
+                "y": 89.875
             }
         },
         "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/home.tsx": {
@@ -88,11 +88,11 @@
             "scaleInEditor": 1
         },
         "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/ice_cave_scene.tmx": {
-            "scale": 2.7646484375,
-            "selectedLayer": 0,
+            "scale": 2,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 276.34616743200286,
-                "y": 151.01377605086543
+                "x": 184,
+                "y": 118.25
             }
         },
         "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/metamode.tsx": {
@@ -236,9 +236,9 @@
         "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/store.tsx",
         "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/cave_scene.tmx",
         "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/corridor_scene.tmx",
-        "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/hall_scene.tmx",
         "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/Lab_scene.tmx",
         "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/ice_cave_scene.tmx",
+        "/Users/sebastianporthozlopez/Developer/NaiaTresor/assets/.edits/hall_scene.tmx",
         "underwater.tsx",
         "ice_cave_scene.tmx",
         "Castle.tsx"

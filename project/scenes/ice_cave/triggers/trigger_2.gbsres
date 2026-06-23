@@ -1,48 +1,23 @@
 {
   "_resourceType": "trigger",
-  "id": "66f0b56b-eb83-4ce6-a765-0ac8a9627645",
-  "name": "Trigger 1",
+  "id": "691c3960-9b51-4e05-9c55-ee3042f55eba",
+  "name": "",
   "prefabId": "",
-  "x": 10,
-  "y": 4,
-  "symbol": "trigger_13",
+  "x": 1,
+  "y": 10,
+  "symbol": "trigger_16",
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 2,
   "script": [
     {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "¿Quieres entrar\na la cueva de\nhielo?"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "7ba06dcf-6859-469c-8e42-de1516503f8e"
-    },
-    {
       "command": "EVENT_CHOICE",
       "args": {
         "variable": "L0",
-        "trueText": "Entrar",
-        "falseText": "Más tarde"
+        "trueText": "Reiniciar",
+        "falseText": "Sala del Eslabón"
       },
-      "id": "be602ea8-cc88-4fdf-b4c2-3e920684e5b6"
+      "id": "da535974-0e8d-4f71-b97b-3b0794b7cac9"
     },
     {
       "command": "EVENT_IF",
@@ -58,7 +33,7 @@
             "value": 1
           }
         },
-        "__collapseElse": false
+        "__collapseElse": true
       },
       "children": {
         "true": [
@@ -77,14 +52,31 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "e63b8018-e461-4adc-a95b-d826443c270a"
+            "id": "28578fa2-491b-4a65-ab1c-adddeab8d593"
           }
         ],
         "false": []
       },
-      "id": "86c008e3-aa11-4761-b17a-7128034d8ad8"
+      "id": "cbe7c23d-a390-4d32-a48c-eb5ef8e4ca42"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e9c71df2-2113-42dc-8160-e2c9ac1b242d",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "aaff091f-6598-47cc-9155-1d4b84a5368f"
     }
   ],
   "leaveScript": [],
-  "_index": 0
+  "_index": 1
 }
