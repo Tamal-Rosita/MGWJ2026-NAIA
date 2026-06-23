@@ -7,49 +7,39 @@
       "symbol": "var_language"
     },
     {
-      "id": "1",
-      "name": "RandomEncounter",
-      "symbol": "var_randomencounter"
-    },
-    {
-      "id": "2",
-      "name": "Enemies",
-      "symbol": "var_enemies"
-    },
-    {
       "id": "3",
-      "name": "EnemyType",
-      "symbol": "var_enemytype"
+      "name": "EnemyID",
+      "symbol": "var_enemyid"
     },
     {
       "id": "4",
-      "name": "Quest1",
-      "symbol": "var_quest1"
+      "name": "Random Encounter Enabled",
+      "symbol": "var_random_encounter_enable"
     },
     {
       "id": "5",
-      "name": "Quest2",
-      "symbol": "var_quest2"
+      "name": "StepCount",
+      "symbol": "var_stepcount"
     },
     {
       "id": "6",
-      "name": "Quest3",
-      "symbol": "var_quest3"
+      "name": "Random Encounter Threshold",
+      "symbol": "var_random_encounter_thresh"
     },
     {
       "id": "7",
-      "name": "Quest4",
-      "symbol": "var_quest4"
+      "name": "Random Encounter Area ID",
+      "symbol": "var_random_encounter_area_i"
     },
     {
       "id": "8",
-      "name": "Quest5",
-      "symbol": "var_quest5"
+      "name": "Random Encounter Min Threshold",
+      "symbol": "var_random_encounter_min_th"
     },
     {
       "id": "9",
-      "name": "Quest6",
-      "symbol": "var_quest6"
+      "name": "Random Encounter Max Threshold",
+      "symbol": "var_random_encounter_max_th"
     },
     {
       "id": "10",
@@ -167,9 +157,9 @@
       "symbol": "var_playingdrums"
     },
     {
-      "id": "50",
-      "name": "MonstersOutside",
-      "symbol": "var_monstersoutside"
+      "id": "40",
+      "name": "Enemies01",
+      "symbol": "var_enemies01"
     },
     {
       "id": "f4f59ce0-749b-4144-a5bc-86d33f4cc9ac__L0",
@@ -367,7 +357,7 @@
       "symbol": "var_singles_8"
     },
     {
-      "id": "66f0b56b-eb83-4ce6-a765-0ac8a9627645__L0",
+      "id": "94c18861-b352-4f49-a64d-52f2e3415077__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
     }
