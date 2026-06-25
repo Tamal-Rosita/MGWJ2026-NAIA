@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "eafc85ba-1f8d-440b-b3a3-06ac809f75c1",
   "_index": 15,
-  "name": "Lab",
+  "name": "Lab 1",
   "backgroundId": "7e2496e9-8708-4683-983b-55fd2c4c8202",
   "tilesetId": "",
   "width": 20,
@@ -14,8 +14,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_16",
-  "x": 60,
-  "y": 616,
+  "x": 352,
+  "y": 208,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",

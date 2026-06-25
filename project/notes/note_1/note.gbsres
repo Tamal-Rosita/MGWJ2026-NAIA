@@ -1,0 +1,11 @@
+{
+  "_resourceType": "note",
+  "id": "3a9c6d4f-c502-4e51-bf91-0d307b1a1e6f",
+  "name": "Note 1",
+  "x": 392,
+  "y": 576,
+  "width": 40,
+  "height": 17,
+  "content": "En el campamento, hay que arreglar los eventos de \"Girl\", \"Fisherman\" y de \"man\". \n\n1.Hablas con Girl/Puedes mover la roca.\n\n2.Hablas con Man/Activas a Fisherman/Hablas con Fisherman/Puedes combatir con el Glyptodon/Fisherman te deja pasar/Puedes combatir con Slime/Man te deja entrar a la cueva.",
+  "labelColor": "yellow"
+}

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "5a24497b-a910-46a9-a7a5-c7865aa61b4f",
+  "name": "bones",
+  "symbol": "tileset_bones",
+  "width": 8,
+  "height": 8,
+  "imageWidth": 64,
+  "imageHeight": 64,
+  "filename": "bones.png"
+}

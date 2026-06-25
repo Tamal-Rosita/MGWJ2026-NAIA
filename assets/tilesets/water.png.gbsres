@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "f9493e66-c544-42ff-9324-fabf489484d0",
+  "name": "water",
+  "symbol": "tileset_water",
+  "width": 8,
+  "height": 8,
+  "imageWidth": 64,
+  "imageHeight": 64,
+  "filename": "water.png"
+}

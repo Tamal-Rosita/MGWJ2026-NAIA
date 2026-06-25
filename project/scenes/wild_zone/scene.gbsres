@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "a5046433-9a73-47cb-864b-ed8876cb48c1",
+  "_index": 16,
+  "name": "Wild Zone",
+  "backgroundId": "6bd688c7-d462-4a6f-9563-2efb2d3aac46",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0014+0f14+0077+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f15+0014+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_17",
+  "x": 584,
+  "y": 392,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

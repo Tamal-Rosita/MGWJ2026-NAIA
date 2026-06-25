@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "7c8aab6e-a273-4373-8aff-4941f4e95733",
+  "name": "sand",
+  "symbol": "tileset_sand",
+  "width": 8,
+  "height": 8,
+  "imageWidth": 64,
+  "imageHeight": 64,
+  "filename": "sand.png"
+}

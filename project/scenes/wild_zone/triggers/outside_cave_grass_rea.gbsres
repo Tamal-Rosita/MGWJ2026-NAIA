@@ -3,12 +3,12 @@
   "id": "991a21ec-b2c3-46ec-83fb-69e5777b5bc3",
   "name": "Outside Cave Grass REA",
   "prefabId": "",
-  "x": 20,
-  "y": 7,
+  "x": 3,
+  "y": 9,
   "symbol": "trigger_16",
   "prefabScriptOverrides": {},
-  "width": 11,
-  "height": 7,
+  "width": 14,
+  "height": 6,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -32,5 +32,5 @@
       "id": "e5231982-88df-47eb-b116-7659218921b1"
     }
   ],
-  "_index": 3
+  "_index": 0
 }

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "5cca824b-0e6e-482e-9b68-fdfb59a90f19",
+  "name": "rivers_cave",
+  "symbol": "bg_rivers_cave",
+  "tileColors": "",
+  "filename": "rivers_cave.png",
+  "width": 64,
+  "height": 24,
+  "imageWidth": 512,
+  "imageHeight": 192
+}

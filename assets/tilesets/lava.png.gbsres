@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "610b0aca-93de-491b-acf8-e92dabef4976",
+  "name": "lava",
+  "symbol": "tileset_lava",
+  "width": 8,
+  "height": 8,
+  "imageWidth": 64,
+  "imageHeight": 64,
+  "filename": "lava.png"
+}

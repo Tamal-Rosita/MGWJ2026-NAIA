@@ -1,7 +1,7 @@
 {
   "_resourceType": "trigger",
   "id": "4916f378-602b-4df7-a453-baeaaad59c3c",
-  "_index": 1,
+  "_index": 0,
   "symbol": "trigger_1",
   "prefabId": "",
   "name": "Hall Enter",

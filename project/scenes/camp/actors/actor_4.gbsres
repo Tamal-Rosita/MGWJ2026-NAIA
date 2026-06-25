@@ -1,0 +1,61 @@
+{
+  "_resourceType": "actor",
+  "id": "bc9f5557-ad96-4be9-97f2-6882595b22f8",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1a5cd5f6-45c1-4adb-bcaa-9fba7800b2b1",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_53",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Te preparaste\nmucho para este\ndía.",
+          "Pero antes de\nentrar a la cueva,",
+          "Debes probar que\nestás lista.",
+          "Una bestia acecha\ncerca de aquí.",
+          "Encárgate de ella.",
+          "Trae alimento para\nla tribu.",
+          "Y agradece a los\nguardianes."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2b49c6e1-3f76-477b-aef2-4cc5c9d893dc"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 27,
+  "y": 5,
+  "_index": 7
+}

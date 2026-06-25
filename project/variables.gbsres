@@ -7,6 +7,11 @@
       "symbol": "var_language"
     },
     {
+      "id": "1",
+      "name": "help_girl",
+      "symbol": "var_help_girl_0"
+    },
+    {
       "id": "3",
       "name": "EnemyID",
       "symbol": "var_enemyid"
@@ -360,6 +365,11 @@
       "id": "94c18861-b352-4f49-a64d-52f2e3415077__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
+    },
+    {
+      "id": "9df37455-5d9f-4db2-b4a4-a3f294a39ca5__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
     }
   ],
   "constants": []
