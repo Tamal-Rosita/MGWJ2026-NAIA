@@ -3,7 +3,7 @@
   "id": "1794882b-a642-441e-955d-b76b4e36a851",
   "_index": 9,
   "name": "Battle v2",
-  "backgroundId": "b94eaeaf-32f3-46b0-894a-d062921290fb",
+  "backgroundId": "472322bd-c3ed-49e2-8f70-222afd749a53",
   "tilesetId": "",
   "width": 22,
   "height": 18,
@@ -15,7 +15,7 @@
   "autoFadeSpeed": null,
   "symbol": "scene_0",
   "x": 736,
-  "y": 416,
+  "y": 408,
   "autoFadeEventCollapse": true,
   "script": [
     {
@@ -46,7 +46,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Set Enemy Stats",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -180,7 +180,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Enemy Hp Counter",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -188,7 +188,7 @@
             "command": "EVENT_GROUP",
             "args": {
               "__label": "Enemy Hp 0-",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -1667,7 +1667,7 @@
       "id": "32066a0a-e8b8-41e3-b2b7-c541151eab16",
       "command": "EVENT_LOOP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Battle Loop"
       },
       "children": {
