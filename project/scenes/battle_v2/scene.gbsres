@@ -15,7 +15,7 @@
   "autoFadeSpeed": null,
   "symbol": "scene_0",
   "x": 736,
-  "y": 416,
+  "y": 408,
   "autoFadeEventCollapse": true,
   "script": [
     {
@@ -46,7 +46,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Set Enemy Stats",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -180,7 +180,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Enemy Hp Counter",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -188,7 +188,7 @@
             "command": "EVENT_GROUP",
             "args": {
               "__label": "Enemy Hp 0-",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -1667,7 +1667,7 @@
       "id": "32066a0a-e8b8-41e3-b2b7-c541151eab16",
       "command": "EVENT_LOOP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Battle Loop"
       },
       "children": {
@@ -8945,15 +8945,5 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "8f8cac02-2047-4737-a13e-dd4b0fbd978b",
-  "labelColor": "yellow",
-  "parallax": [
-    {
-      "height": 3,
-      "speed": 1
-    },
-    {
-      "height": 0,
-      "speed": 0
-    }
-  ]
+  "labelColor": "yellow"
 }
