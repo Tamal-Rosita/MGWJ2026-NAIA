@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "dee58d5a-5244-4ff9-9d58-fae876ba5d6e",
+  "name": "metamode",
+  "symbol": "tileset_metamode",
+  "width": 40,
+  "height": 92,
+  "imageWidth": 320,
+  "imageHeight": 736,
+  "filename": "metamode.png"
+}

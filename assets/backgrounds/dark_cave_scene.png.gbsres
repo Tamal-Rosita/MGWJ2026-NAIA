@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "ecac60a8-c952-4021-9c98-6e867efe4417",
+  "name": "dark_cave_scene",
+  "symbol": "bg_dark_cave_scene",
+  "tileColors": "",
+  "filename": "dark_cave_scene.png",
+  "width": 64,
+  "height": 24,
+  "imageWidth": 512,
+  "imageHeight": 192
+}

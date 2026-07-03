@@ -1,0 +1,11 @@
+{
+  "_resourceType": "note",
+  "id": "53fd8948-6ef7-4006-9e95-bc27bd4cdd4d",
+  "name": "Note 2",
+  "x": 1856,
+  "y": 632,
+  "width": 20,
+  "height": 12,
+  "content": "En Rivers Cave, falta implementar correctamente la mecánica de los ríos. \n\nNo logré hacerla funcionar correctamente en el código ):\n\n-Seb",
+  "labelColor": "yellow"
+}
