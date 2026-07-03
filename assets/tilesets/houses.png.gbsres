@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "1ac865da-add2-4b32-9293-62bdc2edfb40",
+  "name": "houses",
+  "symbol": "tileset_gb_studio_outdoors_",
+  "width": 5,
+  "height": 10,
+  "imageWidth": 44,
+  "imageHeight": 80,
+  "filename": "houses.png"
+}

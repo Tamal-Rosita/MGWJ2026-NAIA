@@ -1,0 +1,170 @@
+{
+  "_resourceType": "scene",
+  "id": "7227c4c5-4275-40ed-ae35-ae773c3c2acf",
+  "_index": 20,
+  "name": "Lab 2",
+  "backgroundId": "7e2496e9-8708-4683-983b-55fd2c4c8202",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_21",
+  "x": 229.5,
+  "y": 615.5,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "e9c47156-75ee-4c9f-a14a-3bcff7d3fe8a"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "86c3a6f9-79ab-4868-8ae4-caf12a1ce582"
+      },
+      "id": "7d530912-f2d2-4d69-968d-b2f14e3289a2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Algunos huesos\n ya llegaron!"
+        ],
+        "__section": "text",
+        "avatarId": "8acf43c1-b06b-4750-a897-7c6c436ba380",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "4028d404-a562-4bd3-bf90-383c2aca4f1b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "No pueden traer\ntodos al mismo\ntiempo.",
+          "Son demasiados y\nel tiempo debajo\ndel agua es poco.",
+          "Por seguridad y\neficiencia,",
+          "los arqueólogos\nsubacuáticos\nse sumergen con",
+          "un plan definido\npara cada\nexploración."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "2cf3f975-0d4b-476d-abbb-fa52c76b3b1e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " No cualquiera\n puede bajar",
+          " esas\n profundidades!"
+        ],
+        "__section": "text",
+        "avatarId": "8acf43c1-b06b-4750-a897-7c6c436ba380",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "b4ebea06-cf34-4dad-b1e4-a6ad33216a6e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Mientras tanto,\naquí realizaremos",
+          "un estudio\nmicrotomográfico",
+          "y otros estudios\npara descubrir",
+          "que historias\nesconden estos",
+          "hallazgos."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "6428d69c-6fdc-4e3e-b510-4a40f0b233a1"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "aacedb41-9021-45f3-b7c2-09fdb2d69979",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      },
+      "id": "648b62a2-7497-4daf-a9ba-652db498a3d7"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8f8cac02-2047-4737-a13e-dd4b0fbd978b",
+  "labelColor": "purple"
+}

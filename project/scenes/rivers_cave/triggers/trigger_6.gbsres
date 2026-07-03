@@ -1,33 +1,77 @@
 {
   "_resourceType": "trigger",
-  "id": "ddd68e8e-a783-48a1-86c8-ecfae085905f",
+  "id": "36d63a58-4ed5-4fb6-81ab-79cfadd214ba",
   "name": "",
   "prefabId": "",
-  "x": 51,
-  "y": 20,
-  "symbol": "trigger_34",
+  "x": 8,
+  "y": 14,
+  "symbol": "trigger_28",
   "prefabScriptOverrides": {},
-  "width": 1,
+  "width": 16,
   "height": 2,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
-        "sceneId": "f3dce52f-50b0-4d2d-8a4c-301a4a1effd2",
-        "x": {
-          "type": "number",
-          "value": 2
-        },
-        "y": {
-          "type": "number",
-          "value": 20
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "timer": 2,
+        "duration": 0.1,
+        "frames": 30,
+        "__scriptTabs": "end"
       },
-      "id": "32dae1aa-2003-4d6e-b189-bfd12dba16f9"
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "53725c02-ce01-40d5-80dd-5a1bc90bca81"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_CANCEL",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "509b1067-197d-4383-8d46-fac612d83988"
+          }
+        ]
+      },
+      "id": "4ebf0f4e-f491-4e3e-a303-2554ccef33bf"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 0.25
+      },
+      "id": "0b0a16fb-6070-4fff-9fba-e54809c04e9f"
     }
   ],
-  "leaveScript": [],
+  "leaveScript": [
+    {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 2,
+        "__collapse": false
+      },
+      "id": "ae408701-7a78-4844-a3d5-c8a175f35ec7"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "dce44a27-1d73-4249-92cd-4ba49a9163df"
+    }
+  ],
   "_index": 5
 }

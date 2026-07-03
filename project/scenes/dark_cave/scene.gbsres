@@ -16,9 +16,17 @@
   "symbol": "scene_20",
   "x": 1577,
   "y": 806,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "759a2285-cebf-451f-aa93-e8601d22a2a1"
+      },
+      "id": "f1756e49-99e8-46dc-9e94-ea0bb28b0224"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "yellow"
+  "labelColor": "green"
 }

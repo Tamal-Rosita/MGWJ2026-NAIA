@@ -1,11 +1,11 @@
 {
   "_resourceType": "note",
-  "id": "53fd8948-6ef7-4006-9e95-bc27bd4cdd4d",
+  "id": "990b3308-ea8f-4420-9661-447050101a7b",
   "name": "Note 2",
-  "x": 1856,
-  "y": 632,
-  "width": 20,
-  "height": 12,
-  "content": "En Rivers Cave, falta implementar correctamente la mecánica de los ríos. \n\nNo logré hacerla funcionar correctamente en el código ):\n\n-Seb",
+  "x": 2080,
+  "y": 264,
+  "width": 24,
+  "height": 20,
+  "content": "Falta agregar condicionales para el momento de vencer a los guardianes. \n\nSi los vences, regresas inmediatamente al Hall y se cierra el acceso para volver al cave correspondiente.\n\nSi no los vences, pierdes la partida y debes continuar desde un checkpoint. Sugiero que sea desde el Hall.\n\nSi vences a los tres guardianes, se desbloquea el paso hacia el Hideout.",
   "labelColor": "yellow"
 }

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "f4534d99-8a3f-4973-aec1-5f4652efeb66",
+  "name": "skulls",
+  "symbol": "tileset_skulls",
+  "width": 43,
+  "height": 53,
+  "imageWidth": 347,
+  "imageHeight": 427,
+  "filename": "skulls.png"
+}

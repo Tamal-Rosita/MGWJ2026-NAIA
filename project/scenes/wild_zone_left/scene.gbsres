@@ -11,7 +11,7 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0016+0f12+002+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!00!0f4+00e+0f!00!0f4+00e+0f!0013+0f!0013+0f12+0014+",
+  "collisions": "0016+0f12+002+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f12+0014+",
   "autoFadeSpeed": 1,
   "symbol": "scene_18",
   "x": 408,
@@ -19,5 +19,6 @@
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "labelColor": "green"
 }

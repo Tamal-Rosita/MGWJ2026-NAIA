@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "01798ddf-d5dc-4315-9a8c-2ddb6ee6dffa",
-  "name": "Hoyo Negro Body REA",
+  "id": "9a05daf9-284d-4e15-adc1-f30c2b444bdf",
+  "name": "Corridor Enter REA",
   "prefabId": "",
-  "x": 0,
-  "y": 1,
-  "symbol": "trigger_19",
+  "x": 5,
+  "y": 0,
+  "symbol": "trigger_67",
   "prefabScriptOverrides": {},
-  "width": 30,
-  "height": 20,
+  "width": 4,
+  "height": 3,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -17,10 +17,10 @@
         "__collapse": false,
         "$variable[V0]$": {
           "type": "number",
-          "value": 3
+          "value": 1
         }
       },
-      "id": "6a12e2dc-cf84-4271-971e-27a8e2c4cc55"
+      "id": "26154a63-4440-4208-b7c7-aa6eb15fe360"
     }
   ],
   "leaveScript": [
@@ -29,8 +29,8 @@
       "args": {
         "customEventId": "cc93a56c-681c-4160-a0a8-86c7e965b974"
       },
-      "id": "64075e32-7431-4104-b0df-bbd6f7a6e0e0"
+      "id": "23e8a06e-8c82-435a-8813-e35c9c5de678"
     }
   ],
-  "_index": 0
+  "_index": 7
 }

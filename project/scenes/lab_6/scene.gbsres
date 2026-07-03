@@ -1,0 +1,269 @@
+{
+  "_resourceType": "scene",
+  "id": "1486a15d-3153-4a1f-9975-e0c869ab47ef",
+  "_index": 24,
+  "name": "Lab 6",
+  "backgroundId": "7e2496e9-8708-4683-983b-55fd2c4c8202",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_25",
+  "x": 1680,
+  "y": 1048,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "8a4d8782-a644-4ccc-8ce5-d5a628500119"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "86c3a6f9-79ab-4868-8ae4-caf12a1ce582"
+      },
+      "id": "672415c1-ce70-4936-b195-d36e90f40080"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Encontramos la\n causa de muerte",
+          " Una fractura\n mortal en la\n pelvis."
+        ],
+        "__section": "text",
+        "avatarId": "8acf43c1-b06b-4750-a897-7c6c436ba380",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "41e91896-5e18-40ac-bb41-a1519bc0c2db"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Como la cueva de\nHoyo Negro se\nencontraba",
+          "prácticamente\nseca en aquel\nmomento,",
+          "suponemos que\nhabrá entrado en\nbúsqueda ",
+          "de agua dulce o\nalgún nutriente",
+          "necesario para la\nlactancia o hasta\nun embarazo."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "95c2e65c-6219-4088-ab9a-e1ca8b297baf"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Pero la cueva\n es muy grande"
+        ],
+        "__section": "text",
+        "avatarId": "8acf43c1-b06b-4750-a897-7c6c436ba380",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8a6c6b0d-492d-468c-8435-bb43e40e891f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Probablemente dio\nun mal paso",
+          "y cayó directo\nal abismo...",
+          "Es una altura de\n30 metros!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2bb6e921-080b-4fc2-87ca-e9788ddbe790"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Eventualmente, el\ndeshielo ocurrió",
+          "y la cueva se\ninundó con su\ncuerpo ahí."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0aedb538-26bb-4c37-840e-0539c7b9ba03"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " ...",
+          " Por cierto...",
+          " La hemos\n llamado como",
+          " las ninfas de\n agua dulce",
+          " de la mitología\n griega:",
+          " Náyades."
+        ],
+        "__section": "text",
+        "avatarId": "8acf43c1-b06b-4750-a897-7c6c436ba380",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "86e88d11-03e2-4bbe-8cd1-8982a4c6ebb1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Pero nosotros le\ndecimos..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6791db46-ac25-49ca-aa5e-d00d7637d615"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "\n\n       NAIA\n\n"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "69071683-df93-4734-9d22-c5b4a2ddac56"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "708ffb37-46df-4dbe-8761-613bfacf8f0a",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "194a1f01-b237-411b-9cd6-eb9e442a33bb"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "purple"
+}

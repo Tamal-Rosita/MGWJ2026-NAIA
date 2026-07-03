@@ -1,0 +1,212 @@
+{
+  "_resourceType": "scene",
+  "id": "3e777f9e-88fd-4bf6-97ea-4243152b9056",
+  "_index": 22,
+  "name": "Lab 4",
+  "backgroundId": "7e2496e9-8708-4683-983b-55fd2c4c8202",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_23",
+  "x": 2080,
+  "y": 464,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "952c9310-3d38-444f-a9ba-95381acef035"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "86c3a6f9-79ab-4868-8ae4-caf12a1ce582",
+        "__comment": true
+      },
+      "id": "10cd6d41-dea1-4b32-a371-0809668910c9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " No dejo de \n sorprenderme!"
+        ],
+        "__section": "text",
+        "avatarId": "8acf43c1-b06b-4750-a897-7c6c436ba380",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "aaa15cf9-686c-4325-a0ef-f7a26fcd8f44"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Los últimos\ndescubrimientos\nnos indican",
+          "que este es\nel esqueleto\nde una mujer!",
+          "Quizá de unos\n14 años de edad."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "60e87ee1-71ad-4843-bbd9-e2f6e298bb7e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Murió muy\n joven..."
+        ],
+        "__section": "text",
+        "avatarId": "8acf43c1-b06b-4750-a897-7c6c436ba380",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "fc5c9e4f-a895-4962-b5ac-69246d95316c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Además podemos\nobservar que",
+          "fue madre por lo\nmenos una vez."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "56937e9b-2aaa-4a54-89fb-df9fa3c89328"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " También hay \n evidencias de\n fracturas."
+        ],
+        "__section": "text",
+        "avatarId": "8acf43c1-b06b-4750-a897-7c6c436ba380",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "1ff3f3a1-97e6-4d3b-9a7d-c72aefccdc84"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Puede que haya\nsufrido violencia",
+          "O quizá se\nenfrentó más de\nuna ocasión",
+          "a la megafauna de\nla época..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "611855f8-519d-47d5-8d43-43fd1bc387b7"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f3dce52f-50b0-4d2d-8a4c-301a4a1effd2",
+        "x": {
+          "type": "number",
+          "value": 43
+        },
+        "y": {
+          "type": "number",
+          "value": 1
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      },
+      "id": "06d1babf-1a0e-42cd-852e-d7c5709a1c88"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "purple"
+}

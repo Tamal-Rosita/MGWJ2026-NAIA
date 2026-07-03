@@ -4,7 +4,7 @@
   "name": "",
   "prefabId": "",
   "x": 0,
-  "y": 2,
+  "y": 1,
   "symbol": "trigger_24",
   "prefabScriptOverrides": {},
   "width": 4,
@@ -25,33 +25,21 @@
       "id": "dc6b02bd-7d34-4a73-b712-e4e7370f2094"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "text": [
-          "Encontraste restos\nde megafauna...",
-          "Los observas\ndetenidamente...",
-          "Memorizas su\nforma...",
-          "Los dejas en su\nsitio...",
-          "Y sigues tu\ncamino."
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "sceneId": "08ca16cc-5a10-41a5-894c-047d3b69ef5a",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
       },
-      "id": "4f35d4e5-e2f7-4a03-bc14-8ad2b49e8fcb"
+      "id": "23926c98-adea-4d65-82ac-856f93d8b67c"
     }
   ],
   "leaveScript": [],

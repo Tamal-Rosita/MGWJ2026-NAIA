@@ -30,14 +30,14 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "5e64882f-8ce6-423e-b582-70fdb2142ff6",
+        "sceneId": "8a52b387-2a88-4741-8d4e-ca56acea4672",
         "x": {
           "type": "number",
-          "value": 9
+          "value": 15
         },
         "y": {
           "type": "number",
-          "value": 13
+          "value": 24
         },
         "direction": "down",
         "fadeSpeed": "2"
@@ -51,7 +51,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 27,
-  "y": 25,
-  "_index": 1
+  "x": 9,
+  "y": 6,
+  "_index": 0
 }

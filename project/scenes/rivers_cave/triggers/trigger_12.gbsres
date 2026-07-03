@@ -1,13 +1,13 @@
 {
   "_resourceType": "trigger",
-  "id": "71c131a8-37ee-47ab-9203-063d68e9cc3e",
+  "id": "c0fc281d-3898-491f-8956-163a1e9f8f36",
   "name": "",
   "prefabId": "",
-  "x": 34,
-  "y": 18,
-  "symbol": "trigger_43",
+  "x": 40,
+  "y": 6,
+  "symbol": "trigger_54",
   "prefabScriptOverrides": {},
-  "width": 2,
+  "width": 6,
   "height": 2,
   "script": [
     {
@@ -26,18 +26,18 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 1
               },
               "y": {
                 "type": "number",
-                "value": 1
+                "value": 0
               }
             },
-            "id": "f4fbb18c-1947-4e89-9be2-d83057fcbeca"
+            "id": "ebb5f93b-22f0-4e7c-98fd-6db1945e7ee3"
           }
         ]
       },
-      "id": "8f53d139-5870-4f85-b7d6-ec636c528641"
+      "id": "a2400023-93f1-495a-8185-547ff49312bc"
     },
     {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -45,7 +45,7 @@
         "actorId": "$self$",
         "speed": 0.25
       },
-      "id": "43be19d9-1d5e-47a0-87ba-5c47c0b4c2ce"
+      "id": "2cdc4e25-c382-4aa9-8ec2-6e2432b2aafa"
     }
   ],
   "leaveScript": [
@@ -55,7 +55,7 @@
         "actorId": "$self$",
         "speed": 1
       },
-      "id": "f4d9eeb8-7ce1-4e05-bb9f-15dba44b85cb"
+      "id": "38f21217-9a33-4de2-92e3-1f5e4f4f0eb6"
     }
   ],
   "_index": 11
