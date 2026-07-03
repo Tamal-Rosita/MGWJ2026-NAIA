@@ -3,12 +3,12 @@
   "id": "3ed0f2ac-7ae1-435d-8d71-cc152f9ee863",
   "name": "Corridor Body REA",
   "prefabId": "",
-  "x": 27,
-  "y": 2,
+  "x": 32,
+  "y": 6,
   "symbol": "trigger_18",
   "prefabScriptOverrides": {},
-  "width": 20,
-  "height": 18,
+  "width": 15,
+  "height": 13,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -32,5 +32,5 @@
       "id": "969739f6-3b90-42d2-ba91-7596724209a1"
     }
   ],
-  "_index": 4
+  "_index": 3
 }

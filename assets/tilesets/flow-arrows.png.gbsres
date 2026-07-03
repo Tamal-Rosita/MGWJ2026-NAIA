@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "1a6801bb-60ae-47cd-9092-0de207cd8896",
+  "name": "flow-arrows",
+  "symbol": "tileset_flow_arrows",
+  "width": 4,
+  "height": 1,
+  "imageWidth": 32,
+  "imageHeight": 8,
+  "filename": "flow-arrows.png"
+}

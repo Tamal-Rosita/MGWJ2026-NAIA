@@ -1,0 +1,164 @@
+{
+  "_resourceType": "scene",
+  "id": "08ca16cc-5a10-41a5-894c-047d3b69ef5a",
+  "_index": 21,
+  "name": "Lab 3",
+  "backgroundId": "7e2496e9-8708-4683-983b-55fd2c4c8202",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_22",
+  "x": 1584,
+  "y": 80,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "9f48cb56-43c3-451b-ba16-c338df22a68c"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "86c3a6f9-79ab-4868-8ae4-caf12a1ce582"
+      },
+      "id": "3884b1ad-72a7-479c-b4eb-5a7966a0ccf9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Descubrimos que\n estos huesos",
+          " son muy\n antiguos!"
+        ],
+        "__section": "text",
+        "avatarId": "8acf43c1-b06b-4750-a897-7c6c436ba380",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "23d367f0-fcad-4720-abe0-c223f9e89354"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Deben tener por\nlo menos",
+          "unos 12,000 años!",
+          "Si logramos\nconservarlos\ncorrectamente,",
+          "este sería el\nesqueleto humano\nmás antiguo",
+          "que se haya\ndescubierto hasta\nahora",
+          "en todo el\ncontinente\namericano!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8919699e-3a9a-4058-a17a-7a8120ad965b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Estoy muy \n emocionado!"
+        ],
+        "__section": "text",
+        "avatarId": "8acf43c1-b06b-4750-a897-7c6c436ba380",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "19eef0e0-7c50-46a2-8266-a5fd32aa5784"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Cuando analicemos\nsu ADN, incluso",
+          "podríamos rastrear\nel origen de los",
+          "pobladores en \nAmérica!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ac23ae86-803e-4c59-b91d-b5a5b7138833"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "d1e6ac6d-91f8-4f1c-99d2-24ab56778b07",
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 3
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "ede19fe5-bf1d-4118-8fe7-d043f3b2e973"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "purple"
+}

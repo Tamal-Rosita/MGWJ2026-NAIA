@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "43877cde-68d9-4f0a-97cc-5f82b908e611",
+  "name": "ice",
+  "symbol": "tileset_ice",
+  "width": 2,
+  "height": 2,
+  "imageWidth": 16,
+  "imageHeight": 16,
+  "filename": "ice.png"
+}

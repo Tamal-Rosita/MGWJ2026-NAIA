@@ -1,0 +1,36 @@
+{
+  "_resourceType": "trigger",
+  "id": "01798ddf-d5dc-4315-9a8c-2ddb6ee6dffa",
+  "name": "Hoyo Negro Body REA",
+  "prefabId": "",
+  "x": 2,
+  "y": 10,
+  "symbol": "trigger_19",
+  "prefabScriptOverrides": {},
+  "width": 16,
+  "height": 4,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d258e5bd-77ab-4e34-b5a7-fabcd739d4b2",
+        "__collapse": false,
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "6a12e2dc-cf84-4271-971e-27a8e2c4cc55"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "cc93a56c-681c-4160-a0a8-86c7e965b974"
+      },
+      "id": "64075e32-7431-4104-b0df-bbd6f7a6e0e0"
+    }
+  ],
+  "_index": 1
+}

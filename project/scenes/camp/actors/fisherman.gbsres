@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
   "prefabId": "",
-  "direction": "down",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -23,8 +23,8 @@
         "text": [
           "!F:5eea84a6-447b-43e7-b65a-01dfb4933fb8!!S3!Por favor ayuda...\n!F:12b504f3-e943-4b6c-b77c-fd9dbdfed067!!S2!No puedo pasar!",
           "Quiero pescar un\npejelagarto...",
-          "Pero estas !F:23e1e828-1125-4e12-aa4d-916045331e7a!bestias\n!F:5eea84a6-447b-43e7-b65a-01dfb4933fb8!!S4!son muy feroces!!",
-          "!F:23e1e828-1125-4e12-aa4d-916045331e7a!!S3!Ten mucho cuidado\ncon ellas! :S"
+          "Pero esta !F:23e1e828-1125-4e12-aa4d-916045331e7a!bestia\n!F:5eea84a6-447b-43e7-b65a-01dfb4933fb8!!S4!es muy feroz!!",
+          "!F:23e1e828-1125-4e12-aa4d-916045331e7a!!S3!Ten mucho cuidado\ncon ella! :S"
         ],
         "__section": "text",
         "avatarId": "",
@@ -55,6 +55,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 4,
-  "y": 22,
-  "_index": 2
+  "y": 26,
+  "_index": 0
 }

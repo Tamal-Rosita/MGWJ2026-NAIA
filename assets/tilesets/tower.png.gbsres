@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "75eb87d9-7c39-478b-9cf2-2d1673fb2d2c",
+  "name": "tower",
+  "symbol": "tileset_tower",
+  "width": 8,
+  "height": 8,
+  "imageWidth": 64,
+  "imageHeight": 64,
+  "filename": "tower.png"
+}

@@ -1,0 +1,64 @@
+{
+  "_resourceType": "trigger",
+  "id": "7cb7fd8b-b3cd-416c-9607-41287f9bf8aa",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 19,
+  "symbol": "trigger_8",
+  "prefabScriptOverrides": {},
+  "width": 30,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Llegaste a lo más\nprofundo...",
+          "de la cueva.",
+          "Tu sacrificio\ntraerá el agua",
+          "a estas tierras.",
+          "A partir de\nahora...",
+          "serás una con\nla cueva.",
+          "Descansa por la\neternidad."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9196644c-f339-47db-a2cc-878acc6bdf66"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "1486a15d-3153-4a1f-9975-e0c869ab47ef",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "db02404a-22fe-43a2-a470-84feb4cc57f2"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

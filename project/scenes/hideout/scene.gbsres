@@ -14,8 +14,8 @@
   "collisions": "0f45+002+0f12+002+0fb+0010+0f4+005+0f2+002+0f2+005+0f4+005+0f2+002+0f2+005+0f4+006+0f!002+0f!006+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0fb+002+0f12+002+0f9+",
   "autoFadeSpeed": 1,
   "symbol": "scene_9",
-  "x": 960,
-  "y": 656,
+  "x": 1064,
+  "y": 928,
   "script": [
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -198,5 +198,5 @@
   "playerHit3Script": [],
   "autoFadeEventCollapse": false,
   "playerSpriteSheetId": "8f8cac02-2047-4737-a13e-dd4b0fbd978b",
-  "labelColor": "yellow"
+  "labelColor": "green"
 }

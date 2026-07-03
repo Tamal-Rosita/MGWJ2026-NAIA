@@ -1,0 +1,33 @@
+{
+  "_resourceType": "scene",
+  "id": "f3dce52f-50b0-4d2d-8a4c-301a4a1effd2",
+  "_index": 18,
+  "name": "Rivers Cave",
+  "backgroundId": "5cca824b-0e6e-482e-9b68-fdfb59a90f19",
+  "tilesetId": "",
+  "width": 64,
+  "height": 24,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0026+0f4+008+0f8+007+0f25+0013+0f!007+0f!0010+0f2+0010+0f2+008+0f2+009+0f!007+0f!0010+0f2+0010+0f2+008+0f2+009+0f!007+0f!006+0f8+002+0f2+002+0f18+004+0f!006+0f!007+0f!006+0f8+002+0f2+002+0f18+004+0f!006+0f!007+0f!006+0f8+006+0f2+00c+0f4+008+0f3+006+0f!007+0f!006+0f8+006+0f2+00c+0f4+008+0f3+006+0f!007+0f!00e+0f8+002+0f6+004+0f4+002+0f9+006+0f!007+0f!00e+0f8+002+0f6+004+0f4+002+0f10+007+0f!006+0f6+00c+0f8+008+0f2+0015+0f!006+0f6+00c+0f8+008+0f2+0015+0f!006+0f12+00a+0f8+0015+0f!006+0f12+00a+0f8+0015+0f!001a+0f14+002+0f8+007+0f!001a+0f14+002+0f!006+0f!007+0f!006+0f12+0018+0f!006+0f!007+0f!006+0f12+0018+0f!006+0f!007+0f!006+0fa+008+0fc+002+0fb+006+0f!007+0f!006+0fa+008+0fc+002+0fb+006+0f!007+0f!0012+0f4+00c+0f2+0013+0f!007+0f!0012+0f4+00c+0f2+0013+0f!007+0f32+006+0f!0038+0f8+006+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_19",
+  "x": 1552,
+  "y": 520,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "fc0473e5-f41f-4d3b-a10c-08758fa87346",
+        "__comment": true
+      },
+      "id": "53d737da-0b8c-4eb2-ab61-e5b633d011b2"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "green"
+}

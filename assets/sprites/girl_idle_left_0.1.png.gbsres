@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "cd6764e8-030c-4b62-989f-27e37c8c8468",
+  "name": "girl_idle_left_0.1",
+  "symbol": "sprite_girl_idle_left_0_1",
+  "states": [
+    {
+      "id": "cd5ed077-b68d-4bdd-bd7f-5209dd7ffd2a",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "a76f5597-84cb-449e-b15e-1ef1b3c27a00",
+          "frames": [
+            {
+              "id": "f2b96ddd-da17-470e-9f89-85dcf784990e",
+              "tiles": [
+                {
+                  "id": "8ddfdb9a-298e-41eb-b192-244ccdeacde5",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "c166637d-a7eb-4159-8882-20dd6af8f895",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6ce40362-8818-402e-9c10-03fbc7383991",
+          "frames": [
+            {
+              "id": "c73e5ad4-e405-4626-80fc-057bbdecd517",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "60a63a13-e04b-43aa-b98f-052d709dcbc9",
+          "frames": [
+            {
+              "id": "84811ccb-c9a0-48d8-bb9c-80d4a1107742",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "379e4cb6-7c27-4d34-8505-336d4bb828f2",
+          "frames": [
+            {
+              "id": "0035e4c4-85c6-4e8e-84c9-e32d80930cc3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4d34c6fa-3a89-4f92-96a8-271a62ae3e44",
+          "frames": [
+            {
+              "id": "ed6e8ce4-6166-4e35-88bc-d4989ad63e2c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7b622606-8a62-4e1d-ba9b-83d5111798a4",
+          "frames": [
+            {
+              "id": "3e15f292-1421-4185-90a2-c48761e19fce",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1b1fa953-804c-42ba-a5b3-f5446f343fcf",
+          "frames": [
+            {
+              "id": "eb0f3f2b-a0a8-48eb-9cfa-4887b2298879",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ade4cc1d-d76a-4eae-9831-52b650f51150",
+          "frames": [
+            {
+              "id": "6e8acaa7-5157-455a-b983-983d00796765",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "girl_idle_left_0.1.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "fec1dc4f6edbceeeba3997191fd988bc68304469"
+}
