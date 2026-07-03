@@ -17,8 +17,8 @@
             "scale": 2,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 135,
-                "y": 146.75
+                "x": 292.75,
+                "y": 56.75
             }
         },
         "cave.tsx": {
@@ -29,16 +29,16 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 80,
-                "y": 71.83333333333334
+                "x": 7.333333333333334,
+                "y": -52.83333333333333
             }
         },
         "corridor_scene.tmx": {
             "scale": 1.5,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 250.66666666666663,
-                "y": 167
+                "x": 256,
+                "y": 95.66666666666666
             }
         },
         "gb_studio_outdoors.tsx": {
@@ -49,7 +49,7 @@
             "scale": 3,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 80.33333333333331,
+                "x": 80.66666666666666,
                 "y": 72.5
             }
         },
@@ -58,7 +58,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 80,
-                "y": 71.83333333333334
+                "y": 71.83333333333333
             }
         },
         "small-village-tileset.tsx": {

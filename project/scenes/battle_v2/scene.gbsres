@@ -3,7 +3,7 @@
   "id": "1794882b-a642-441e-955d-b76b4e36a851",
   "_index": 9,
   "name": "Battle v2",
-  "backgroundId": "b94eaeaf-32f3-46b0-894a-d062921290fb",
+  "backgroundId": "472322bd-c3ed-49e2-8f70-222afd749a53",
   "tilesetId": "",
   "width": 22,
   "height": 18,
@@ -180,7 +180,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Enemy Hp Counter",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -188,7 +188,7 @@
             "command": "EVENT_GROUP",
             "args": {
               "__label": "Enemy Hp 0-",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [

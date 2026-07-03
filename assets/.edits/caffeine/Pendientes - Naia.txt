@@ -1,0 +1,16 @@
+-Huesos que llevan a la cinemática (es uno)
+-Sprites de cinemáticas (son 6)
+
+-Gonfoterio
+-"Murciégalo"
+-Perezoso
+
+
+-Cambiar efecto de fuego por agua
+
+Fondos:
+
+-Caverna de Hielo - caverna general
+-Caverna normal /
+-ríos
+-bajo el agua (pendiente) <- murciélagos
