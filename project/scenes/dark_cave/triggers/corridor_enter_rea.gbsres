@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "71633b9d-0e9a-4755-8e55-eac9eb46a413",
+  "id": "5debbe08-4567-4eea-b4a5-d13fe6f6d994",
   "name": "Corridor Enter REA",
   "prefabId": "",
-  "x": 14,
-  "y": 12,
-  "symbol": "trigger_57",
+  "x": 18,
+  "y": 10,
+  "symbol": "trigger_59",
   "prefabScriptOverrides": {},
   "width": 2,
-  "height": 10,
+  "height": 12,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -20,7 +20,7 @@
           "value": 1
         }
       },
-      "id": "2ff3f86e-da85-4b0f-bbd4-ee96bb77cff9"
+      "id": "9e6f3266-e496-4631-95e1-2fb64f0df154"
     }
   ],
   "leaveScript": [
@@ -29,7 +29,7 @@
       "args": {
         "customEventId": "cc93a56c-681c-4160-a0a8-86c7e965b974"
       },
-      "id": "60bf80fb-2caf-4afa-9e49-71b170f2df58"
+      "id": "efb3fc40-fbc5-4e96-8f91-aac6f11dce9e"
     }
   ],
   "_index": 1
