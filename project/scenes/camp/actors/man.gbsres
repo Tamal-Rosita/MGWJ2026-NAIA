@@ -1,0 +1,235 @@
+{
+  "_resourceType": "actor",
+  "id": "bc9f5557-ad96-4be9-97f2-6882595b22f8",
+  "name": "Man",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1a5cd5f6-45c1-4adb-bcaa-9fba7800b2b1",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_53",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "53"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Has vencido a \nlas bestias.",
+                "Ahora estás \nlista,",
+                " ...agradece a \nlos guardianes."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f20175f2-c0f1-4a43-9f5a-d580c0c472ce"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "40",
+              "flag": 0,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Has vencido a la \nprimera bestia",
+                      "Pero antes de\nentrar a la cueva,",
+                      "Debes probar que\nestás lista.",
+                      "Trae alimento para\nla tribu.",
+                      "...Y agradece a \nlos guardianes."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "53fb0762-8f1b-43a3-808e-4cefdabab8c6"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                  "args": {
+                    "__section": "movement",
+                    "actorId": "player",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 2
+                    },
+                    "collideWith": [
+                      "walls"
+                    ],
+                    "lockDirection": [],
+                    "moveType": "horizontal"
+                  },
+                  "id": "833200cd-dc4e-4323-80cf-5b0b4d7d4676"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Te preparaste\nmucho para este\ndía.",
+                      "Pero antes de\nentrar a la cueva,",
+                      "Debes probar que\nestás lista.",
+                      "Una bestia acecha\ncerca de aquí.",
+                      "Encárgate de ella.",
+                      "Trae alimento para\nla tribu.",
+                      "Y agradece a los\nguardianes."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "2b49c6e1-3f76-477b-aef2-4cc5c9d893dc"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "50",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "d3c3d99d-a624-4b20-aa2f-904621a3d603"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                  "args": {
+                    "__section": "movement",
+                    "actorId": "player",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 2
+                    },
+                    "collideWith": [
+                      "walls"
+                    ],
+                    "lockDirection": [],
+                    "moveType": "horizontal"
+                  },
+                  "id": "3e6cdd4c-69b4-4753-b310-0449ee749628"
+                }
+              ]
+            },
+            "id": "f2c3fdbc-161f-4ac1-9cad-c1c104fdda52"
+          }
+        ]
+      },
+      "id": "8c49de47-019b-4dc1-89d5-425bbdfb0d2e"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "53"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 5
+              }
+            },
+            "id": "d5bf6cab-5b4c-44c9-9407-6030caab5ada"
+          }
+        ],
+        "false": []
+      },
+      "id": "d0808fdb-145c-4096-bafe-571c2261b6f2"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 26,
+  "y": 5,
+  "_index": 5
+}

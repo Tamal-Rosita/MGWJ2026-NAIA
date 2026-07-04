@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "c19a575e-fd66-4ef4-9bd9-258d2c12ec4b",
-  "name": "",
+  "id": "2a5777cf-7082-44e8-ad0a-6d5538c9839f",
+  "name": "Wild Zone Enter",
   "prefabId": "",
-  "x": 19,
+  "x": 0,
   "y": 2,
-  "symbol": "trigger_0",
+  "symbol": "trigger_26",
   "prefabScriptOverrides": {},
   "width": 1,
   "height": 5,
@@ -13,21 +13,21 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
+        "sceneId": "aacedb41-9021-45f3-b7c2-09fdb2d69979",
         "x": {
           "type": "number",
-          "value": 2
+          "value": 16
         },
         "y": {
           "type": "number",
-          "value": 24
+          "value": 4
         },
-        "direction": "",
-        "fadeSpeed": "2"
+        "direction": "left",
+        "fadeSpeed": 1
       },
-      "id": "e5ab0aea-09ac-41e0-858e-001a74945f92"
+      "id": "83f3ad7b-cdc7-4aaf-9dd9-51fbf97fb058"
     }
   ],
   "leaveScript": [],
-  "_index": 2
+  "_index": 1
 }

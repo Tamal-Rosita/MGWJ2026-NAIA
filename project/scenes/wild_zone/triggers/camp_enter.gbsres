@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "2a5777cf-7082-44e8-ad0a-6d5538c9839f",
-  "name": "",
+  "id": "c19a575e-fd66-4ef4-9bd9-258d2c12ec4b",
+  "name": "Camp Enter",
   "prefabId": "",
-  "x": 0,
+  "x": 19,
   "y": 2,
-  "symbol": "trigger_26",
+  "symbol": "trigger_0",
   "prefabScriptOverrides": {},
   "width": 1,
   "height": 5,
@@ -13,21 +13,21 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "aacedb41-9021-45f3-b7c2-09fdb2d69979",
+        "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
         "x": {
           "type": "number",
-          "value": 16
+          "value": 3
         },
         "y": {
           "type": "number",
-          "value": 4
+          "value": 24
         },
-        "direction": "",
-        "fadeSpeed": 1
+        "direction": "right",
+        "fadeSpeed": "2"
       },
-      "id": "83f3ad7b-cdc7-4aaf-9dd9-51fbf97fb058"
+      "id": "e5ab0aea-09ac-41e0-858e-001a74945f92"
     }
   ],
   "leaveScript": [],
-  "_index": 1
+  "_index": 2
 }

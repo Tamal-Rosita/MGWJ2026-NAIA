@@ -20,7 +20,17 @@
   "coordinateType": "tiles",
   "x": 6,
   "y": 12,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0bc61885-2ad2-443d-9047-f24f727d74cf",
+        "__collapse": false,
+        "__comment": false
+      },
+      "id": "de213f96-14fa-4db0-9a1a-26bb939f9e4f"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

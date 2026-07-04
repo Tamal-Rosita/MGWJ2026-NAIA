@@ -27,6 +27,14 @@
       "id": "9ac28aa2-70f8-4e55-ad5a-babc85cacf39"
     },
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0683bdf9-6b08-4aa3-a333-58f4256d9b3b",
+        "__collapse": true
+      },
+      "id": "9d137919-ee02-4a6f-8a8c-8623ed9246ae"
+    },
+    {
       "id": "cf8c416d-9297-41a8-b29b-4a54e1957ed6",
       "command": "EVENT_GROUP",
       "args": {

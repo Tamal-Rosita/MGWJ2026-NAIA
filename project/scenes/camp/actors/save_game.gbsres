@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "b5594786-5675-48cf-b382-18b6341b855c",
-  "_index": 8,
+  "_index": 6,
   "symbol": "actor_12",
   "prefabId": "",
   "name": "Save Game",
