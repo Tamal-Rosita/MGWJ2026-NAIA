@@ -1,12 +1,13 @@
--Huesos que llevan a la cinemática (es uno)
--Sprites de cinemáticas (son 6)
+-Huesos que llevan a la cinemática (ya)
 
--Gonfoterio
+-Gonfoterio (ya)
 -"Murciégalo"
 -Perezoso
 
-
--Cambiar efecto de fuego por agua
+-Cambiar efecto de fuego por agua (ya)
+Listo: 
+	-Dientesable
+	-Glyptodonte
 
 Fondos:
 
@@ -14,3 +15,5 @@ Fondos:
 -Caverna normal /
 -ríos
 -bajo el agua (pendiente) <- murciélagos
+
+-Sprites de cinemáticas (son 6)
