@@ -400,6 +400,26 @@
       "id": "9df37455-5d9f-4db2-b4a4-a3f294a39ca5__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
+    },
+    {
+      "id": "08ca16cc-5a10-41a5-894c-047d3b69ef5a__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "57",
+      "name": "Quest 3",
+      "symbol": "var_quest_3"
+    },
+    {
+      "id": "58",
+      "name": "Quest 4",
+      "symbol": "var_quest_4"
+    },
+    {
+      "id": "59",
+      "name": "Quest 5",
+      "symbol": "var_quest_5"
     }
   ],
   "constants": []

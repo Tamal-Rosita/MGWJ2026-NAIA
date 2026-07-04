@@ -37,7 +37,8 @@
           "value": 0
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__comment": true
       },
       "id": "23926c98-adea-4d65-82ac-856f93d8b67c"
     }

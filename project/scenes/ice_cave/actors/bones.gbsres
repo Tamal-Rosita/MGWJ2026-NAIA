@@ -1,0 +1,48 @@
+{
+  "_resourceType": "actor",
+  "id": "424ba524-138f-46ec-98ba-2d1ac4a8eaa3",
+  "name": "Bones",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "ff43a55b-5df0-4d4b-b0e2-7b257f6ffa9b",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_64",
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "08ca16cc-5a10-41a5-894c-047d3b69ef5a",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__comment": false
+      },
+      "id": "351a9ce9-ecd2-4ae6-ad74-89bebf65b91f"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 34,
+  "y": 2,
+  "_index": 8
+}

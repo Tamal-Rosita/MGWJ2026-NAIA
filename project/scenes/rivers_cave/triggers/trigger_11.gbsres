@@ -34,6 +34,13 @@
               }
             },
             "id": "d558029f-d06b-4de3-9ade-c4913f1cc4d3"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_CANCEL",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "d9f1f6f1-e7ec-4b06-aecd-75a5ee622068"
           }
         ]
       },
@@ -49,6 +56,14 @@
     }
   ],
   "leaveScript": [
+    {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 2,
+        "__collapse": false
+      },
+      "id": "1f4e4f42-7289-4ba6-8f17-ce726e9d442d"
+    },
     {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
       "args": {

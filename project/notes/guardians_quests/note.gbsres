@@ -1,11 +1,11 @@
 {
   "_resourceType": "note",
   "id": "990b3308-ea8f-4420-9661-447050101a7b",
-  "name": "Note 2",
-  "x": 2080,
-  "y": 264,
-  "width": 24,
-  "height": 20,
+  "name": "Guardians Quests",
+  "x": 1640,
+  "y": 96,
+  "width": 67,
+  "height": 13,
   "content": "Falta agregar condicionales para el momento de vencer a los guardianes. \n\nSi los vences, regresas inmediatamente al Hall y se cierra el acceso para volver al cave correspondiente.\n\nSi no los vences, pierdes la partida y debes continuar desde un checkpoint. Sugiero que sea desde el Hall.\n\nSi vences a los tres guardianes, se desbloquea el paso hacia el Hideout.",
   "labelColor": "yellow"
 }

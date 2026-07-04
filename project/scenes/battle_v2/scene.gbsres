@@ -12,7 +12,7 @@
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "0018c+",
-  "autoFadeSpeed": null,
+  "autoFadeSpeed": 1,
   "symbol": "scene_0",
   "x": 1048,
   "y": 128,
@@ -1668,7 +1668,7 @@
       "id": "32066a0a-e8b8-41e3-b2b7-c541151eab16",
       "command": "EVENT_LOOP",
       "args": {
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Battle Loop"
       },
       "children": {

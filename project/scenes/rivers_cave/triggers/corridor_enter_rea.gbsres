@@ -3,11 +3,11 @@
   "id": "51fee3f5-9316-4f42-aa86-9781fbb58e14",
   "name": "Corridor Enter REA",
   "prefabId": "",
-  "x": 44,
+  "x": 46,
   "y": 10,
   "symbol": "trigger_47",
   "prefabScriptOverrides": {},
-  "width": 14,
+  "width": 12,
   "height": 4,
   "script": [
     {

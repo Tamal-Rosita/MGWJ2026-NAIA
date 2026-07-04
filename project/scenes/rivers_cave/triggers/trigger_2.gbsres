@@ -7,9 +7,25 @@
   "y": 1,
   "symbol": "trigger_33",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 3,
+  "width": 2,
+  "height": 8,
   "script": [
+    {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 2,
+        "__collapse": false
+      },
+      "id": "3c56f67b-6198-493a-b525-78992b3007ad"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "1dbbe1c8-5d6a-439d-b723-7a10da8a4139"
+    },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
