@@ -1,0 +1,186 @@
+{
+  "_resourceType": "sprite",
+  "id": "ff43a55b-5df0-4d4b-b0e2-7b257f6ffa9b",
+  "name": "tiger_carcass",
+  "symbol": "sprite_skuls_pixel",
+  "states": [
+    {
+      "id": "5998fd15-00eb-4fb5-8b23-38671ee82762",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "5adf103e-5e69-468d-a666-9090760f29f5",
+          "frames": [
+            {
+              "id": "9b5987b0-59dd-4bb0-9398-437a17d75c86",
+              "tiles": [
+                {
+                  "id": "426c33f6-5b19-4959-9b3b-4980c7fd9b50",
+                  "x": -8,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "f00ff2f3-d745-4756-8802-fe8ca5f2830c",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "e2a5811d-cdd6-4ce0-9bec-1bb74473b38b",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "35c7fa1b-aaf0-4fa1-b973-7ab3ae9eb2f5",
+                  "x": 16,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "36eb6581-4c25-4f03-a6ba-9ed024919a4a",
+              "tiles": [
+                {
+                  "id": "a9279631-8846-4f16-b7ce-1aee8e62b1c4",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "b6a32b2c-d2bc-4af4-9da8-3e07d68fbf98",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "3cd7faf3-281b-43e9-b44e-ab05472c2ea0",
+          "frames": [
+            {
+              "id": "0bdd3a14-618d-4e9a-8585-add54293b12f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "643c506b-2386-4958-91de-042f7ee071c5",
+          "frames": [
+            {
+              "id": "e18c6894-05d7-4c55-b606-a2af815ab988",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8167525b-1ca2-41cb-adab-920d5f56a7bc",
+          "frames": [
+            {
+              "id": "2c2b8d11-f222-485c-a2a2-01bdf65f0a22",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0cd0b6a8-0e4a-47e2-91f0-11248180402c",
+          "frames": [
+            {
+              "id": "b147b0fb-bf61-4caf-8267-6a1b97928860",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c1242bcf-82f9-4a6c-875c-b34d22d47dbb",
+          "frames": [
+            {
+              "id": "229bdcaa-1193-4ef5-abcf-79c3b2387886",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0429eb46-849c-4d42-b0d6-0ed91d6b4279",
+          "frames": [
+            {
+              "id": "fbecc69a-63ea-4840-ad34-c8f02c723aae",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8be09688-2e94-4083-ad87-e92b37ed443c",
+          "frames": [
+            {
+              "id": "385073ed-8e85-4856-9b73-13ec1053b526",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "tiger_carcass.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "fcf6e86783daf515ee05dfebfd278b29a8a5f824"
+}
