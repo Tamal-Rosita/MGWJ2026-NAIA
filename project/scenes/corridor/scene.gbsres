@@ -83,7 +83,7 @@
         "duration": 0.2,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Creek Animation"
       },
       "children": {

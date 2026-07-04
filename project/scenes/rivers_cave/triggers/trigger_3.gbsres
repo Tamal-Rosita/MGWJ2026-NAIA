@@ -4,12 +4,28 @@
   "name": "",
   "prefabId": "",
   "x": 51,
-  "y": 20,
+  "y": 15,
   "symbol": "trigger_34",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 2,
+  "width": 2,
+  "height": 8,
   "script": [
+    {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 2,
+        "__collapse": false
+      },
+      "id": "831bef23-f6a4-466b-91c0-538440d3df0d"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "8fc1995c-60c8-4b04-a2ea-a3317f823c08"
+    },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {

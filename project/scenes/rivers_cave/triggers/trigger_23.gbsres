@@ -55,15 +55,6 @@
       "id": "6867dc22-b49d-45de-9a38-2c34d3509020"
     }
   ],
-  "leaveScript": [
-    {
-      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
-      "args": {
-        "actorId": "$self$",
-        "speed": 1
-      },
-      "id": "2332d077-bd5c-4a42-99ff-f864ed407cef"
-    }
-  ],
+  "leaveScript": [],
   "_index": 22
 }

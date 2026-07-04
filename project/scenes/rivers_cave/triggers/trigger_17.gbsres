@@ -34,6 +34,13 @@
               }
             },
             "id": "3afa8a88-ba0a-4e7a-b11f-b12e089195aa"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_CANCEL",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "1068cdaf-e86e-42e6-9270-0bfd925d75b8"
           }
         ]
       },
@@ -48,15 +55,6 @@
       "id": "ced80bbe-bcfc-43d0-a6c7-88fc914986b7"
     }
   ],
-  "leaveScript": [
-    {
-      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
-      "args": {
-        "actorId": "$self$",
-        "speed": 1
-      },
-      "id": "e77ab642-470d-40a5-88af-11b829ae2539"
-    }
-  ],
+  "leaveScript": [],
   "_index": 16
 }

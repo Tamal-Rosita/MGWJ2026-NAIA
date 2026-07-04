@@ -38,7 +38,8 @@
           {
             "command": "EVENT_ACTOR_MOVE_CANCEL",
             "args": {
-              "actorId": "$self$"
+              "actorId": "$self$",
+              "__comment": false
             },
             "id": "7a754cee-0baa-4cd0-b261-cff9e4fb40c6"
           }
@@ -50,7 +51,8 @@
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 0.25
+        "speed": 0.25,
+        "__comment": false
       },
       "id": "f8d2a5e0-435d-44a5-8083-ea10a786ffb6"
     }

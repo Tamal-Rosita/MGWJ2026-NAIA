@@ -7,5 +7,5 @@
   "width": 39,
   "height": 28,
   "content": "En el campamento, hay que arreglar los eventos de \"Girl\", \"Fisherman\" y de \"man\". \n\nQUEST 1\n1. Hablas con Man y habilitas quest de Fisherman (pejelagarto)\n1.1 Hablas con Fisherman y aparece el glyptodon\n1.2 Vences al glyptodon y el fisherman te deja pasar puedes ir a combatir con la bestia (slime). \n1.3 Vences a la bestia y Man te deja entrar a la cueva.\n\nQUEST 2\n2. No puedes empujar piedras\n2.1 Hablas con Girl y te deja empujar piedras\n2.2 Empujas piedra\n\n*",
-  "labelColor": "yellow"
+  "labelColor": "green"
 }

@@ -34,6 +34,13 @@
               }
             },
             "id": "2a25d550-9478-4acc-b25d-5a99bfafbcdc"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_CANCEL",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "6baeead4-09f1-4132-b7a0-6b41657c80d4"
           }
         ]
       },

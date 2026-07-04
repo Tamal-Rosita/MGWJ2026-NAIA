@@ -1,0 +1,61 @@
+{
+  "_resourceType": "actor",
+  "id": "6b21a621-047e-4abc-96a7-fa0d2cc9b1c6",
+  "name": "Ice Rock 2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "60660b1f-11e7-4df5-a07b-d18836cecd06",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_66",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "58"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "e1b50ffe-23b6-4280-866d-f0a6df929caa"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "e1b29403-e3b4-485a-9771-f2a621ecd63d"
+          }
+        ]
+      },
+      "id": "ee1b9d70-7004-44da-802f-8f0929c0c8a8"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 10,
+  "y": 9,
+  "_index": 3
+}

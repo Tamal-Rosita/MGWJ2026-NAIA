@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "9abf6f86-0002-4553-b952-7574fed81ccd",
+  "name": "water-anim-up",
+  "symbol": "tileset_water_anim_up",
+  "width": 4,
+  "height": 1,
+  "imageWidth": 32,
+  "imageHeight": 8,
+  "filename": "water-anim-up.png"
+}
