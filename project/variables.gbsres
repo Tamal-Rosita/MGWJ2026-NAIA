@@ -7,11 +7,6 @@
       "symbol": "var_language"
     },
     {
-      "id": "1",
-      "name": "help_girl",
-      "symbol": "var_help_girl_0"
-    },
-    {
       "id": "3",
       "name": "EnemyID",
       "symbol": "var_enemyid"
@@ -165,6 +160,41 @@
       "id": "40",
       "name": "Enemies01",
       "symbol": "var_enemies01"
+    },
+    {
+      "id": "50",
+      "name": "TalkWithMan",
+      "symbol": "var_talkwithman_0"
+    },
+    {
+      "id": "51",
+      "name": "TalkWithFisherman",
+      "symbol": "var_talkwithfisherman"
+    },
+    {
+      "id": "52",
+      "name": "CanMoveRocks",
+      "symbol": "var_canmoverocks"
+    },
+    {
+      "id": "53",
+      "name": "Quest 1",
+      "symbol": "var_quest_1"
+    },
+    {
+      "id": "54",
+      "name": "Q2RockX",
+      "symbol": "var_q2rockx"
+    },
+    {
+      "id": "55",
+      "name": "Q2RockY",
+      "symbol": "var_q2rocky"
+    },
+    {
+      "id": "56",
+      "name": "Quest 2",
+      "symbol": "var_quest_2"
     },
     {
       "id": "f4f59ce0-749b-4144-a5bc-86d33f4cc9ac__L0",

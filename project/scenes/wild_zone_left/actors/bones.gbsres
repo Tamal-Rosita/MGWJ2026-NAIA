@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
   "id": "d5d17deb-5345-4ae8-b013-b8922e998e6e",
-  "name": "",
+  "name": "Bones",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "dc80edbd-b8aa-46e3-b0ce-a35d83390f06",
+  "spriteSheetId": "ff43a55b-5df0-4d4b-b0e2-7b257f6ffa9b",
   "prefabId": "",
-  "direction": "down",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -41,7 +41,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 5,
-  "y": 13,
+  "x": 7,
+  "y": 9,
   "_index": 1
 }

@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
   "id": "918eff43-5eee-408b-a27f-b96b257432cf",
-  "name": "Slime Enemy",
+  "name": "Gonfoterio",
   "frame": 0,
   "animate": true,
-  "spriteSheetId": "0525cd65-ba3e-4e1b-92bc-95851ebeeceb",
+  "spriteSheetId": "55561033-cbbb-4d7b-9961-4db33c1d596c",
   "prefabId": "",
-  "direction": "left",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -18,8 +18,8 @@
   "_index": 0,
   "symbol": "actor_13",
   "coordinateType": "tiles",
-  "x": 9,
-  "y": 10,
+  "x": 8,
+  "y": 9,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -27,7 +27,7 @@
         "variable": "3",
         "value": {
           "type": "number",
-          "value": 0
+          "value": 1
         }
       },
       "id": "f418d853-401a-4ff9-ba65-e698b67b1f9f"
@@ -50,7 +50,7 @@
           "type": "number",
           "value": 11
         },
-        "direction": "left",
+        "direction": "right",
         "fadeSpeed": "2"
       }
     }

@@ -1,7 +1,7 @@
 {
   "_resourceType": "sprite",
   "id": "e6f8a669-9148-4dfc-9a1e-f4ae815987bb",
-  "name": "bones_fish_dark",
+  "name": "fish_carcass_dark",
   "symbol": "sprite_skull_hector_fondo",
   "states": [
     {
@@ -200,7 +200,7 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "bones_fish_dark.png",
+  "filename": "fish_carcass_dark.png",
   "width": 32,
   "height": 32,
   "checksum": "a44e5e813422745a846f9135a6e2ab2488930674"

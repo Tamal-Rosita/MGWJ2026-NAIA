@@ -26,7 +26,7 @@
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "3",
-        "choices": 5,
+        "choices": 4,
         "__collapseCase0": false,
         "__collapseCase1": false,
         "__collapseCase2": false,
@@ -48,7 +48,7 @@
         "__label": "Pick Correct Sprite Sheet",
         "value1": {
           "type": "number",
-          "value": 3
+          "value": 1
         },
         "value2": {
           "type": "number",
@@ -61,6 +61,10 @@
         "value4": {
           "type": "number",
           "value": 6
+        },
+        "value0": {
+          "type": "number",
+          "value": 0
         }
       },
       "children": {
@@ -80,7 +84,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "99de8726-5505-4575-827f-5c649675fe1a",
+              "spriteSheetId": "55561033-cbbb-4d7b-9961-4db33c1d596c",
               "__collapse": false
             },
             "id": "c81f618a-b1be-4595-a926-d7beb4a8509b"

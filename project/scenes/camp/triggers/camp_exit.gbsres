@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "ee9437f4-916e-485e-9ef5-ea98db042278",
-  "name": "",
+  "id": "8b8fe130-b8d4-4e33-8864-bcb4528661d3",
+  "name": "Camp Exit",
   "prefabId": "",
-  "x": 19,
-  "y": 2,
-  "symbol": "trigger_27",
+  "x": 0,
+  "y": 23,
+  "symbol": "trigger_25",
   "prefabScriptOverrides": {},
   "width": 1,
-  "height": 5,
+  "height": 3,
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -16,18 +16,18 @@
         "sceneId": "a5046433-9a73-47cb-864b-ed8876cb48c1",
         "x": {
           "type": "number",
-          "value": 2
+          "value": 16
         },
         "y": {
           "type": "number",
           "value": 4
         },
-        "direction": "",
-        "fadeSpeed": 1
+        "direction": "left",
+        "fadeSpeed": "2"
       },
-      "id": "4ec717ea-24d5-4324-a19e-4a94fbaee757"
+      "id": "fdf9e4cb-bbc2-4454-92d5-137ecc388479"
     }
   ],
   "leaveScript": [],
-  "_index": 0
+  "_index": 2
 }

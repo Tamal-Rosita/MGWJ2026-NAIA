@@ -21,7 +21,8 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6"
+        "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+        "__collapse": true
       },
       "id": "6398d191-6136-4744-972c-358526c829d0"
     },
@@ -46,7 +47,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Set Enemy Stats",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -62,20 +63,20 @@
                 ],
                 "rows": [
                   {
-                    "label": "Slime_Fxd",
+                    "label": "Glyptodon",
                     "values": [
                       {
                         "type": "number",
-                        "value": 20
+                        "value": 30
                       },
                       {
                         "type": "number",
-                        "value": 40
+                        "value": 50
                       }
                     ]
                   },
                   {
-                    "label": "Glyptodon",
+                    "label": "Gonfoterio",
                     "values": [
                       {
                         "type": "number",
@@ -180,7 +181,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Enemy Hp Counter",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -2551,7 +2552,7 @@
                           "operator": "==",
                           "comparator": 2,
                           "__collapseElse": false,
-                          "__collapse": true,
+                          "__collapse": false,
                           "__label": "Magic",
                           "__comment": false,
                           "__disableElse": true,
@@ -2575,8 +2576,8 @@
                               "args": {
                                 "variable": "L3",
                                 "items": 2,
-                                "option1": "Fuego",
-                                "option2": "Temblor",
+                                "option1": "Chorro",
+                                "option2": "Huracan",
                                 "option3": "Heal",
                                 "option4": "Poison",
                                 "option5": "",
@@ -2585,7 +2586,7 @@
                                 "option8": "",
                                 "cancelOnB": true,
                                 "layout": "menu",
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__label": "Magic Menu"
                               }
                             },
@@ -2598,7 +2599,7 @@
                                 "comparator": 1,
                                 "__collapseElse": false,
                                 "__collapse": false,
-                                "__label": "Fire",
+                                "__label": "Splash",
                                 "condition": {
                                   "type": "eq",
                                   "valueA": {
@@ -2620,7 +2621,7 @@
                                       "variable": "5",
                                       "operator": ">=",
                                       "comparator": 5,
-                                      "__collapseElse": false,
+                                      "__collapseElse": true,
                                       "__collapse": false,
                                       "condition": {
                                         "type": "gte",
@@ -3198,7 +3199,7 @@
                                           "command": "EVENT_ACTOR_SET_STATE",
                                           "args": {
                                             "actorId": "53a13642-19e2-4016-ba65-562b2ca04c28",
-                                            "spriteStateId": "Flame",
+                                            "spriteStateId": "Splash",
                                             "__collapse": true
                                           },
                                           "id": "6a99373b-a1d5-4eb2-9356-4f98dde07620"
@@ -3807,7 +3808,7 @@
                                             "operator": "<=",
                                             "comparator": "0",
                                             "__collapseElse": false,
-                                            "__collapse": false,
+                                            "__collapse": true,
                                             "condition": {
                                               "type": "lte",
                                               "valueA": {
@@ -3976,7 +3977,7 @@
                                 "comparator": 2,
                                 "__collapseElse": false,
                                 "__collapse": false,
-                                "__label": "Quake",
+                                "__label": "Drown",
                                 "condition": {
                                   "type": "eq",
                                   "valueA": {
@@ -4571,6 +4572,54 @@
                                             ]
                                           },
                                           "id": "4cfd38bf-aacf-4183-a3c8-1d3c26440c49"
+                                        },
+                                        {
+                                          "command": "EVENT_ACTOR_SET_STATE",
+                                          "args": {
+                                            "actorId": "53a13642-19e2-4016-ba65-562b2ca04c28",
+                                            "spriteStateId": "Drown",
+                                            "__collapse": false
+                                          },
+                                          "id": "1b2b9294-502e-4c58-a43f-90d5e633cf14"
+                                        },
+                                        {
+                                          "id": "69ca8542-c9bf-4ca7-8bc2-be136b356d01",
+                                          "command": "EVENT_WAIT",
+                                          "args": {
+                                            "time": {
+                                              "type": "number",
+                                              "value": 0.5
+                                            },
+                                            "__collapse": true,
+                                            "frames": {
+                                              "type": "number",
+                                              "value": 30
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "command": "EVENT_ACTOR_SET_STATE",
+                                          "args": {
+                                            "actorId": "53a13642-19e2-4016-ba65-562b2ca04c28",
+                                            "spriteStateId": "",
+                                            "__collapse": true
+                                          },
+                                          "id": "6b91aa9f-1ed4-4328-892a-884564e031ea"
+                                        },
+                                        {
+                                          "command": "EVENT_WAIT",
+                                          "args": {
+                                            "time": {
+                                              "type": "number",
+                                              "value": 0.1
+                                            },
+                                            "frames": {
+                                              "type": "number",
+                                              "value": 30
+                                            },
+                                            "__collapse": true
+                                          },
+                                          "id": "9a0bcb6c-85e7-4a58-b992-efed9a303ccc"
                                         },
                                         {
                                           "id": "c10b0b3b-afa1-41bb-9293-1f52f9cc1358",
@@ -5227,14 +5276,14 @@
                                                     "Venciste al\nenemigo!"
                                                   ],
                                                   "avatarId": "",
-                                                  "__collapse": true
+                                                  "__collapse": false
                                                 }
                                               },
                                               {
                                                 "command": "EVENT_CALL_CUSTOM_EVENT",
                                                 "args": {
                                                   "customEventId": "d125f6c4-55bb-4f39-b4c0-341414f6d792",
-                                                  "__collapse": true
+                                                  "__collapse": false
                                                 },
                                                 "id": "e7f99f6a-01c9-4577-a42f-23c15f19e4db"
                                               },
@@ -8229,7 +8278,7 @@
                   "command": "EVENT_GROUP",
                   "args": {
                     "__label": "Enemy's Turn",
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -8902,6 +8951,17 @@
                           "__collapse": true,
                           "collideWith": []
                         }
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                        "args": {
+                          "actorId": "53a13642-19e2-4016-ba65-562b2ca04c28",
+                          "direction": {
+                            "type": "direction",
+                            "value": "right"
+                          }
+                        },
+                        "id": "d5df91c0-8067-4ee0-bf5f-b8e73240026f"
                       },
                       {
                         "command": "EVENT_SET_VALUE",

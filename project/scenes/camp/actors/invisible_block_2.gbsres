@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "236715b9-17e7-473f-863c-65de88726722",
-  "name": "",
+  "id": "81f950d3-96e1-437c-91cb-1ba0b57d1802",
+  "name": "Invisible Block 2",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "dc80edbd-b8aa-46e3-b0ce-a35d83390f06",
   "prefabId": "",
-  "direction": "down",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_52",
+  "symbol": "actor_50",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -25,5 +25,5 @@
   "coordinateType": "tiles",
   "x": 1,
   "y": 26,
-  "_index": 6
+  "_index": 8
 }
