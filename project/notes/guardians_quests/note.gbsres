@@ -2,10 +2,10 @@
   "_resourceType": "note",
   "id": "990b3308-ea8f-4420-9661-447050101a7b",
   "name": "Guardians Quests",
-  "x": 1640,
-  "y": 96,
-  "width": 67,
-  "height": 13,
-  "content": "Falta agregar condicionales para el momento de vencer a los guardianes. \n\nSi los vences, regresas inmediatamente al Hall y se cierra el acceso para volver al cave correspondiente.\n\nSi no los vences, pierdes la partida y debes continuar desde un checkpoint. Sugiero que sea desde el Hall.\n\nSi vences a los tres guardianes, se desbloquea el paso hacia el Hideout.",
-  "labelColor": "yellow"
+  "x": 1520,
+  "y": 30,
+  "width": 69,
+  "height": 21,
+  "content": "Falta agregar condicionales para el momento de vencer a los guardianes.\n\nQUEST 3, 4 & 5\n\nSi los vences, regresas inmediatamente al Hall y se cierra el acceso para volver al cave correspondiente.\n- Al vencer al guardian aparecen sus huesos. Al interactuar se dispara cinematica, al finalizar volvemos al Hall.\n\nSi no los vences, pierdes la partida y debes continuar desde un checkpoint. Sugiero que sea desde el Hall.\n- Agregado checkpoint automatico al llegar al Hall. A partir de ahi, si mueres en cualquier punto, vuelves al hall.\n\nSi vences a los tres guardianes, se desbloquea el paso hacia el Hideout.\n- Quest3 && Quest4 && Quest5 ",
+  "labelColor": "green"
 }

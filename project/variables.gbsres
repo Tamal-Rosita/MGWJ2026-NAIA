@@ -197,6 +197,21 @@
       "symbol": "var_quest_2"
     },
     {
+      "id": "57",
+      "name": "Quest 3",
+      "symbol": "var_quest_3"
+    },
+    {
+      "id": "58",
+      "name": "Quest 4",
+      "symbol": "var_quest_4"
+    },
+    {
+      "id": "59",
+      "name": "Quest 5",
+      "symbol": "var_quest_5"
+    },
+    {
       "id": "f4f59ce0-749b-4144-a5bc-86d33f4cc9ac__L0",
       "name": "MainMenu",
       "symbol": "var_mainmenu"
@@ -407,19 +422,14 @@
       "symbol": "var_local_2"
     },
     {
-      "id": "57",
-      "name": "Quest 3",
-      "symbol": "var_quest_3"
+      "id": "650e2967-3791-4c08-9b28-028554df48a1__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
     },
     {
-      "id": "58",
-      "name": "Quest 4",
-      "symbol": "var_quest_4"
-    },
-    {
-      "id": "59",
-      "name": "Quest 5",
-      "symbol": "var_quest_5"
+      "id": "60",
+      "name": "Checkpoint Hall",
+      "symbol": "var_checkpoint_hall"
     }
   ],
   "constants": []

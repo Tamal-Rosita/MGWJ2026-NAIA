@@ -62,7 +62,7 @@
             "args": {
               "time": {
                 "type": "number",
-                "value": 0.1
+                "value": 0.2
               },
               "frames": {
                 "type": "number",
@@ -89,11 +89,35 @@
             "children": {
               "true": [
                 {
-                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "command": "EVENT_CAMERA_MOVE_TO",
                   "args": {
-                    "actorId": "85835dd9-c8d3-477a-bef8-ca07a0675a0d"
+                    "x": {
+                      "type": "number",
+                      "value": 20
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 5
+                    },
+                    "speed": 1,
+                    "__collapse": true
                   },
-                  "id": "b50ff1ed-0cbb-4a86-ae57-d439b5753d98"
+                  "id": "2c8ae923-008a-4591-aba4-0ef8a3c6ff80"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.5
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  },
+                  "id": "767025f4-7fd8-49d0-a1a2-8414e7386b0c"
                 },
                 {
                   "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -104,23 +128,86 @@
                     "frequency": 200,
                     "duration": 0.5,
                     "wait": true,
-                    "effect": 0
+                    "effect": 0,
+                    "__collapse": true
                   },
                   "id": "c4fa36c8-e4e9-48af-b327-6e40757711db"
+                },
+                {
+                  "command": "EVENT_CAMERA_SHAKE",
+                  "args": {
+                    "time": 0.5,
+                    "frames": 30,
+                    "shakeDirection": "horizontal",
+                    "magnitude": {
+                      "type": "number",
+                      "value": 2
+                    },
+                    "__collapse": false
+                  },
+                  "id": "2263074d-9c48-4b96-80a7-701bb7341b32"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "85835dd9-c8d3-477a-bef8-ca07a0675a0d",
+                    "__collapse": true
+                  },
+                  "id": "b50ff1ed-0cbb-4a86-ae57-d439b5753d98"
                 },
                 {
                   "command": "EVENT_WAIT",
                   "args": {
                     "time": {
                       "type": "number",
-                      "value": 2
+                      "value": 0.5
                     },
                     "frames": {
                       "type": "number",
                       "value": 1
-                    }
+                    },
+                    "__collapse": true
                   },
                   "id": "6b4d13bf-95dd-4fce-9d3f-eebd7034a7f2"
+                },
+                {
+                  "command": "EVENT_CAMERA_LOCK",
+                  "args": {
+                    "speed": 1,
+                    "axis": [
+                      "x",
+                      "y"
+                    ],
+                    "__collapse": true
+                  },
+                  "id": "71d8f5cb-9e1f-4f62-ab42-6ced73c93cfb"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "__presetId": "1702e053-af77-42ab-8bc7-c02b451bcef6",
+                    "text": [
+                      "Se rompio \nel hielo"
+                    ],
+                    "__section": "presets",
+                    "avatarId": "49293dcc-ea74-4960-8567-1949893e0f17",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 2,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "63e6a5f6-d22c-421e-add9-4fd5b6c00c9b"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -128,7 +215,8 @@
                     "variable": "L0",
                     "value": {
                       "type": "true"
-                    }
+                    },
+                    "__collapse": true
                   },
                   "id": "aae480fc-a71d-4327-9a39-5cbcd8d5069a"
                 }
@@ -148,6 +236,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 14,
-  "y": 20,
+  "y": 21,
   "_index": 0
 }

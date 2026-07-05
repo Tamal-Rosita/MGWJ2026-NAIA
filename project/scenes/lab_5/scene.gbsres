@@ -14,8 +14,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_24",
-  "x": 2105.5,
-  "y": 838,
+  "x": 2080,
+  "y": 680,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -187,6 +187,34 @@
         "closeDelayFrames": 30
       },
       "id": "b7a1f0a1-0bfe-4259-aebe-05607548c2ae"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "59",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": false
+      },
+      "id": "7bdd00f6-7a7a-473e-a7c4-c2fb5a196ee7"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e9c71df2-2113-42dc-8160-e2c9ac1b242d",
+        "x": {
+          "type": "number",
+          "value": 13
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      },
+      "id": "42c0409e-a4b1-4b4a-a1c0-3e5f82f27925"
     }
   ],
   "playerHit1Script": [],

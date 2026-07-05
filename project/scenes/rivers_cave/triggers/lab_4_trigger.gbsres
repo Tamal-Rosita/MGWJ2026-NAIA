@@ -1,19 +1,19 @@
 {
   "_resourceType": "trigger",
-  "id": "40ed933e-4226-4d20-b722-978ec1d0d3df",
-  "name": "",
+  "id": "7ce200ec-0f9d-4c28-9c6e-94be5399646b",
+  "name": "Lab 4 Trigger",
   "prefabId": "",
-  "x": 22,
-  "y": 20,
-  "symbol": "trigger_70",
+  "x": 38,
+  "y": 1,
+  "symbol": "trigger_69",
   "prefabScriptOverrides": {},
-  "width": 3,
-  "height": 2,
+  "width": 4,
+  "height": 1,
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "edaa3b30-6189-41bf-80b4-b38f2b8e077e",
+        "sceneId": "3e777f9e-88fd-4bf6-97ea-4243152b9056",
         "x": {
           "type": "number",
           "value": 0
@@ -23,11 +23,12 @@
           "value": 0
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__comment": true
       },
-      "id": "e9b55e9d-e624-4837-a019-779a726ad531"
+      "id": "7a7ff081-5287-47b1-9b88-1ab233c0f836"
     }
   ],
   "leaveScript": [],
-  "_index": 8
+  "_index": 28
 }

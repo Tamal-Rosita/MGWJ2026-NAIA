@@ -1,10 +1,10 @@
 {
   "_resourceType": "trigger",
   "id": "7cb7fd8b-b3cd-416c-9607-41287f9bf8aa",
-  "name": "",
+  "name": "End Trigger",
   "prefabId": "",
   "x": 0,
-  "y": 19,
+  "y": 7,
   "symbol": "trigger_8",
   "prefabScriptOverrides": {},
   "width": 30,
