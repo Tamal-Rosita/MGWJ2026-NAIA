@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "7c416ac1-ba42-4e7e-ba21-0678aeacfe05",
-  "name": "",
+  "id": "db75701c-c169-420e-8bc3-22b40b11ff93",
+  "name": "Ice Rock 2",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "fe2cc75d-f94a-4077-b463-b9813d79dbe1",
+  "spriteSheetId": "60660b1f-11e7-4df5-a07b-d18836cecd06",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_56",
+  "symbol": "actor_51",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 60,
-  "y": 11,
-  "_index": 0
+  "x": 37,
+  "y": 9,
+  "_index": 5
 }

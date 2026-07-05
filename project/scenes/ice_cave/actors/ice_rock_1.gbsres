@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "d372c7e1-bcfa-4392-a15a-fd68a7184eba",
-  "name": "",
+  "id": "85835dd9-c8d3-477a-bef8-ca07a0675a0d",
+  "name": "Ice Rock 1",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "4e0c4676-ccbb-4329-8d4a-f6bf19d49f90",
+  "spriteSheetId": "60660b1f-11e7-4df5-a07b-d18836cecd06",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_55",
+  "symbol": "actor_47",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 62,
-  "y": 11,
-  "_index": 0
+  "x": 29,
+  "y": 21,
+  "_index": 4
 }

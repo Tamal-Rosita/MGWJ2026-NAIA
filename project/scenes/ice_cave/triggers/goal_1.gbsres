@@ -1,0 +1,15 @@
+{
+  "_resourceType": "trigger",
+  "id": "11343976-77fd-40c4-820f-771151c618ed",
+  "name": "Goal 1",
+  "prefabId": "",
+  "x": 23,
+  "y": 3,
+  "symbol": "trigger_36",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [],
+  "leaveScript": [],
+  "_index": 4
+}
