@@ -4,7 +4,7 @@
   "name": "Enemy",
   "frame": 0,
   "animate": true,
-  "spriteSheetId": "4acfade6-74a5-4d66-9170-6d169b188e89",
+  "spriteSheetId": "b7877edd-cb99-4a46-a26c-dbba66598b0e",
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,
@@ -162,7 +162,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "99de8726-5505-4575-827f-5c649675fe1a",
+              "spriteSheetId": "b7877edd-cb99-4a46-a26c-dbba66598b0e",
               "__collapse": false
             },
             "id": "631f60ad-f0ab-4efb-b13e-afa8a0d4541a"
