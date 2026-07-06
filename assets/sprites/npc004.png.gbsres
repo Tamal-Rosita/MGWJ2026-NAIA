@@ -1,7 +1,7 @@
 {
   "_resourceType": "sprite",
   "id": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
-  "name": "player",
+  "name": "npc004",
   "symbol": "sprite_player",
   "states": [
     {
@@ -350,8 +350,8 @@
   "boundsWidth": 16,
   "boundsHeight": 8,
   "animSpeed": 15,
-  "filename": "player.png",
+  "filename": "npc004.png",
   "width": 96,
   "height": 16,
-  "checksum": "57d62a82877b5ce98f9b55b066672b11a74541af"
+  "checksum": "997cf5a9b89dc24b2d69350fdd6d17af7fc93d49"
 }
