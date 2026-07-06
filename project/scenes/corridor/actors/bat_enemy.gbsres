@@ -4,7 +4,7 @@
   "name": "Bat Enemy",
   "frame": 0,
   "animate": true,
-  "spriteSheetId": "99de8726-5505-4575-827f-5c649675fe1a",
+  "spriteSheetId": "b7877edd-cb99-4a46-a26c-dbba66598b0e",
   "prefabId": "",
   "direction": "left",
   "moveSpeed": 1,

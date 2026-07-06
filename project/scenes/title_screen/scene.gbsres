@@ -6,7 +6,7 @@
   "name": "Title Screen",
   "symbol": "scene_title_screen",
   "x": 144,
-  "y": 376,
+  "y": 272,
   "width": 20,
   "height": 18,
   "backgroundId": "d0b90e7e-1380-459d-a44c-91e7acac4298",
