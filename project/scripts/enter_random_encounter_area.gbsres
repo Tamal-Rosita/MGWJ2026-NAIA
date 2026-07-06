@@ -227,10 +227,11 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 4,
-        "duration": 1,
+        "duration": 0.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": false,
+        "units": "time"
       },
       "children": {
         "script": [
@@ -248,56 +249,74 @@
             "children": {
               "true": [
                 {
-                  "command": "EVENT_IF",
+                  "command": "EVENT_IF_INPUT",
                   "args": {
-                    "condition": {
-                      "type": "expression",
-                      "value": "$05$ >= $06$"
-                    },
-                    "__collapseElse": false,
-                    "__collapse": false
+                    "input": [
+                      "left",
+                      "up",
+                      "down",
+                      "right"
+                    ],
+                    "__collapseElse": false
                   },
                   "children": {
                     "true": [
                       {
-                        "id": "6a246845-b957-40a2-95fc-0a7bb8ae3b4a",
-                        "command": "EVENT_SCENE_PUSH_STATE",
+                        "command": "EVENT_IF",
                         "args": {
-                          "__collapse": false
-                        }
-                      },
-                      {
-                        "id": "25fdddf1-7bb3-4b24-ad15-45f8dbf2e90c",
-                        "command": "EVENT_SWITCH_SCENE",
-                        "args": {
-                          "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",
-                          "x": {
-                            "type": "number",
-                            "value": 15
+                          "condition": {
+                            "type": "expression",
+                            "value": "$05$ >= $06$"
                           },
-                          "y": {
-                            "type": "number",
-                            "value": 11
-                          },
-                          "direction": "left",
-                          "fadeSpeed": "2",
-                          "__collapse": false
-                        }
-                      }
-                    ],
-                    "false": [
-                      {
-                        "command": "EVENT_VARIABLE_MATH_EVALUATE",
-                        "args": {
-                          "variable": "5",
-                          "expression": "$05$ + 1",
+                          "__collapseElse": false,
                           "__collapse": false
                         },
-                        "id": "d1644d65-ffb3-4c94-9d98-bd44c74417bc"
+                        "children": {
+                          "true": [
+                            {
+                              "id": "6a246845-b957-40a2-95fc-0a7bb8ae3b4a",
+                              "command": "EVENT_SCENE_PUSH_STATE",
+                              "args": {
+                                "__collapse": false
+                              }
+                            },
+                            {
+                              "id": "25fdddf1-7bb3-4b24-ad15-45f8dbf2e90c",
+                              "command": "EVENT_SWITCH_SCENE",
+                              "args": {
+                                "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",
+                                "x": {
+                                  "type": "number",
+                                  "value": 15
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 11
+                                },
+                                "direction": "left",
+                                "fadeSpeed": "2",
+                                "__collapse": false
+                              }
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                              "args": {
+                                "variable": "5",
+                                "expression": "$05$ + 1",
+                                "__collapse": false
+                              },
+                              "id": "d1644d65-ffb3-4c94-9d98-bd44c74417bc"
+                            }
+                          ]
+                        },
+                        "id": "1db96de7-86a6-483e-ba06-a3aaad919237"
                       }
-                    ]
+                    ],
+                    "false": []
                   },
-                  "id": "1db96de7-86a6-483e-ba06-a3aaad919237"
+                  "id": "7df4c3de-8a52-4d21-abcf-087ab19b8f12"
                 }
               ],
               "false": []
