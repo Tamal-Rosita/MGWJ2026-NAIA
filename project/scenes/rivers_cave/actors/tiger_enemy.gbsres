@@ -1,0 +1,67 @@
+{
+  "_resourceType": "actor",
+  "id": "d372c7e1-bcfa-4392-a15a-fd68a7184eba",
+  "name": "Tiger Enemy",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_55",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 6
+        },
+        "__collapse": true
+      },
+      "id": "015062dc-32fc-4bd9-9dee-88329bae411a"
+    },
+    {
+      "id": "8f344a5d-5ef1-4726-9604-3e1bbdbc0dd4",
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": true
+      }
+    },
+    {
+      "id": "bf749275-ebd5-4894-9ccf-a094aff99bf8",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "left",
+        "fadeSpeed": "2",
+        "__collapse": true
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 62,
+  "y": 11,
+  "_index": 0
+}

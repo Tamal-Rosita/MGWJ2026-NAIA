@@ -1,8 +1,8 @@
 {
   "_resourceType": "background",
-  "id": "78628dcd-0f6c-4d2d-859f-f1170379d612",
+  "id": "d0b90e7e-1380-459d-a44c-91e7acac4298",
   "name": "title-naia",
-  "symbol": "bg_title_naia_opt",
+  "symbol": "bg_scaled_image",
   "tileColors": "",
   "filename": "title-naia.png",
   "width": 20,

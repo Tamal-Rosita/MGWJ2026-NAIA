@@ -1,0 +1,19 @@
+-Huesos que llevan a la cinemática (ya)
+
+-Gonfoterio (ya)
+-"Murciégalo"
+-Perezoso
+
+-Cambiar efecto de fuego por agua (ya)
+Listo: 
+	-Dientesable
+	-Glyptodonte
+
+Fondos:
+
+-Caverna de Hielo - caverna general
+-Caverna normal /
+-ríos
+-bajo el agua (pendiente) <- murciélagos
+
+-Sprites de cinemáticas (son 6)

@@ -1,0 +1,84 @@
+{
+  "_resourceType": "trigger",
+  "id": "6beb51bb-51ba-4586-a1c5-21801a4f854d",
+  "name": "Scene Menu 2",
+  "prefabId": "",
+  "x": 42,
+  "y": 21,
+  "symbol": "trigger_35",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Reiniciar",
+        "falseText": "Sala del Eslabón"
+      },
+      "id": "f96a5b1f-8529-41bc-afbc-205a33628250"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "d1e6ac6d-91f8-4f1c-99d2-24ab56778b07",
+              "x": {
+                "type": "number",
+                "value": 41
+              },
+              "y": {
+                "type": "number",
+                "value": 19
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "f5d11c25-f249-434f-a34a-a1ff7290eba8"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "e9c71df2-2113-42dc-8160-e2c9ac1b242d",
+              "x": {
+                "type": "number",
+                "value": 3
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "right",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "9785ef58-8e50-4252-8755-4c9180437c91"
+          }
+        ]
+      },
+      "id": "da3a9225-c72f-4374-a5d5-48d260e6657a"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

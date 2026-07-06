@@ -28,6 +28,16 @@
         "fadeSpeed": "2",
         "__comment": false
       }
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "60",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "897c350e-5dd2-4b03-b1c0-181f4f6ccf44"
     }
   ],
   "leaveScript": []

@@ -18,34 +18,249 @@
   "symbol": "actor_1",
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF_FLAGS_COMPARE",
       "args": {
-        "text": [
-          "!F:5eea84a6-447b-43e7-b65a-01dfb4933fb8!!S3!Por favor ayuda...\n!F:12b504f3-e943-4b6c-b77c-fd9dbdfed067!!S2!No puedo pasar!",
-          "Quiero pescar un\npejelagarto...",
-          "Pero esta !F:23e1e828-1125-4e12-aa4d-916045331e7a!bestia\n!F:5eea84a6-447b-43e7-b65a-01dfb4933fb8!!S4!es muy feroz!!",
-          "!F:23e1e828-1125-4e12-aa4d-916045331e7a!!S3!Ten mucho cuidado\ncon ella! :S"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": false,
-        "__presetId": ""
+        "variable": "40",
+        "flag": 0,
+        "__collapseElse": false
       },
-      "id": "05afc707-748e-4b1a-87c6-d294fc198ce9"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Gracias por tu\nayuda!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "d7b8f8a0-c526-4d01-8c7f-78b4c5b9a73d"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "50"
+              },
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "!F:5eea84a6-447b-43e7-b65a-01dfb4933fb8!!S3!Por favor ayuda...\n!F:12b504f3-e943-4b6c-b77c-fd9dbdfed067!!S2!No puedo pasar!",
+                      "Quiero pescar un\npejelagarto...",
+                      "Pero esta !F:23e1e828-1125-4e12-aa4d-916045331e7a!bestia\n!F:5eea84a6-447b-43e7-b65a-01dfb4933fb8!!S4!es muy feroz!!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false,
+                    "__presetId": ""
+                  },
+                  "id": "05afc707-748e-4b1a-87c6-d294fc198ce9"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "player",
+                    "direction": {
+                      "type": "direction",
+                      "value": "right"
+                    }
+                  },
+                  "id": "ca52e9f1-5956-4d18-95f5-5040daf8eca1"
+                },
+                {
+                  "command": "EVENT_CAMERA_MOVE_TO",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 12
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 12
+                    },
+                    "speed": 1
+                  },
+                  "id": "4b0bce29-57fa-4b8c-9b47-0863db82bcfc"
+                },
+                {
+                  "command": "EVENT_ACTOR_ACTIVATE",
+                  "args": {
+                    "actorId": "3d5df728-7ae5-46f5-bb62-31ace3389c23"
+                  },
+                  "id": "00757b12-6836-40fb-9fc1-7cbfac7aa6bb"
+                },
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "beep",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 0
+                  },
+                  "id": "17e3e2cd-9578-42e3-921b-1ade5c17462d"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.5
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "eab2febf-c365-467a-aafe-1020a985e5f0"
+                },
+                {
+                  "command": "EVENT_CAMERA_LOCK",
+                  "args": {
+                    "speed": 1,
+                    "axis": [
+                      "x",
+                      "y"
+                    ],
+                    "preventScroll": []
+                  },
+                  "id": "c7f21154-6b80-4787-bd7e-2d6c67ca15e6"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "!F:23e1e828-1125-4e12-aa4d-916045331e7a!!S3!Ten mucho cuidado\ncon ella! :S"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false,
+                    "__presetId": ""
+                  },
+                  "id": "fc2d904a-a3ad-4c63-acbf-734fc2f59794"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "51",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "5c6bedb6-ab22-492c-8b68-8a126ca874af"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                  "args": {
+                    "__section": "movement",
+                    "actorId": "player",
+                    "x": {
+                      "type": "number",
+                      "value": 31
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "collideWith": [
+                      "walls"
+                    ],
+                    "lockDirection": [],
+                    "moveType": "horizontal"
+                  },
+                  "id": "eb5b92cc-3eb0-49a7-81c1-5702070e758f"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "!F:5eea84a6-447b-43e7-b65a-01dfb4933fb8!!S3!Por favor ayuda...\n!F:12b504f3-e943-4b6c-b77c-fd9dbdfed067!!S2!No puedo pasar!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false,
+                    "__presetId": ""
+                  },
+                  "id": "5d1c7605-fa3b-4d56-8ab8-df4277f16d2f"
+                }
+              ]
+            },
+            "id": "eead4c64-3fc2-4898-add7-7bb35377965b"
+          }
+        ]
+      },
+      "id": "43a353a4-4c4a-4968-8ef5-27844db5b01d"
     }
   ],
   "startScript": [],
@@ -54,7 +269,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 4,
-  "y": 26,
+  "x": 1,
+  "y": 24,
   "_index": 0
 }

@@ -1,0 +1,67 @@
+{
+  "_resourceType": "actor",
+  "id": "7c416ac1-ba42-4e7e-ba21-0678aeacfe05",
+  "name": "Sloth",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "fe2cc75d-f94a-4077-b463-b9813d79dbe1",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_56",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 7
+        },
+        "__collapse": false
+      },
+      "id": "96236955-3411-485f-93cf-056fdb165575"
+    },
+    {
+      "id": "bd68fc3d-3e7d-4196-8076-83b03d6ff3dd",
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": false
+      }
+    },
+    {
+      "id": "4cf9275d-0ebc-4703-840e-d1e1cd41210a",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "left",
+        "fadeSpeed": "2",
+        "__collapse": false
+      }
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 60,
+  "y": 11,
+  "_index": 0
+}

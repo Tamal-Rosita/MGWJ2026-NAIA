@@ -27,7 +27,7 @@
         "variable": "3",
         "value": {
           "type": "number",
-          "value": 1
+          "value": 0
         },
         "__collapse": false
       },
@@ -59,7 +59,15 @@
       }
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "067b7544-7417-4b2e-bd26-d033bfd6d605"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

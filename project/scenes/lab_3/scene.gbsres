@@ -14,8 +14,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_22",
-  "x": 1584,
-  "y": 80,
+  "x": 2064,
+  "y": 240,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -140,19 +140,31 @@
       "id": "ac23ae86-803e-4c59-b91d-b5a5b7138833"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "57",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": false
+      },
+      "id": "fda37acf-ecc7-419b-8b06-52ba6425886e"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "d1e6ac6d-91f8-4f1c-99d2-24ab56778b07",
+        "sceneId": "e9c71df2-2113-42dc-8160-e2c9ac1b242d",
         "x": {
           "type": "number",
-          "value": 1
+          "value": 13
         },
         "y": {
           "type": "number",
-          "value": 3
+          "value": 5
         },
-        "direction": "down",
-        "fadeSpeed": "2"
+        "direction": "right",
+        "fadeSpeed": "2",
+        "__collapse": false
       },
       "id": "ede19fe5-bf1d-4118-8fe7-d043f3b2e973"
     }

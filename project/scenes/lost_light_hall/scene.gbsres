@@ -16,7 +16,16 @@
   "symbol": "scene_12",
   "x": 1064,
   "y": 328,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0bc61885-2ad2-443d-9047-f24f727d74cf",
+        "__comment": true
+      },
+      "id": "e6268634-6d62-43a3-8284-3638af3e4754"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

@@ -38,7 +38,8 @@
           {
             "command": "EVENT_ACTOR_MOVE_CANCEL",
             "args": {
-              "actorId": "$self$"
+              "actorId": "$self$",
+              "__comment": false
             },
             "id": "62578cd4-118f-4225-9f8b-6f11b2879ae7"
           }

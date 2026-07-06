@@ -11,6 +11,22 @@
   "height": 2,
   "script": [
     {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 2,
+        "__collapse": false
+      },
+      "id": "65f5ca56-368e-42e4-9d35-817959b642b5"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "c0e62c65-a3f4-4a14-bb0b-06415e67c538"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "f3dce52f-50b0-4d2d-8a4c-301a4a1effd2",

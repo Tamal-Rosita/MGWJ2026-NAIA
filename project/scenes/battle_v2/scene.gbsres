@@ -21,8 +21,8 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "703ea35c-afbe-4efb-a288-a371e5a2ad48",
-        "__collapse": false
+        "musicId": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
+        "__collapse": true
       },
       "id": "6398d191-6136-4744-972c-358526c829d0"
     },
@@ -141,6 +141,32 @@
                     ]
                   },
                   {
+                    "label": "Tiger",
+                    "values": [
+                      {
+                        "type": "number",
+                        "value": 60
+                      },
+                      {
+                        "type": "number",
+                        "value": 90
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Sloth",
+                    "values": [
+                      {
+                        "type": "number",
+                        "value": 92
+                      },
+                      {
+                        "type": "number",
+                        "value": 98
+                      }
+                    ]
+                  },
+                  {
                     "label": "Fish_Rnd",
                     "values": [
                       {
@@ -149,7 +175,7 @@
                       },
                       {
                         "type": "number",
-                        "value": 30
+                        "value": 20
                       }
                     ]
                   }
@@ -2481,7 +2507,7 @@
                                     "command": "EVENT_CALL_CUSTOM_EVENT",
                                     "args": {
                                       "customEventId": "d125f6c4-55bb-4f39-b4c0-341414f6d792",
-                                      "__collapse": true
+                                      "__collapse": false
                                     },
                                     "id": "5dfd9f8f-0ef2-45bb-8f66-4da07ae37156"
                                   },
@@ -2552,7 +2578,7 @@
                           "operator": "==",
                           "comparator": 2,
                           "__collapseElse": false,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "Magic",
                           "__comment": false,
                           "__disableElse": true,
@@ -3808,7 +3834,7 @@
                                             "operator": "<=",
                                             "comparator": "0",
                                             "__collapseElse": false,
-                                            "__collapse": true,
+                                            "__collapse": false,
                                             "condition": {
                                               "type": "lte",
                                               "valueA": {
