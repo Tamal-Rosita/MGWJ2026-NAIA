@@ -15,7 +15,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "f4b13359-77a2-4f9f-8652-cefd62e66e04"
     },
@@ -26,7 +26,7 @@
         "value": {
           "type": "false"
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "79018d71-97a3-4d73-b595-924cce465f96"
     },
@@ -34,7 +34,8 @@
       "command": "EVENT_VARIABLE_MATH_EVALUATE",
       "args": {
         "variable": "6",
-        "expression": "rnd($09$ - $08$) + $08$"
+        "expression": "rnd($09$ - $08$) + $08$",
+        "__collapse": false
       },
       "id": "fd5de6ea-8904-4a09-80ac-e4dbda280510"
     }
