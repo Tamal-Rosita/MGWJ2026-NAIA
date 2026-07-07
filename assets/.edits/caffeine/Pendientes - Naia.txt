@@ -1,11 +1,11 @@
 -Huesos que llevan a la cinemática (ya)
 
--Gonfoterio (ya)
--"Murciégalo"
+-Gonfoterio (ya, corregido)
+-"Murciégalo" (ya)
 -Perezoso
 
 -Cambiar efecto de fuego por agua (ya)
-Listo: 
+Listos: 
 	-Dientesable
 	-Glyptodonte
 
