@@ -47,7 +47,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Set Enemy Stats",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -8153,7 +8153,7 @@
                           "operator": "==",
                           "comparator": 4,
                           "__collapseElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "Flee",
                           "__comment": false,
                           "__disableElse": true,

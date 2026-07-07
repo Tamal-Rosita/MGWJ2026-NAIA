@@ -96,7 +96,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "55561033-cbbb-4d7b-9961-4db33c1d596c",
+              "spriteSheetId": "5272337b-ed9c-4476-8e01-c1cbefd2d6ed",
               "__collapse": false
             },
             "id": "c81f618a-b1be-4595-a926-d7beb4a8509b"
