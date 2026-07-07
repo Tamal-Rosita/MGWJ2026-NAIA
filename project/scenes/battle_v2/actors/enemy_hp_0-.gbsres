@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "8e712432-1539-4109-a9e8-8d6f809fb982",
+  "id": "229cc933-5b8c-484b-bd81-afbf36a108da",
   "name": "Enemy HP 0-",
   "frame": 0,
   "animate": false,
@@ -16,7 +16,7 @@
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "_index": 1,
-  "symbol": "actor_31",
+  "symbol": "actor_79",
   "coordinateType": "tiles",
   "x": 1,
   "y": 1,
