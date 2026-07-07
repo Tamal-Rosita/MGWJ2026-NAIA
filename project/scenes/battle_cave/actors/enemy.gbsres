@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "53a13642-19e2-4016-ba65-562b2ca04c28",
+  "id": "cd4f2a61-4690-4d9c-831a-d085a84d31c7",
   "name": "Enemy",
   "frame": 0,
   "animate": true,
@@ -16,7 +16,7 @@
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "_index": 0,
-  "symbol": "actor_24",
+  "symbol": "actor_71",
   "coordinateType": "tiles",
   "x": 5,
   "y": 11,
@@ -88,7 +88,7 @@
               "spriteSheetId": "e6d3a8ce-8304-43c1-8611-e5eac1a6b727",
               "__collapse": false
             },
-            "id": "5079d9d9-9065-45a4-acfd-203381fef326"
+            "id": "38ebce78-186a-4ebf-8493-3898d5e7c0c7"
           }
         ],
         "true1": [
@@ -99,7 +99,7 @@
               "spriteSheetId": "55561033-cbbb-4d7b-9961-4db33c1d596c",
               "__collapse": false
             },
-            "id": "c81f618a-b1be-4595-a926-d7beb4a8509b"
+            "id": "c1d41150-feb9-47f6-b347-a081d350d49a"
           }
         ],
         "true2": [
@@ -110,7 +110,7 @@
               "spriteSheetId": "99de8726-5505-4575-827f-5c649675fe1a",
               "__collapse": false
             },
-            "id": "05c6fa74-f5b0-47d7-be9c-88fd75d1b78c"
+            "id": "0e56a6ee-851f-4ddc-8b83-4c35558473f1"
           }
         ],
         "true3": [
@@ -121,7 +121,7 @@
               "spriteSheetId": "55561033-cbbb-4d7b-9961-4db33c1d596c",
               "__collapse": false
             },
-            "id": "1f6fbc72-44b6-4e99-9d38-cfd215fe0bee"
+            "id": "a5436132-30cf-4213-bc14-ef4d3505aec6"
           }
         ],
         "true4": [
@@ -132,7 +132,7 @@
               "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
               "__collapse": false
             },
-            "id": "7e581a35-b301-498d-8450-0a90483b61e7"
+            "id": "0c66d37a-9b0e-4923-8263-8aab14c39bbc"
           }
         ],
         "true5": [
@@ -143,7 +143,7 @@
               "spriteSheetId": "fe2cc75d-f94a-4077-b463-b9813d79dbe1",
               "__collapse": false
             },
-            "id": "16969878-a523-43b4-8663-d15d7ec818fb"
+            "id": "c894907c-3993-4037-99c8-2bf6268bcbb7"
           }
         ],
         "true6": [
@@ -154,7 +154,7 @@
               "spriteSheetId": "c0cab8f8-138e-421d-b8cc-8c0b71a4bcde",
               "__collapse": false
             },
-            "id": "71089667-add0-40a9-8868-54f6485e38b2"
+            "id": "0d6dbb72-fc67-4203-8350-737ae71fb001"
           }
         ],
         "true7": [
@@ -165,7 +165,7 @@
               "spriteSheetId": "b7877edd-cb99-4a46-a26c-dbba66598b0e",
               "__collapse": false
             },
-            "id": "631f60ad-f0ab-4efb-b13e-afa8a0d4541a"
+            "id": "3082c3ce-6d05-4c9a-b844-d46332de8706"
           }
         ],
         "true8": [],
@@ -184,11 +184,11 @@
               "spriteSheetId": "0525cd65-ba3e-4e1b-92bc-95851ebeeceb",
               "__collapse": false
             },
-            "id": "f2a69c35-292a-49bf-96e9-0a8ca4f83140"
+            "id": "2f1da796-3ecb-473e-8704-77c8e37ae9ed"
           }
         ]
       },
-      "id": "c05510be-e7f4-4195-ab09-8b28564f2d41"
+      "id": "4be6ee0f-02f1-4ba1-bebf-d904a2716b88"
     }
   ],
   "updateScript": [],

@@ -101,6 +101,17 @@
                     "fadeSpeed": "4",
                     "__collapse": false
                   }
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "64",
+                    "value": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "ec80872d-9126-40f0-892e-1c7abef1f051"
                 }
               ],
               "false": [

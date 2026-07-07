@@ -430,6 +430,76 @@
       "id": "650e2967-3791-4c08-9b28-028554df48a1__L0",
       "name": "Local 0",
       "symbol": "var_local_3"
+    },
+    {
+      "id": "83e081a8-618b-4d16-af9c-37e8abe00dac__L0",
+      "name": "Menu Option",
+      "symbol": "var_menu_option_1"
+    },
+    {
+      "id": "83e081a8-618b-4d16-af9c-37e8abe00dac__L1",
+      "name": "Escape Chance",
+      "symbol": "var_escape_chance_1"
+    },
+    {
+      "id": "83e081a8-618b-4d16-af9c-37e8abe00dac__L2",
+      "name": "Item Options",
+      "symbol": "var_item_options_1"
+    },
+    {
+      "id": "83e081a8-618b-4d16-af9c-37e8abe00dac__L3",
+      "name": "Magic Options",
+      "symbol": "var_magic_options_1"
+    },
+    {
+      "id": "83e081a8-618b-4d16-af9c-37e8abe00dac__L4",
+      "name": "Tens",
+      "symbol": "var_tens_1"
+    },
+    {
+      "id": "83e081a8-618b-4d16-af9c-37e8abe00dac__L5",
+      "name": "Singles",
+      "symbol": "var_singles_9"
+    },
+    {
+      "id": "cd4f2a61-4690-4d9c-831a-d085a84d31c7__L0",
+      "name": "Singles",
+      "symbol": "var_singles_10"
+    },
+    {
+      "id": "cd4f2a61-4690-4d9c-831a-d085a84d31c7__L1",
+      "name": "Tens",
+      "symbol": "var_tens_4"
+    },
+    {
+      "id": "6c2c148c-300a-446e-96a5-bfbe3453f5a4__L0",
+      "name": "Singles",
+      "symbol": "var_singles_11"
+    },
+    {
+      "id": "db2e2316-6878-449e-b2ee-6f63d84dd19d__L0",
+      "name": "Singles",
+      "symbol": "var_singles_12"
+    },
+    {
+      "id": "f1ac1ca4-c801-4023-82ce-ecbd73b5a74b__L0",
+      "name": "Singles",
+      "symbol": "var_singles_13"
+    },
+    {
+      "id": "32",
+      "name": "SceneID",
+      "symbol": "var_sceneid"
+    },
+    {
+      "id": "61",
+      "name": "Quest 6",
+      "symbol": "var_quest_6"
+    },
+    {
+      "id": "64",
+      "name": "NumPasses",
+      "symbol": "var_numpasses_0"
     }
   ],
   "constants": []
