@@ -18,10 +18,17 @@
   "y": 376,
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0bc61885-2ad2-443d-9047-f24f727d74cf"
+      },
+      "id": "0f5c6320-6071-4aae-b82d-d81c87ff3435"
+    },
+    {
       "id": "34283108-2864-41d7-b9da-98465c5fc071",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Enemy Actors Init"
       },
       "children": {
