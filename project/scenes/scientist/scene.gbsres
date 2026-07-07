@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "0e11707d-f217-45dc-a122-e67769359d47",
+  "_index": 26,
+  "name": "Scientist",
+  "backgroundId": "be20254a-5470-4661-8dba-450ee2057d56",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_27",
+  "x": 60,
+  "y": 760,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
