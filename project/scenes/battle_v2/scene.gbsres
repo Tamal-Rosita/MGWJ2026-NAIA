@@ -1,0 +1,91 @@
+{
+  "_resourceType": "scene",
+  "id": "a04b4a18-bce4-4a01-a60a-2ff34ec8e9e1",
+  "_index": 27,
+  "name": "Battle v2",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_28",
+  "x": 1312,
+  "y": 32,
+  "autoFadeEventCollapse": false,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "703ea35c-afbe-4efb-a288-a371e5a2ad48",
+        "__collapse": false
+      },
+      "id": "ae780b80-1849-41ca-9ffe-6c8352b2d810"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 0,
+        "__collapse": false,
+        "__comment": true
+      },
+      "id": "b961311c-c631-4a66-a7b3-834ddf6abd05"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0b42c32b-825f-4e4b-b2ec-9c9dd1830254",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "L5"
+        },
+        "$variable[V4]$": {
+          "type": "variable",
+          "value": "L2"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "L4"
+        },
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "L3"
+        },
+        "$variable[V5]$": {
+          "type": "variable",
+          "value": "L1"
+        },
+        "$actor[0]$": "7a9ab16a-49d2-40af-8534-ef3c536b6922",
+        "$actor[2]$": "29eff88c-68dd-4830-a094-0f8a6e39d674",
+        "$actor[4]$": "a6c54910-ac02-4510-8edf-cbc1e5a9a126",
+        "$actor[6]$": "e3b3a1e6-ae0b-4b04-8150-294605004575",
+        "$actor[1]$": "229cc933-5b8c-484b-bd81-afbf36a108da",
+        "$actor[3]$": "125a4560-9a7e-4311-9eb9-7d4467e87cbe",
+        "$actor[5]$": "00f23673-2b14-45fe-b951-5498f7951a62",
+        "__collapse": false
+      },
+      "id": "92b4c010-8923-4e82-896a-4b224cb97fd1"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "2dbe4ec3-5943-4745-8728-284c584376f8",
+  "labelColor": "yellow"
+}

@@ -38,7 +38,7 @@
         "variable": "32",
         "value": {
           "type": "number",
-          "value": 0
+          "value": 2
         }
       },
       "id": "0ffa3efc-a554-436c-8d81-42e62b01e493"
@@ -139,7 +139,7 @@
             "id": "7c4b0e50-67f5-4184-a52d-11d3662192da",
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",
+              "sceneId": "a04b4a18-bce4-4a01-a60a-2ff34ec8e9e1",
               "x": {
                 "type": "number",
                 "value": 15

@@ -16,7 +16,7 @@
   "symbol": "scene_27",
   "x": 1080,
   "y": 32,
-  "autoFadeEventCollapse": false,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -38,7 +38,7 @@
           "value": 0
         },
         "speed": 0,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "caccf304-2fb3-4cba-aa7d-1d45466ddfa4"
     },
