@@ -4,7 +4,7 @@
   "name": "Glyptodon Enemy",
   "frame": 0,
   "animate": true,
-  "spriteSheetId": "e6d3a8ce-8304-43c1-8611-e5eac1a6b727",
+  "spriteSheetId": "dfd43e99-38fd-47cf-8038-c88b0c962cd0",
   "prefabId": "",
   "direction": "left",
   "moveSpeed": 1,
