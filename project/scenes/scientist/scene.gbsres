@@ -1,0 +1,81 @@
+{
+  "_resourceType": "scene",
+  "id": "0e11707d-f217-45dc-a122-e67769359d47",
+  "_index": 27,
+  "name": "Scientist",
+  "backgroundId": "be20254a-5470-4661-8dba-450ee2057d56",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 104,
+  "y": 696,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "aab60662-3ebb-409f-8f00-6afd8c5c830a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ese es un\nprocedimiento muy",
+          "complejo y\npeligroso.",
+          "Si no se realiza\ncorrectamente,",
+          "los huesos se\npueden desmoronar",
+          "al sacarlos del\nagua.",
+          "¡Como un mazapán!\n...",
+          "Eso sería\nterrible."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "2b979677-de7a-407f-ad22-556a047a809f"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "bb1c2094-c93e-437e-8842-bd2d0ddf7796",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      },
+      "id": "a6175e69-0892-4e7d-a195-174d0bd63bf7"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "green"
+}

@@ -6,7 +6,7 @@
   "name": "Hoyo Negro",
   "symbol": "scene_stars",
   "x": 1064,
-  "y": 856,
+  "y": 880,
   "width": 30,
   "height": 27,
   "backgroundId": "86dcc73d-9b93-43a3-ba66-ba520e54e2a4",
@@ -50,6 +50,16 @@
         "__collapse": true
       },
       "id": "87b4b596-561b-4482-942e-e0ab35c4ceda"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "13",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "b8879a05-3142-406d-baee-a4570f64a67f"
     }
   ],
   "playerHit1Script": [],

@@ -34,6 +34,17 @@
       "id": "967210ae-5807-43b3-8ceb-a260bfee0266"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "32",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "471411f5-c235-4200-8c0d-c55199ee2f83"
+    },
+    {
       "id": "0297508e-409e-454b-8339-322c4c638c51",
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {
@@ -41,22 +52,114 @@
       }
     },
     {
-      "id": "f0a26073-8483-4e2d-a24c-f71c006cdb37",
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_SWITCH",
       "args": {
-        "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",
-        "x": {
+        "variable": "32",
+        "choices": 2,
+        "__collapseCase0": false,
+        "__collapseCase1": false,
+        "__collapseCase2": false,
+        "__collapseCase3": false,
+        "__collapseCase4": false,
+        "__collapseCase5": false,
+        "__collapseCase6": false,
+        "__collapseCase7": false,
+        "__collapseCase8": false,
+        "__collapseCase9": false,
+        "__collapseCase10": false,
+        "__collapseCase11": false,
+        "__collapseCase12": false,
+        "__collapseCase13": false,
+        "__collapseCase14": false,
+        "__collapseCase15": false,
+        "__collapseElse": false,
+        "value0": {
           "type": "number",
-          "value": 15
+          "value": 0
         },
-        "y": {
+        "value1": {
           "type": "number",
-          "value": 11
+          "value": 1
         },
-        "direction": "left",
-        "fadeSpeed": "2",
         "__collapse": true
-      }
+      },
+      "children": {
+        "true0": [
+          {
+            "id": "95ada502-e7fe-4960-acb0-460ac0d062a6",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "left",
+              "fadeSpeed": "2",
+              "__collapse": false
+            }
+          }
+        ],
+        "true1": [
+          {
+            "id": "0b360bab-2a53-482a-b62b-6482070eaa2b",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "83e081a8-618b-4d16-af9c-37e8abe00dac",
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "left",
+              "fadeSpeed": "2",
+              "__collapse": false
+            }
+          }
+        ],
+        "true2": [],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": [
+          {
+            "id": "33fc5022-a049-478d-a1f7-c7d8b5957fee",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "left",
+              "fadeSpeed": "2",
+              "__collapse": false
+            }
+          }
+        ]
+      },
+      "id": "cfaa4246-1a2c-4e97-8ea7-53001cfa7173"
     }
   ],
   "startScript": [

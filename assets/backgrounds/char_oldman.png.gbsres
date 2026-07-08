@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "891501e6-a57b-4898-84da-514538b1391c",
+  "name": "char_oldman",
+  "symbol": "bg_oldman_1_flat",
+  "tileColors": "",
+  "filename": "char_oldman.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

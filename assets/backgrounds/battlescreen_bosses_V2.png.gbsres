@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "1088f3f3-70af-4de5-bd5c-d66ea8ecb66a",
+  "name": "battlescreen_bosses_V2",
+  "symbol": "bg_battlescreen_bosses_v2",
+  "tileColors": "",
+  "filename": "battlescreen_bosses_V2.png",
+  "width": 22,
+  "height": 18,
+  "imageWidth": 176,
+  "imageHeight": 144
+}

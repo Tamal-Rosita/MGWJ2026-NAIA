@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "3ae4cab4-a289-4230-81de-031c5ad2e2be",
+  "name": "char_woman",
+  "symbol": "bg_woman_bob_flat",
+  "tileColors": "",
+  "filename": "char_woman.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

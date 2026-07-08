@@ -152,6 +152,11 @@
       "symbol": "var_agility"
     },
     {
+      "id": "32",
+      "name": "SceneID",
+      "symbol": "var_sceneid"
+    },
+    {
       "id": "39",
       "name": "PlayingDrums",
       "symbol": "var_playingdrums"
@@ -215,6 +220,16 @@
       "id": "60",
       "name": "Checkpoint Hall",
       "symbol": "var_checkpoint_hall"
+    },
+    {
+      "id": "61",
+      "name": "Quest 6",
+      "symbol": "var_quest_6"
+    },
+    {
+      "id": "64",
+      "name": "NumPasses",
+      "symbol": "var_numpasses_0"
     },
     {
       "id": "f4f59ce0-749b-4144-a5bc-86d33f4cc9ac__L0",
@@ -379,7 +394,7 @@
     {
       "id": "1794882b-a642-441e-955d-b76b4e36a851__L4",
       "name": "Tens",
-      "symbol": "var_tens_1"
+      "symbol": "var_tens_3"
     },
     {
       "id": "1794882b-a642-441e-955d-b76b4e36a851__L5",
@@ -430,6 +445,116 @@
       "id": "650e2967-3791-4c08-9b28-028554df48a1__L0",
       "name": "Local 0",
       "symbol": "var_local_3"
+    },
+    {
+      "id": "83e081a8-618b-4d16-af9c-37e8abe00dac__L0",
+      "name": "Menu Option",
+      "symbol": "var_menu_option_1"
+    },
+    {
+      "id": "83e081a8-618b-4d16-af9c-37e8abe00dac__L1",
+      "name": "Escape Chance",
+      "symbol": "var_escape_chance_1"
+    },
+    {
+      "id": "83e081a8-618b-4d16-af9c-37e8abe00dac__L2",
+      "name": "Item Options",
+      "symbol": "var_item_options_1"
+    },
+    {
+      "id": "83e081a8-618b-4d16-af9c-37e8abe00dac__L3",
+      "name": "Magic Options",
+      "symbol": "var_magic_options_1"
+    },
+    {
+      "id": "83e081a8-618b-4d16-af9c-37e8abe00dac__L4",
+      "name": "Tens",
+      "symbol": "var_tens_1"
+    },
+    {
+      "id": "83e081a8-618b-4d16-af9c-37e8abe00dac__L5",
+      "name": "Singles",
+      "symbol": "var_singles_9"
+    },
+    {
+      "id": "cd4f2a61-4690-4d9c-831a-d085a84d31c7__L0",
+      "name": "Singles",
+      "symbol": "var_singles_10"
+    },
+    {
+      "id": "cd4f2a61-4690-4d9c-831a-d085a84d31c7__L1",
+      "name": "Tens",
+      "symbol": "var_tens_4"
+    },
+    {
+      "id": "6c2c148c-300a-446e-96a5-bfbe3453f5a4__L0",
+      "name": "Singles",
+      "symbol": "var_singles_11"
+    },
+    {
+      "id": "db2e2316-6878-449e-b2ee-6f63d84dd19d__L0",
+      "name": "Singles",
+      "symbol": "var_singles_12"
+    },
+    {
+      "id": "f1ac1ca4-c801-4023-82ce-ecbd73b5a74b__L0",
+      "name": "Singles",
+      "symbol": "var_singles_13"
+    },
+    {
+      "id": "a04b4a18-bce4-4a01-a60a-2ff34ec8e9e1__L0",
+      "name": "Menu Option",
+      "symbol": "var_menu_option_2"
+    },
+    {
+      "id": "a04b4a18-bce4-4a01-a60a-2ff34ec8e9e1__L1",
+      "name": "Escape Chance",
+      "symbol": "var_escape_chance_2"
+    },
+    {
+      "id": "a04b4a18-bce4-4a01-a60a-2ff34ec8e9e1__L2",
+      "name": "Item Options",
+      "symbol": "var_item_options_2"
+    },
+    {
+      "id": "a04b4a18-bce4-4a01-a60a-2ff34ec8e9e1__L3",
+      "name": "Magic Options",
+      "symbol": "var_magic_options_2"
+    },
+    {
+      "id": "a04b4a18-bce4-4a01-a60a-2ff34ec8e9e1__L4",
+      "name": "Tens",
+      "symbol": "var_tens_5"
+    },
+    {
+      "id": "a04b4a18-bce4-4a01-a60a-2ff34ec8e9e1__L5",
+      "name": "Singles",
+      "symbol": "var_singles_14"
+    },
+    {
+      "id": "7a9ab16a-49d2-40af-8534-ef3c536b6922__L0",
+      "name": "Singles",
+      "symbol": "var_singles_15"
+    },
+    {
+      "id": "7a9ab16a-49d2-40af-8534-ef3c536b6922__L1",
+      "name": "Tens",
+      "symbol": "var_tens_6"
+    },
+    {
+      "id": "29eff88c-68dd-4830-a094-0f8a6e39d674__L0",
+      "name": "Singles",
+      "symbol": "var_singles_16"
+    },
+    {
+      "id": "e3b3a1e6-ae0b-4b04-8150-294605004575__L0",
+      "name": "Singles",
+      "symbol": "var_singles_17"
+    },
+    {
+      "id": "a6c54910-ac02-4510-8edf-cbc1e5a9a126__L0",
+      "name": "Singles",
+      "symbol": "var_singles_18"
     }
   ],
   "constants": []

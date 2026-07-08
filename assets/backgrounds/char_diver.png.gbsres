@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "9e818b37-c353-4feb-92e9-66c0c4166e4e",
+  "name": "char_diver",
+  "symbol": "bg_pilotboy_flat",
+  "tileColors": "",
+  "filename": "char_diver.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
