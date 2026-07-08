@@ -14,8 +14,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_16",
-  "x": 136,
-  "y": 568,
+  "x": 128,
+  "y": 520,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -38,30 +38,7 @@
           "Hola, me da gusto\nque vinieras...",
           "a saludar.",
           "Estamos en el...\n",
-          "Centro INAH\nCampeche.",
-          "Hoy es un día\nmuy importante.",
-          "Nuestros colegas\nespeleobuzos",
-          "encontraron un\nesqueleto en ",
-          "la Cueva de Hoyo\nNegro, muy cerca",
-          "de Tulum.",
-          "Y hoy los\ncomenzarán a traer",
-          "justo a este\nlugar.",
-          "Sabemos que son\nhuesos de humano.",
-          "Y creemos que son\nbastante antigüos.",
-          "Después de muchos\nesfuerzos ",
-          "Podrán extraer del\nagua los huesos.",
-          "Ese es un\nprocedimiento muy",
-          "complejo y\npeligroso.",
-          "Si no se realiza\ncorrectamente,",
-          "los huesos se\npueden desmoronar",
-          "al sacarlos del\nagua.",
-          "¡Como un mazapán!",
-          "Eso sería\nterrible.",
-          "...",
-          "Me pregunto...",
-          "¿quién habrá sido\nesta persona?",
-          "¿cómo habrá sido\nsu vida?",
-          "..."
+          "Centro INAH\nCampeche."
         ],
         "__section": "text",
         "avatarId": "",
@@ -84,18 +61,134 @@
       "id": "28585599-5caf-4cd6-92c6-eb8ed2a2331d"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_ACTOR_MOVE_TO",
       "args": {
-        "sceneId": "1c89d36b-4f74-4e4e-8802-0686d43e87f8",
+        "__section": "movement",
+        "actorId": "766ec1c5-fda5-4b81-85f2-bd815ab0e74a",
         "x": {
           "type": "number",
           "value": 9
         },
         "y": {
           "type": "number",
+          "value": 13
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "2f8234b4-7e5e-4fb2-b1d6-1e47a74dbac9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hoy es un día\nmuy importante.",
+          "Nuestros colegas\nespeleobuzos",
+          "encontraron un\nesqueleto en ",
+          "la Cueva de Hoyo\nNegro, muy cerca",
+          "de Tulum."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "d5392875-ce9e-4792-9ae5-d253652c12d7"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "movement",
+        "actorId": "766ec1c5-fda5-4b81-85f2-bd815ab0e74a",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
           "value": 11
         },
-        "direction": "down",
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "4f965cc3-bbda-4afa-96d2-35b8cbe8f400"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "e94c131c-9abb-4f27-904b-4fa97310cd71"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Y hoy los\ncomenzarán a traer",
+          "justo a este\nlugar.",
+          "Sabemos que son\nhuesos de humano.",
+          "Y creemos que son\nbastante antigüos.",
+          "Después de muchos\nesfuerzos"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "ff138d7d-ea93-4139-a073-8741b59d43c2"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "0e11707d-f217-45dc-a122-e67769359d47",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "right",
         "fadeSpeed": "2"
       },
       "id": "2a060906-c3c1-4dc1-8c2a-ab7047d988ea"
@@ -104,6 +197,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "purple",
+  "labelColor": "yellow",
   "playerSpriteSheetId": "dc80edbd-b8aa-46e3-b0ce-a35d83390f06"
 }

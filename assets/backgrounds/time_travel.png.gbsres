@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "c6f5d7c2-17e6-4851-ac80-3f97dff57c14",
+  "name": "time_travel",
+  "symbol": "bg_time_travel",
+  "tileColors": "",
+  "filename": "time_travel.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

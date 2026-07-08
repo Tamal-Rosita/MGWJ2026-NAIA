@@ -1,41 +1,52 @@
 {
   "_resourceType": "scene",
-  "id": "0e11707d-f217-45dc-a122-e67769359d47",
-  "_index": 27,
-  "name": "Scientist",
-  "backgroundId": "be20254a-5470-4661-8dba-450ee2057d56",
+  "id": "bb1c2094-c93e-437e-8842-bd2d0ddf7796",
+  "_index": 29,
+  "name": "Time Travel",
+  "backgroundId": "c6f5d7c2-17e6-4851-ac80-3f97dff57c14",
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "PLATFORM",
+  "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_1",
+  "symbol": "scene_30",
   "x": 128,
-  "y": 696,
+  "y": 872,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "aab60662-3ebb-409f-8f00-6afd8c5c830a"
+      "id": "492f271b-06da-4df2-be51-4b9e00883ec3"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "right",
+          "down",
+          "up",
+          "left",
+          "start"
+        ]
+      },
+      "id": "c9815e82-04f7-4b66-b20d-6b2ff73b5aa1"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Podrán extraer del\nagua los huesos.",
-          "Ese es un\nprocedimiento muy",
-          "complejo y\npeligroso.",
-          "Si no se realiza\ncorrectamente,",
-          "los huesos se\npueden desmoronar",
-          "al sacarlos del\nagua.",
-          "¡Como un mazapán!\n...",
-          "Eso sería\nterrible."
+          "Me pregunto...",
+          "¿quién habrá sido\nesta persona?",
+          "¿cómo habrá sido\nsu vida?",
+          "..."
         ],
         "__section": "text",
         "avatarId": "",
@@ -55,24 +66,25 @@
         "closeDelayFrames": 30,
         "__collapse": false
       },
-      "id": "2b979677-de7a-407f-ad22-556a047a809f"
+      "id": "2fa340b5-50d6-467d-b1ea-e47bb1273ddd"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "bb1c2094-c93e-437e-8842-bd2d0ddf7796",
+        "sceneId": "1c89d36b-4f74-4e4e-8802-0686d43e87f8",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 10
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 11
         },
-        "direction": "right",
-        "fadeSpeed": "2"
+        "direction": "down",
+        "fadeSpeed": "2",
+        "__collapse": false
       },
-      "id": "a6175e69-0892-4e7d-a195-174d0bd63bf7"
+      "id": "6a8be790-2002-4ed1-87ad-24eb4c6c1f06"
     }
   ],
   "playerHit1Script": [],

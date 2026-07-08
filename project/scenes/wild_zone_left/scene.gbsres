@@ -18,6 +18,15 @@
   "y": 376,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "fc0473e5-f41f-4d3b-a10c-08758fa87346",
+        "__collapse": false,
+        "__comment": false
+      },
+      "id": "d64517ba-267b-4f73-b5f6-b89e02c4f529"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "0bc61885-2ad2-443d-9047-f24f727d74cf"

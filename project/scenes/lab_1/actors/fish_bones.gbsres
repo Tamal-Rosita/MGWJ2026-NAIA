@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "81f950d3-96e1-437c-91cb-1ba0b57d1802",
-  "name": "Invisible Block 2",
+  "id": "c9fa720d-c237-4ca2-a35b-42388ea0b77b",
+  "name": "Fish Bones",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "dc80edbd-b8aa-46e3-b0ce-a35d83390f06",
+  "spriteSheetId": "e6f8a669-9148-4dfc-9a1e-f4ae815987bb",
   "prefabId": "",
-  "direction": "right",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_50",
+  "symbol": "actor_12",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 1,
-  "y": 26,
-  "_index": 7
+  "x": 15,
+  "y": 10,
+  "_index": 1
 }
