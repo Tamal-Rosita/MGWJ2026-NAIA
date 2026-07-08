@@ -15,7 +15,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
   "x": 792,
-  "y": 608,
+  "y": 632,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",

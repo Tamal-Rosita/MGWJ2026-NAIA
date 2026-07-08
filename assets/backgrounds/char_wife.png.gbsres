@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "40d8050e-778b-4cdd-af13-f16fad8cdb23",
+  "name": "char_wife",
+  "symbol": "bg_housewife_flat",
+  "tileColors": "",
+  "filename": "char_wife.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

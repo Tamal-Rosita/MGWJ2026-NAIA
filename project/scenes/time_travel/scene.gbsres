@@ -1,0 +1,95 @@
+{
+  "_resourceType": "scene",
+  "id": "bb1c2094-c93e-437e-8842-bd2d0ddf7796",
+  "_index": 29,
+  "name": "Time Travel",
+  "backgroundId": "c6f5d7c2-17e6-4851-ac80-3f97dff57c14",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_30",
+  "x": 104,
+  "y": 888,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "492f271b-06da-4df2-be51-4b9e00883ec3"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "right",
+          "down",
+          "up",
+          "left",
+          "start"
+        ],
+        "__comment": true
+      },
+      "id": "c9815e82-04f7-4b66-b20d-6b2ff73b5aa1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "!F:23e1e828-1125-4e12-aa4d-916045331e7a!Me pregunto...",
+          "!F:23e1e828-1125-4e12-aa4d-916045331e7a!¿quién habrá sido\nesta persona?",
+          "!F:23e1e828-1125-4e12-aa4d-916045331e7a!¿cómo habrá sido\nsu vida?",
+          "!F:23e1e828-1125-4e12-aa4d-916045331e7a!..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "2fa340b5-50d6-467d-b1ea-e47bb1273ddd"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "1c89d36b-4f74-4e4e-8802-0686d43e87f8",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "down",
+        "fadeSpeed": "2",
+        "__collapse": false
+      },
+      "id": "6a8be790-2002-4ed1-87ad-24eb4c6c1f06"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "green"
+}

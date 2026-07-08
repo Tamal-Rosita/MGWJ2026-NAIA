@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "97235959-e9b9-47c4-a740-41f557744b66",
+  "name": "char_detective",
+  "symbol": "bg_detective_flat",
+  "tileColors": "",
+  "filename": "char_detective.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

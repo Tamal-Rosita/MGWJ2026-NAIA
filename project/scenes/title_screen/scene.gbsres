@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "Title Screen",
   "symbol": "scene_title_screen",
-  "x": 144,
-  "y": 272,
+  "x": 104,
+  "y": 312,
   "width": 20,
   "height": 18,
   "backgroundId": "d0b90e7e-1380-459d-a44c-91e7acac4298",
@@ -91,11 +91,11 @@
                     "sceneId": "eafc85ba-1f8d-440b-b3a3-06ac809f75c1",
                     "x": {
                       "type": "number",
-                      "value": 0
+                      "value": 9
                     },
                     "y": {
                       "type": "number",
-                      "value": 0
+                      "value": 9
                     },
                     "direction": "down",
                     "fadeSpeed": "4",
