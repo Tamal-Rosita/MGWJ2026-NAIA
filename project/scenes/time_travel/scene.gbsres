@@ -14,8 +14,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_30",
-  "x": 128,
-  "y": 872,
+  "x": 104,
+  "y": 888,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -35,7 +35,8 @@
           "up",
           "left",
           "start"
-        ]
+        ],
+        "__comment": true
       },
       "id": "c9815e82-04f7-4b66-b20d-6b2ff73b5aa1"
     },
@@ -43,10 +44,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Me pregunto...",
-          "¿quién habrá sido\nesta persona?",
-          "¿cómo habrá sido\nsu vida?",
-          "..."
+          "!F:23e1e828-1125-4e12-aa4d-916045331e7a!Me pregunto...",
+          "!F:23e1e828-1125-4e12-aa4d-916045331e7a!¿quién habrá sido\nesta persona?",
+          "!F:23e1e828-1125-4e12-aa4d-916045331e7a!¿cómo habrá sido\nsu vida?",
+          "!F:23e1e828-1125-4e12-aa4d-916045331e7a!..."
         ],
         "__section": "text",
         "avatarId": "",
@@ -90,5 +91,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "yellow"
+  "labelColor": "green"
 }

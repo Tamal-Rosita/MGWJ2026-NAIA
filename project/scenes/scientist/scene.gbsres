@@ -14,7 +14,7 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 128,
+  "x": 104,
   "y": 696,
   "script": [
     {
@@ -28,7 +28,6 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Podrán extraer del\nagua los huesos.",
           "Ese es un\nprocedimiento muy",
           "complejo y\npeligroso.",
           "Si no se realiza\ncorrectamente,",
@@ -78,5 +77,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "yellow"
+  "labelColor": "green"
 }
