@@ -20,11 +20,10 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "fc0473e5-f41f-4d3b-a10c-08758fa87346",
-        "__collapse": false,
-        "__comment": false
+        "musicId": "48051450-e8e3-4646-a615-091a4c88c69f",
+        "__collapse": false
       },
-      "id": "55f55f82-b490-4e34-8d9b-ff9f7bd21750"
+      "id": "4d0aa871-9efc-41c8-a1e8-1817cda2becd"
     },
     {
       "command": "EVENT_ACTOR_SET_STATE",
@@ -61,7 +60,8 @@
         "frames": 30,
         "__scriptTabs": "end",
         "__collapse": true,
-        "__comment": false
+        "__comment": false,
+        "__label": "Water Anim"
       },
       "children": {
         "script": [
