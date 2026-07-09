@@ -15,7 +15,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
   "x": 792,
-  "y": 608,
+  "y": 632,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -83,7 +83,7 @@
         "duration": 0.2,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Creek Animation"
       },
       "children": {
@@ -147,7 +147,7 @@
       "args": {
         "customEventId": "0bc61885-2ad2-443d-9047-f24f727d74cf",
         "__collapse": false,
-        "__comment": true
+        "__comment": false
       },
       "id": "439b4577-1b60-4a67-a967-26493f30e079"
     }

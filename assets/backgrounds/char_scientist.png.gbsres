@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "be20254a-5470-4661-8dba-450ee2057d56",
+  "name": "char_scientist",
+  "symbol": "bg_scientist_flat",
+  "tileColors": "",
+  "filename": "char_scientist.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

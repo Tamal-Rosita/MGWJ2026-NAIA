@@ -1,0 +1,207 @@
+{
+  "_resourceType": "sprite",
+  "id": "4acfade6-74a5-4d66-9170-6d169b188e89",
+  "name": "dracula",
+  "symbol": "sprite_dracul_pixelart",
+  "states": [
+    {
+      "id": "f700d378-d9a8-406b-938f-59d9a5f3aafd",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "4b76c721-bb9f-4beb-922d-b7e3f410c860",
+          "frames": [
+            {
+              "id": "eee6365e-aa5f-4844-8921-b611b5f68436",
+              "tiles": [
+                {
+                  "id": "c0c5b36f-a430-494f-b1c8-2405bb369a19",
+                  "x": -8,
+                  "y": 16,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "9741d700-ea1a-4de9-a3be-40f9cd5fd7b0",
+                  "x": -8,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "09a3f23a-2a68-4c53-85d8-e5dbf67d91db",
+                  "x": 0,
+                  "y": 16,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "c04753a2-de2a-4952-b402-ab8f9e018b9e",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "c38fa7c0-f9e4-48f6-a3b7-af4399188659",
+                  "x": 8,
+                  "y": 16,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "45369dae-4613-4b0a-b4cc-fe94cfd1c112",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "fea617c4-060d-487f-8cd1-1e55e08baba6",
+                  "x": 16,
+                  "y": 16,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "166a22bc-14a6-4eac-bd51-0400b15f73eb",
+                  "x": 16,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "942fa203-1c98-4c72-ab87-daae582d2981",
+          "frames": [
+            {
+              "id": "ed0fd618-6a92-4086-9763-5d6b8179435e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "79c0f75a-70f4-45dc-a9f5-6092a9708331",
+          "frames": [
+            {
+              "id": "e4634db6-76ae-47bb-b5ba-7420e240c7a7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0399cd8a-399b-4b41-8c39-cf503a71abb6",
+          "frames": [
+            {
+              "id": "035d5f43-6ad2-4fd0-8212-05962ece95ee",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cecb03b6-b2ed-45b2-9ee1-b7751d74422f",
+          "frames": [
+            {
+              "id": "3b845841-b58a-49ad-9c29-b3679d6daa62",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f4110eb9-6642-4b6f-bf1f-b7b2f173aaaf",
+          "frames": [
+            {
+              "id": "70b4c59e-b96d-46b5-8b74-09c00bbf1d04",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "385c79ed-783b-4d99-8f29-1cb42fdfd007",
+          "frames": [
+            {
+              "id": "9d57c6ce-ab37-45a4-a3a3-e0e04b458935",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1b87bb53-a348-47ce-a98b-62dc28fd5e63",
+          "frames": [
+            {
+              "id": "5a2c83cf-b49c-43c5-a265-77a884ff504c",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 7,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "dracula.png",
+  "width": 192,
+  "height": 32,
+  "checksum": "c4bc99e06e5d6bd18d3fbf50f2c6302619a3b053"
+}

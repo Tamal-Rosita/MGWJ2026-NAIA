@@ -14,16 +14,9 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_16",
-  "x": 152,
-  "y": 568,
+  "x": 104,
+  "y": 504,
   "script": [
-    {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "2de8867a-b3d4-4a22-bfb9-8abea22ba63a"
-    },
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
@@ -32,42 +25,55 @@
       "id": "32535dd8-7aa8-45bf-97d1-57562381f145"
     },
     {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "a0fb64c2-d665-4f58-8739-f4dc78519733"
+      },
+      "id": "28034b80-4621-42b4-9795-899f820d96cd"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "9d28a8bf-14af-45d2-9e12-a5ceba32b3e2",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "9b45fc04-3c20-4490-8141-ba01379dafc8"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "right",
+          "down",
+          "up",
+          "left",
+          "start"
+        ]
+      },
+      "id": "9378b7f9-a387-46a5-966d-1b09b3010043"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Hola, me da gusto\nque vinieras...",
+          "Hola, me alegro\nque vinieras...",
           "a saludar.",
-          "Estamos en el...\n",
-          "Centro INAH\nCampeche.",
-          "Hoy es un día\nmuy importante.",
-          "Nuestros colegas\nespeleobuzos",
-          "encontraron un\nesqueleto en ",
-          "la Cueva de Hoyo\nNegro, muy cerca",
-          "de Tulum.",
-          "Y hoy los\ncomenzarán a traer",
-          "justo a este\nlugar.",
-          "Sabemos que son\nhuesos de humano.",
-          "Y creemos que son\nbastante antigüos.",
-          "Después de muchos\nesfuerzos ",
-          "Podrán extraer del\nagua los huesos.",
-          "Ese es un\nprocedimiento muy",
-          "complejo y\npeligroso.",
-          "Si no se realiza\ncorrectamente,",
-          "los huesos se\npueden desmoronar",
-          "al sacarlos del\nagua.",
-          "¡Como un mazapán!",
-          "Eso sería\nterrible.",
-          "...",
-          "Me pregunto...",
-          "¿quién habrá sido\nesta persona?",
-          "¿cómo habrá sido\nsu vida?",
-          "..."
+          "Estamos en el\n...",
+          "!F:5eea84a6-447b-43e7-b65a-01dfb4933fb8!Centro INAH\nCampeche."
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "ab7e00b9-e10c-4435-be3a-df6e0bd1493e",
         "minHeight": 4,
         "maxHeight": 7,
-        "textX": 1,
+        "textX": 2,
         "textY": 1,
         "textHeight": 5,
         "position": "bottom",
@@ -79,23 +85,230 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": false,
+        "__presetId": "1702e053-af77-42ab-8bc7-c02b451bcef6"
       },
       "id": "28585599-5caf-4cd6-92c6-eb8ed2a2331d"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_ACTOR_MOVE_TO",
       "args": {
-        "sceneId": "1c89d36b-4f74-4e4e-8802-0686d43e87f8",
+        "__section": "movement",
+        "actorId": "player",
         "x": {
           "type": "number",
           "value": 9
         },
         "y": {
           "type": "number",
+          "value": 13
+        },
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "2f8234b4-7e5e-4fb2-b1d6-1e47a74dbac9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hoy es un día\nmuy importante.",
+          "Nuestros\nespeleobuzos",
+          "encontraron un\nesqueleto en ",
+          "la !F:5eea84a6-447b-43e7-b65a-01dfb4933fb8!Cueva del\nHoyo Negro,",
+          "muy cerca\nde Tulum!"
+        ],
+        "__section": "text",
+        "avatarId": "ab7e00b9-e10c-4435-be3a-df6e0bd1493e",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false,
+        "__presetId": "1702e053-af77-42ab-8bc7-c02b451bcef6"
+      },
+      "id": "d5392875-ce9e-4792-9ae5-d253652c12d7"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "__section": "movement",
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 15
+        },
+        "y": {
+          "type": "number",
           "value": 11
         },
-        "direction": "down",
+        "collideWith": [
+          "walls"
+        ],
+        "lockDirection": [],
+        "moveType": "horizontal"
+      },
+      "id": "4f965cc3-bbda-4afa-96d2-35b8cbe8f400"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "e94c131c-9abb-4f27-904b-4fa97310cd71"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Y hoy comienzan\na traerlos...",
+          "justo a este\nlugar."
+        ],
+        "__section": "text",
+        "avatarId": "8acf43c1-b06b-4750-a897-7c6c436ba380",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false,
+        "__presetId": "1702e053-af77-42ab-8bc7-c02b451bcef6"
+      },
+      "id": "ff138d7d-ea93-4139-a073-8741b59d43c2"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "47b405ff-5453-41fe-9c4b-37685f205425",
+        "priority": "low",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "0190b5a1-a04f-478c-bf4c-ddb0b5eb3d3c"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "766ec1c5-fda5-4b81-85f2-bd815ab0e74a",
+        "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
+      },
+      "id": "3a7c6da2-02d2-462e-ab8e-9926a8e66b28"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Sabemos que \nson vestigios \nhumanos.",
+          "Y creemos que \nson bastante\nantigüos."
+        ],
+        "__section": "text",
+        "avatarId": "ab7e00b9-e10c-4435-be3a-df6e0bd1493e",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false,
+        "__presetId": "1702e053-af77-42ab-8bc7-c02b451bcef6"
+      },
+      "id": "94832cc3-6d85-4172-8870-6570b5777911"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Después de \nmuchos \nesfuerzos...",
+          "podrán extraer \ndel agua los \n!F:23e1e828-1125-4e12-aa4d-916045331e7a!huesos."
+        ],
+        "__section": "text",
+        "avatarId": "8acf43c1-b06b-4750-a897-7c6c436ba380",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false,
+        "__presetId": "1702e053-af77-42ab-8bc7-c02b451bcef6"
+      },
+      "id": "15243c70-a4ea-44e6-8e14-e350e53894f6"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 0.5
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "0c27c1b4-7531-4ac1-ac81-4ce77447751d"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "0e11707d-f217-45dc-a122-e67769359d47",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "right",
         "fadeSpeed": "2"
       },
       "id": "2a060906-c3c1-4dc1-8c2a-ab7047d988ea"
@@ -104,6 +317,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "purple",
-  "playerSpriteSheetId": "dc80edbd-b8aa-46e3-b0ce-a35d83390f06"
+  "labelColor": "green",
+  "playerSpriteSheetId": "0a64a7fc-4af3-4331-abf8-e7604de5843f"
 }

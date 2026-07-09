@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "Camp",
   "symbol": "scene_outside",
-  "x": 776,
-  "y": 312,
+  "x": 768,
+  "y": 328,
   "width": 32,
   "height": 32,
   "backgroundId": "663a613a-7c17-468b-9f62-666682e54a7c",
@@ -19,7 +19,7 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "86c3a6f9-79ab-4868-8ae4-caf12a1ce582",
+        "musicId": "fc0473e5-f41f-4d3b-a10c-08758fa87346",
         "__collapse": false,
         "__comment": true
       },
@@ -47,7 +47,7 @@
       "id": "f7c0fb67-d555-4c51-8f78-84ba987c1e33",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Enemy Actors Init"
       },
       "children": {
