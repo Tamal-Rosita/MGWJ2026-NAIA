@@ -18,6 +18,14 @@
   "y": 160,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "48051450-e8e3-4646-a615-091a4c88c69f",
+        "__collapse": false
+      },
+      "id": "4d0aa871-9efc-41c8-a1e8-1817cda2becd"
+    },
+    {
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "$self$",
@@ -52,7 +60,8 @@
         "frames": 30,
         "__scriptTabs": "end",
         "__collapse": true,
-        "__comment": false
+        "__comment": false,
+        "__label": "Water Anim"
       },
       "children": {
         "script": [

@@ -19,9 +19,9 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "fc0473e5-f41f-4d3b-a10c-08758fa87346",
+        "musicId": "48051450-e8e3-4646-a615-091a4c88c69f",
         "__collapse": false,
-        "__comment": true
+        "__comment": false
       },
       "id": "7a65f3f9-4eb5-4f93-8e52-ccd1b038ca47"
     },
@@ -30,7 +30,7 @@
       "args": {
         "customEventId": "0683bdf9-6b08-4aa3-a333-58f4256d9b3b",
         "__collapse": true,
-        "__comment": false
+        "__comment": true
       },
       "id": "725b641a-ce5c-4977-9fae-37cdb2165de0"
     },
@@ -114,7 +114,8 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "0bc61885-2ad2-443d-9047-f24f727d74cf"
+        "customEventId": "0bc61885-2ad2-443d-9047-f24f727d74cf",
+        "__collapse": true
       },
       "id": "ed24a8c8-2b81-46b2-b569-4f92bf0f97c1"
     }
