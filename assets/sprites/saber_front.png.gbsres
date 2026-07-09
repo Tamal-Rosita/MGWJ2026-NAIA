@@ -1,7 +1,7 @@
 {
   "_resourceType": "sprite",
   "id": "87c30175-6da4-4730-86cd-989f550ef7cd",
-  "name": "sabertooth_front",
+  "name": "saber_front",
   "symbol": "sprite_sabertooth",
   "states": [
     {
@@ -148,7 +148,7 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "sabertooth_front.png",
+  "filename": "saber_front.png",
   "width": 32,
   "height": 32,
   "checksum": "4a05b0839d42246f88c451bdac57f2a5e9e81fba"

@@ -15,7 +15,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_15",
   "x": 1520,
-  "y": 232,
+  "y": 216,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -38,7 +38,7 @@
       "id": "cf8c416d-9297-41a8-b29b-4a54e1957ed6",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Enemy Actors Init"
       },
       "children": {

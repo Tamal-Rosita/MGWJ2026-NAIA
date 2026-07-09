@@ -90,7 +90,7 @@
                     ]
                   },
                   {
-                    "label": "Slime_Rnd",
+                    "label": "Glypto_rnd",
                     "values": [
                       {
                         "type": "number",
@@ -103,7 +103,7 @@
                     ]
                   },
                   {
-                    "label": "Murcielago_Fxd",
+                    "label": "Murcielago_fxd",
                     "values": [
                       {
                         "type": "number",
@@ -116,7 +116,7 @@
                     ]
                   },
                   {
-                    "label": "Murcielago_Rnd",
+                    "label": "Murcielago_rnd",
                     "values": [
                       {
                         "type": "number",
@@ -168,7 +168,7 @@
                     ]
                   },
                   {
-                    "label": "Fish_Rnd",
+                    "label": "Fish_rnd",
                     "values": [
                       {
                         "type": "number",

@@ -1,23 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "772521bf-05e0-418a-8bee-6e59d0ef0888",
-  "name": "WaterMovement",
-  "symbol": "sprite_watermovement",
+  "id": "82324d2c-08fb-498a-92bd-cb4e9108007f",
+  "name": "saber_map",
+  "symbol": "sprite_sabre_map",
   "states": [
     {
-      "id": "c8e1772e-03bb-45dc-83d2-ebd0f2cc0d31",
+      "id": "ab513f98-f776-4267-9842-1def30a88af2",
       "name": "",
       "animationType": "fixed",
       "flipLeft": false,
       "animations": [
         {
-          "id": "0d164fbc-188e-424b-ab5e-ca81823186e8",
+          "id": "a9c5a8f2-a963-4123-9cea-2e40c1ddbafd",
           "frames": [
             {
-              "id": "52d3a09d-1d97-4939-942f-3812892d58e2",
+              "id": "9b9afd3b-fe65-448e-8364-5aadfcb31a2b",
               "tiles": [
                 {
-                  "id": "8d78a762-4b70-4f94-89cd-9c071a812c14",
+                  "id": "2a45f15c-a9c7-4566-9f09-39895035e38f",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -30,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "64d5a4bf-66d7-4068-bce5-1936ceba69ba",
+                  "id": "f81f46ad-8245-41f4-bc22-e4d384cf5cdd",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -45,10 +45,10 @@
               ]
             },
             {
-              "id": "a0b88ff0-dc2e-4948-bc18-00f2f9b06c06",
+              "id": "c2370f40-50b6-4f39-80d7-8ec85099479e",
               "tiles": [
                 {
-                  "id": "2c88fb29-1da9-4a3a-9ce5-6297e7859e7e",
+                  "id": "4f4db421-7d1d-48ee-bd29-9036976676f9",
                   "x": 0,
                   "y": 0,
                   "sliceX": 16,
@@ -61,7 +61,7 @@
                   "priority": false
                 },
                 {
-                  "id": "519f4281-a9db-44d3-a3fb-c31e5d82278e",
+                  "id": "33fbe55e-37db-4d0f-bde7-9b10d06b9d62",
                   "x": 8,
                   "y": 0,
                   "sliceX": 24,
@@ -78,64 +78,64 @@
           ]
         },
         {
-          "id": "92cecbb6-9638-4695-b4d6-12b734829c8b",
+          "id": "dee919e8-35ed-408e-8b0d-8470e54f1bf0",
           "frames": [
             {
-              "id": "d68a00df-4af9-48d8-aba5-b5fe0a7b5194",
+              "id": "b62e4ab5-dbec-468b-8eea-538cc5d4972a",
               "tiles": []
             }
           ]
         },
         {
-          "id": "47767cc2-ad71-451c-a7b5-97992eb3089e",
+          "id": "cf1d4250-6749-4289-980b-e0d577ed4e6c",
           "frames": [
             {
-              "id": "306cf34a-3e84-46e7-858e-c9e6a2cd5c57",
+              "id": "73b2eb49-60ab-4dd3-a1ff-6c5a7abf8856",
               "tiles": []
             }
           ]
         },
         {
-          "id": "76d0e6bd-7f5a-47e2-b5ba-a400c8767770",
+          "id": "637940c6-bc9c-4335-8872-9c2ec92cd25d",
           "frames": [
             {
-              "id": "086c88c5-32dc-4475-a183-0487d63f993a",
+              "id": "711ada5d-2857-4084-bd98-986665a5c749",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b6b22a1f-e117-43fd-8ff3-18846693ec8f",
+          "id": "1017eee5-5a6b-4860-b2d6-65c1ee90ebf9",
           "frames": [
             {
-              "id": "c54a9b08-e97a-4348-a38f-f69a83c6514a",
+              "id": "fdfd58c9-20f1-4610-8114-1fccdaeac5a1",
               "tiles": []
             }
           ]
         },
         {
-          "id": "7ce81a33-5f02-4726-b45a-886867540e1a",
+          "id": "e8a23e81-5d38-4ea3-adcc-5f4422b526e6",
           "frames": [
             {
-              "id": "947d970e-4489-46e7-afaf-16100b87094f",
+              "id": "f972d61b-a438-45e1-9365-e7aef9bfa990",
               "tiles": []
             }
           ]
         },
         {
-          "id": "cfa42607-e6ba-4a7d-afda-f020be716a86",
+          "id": "c7ea125f-8eaa-4d46-9266-eda8887f026a",
           "frames": [
             {
-              "id": "688c8609-af1c-454b-8601-1447312c848b",
+              "id": "6fd59242-5ae2-4b8b-8ec8-2d504f52f3d2",
               "tiles": []
             }
           ]
         },
         {
-          "id": "4087c4f5-446e-45c2-ba36-c844dc68f79f",
+          "id": "b7df34ee-32d6-437e-9e33-8a85e6f7a043",
           "frames": [
             {
-              "id": "0f3deec1-c82a-4ec7-a624-ac802f9c6ba4",
+              "id": "5e27f73d-9a8c-418f-8d9d-2071ac239b66",
               "tiles": []
             }
           ]
@@ -143,7 +143,7 @@
       ]
     }
   ],
-  "numTiles": 2,
+  "numTiles": 4,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 16,
@@ -153,8 +153,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "WaterMovement.png",
+  "filename": "saber_map.png",
   "width": 32,
   "height": 16,
-  "checksum": "3d6dbda3bfe50391f6395e92ed9736738e96f178"
+  "checksum": "a3c6cd0e99fb5f4c76a4cfd0c0fe8f6023fbbd55"
 }

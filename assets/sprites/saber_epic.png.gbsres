@@ -1,7 +1,7 @@
 {
   "_resourceType": "sprite",
   "id": "be4eb8f3-4166-49d3-b6d9-62e275db5873",
-  "name": "Sabretooth_pixelart_redux",
+  "name": "saber_epic",
   "symbol": "sprite_sabretooth_pixelart_",
   "states": [
     {
@@ -661,8 +661,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "Sabretooth_pixelart_redux.png",
+  "filename": "saber_epic.png",
   "width": 160,
   "height": 16,
-  "checksum": "848aadabc88f0c431a307c4444d06bf5d4799030"
+  "checksum": "f7794123cd0c2f6801a1c837fa51e673235849ed"
 }

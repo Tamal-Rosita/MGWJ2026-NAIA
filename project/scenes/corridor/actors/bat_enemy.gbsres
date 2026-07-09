@@ -4,7 +4,7 @@
   "name": "Bat Enemy",
   "frame": 0,
   "animate": true,
-  "spriteSheetId": "b7877edd-cb99-4a46-a26c-dbba66598b0e",
+  "spriteSheetId": "7dc0c227-05b4-44c6-8929-3072f7cc3a7b",
   "prefabId": "",
   "direction": "left",
   "moveSpeed": 1,
@@ -18,7 +18,7 @@
   "_index": 13,
   "symbol": "actor_9",
   "coordinateType": "tiles",
-  "x": 52,
+  "x": 53,
   "y": 11,
   "script": [
     {

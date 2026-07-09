@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "661a88ba-502d-4b93-85bd-a82b1f6cc9ab",
+  "name": "glypto_map",
+  "symbol": "sprite_glypto_map",
+  "states": [
+    {
+      "id": "a344e322-a63f-4e94-b6a8-d1cedf67d3f5",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "0ae95ec8-1161-4a58-bf91-93d18753aca3",
+          "frames": [
+            {
+              "id": "5d41e36f-e229-4401-a629-dce3e09490b6",
+              "tiles": [
+                {
+                  "id": "e454d217-f0e6-4953-931d-0953e0384578",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "84b3a32a-83a1-4c51-9664-ca53c99a573f",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "3c088c88-1ed7-4948-a928-3276b9cb4047",
+              "tiles": [
+                {
+                  "id": "9e43aadf-bca8-4eed-b0e3-be0588cd8204",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "6ccbca55-302a-4eb3-b34c-0f030885093e",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2d9b0a35-2c8c-44d1-a310-3a64b84bf0d6",
+          "frames": [
+            {
+              "id": "ddb63e8e-207e-49a1-927e-726e00b6a8c2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "29111182-68d6-46db-9977-5aa2ec8320c0",
+          "frames": [
+            {
+              "id": "e09009e6-4a24-42c5-87af-54474f25612e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9439ee01-1fc2-47a9-9e4d-c493ca299d6b",
+          "frames": [
+            {
+              "id": "642bab3b-8773-41c3-98d6-1e678860e15d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cca38b79-b700-40c3-8975-fdd3ab1005d8",
+          "frames": [
+            {
+              "id": "8f6fa78a-4d89-4f83-8102-c9740b151005",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c0445ef3-ab94-45b9-ac74-14370833d7a0",
+          "frames": [
+            {
+              "id": "7934460f-d765-4949-88a5-0b713b8fc352",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "31bc30ac-2311-481a-ac22-7b62b1f84aa9",
+          "frames": [
+            {
+              "id": "756f3b30-9639-43b9-b8b9-2af3f505c6ec",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "dc049fef-c5ad-47b7-9ff5-03cbb45efc12",
+          "frames": [
+            {
+              "id": "019bd607-0d32-4063-a35d-6416c733015d",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "glypto_map.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "c1ea401ef73739fb16659d016bf9970f21f91860"
+}

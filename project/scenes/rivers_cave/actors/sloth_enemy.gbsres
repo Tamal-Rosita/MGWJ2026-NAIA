@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "d372c7e1-bcfa-4392-a15a-fd68a7184eba",
-  "name": "Tiger Enemy",
+  "id": "7c416ac1-ba42-4e7e-ba21-0678aeacfe05",
+  "name": "Sloth Enemy",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "4e0c4676-ccbb-4329-8d4a-f6bf19d49f90",
+  "spriteSheetId": "fa43d6ed-0b6e-4aa3-bf60-c34af93ca3c0",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,7 +15,7 @@
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_55",
+  "symbol": "actor_56",
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -23,11 +23,11 @@
         "variable": "3",
         "value": {
           "type": "number",
-          "value": 6
+          "value": 7
         },
-        "__collapse": true
+        "__collapse": false
       },
-      "id": "015062dc-32fc-4bd9-9dee-88329bae411a"
+      "id": "96236955-3411-485f-93cf-056fdb165575"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -35,17 +35,17 @@
         "variable": "32",
         "value": {
           "type": "number",
-          "value": 1
+          "value": 2
         },
         "__collapse": false
       },
-      "id": "b2aef108-1624-42f4-a625-899fd7891985"
+      "id": "e26c157b-da8f-41c0-a8fe-9db592f57ec3"
     },
     {
-      "id": "8f344a5d-5ef1-4726-9604-3e1bbdbc0dd4",
+      "id": "bd68fc3d-3e7d-4196-8076-83b03d6ff3dd",
       "command": "EVENT_SCENE_PUSH_STATE",
       "args": {
-        "__collapse": true
+        "__collapse": false
       }
     },
     {
@@ -78,12 +78,13 @@
           "type": "number",
           "value": 1
         },
-        "__collapse": false
+        "__collapse": false,
+        "__label": "Switch Battle Scenario"
       },
       "children": {
         "true0": [
           {
-            "id": "8aeb2124-5f7a-4d37-8ab2-4a86bc85d089",
+            "id": "8277afa5-1df1-4958-8977-2736425426f7",
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",
@@ -103,7 +104,7 @@
         ],
         "true1": [
           {
-            "id": "2586f2bf-9c8f-48ef-944b-74e4b4b45156",
+            "id": "152e06aa-44e3-4d9a-be59-cce6541446c8",
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "83e081a8-618b-4d16-af9c-37e8abe00dac",
@@ -137,10 +138,10 @@
         "true15": [],
         "false": [
           {
-            "id": "4c2a9621-a85e-4bbb-8430-777f6c633414",
+            "id": "6f9b992b-c1be-4c65-bbb7-a774912f13f3",
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",
+              "sceneId": "a04b4a18-bce4-4a01-a60a-2ff34ec8e9e1",
               "x": {
                 "type": "number",
                 "value": 15
@@ -156,7 +157,7 @@
           }
         ]
       },
-      "id": "fb6bf423-f465-4f46-bf2a-f35c35f06139"
+      "id": "50820aa1-d403-4e85-acf6-7ba3bc644f92"
     }
   ],
   "startScript": [],
@@ -167,5 +168,5 @@
   "coordinateType": "tiles",
   "x": 62,
   "y": 11,
-  "_index": 0
+  "_index": 1
 }

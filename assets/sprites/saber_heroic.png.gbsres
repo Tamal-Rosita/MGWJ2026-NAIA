@@ -1,7 +1,7 @@
 {
   "_resourceType": "sprite",
   "id": "0ff87002-1485-43c7-b9e7-a60f23f52f44",
-  "name": "Sabretooth_pixelart_walk",
+  "name": "saber_heroic",
   "symbol": "sprite_sabretooth_pixelart__0",
   "states": [
     {
@@ -1247,7 +1247,7 @@
       "flipLeft": true
     }
   ],
-  "numTiles": 34,
+  "numTiles": 41,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 32,
@@ -1257,7 +1257,7 @@
   "boundsWidth": 32,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "Sabretooth_pixelart_walk.png",
+  "filename": "saber_heroic.png",
   "width": 256,
   "height": 32,
   "checksum": "c15ba281b3a736006081964fabfcbd6fac6fa659"

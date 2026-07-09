@@ -1,23 +1,23 @@
 {
   "_resourceType": "sprite",
-  "id": "c0cab8f8-138e-421d-b8cc-8c0b71a4bcde",
-  "name": "Fish",
-  "symbol": "sprite_fish",
+  "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "name": "arrow_static",
+  "symbol": "sprite_static",
   "states": [
     {
-      "id": "279179c6-0a26-41e2-9e8d-276991dafe49",
+      "id": "d6238023-c002-40e8-b300-42432294c9c8",
       "name": "",
-      "animationType": "horizontal",
-      "flipLeft": true,
+      "animationType": "fixed",
+      "flipLeft": false,
       "animations": [
         {
-          "id": "49cc70a2-d526-444a-88ee-0442430c46ae",
+          "id": "b155634c-9335-4447-b576-c3caa8d22bd2",
           "frames": [
             {
-              "id": "bb3d2136-e65a-4591-9d1c-47a5aafc737b",
+              "id": "4527be2e-c2ed-407d-b698-c3e3b105f92f",
               "tiles": [
                 {
-                  "id": "ebb82978-b1a0-41f0-a816-141af1d1e278",
+                  "id": "1505a617-220e-4ae3-af0f-6be33cb1d870",
                   "x": 0,
                   "y": 0,
                   "sliceX": 0,
@@ -30,7 +30,7 @@
                   "priority": false
                 },
                 {
-                  "id": "466c5176-b382-48e6-ba36-2e02357e400d",
+                  "id": "893f2a4e-8d90-4020-abe0-75a126e789be",
                   "x": 8,
                   "y": 0,
                   "sliceX": 8,
@@ -47,64 +47,64 @@
           ]
         },
         {
-          "id": "5588d6a3-8364-4dc5-b10a-b8869e8e5fda",
+          "id": "7d8361e1-8e28-4a9a-b808-10ebe94b9c2e",
           "frames": [
             {
-              "id": "0cd72bd5-a97f-4e49-a80f-1778d4767352",
+              "id": "7a5544fc-7d21-4cf6-bb8a-0e3db73ea379",
               "tiles": []
             }
           ]
         },
         {
-          "id": "8f431ca0-d123-4cbe-8af2-5c3bcfb756b1",
+          "id": "36fa8741-3cd2-4a86-9b15-221122083413",
           "frames": [
             {
-              "id": "1ec65876-3677-4e65-8f2d-dc58de3cab84",
+              "id": "c7901805-5756-439c-80ea-08996080b06d",
               "tiles": []
             }
           ]
         },
         {
-          "id": "2fd8ca09-f931-4318-909a-babf329dd370",
+          "id": "f6fba0d4-6546-4424-aef7-a4c85db2e902",
           "frames": [
             {
-              "id": "59a05ac2-bcc7-4799-a602-de7073523dbf",
+              "id": "76c42af3-9e03-45cb-86bd-5c8c88a8dbf2",
               "tiles": []
             }
           ]
         },
         {
-          "id": "7dc436b9-f527-4226-b2a1-e5176daf26a1",
+          "id": "2503c1db-2eb0-4f62-9c85-fae9e259e4d6",
           "frames": [
             {
-              "id": "bf969167-e63f-44a5-8e1f-837c4ef13d30",
+              "id": "e4cd8da2-ae26-4528-86fb-0c22ac8bc895",
               "tiles": []
             }
           ]
         },
         {
-          "id": "b8377650-4c36-4b5a-9a04-f735ca1dd303",
+          "id": "2c4b37e5-0cab-4cdc-9033-d57625305b84",
           "frames": [
             {
-              "id": "9294af37-d6d7-433b-9675-ad85ee717f9c",
+              "id": "a2cf4b4d-4a8f-4ca8-95a8-cea8d1019b69",
               "tiles": []
             }
           ]
         },
         {
-          "id": "04bbc31b-2591-4a35-af78-dd7207e18769",
+          "id": "d9fbbc42-21a6-4997-a8d0-7795b8371fa3",
           "frames": [
             {
-              "id": "587f7f42-85c7-46b5-a865-471403eb4c19",
+              "id": "6cc301a9-e4da-41d8-b26c-3c7d6efdb76c",
               "tiles": []
             }
           ]
         },
         {
-          "id": "61c28da0-aef0-4b9a-ab68-d02674d9cb9c",
+          "id": "502754bd-e733-4073-a1e8-528143a44395",
           "frames": [
             {
-              "id": "a6296246-9a1a-4a54-b7b2-4b319f6c0fe7",
+              "id": "27dfc7ba-8ee0-4815-b40e-260fc028f004",
               "tiles": []
             }
           ]
@@ -122,8 +122,8 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "Fish.png",
+  "filename": "arrow_static.png",
   "width": 16,
   "height": 16,
-  "checksum": "2c296883c3e6f03b5b978acc1c128edc69617ab3"
+  "checksum": "ed08d198cc3dd48f9bfba000769904ae41b36db8"
 }

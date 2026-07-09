@@ -4,7 +4,7 @@
   "name": "Gonfoterio",
   "frame": 0,
   "animate": true,
-  "spriteSheetId": "5272337b-ed9c-4476-8e01-c1cbefd2d6ed",
+  "spriteSheetId": "2432e915-1e66-4976-940b-b15dd56ff500",
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,
@@ -18,7 +18,7 @@
   "_index": 0,
   "symbol": "actor_13",
   "coordinateType": "tiles",
-  "x": 7,
+  "x": 6,
   "y": 9,
   "script": [
     {

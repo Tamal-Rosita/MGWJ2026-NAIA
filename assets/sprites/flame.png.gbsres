@@ -1,7 +1,7 @@
 {
   "_resourceType": "sprite",
   "id": "109d20b5-6a60-4957-baad-0a85fc64d161",
-  "name": "Flame",
+  "name": "flame",
   "symbol": "sprite_flame",
   "states": [
     {
@@ -215,7 +215,7 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "Flame.png",
+  "filename": "flame.png",
   "width": 64,
   "height": 16,
   "checksum": "d0630c866e9b5afcd2e02446ac414d4138652cb7"

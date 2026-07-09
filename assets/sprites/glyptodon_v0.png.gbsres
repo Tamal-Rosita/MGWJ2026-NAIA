@@ -1,7 +1,7 @@
 {
   "_resourceType": "sprite",
   "id": "e6d3a8ce-8304-43c1-8611-e5eac1a6b727",
-  "name": "glyptodon",
+  "name": "glyptodon_v0",
   "symbol": "sprite_glyptodon",
   "states": [
     {
@@ -629,7 +629,7 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "glyptodon.png",
+  "filename": "glyptodon_v0.png",
   "width": 80,
   "height": 16,
   "checksum": "5a6295f2d4333cc822e8fb9787b1e145c3b35753"

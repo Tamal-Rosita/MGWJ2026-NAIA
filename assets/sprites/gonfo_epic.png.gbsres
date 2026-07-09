@@ -1,7 +1,7 @@
 {
   "_resourceType": "sprite",
   "id": "5272337b-ed9c-4476-8e01-c1cbefd2d6ed",
-  "name": "gonfoterio_pixelart_redux_v2",
+  "name": "gonfo_epic",
   "symbol": "sprite_gonfoterio_pixelart_",
   "states": [
     {
@@ -718,7 +718,7 @@
   "boundsWidth": 20,
   "boundsHeight": 8,
   "animSpeed": 15,
-  "filename": "gonfoterio_pixelart_redux_v2.png",
+  "filename": "gonfo_epic.png",
   "width": 160,
   "height": 16,
   "checksum": "bef83c696cdcc3a5beeaefa0a1d4545591f8f39c"

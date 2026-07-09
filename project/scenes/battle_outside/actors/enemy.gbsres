@@ -4,7 +4,7 @@
   "name": "Enemy",
   "frame": 0,
   "animate": true,
-  "spriteSheetId": "4bb7ad10-6612-4cab-9a6b-207ca54e5331",
+  "spriteSheetId": "dfd43e99-38fd-47cf-8038-c88b0c962cd0",
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,
@@ -85,7 +85,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "e6d3a8ce-8304-43c1-8611-e5eac1a6b727",
+              "spriteSheetId": "dfd43e99-38fd-47cf-8038-c88b0c962cd0",
               "__collapse": false
             },
             "id": "5079d9d9-9065-45a4-acfd-203381fef326"
@@ -96,7 +96,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "55561033-cbbb-4d7b-9961-4db33c1d596c",
+              "spriteSheetId": "5272337b-ed9c-4476-8e01-c1cbefd2d6ed",
               "__collapse": false
             },
             "id": "c81f618a-b1be-4595-a926-d7beb4a8509b"
@@ -118,7 +118,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "55561033-cbbb-4d7b-9961-4db33c1d596c",
+              "spriteSheetId": "e6d3a8ce-8304-43c1-8611-e5eac1a6b727",
               "__collapse": false
             },
             "id": "1f6fbc72-44b6-4e99-9d38-cfd215fe0bee"
@@ -181,7 +181,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "0525cd65-ba3e-4e1b-92bc-95851ebeeceb",
+              "spriteSheetId": "e6d3a8ce-8304-43c1-8611-e5eac1a6b727",
               "__collapse": false
             },
             "id": "f2a69c35-292a-49bf-96e9-0a8ca4f83140"

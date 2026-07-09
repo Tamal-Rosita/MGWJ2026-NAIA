@@ -1,7 +1,7 @@
 {
   "_resourceType": "sprite",
   "id": "b7877edd-cb99-4a46-a26c-dbba66598b0e",
-  "name": "bat",
+  "name": "bat_epic",
   "symbol": "sprite_new_bat",
   "states": [
     {
@@ -741,7 +741,7 @@
   "boundsWidth": 32,
   "boundsHeight": 32,
   "animSpeed": 15,
-  "filename": "bat.png",
+  "filename": "bat_epic.png",
   "width": 32,
   "height": 32,
   "checksum": "327d88bf0b7a4cfa65ead684b307ebc625c332b9"

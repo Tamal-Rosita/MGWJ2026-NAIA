@@ -1,7 +1,7 @@
 {
   "_resourceType": "sprite",
   "id": "f4cc041b-fdcd-4b20-b559-30a63dc05584",
-  "name": "Water Ripple Animation",
+  "name": "water_ripple",
   "symbol": "sprite_water_ripple_animati",
   "states": [
     {
@@ -350,7 +350,7 @@
   "boundsWidth": 16,
   "boundsHeight": 16,
   "animSpeed": 15,
-  "filename": "Water Ripple Animation.png",
+  "filename": "water_ripple.png",
   "width": 96,
   "height": 16,
   "checksum": "68c7d4a5e7b26de46c004c3379242c51fafb1e5c"
