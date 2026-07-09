@@ -4,7 +4,7 @@
   "name": "Enemy",
   "frame": 0,
   "animate": true,
-  "spriteSheetId": "8f04f243-1901-4a90-9176-43a0293082ce",
+  "spriteSheetId": "5272337b-ed9c-4476-8e01-c1cbefd2d6ed",
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,
@@ -18,8 +18,8 @@
   "_index": 0,
   "symbol": "actor_78",
   "coordinateType": "tiles",
-  "x": 5,
-  "y": 11,
+  "x": 9,
+  "y": 7,
   "script": [],
   "startScript": [
     {
@@ -85,7 +85,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "e6d3a8ce-8304-43c1-8611-e5eac1a6b727",
+              "spriteSheetId": "dfd43e99-38fd-47cf-8038-c88b0c962cd0",
               "__collapse": false
             },
             "id": "909afe91-fec2-4871-b6a4-86d95f915b70"
@@ -96,7 +96,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "8f04f243-1901-4a90-9176-43a0293082ce",
+              "spriteSheetId": "5272337b-ed9c-4476-8e01-c1cbefd2d6ed",
               "__collapse": false
             },
             "id": "40ab51bb-075d-4725-bd13-35886c2debea"
@@ -118,7 +118,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "55561033-cbbb-4d7b-9961-4db33c1d596c",
+              "spriteSheetId": "2432e915-1e66-4976-940b-b15dd56ff500",
               "__collapse": false
             },
             "id": "c575a66f-e63e-403e-b9c7-f1123df5183a"
@@ -129,7 +129,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+              "spriteSheetId": "87c30175-6da4-4730-86cd-989f550ef7cd",
               "__collapse": false
             },
             "id": "6d447d07-cf73-440b-a116-34cb2ed8c4e3"
@@ -140,7 +140,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "fe2cc75d-f94a-4077-b463-b9813d79dbe1",
+              "spriteSheetId": "7222ce5c-2791-4a68-bdb9-0b2c2188d57b",
               "__collapse": false
             },
             "id": "7437ec90-4a54-4e35-ba52-424ddaa80814"

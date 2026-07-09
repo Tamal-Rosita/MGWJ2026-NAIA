@@ -15,7 +15,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_20",
   "x": 1520,
-  "y": 680,
+  "y": 696,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -36,7 +36,7 @@
       "id": "6bace8cb-0b11-4faa-933b-225c4c631418",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Enemy Actors Init"
       },
       "children": {
@@ -45,7 +45,7 @@
             "command": "EVENT_IF_FLAGS_COMPARE",
             "args": {
               "variable": "40",
-              "flag": 6,
+              "flag": 5,
               "__collapseElse": false,
               "__collapse": false
             },
@@ -54,7 +54,7 @@
                 {
                   "command": "EVENT_ACTOR_DEACTIVATE",
                   "args": {
-                    "actorId": "7c416ac1-ba42-4e7e-ba21-0678aeacfe05",
+                    "actorId": "d372c7e1-bcfa-4392-a15a-fd68a7184eba",
                     "__collapse": false
                   },
                   "id": "18c2bd81-7d59-4d85-9be8-256257cdfa19"
@@ -71,7 +71,7 @@
                 {
                   "command": "EVENT_ACTOR_ACTIVATE",
                   "args": {
-                    "actorId": "7c416ac1-ba42-4e7e-ba21-0678aeacfe05"
+                    "actorId": "d372c7e1-bcfa-4392-a15a-fd68a7184eba"
                   },
                   "id": "5bd329fd-fa42-43dd-a8a7-f135fc807865"
                 },

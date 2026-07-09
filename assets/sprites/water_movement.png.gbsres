@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "772521bf-05e0-418a-8bee-6e59d0ef0888",
+  "name": "water_movement",
+  "symbol": "sprite_watermovement",
+  "states": [
+    {
+      "id": "c8e1772e-03bb-45dc-83d2-ebd0f2cc0d31",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "0d164fbc-188e-424b-ab5e-ca81823186e8",
+          "frames": [
+            {
+              "id": "52d3a09d-1d97-4939-942f-3812892d58e2",
+              "tiles": [
+                {
+                  "id": "8d78a762-4b70-4f94-89cd-9c071a812c14",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "64d5a4bf-66d7-4068-bce5-1936ceba69ba",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "a0b88ff0-dc2e-4948-bc18-00f2f9b06c06",
+              "tiles": [
+                {
+                  "id": "2c88fb29-1da9-4a3a-9ce5-6297e7859e7e",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "519f4281-a9db-44d3-a3fb-c31e5d82278e",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "92cecbb6-9638-4695-b4d6-12b734829c8b",
+          "frames": [
+            {
+              "id": "d68a00df-4af9-48d8-aba5-b5fe0a7b5194",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "47767cc2-ad71-451c-a7b5-97992eb3089e",
+          "frames": [
+            {
+              "id": "306cf34a-3e84-46e7-858e-c9e6a2cd5c57",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "76d0e6bd-7f5a-47e2-b5ba-a400c8767770",
+          "frames": [
+            {
+              "id": "086c88c5-32dc-4475-a183-0487d63f993a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b6b22a1f-e117-43fd-8ff3-18846693ec8f",
+          "frames": [
+            {
+              "id": "c54a9b08-e97a-4348-a38f-f69a83c6514a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7ce81a33-5f02-4726-b45a-886867540e1a",
+          "frames": [
+            {
+              "id": "947d970e-4489-46e7-afaf-16100b87094f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cfa42607-e6ba-4a7d-afda-f020be716a86",
+          "frames": [
+            {
+              "id": "688c8609-af1c-454b-8601-1447312c848b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4087c4f5-446e-45c2-ba36-c844dc68f79f",
+          "frames": [
+            {
+              "id": "0f3deec1-c82a-4ec7-a624-ac802f9c6ba4",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "water_movement.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "3d6dbda3bfe50391f6395e92ed9736738e96f178"
+}

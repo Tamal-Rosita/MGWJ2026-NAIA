@@ -4,7 +4,7 @@
   "name": "Elephant Enemy",
   "frame": 0,
   "animate": true,
-  "spriteSheetId": "f8d838e0-edb5-4a5f-825f-fe0fca4b6180",
+  "spriteSheetId": "39e64959-a3fd-4c1a-811d-a66cd6474854",
   "prefabId": "",
   "direction": "left",
   "moveSpeed": 1,
@@ -38,7 +38,7 @@
         "variable": "32",
         "value": {
           "type": "number",
-          "value": 1
+          "value": 2
         },
         "__collapse": false
       },
@@ -79,7 +79,8 @@
           "type": "number",
           "value": 1
         },
-        "__collapse": false
+        "__collapse": true,
+        "__label": "Switch Battle Scenario"
       },
       "children": {
         "true0": [
@@ -141,7 +142,7 @@
             "id": "1022c76d-ad2d-4e9d-b7b7-19441060616a",
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",
+              "sceneId": "a04b4a18-bce4-4a01-a60a-2ff34ec8e9e1",
               "x": {
                 "type": "number",
                 "value": 15

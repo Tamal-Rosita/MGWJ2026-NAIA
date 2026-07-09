@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "fa43d6ed-0b6e-4aa3-bf60-c34af93ca3c0",
+  "name": "sloth_map",
+  "symbol": "sprite_pere_map",
+  "states": [
+    {
+      "id": "ac7e46ce-4929-4bb9-b0dd-d223d36c4864",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "1cd8eed4-1156-4919-b30b-922d4dd6be1d",
+          "frames": [
+            {
+              "id": "04efd4bd-4b6c-416b-bd45-49d9ccf06240",
+              "tiles": [
+                {
+                  "id": "213da93e-7e23-4690-a90c-ec0a8d324bff",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "3a04183e-099d-4495-8181-bbb36529e315",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "d7bac3f4-b9a6-4edc-92aa-2910f59461a8",
+              "tiles": [
+                {
+                  "id": "9a3ff45a-7507-410e-81e3-b93e6e75eff6",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "6855aaf5-f2c3-4a03-8193-daf62dcb3919",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "6000f2a0-62d8-4021-be83-3aa7ee951e20",
+          "frames": [
+            {
+              "id": "67924113-e497-41bd-bc3d-0715eb28392d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "85d74846-c86a-4fa2-ab5b-f8cae7724e7c",
+          "frames": [
+            {
+              "id": "7a9a31b5-4baa-4a87-9ef3-97a8a4476f5a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "01dee5b8-6308-4291-bce1-2b680431c544",
+          "frames": [
+            {
+              "id": "61848dd3-fa0f-466e-86b4-922a750377d3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9732c57b-2c44-438b-b578-1d5f6b250f1a",
+          "frames": [
+            {
+              "id": "59ad05c9-c901-4bfb-815b-d56cb91cceeb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a612358a-4d8c-46a5-a249-2daa9294fb8d",
+          "frames": [
+            {
+              "id": "b395201b-64c5-46bd-91d4-c70c4d977cfb",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4c4a3855-5190-418f-855e-f48c368b4c96",
+          "frames": [
+            {
+              "id": "fb93b28c-344b-4d92-8f52-f4522b78d0d5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "08f22722-33f9-45c1-984f-c0f09fc7819b",
+          "frames": [
+            {
+              "id": "b0a16762-f3e4-4952-ab95-fa71cbe99645",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "sloth_map.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "e5a4e80b6dcddcdb04bb16225db80948c0f17fa0"
+}

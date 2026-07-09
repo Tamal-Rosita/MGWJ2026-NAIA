@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "14a13418-2a4e-4bde-89d3-8dcbab6b56d3",
+  "name": "battlescreen_arid_v3",
+  "symbol": "bg_battlescreen_arid_v3",
+  "tileColors": "",
+  "filename": "battlescreen_arid_v3.png",
+  "width": 22,
+  "height": 18,
+  "imageWidth": 176,
+  "imageHeight": 144
+}

@@ -124,7 +124,7 @@
       "id": "4783cbe9-c9dc-4688-b551-a50a24563274",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Enemy Actors Init"
       },
       "children": {
@@ -133,7 +133,7 @@
             "command": "EVENT_IF_FLAGS_COMPARE",
             "args": {
               "variable": "40",
-              "flag": 5,
+              "flag": 6,
               "__collapseElse": false,
               "__collapse": false
             },
@@ -142,7 +142,7 @@
                 {
                   "command": "EVENT_ACTOR_DEACTIVATE",
                   "args": {
-                    "actorId": "d372c7e1-bcfa-4392-a15a-fd68a7184eba",
+                    "actorId": "7c416ac1-ba42-4e7e-ba21-0678aeacfe05",
                     "__collapse": false
                   },
                   "id": "821c19c9-c75f-46fb-94ce-c9e1951de8c6"
@@ -159,7 +159,7 @@
                 {
                   "command": "EVENT_ACTOR_ACTIVATE",
                   "args": {
-                    "actorId": "d372c7e1-bcfa-4392-a15a-fd68a7184eba"
+                    "actorId": "7c416ac1-ba42-4e7e-ba21-0678aeacfe05"
                   },
                   "id": "30dbbb7d-f5d1-40ae-8f8e-9b0f8864dfb7"
                 },

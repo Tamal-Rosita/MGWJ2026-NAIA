@@ -1,0 +1,172 @@
+{
+  "_resourceType": "actor",
+  "id": "7c416ac1-ba42-4e7e-ba21-0678aeacfe05",
+  "name": "Sloth Enemy",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "fa43d6ed-0b6e-4aa3-bf60-c34af93ca3c0",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_56",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 7
+        },
+        "__collapse": false
+      },
+      "id": "96236955-3411-485f-93cf-056fdb165575"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "32",
+        "value": {
+          "type": "number",
+          "value": 2
+        },
+        "__collapse": false
+      },
+      "id": "e26c157b-da8f-41c0-a8fe-9db592f57ec3"
+    },
+    {
+      "id": "bd68fc3d-3e7d-4196-8076-83b03d6ff3dd",
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {
+        "__collapse": false
+      }
+    },
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "32",
+        "choices": 2,
+        "__collapseCase0": false,
+        "__collapseCase1": false,
+        "__collapseCase2": false,
+        "__collapseCase3": false,
+        "__collapseCase4": false,
+        "__collapseCase5": false,
+        "__collapseCase6": false,
+        "__collapseCase7": false,
+        "__collapseCase8": false,
+        "__collapseCase9": false,
+        "__collapseCase10": false,
+        "__collapseCase11": false,
+        "__collapseCase12": false,
+        "__collapseCase13": false,
+        "__collapseCase14": false,
+        "__collapseCase15": false,
+        "__collapseElse": false,
+        "value0": {
+          "type": "number",
+          "value": 0
+        },
+        "value1": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": false,
+        "__label": "Switch Battle Scenario"
+      },
+      "children": {
+        "true0": [
+          {
+            "id": "8277afa5-1df1-4958-8977-2736425426f7",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "1794882b-a642-441e-955d-b76b4e36a851",
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "left",
+              "fadeSpeed": "2",
+              "__collapse": false
+            }
+          }
+        ],
+        "true1": [
+          {
+            "id": "152e06aa-44e3-4d9a-be59-cce6541446c8",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "83e081a8-618b-4d16-af9c-37e8abe00dac",
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "left",
+              "fadeSpeed": "2",
+              "__collapse": false
+            }
+          }
+        ],
+        "true2": [],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": [
+          {
+            "id": "6f9b992b-c1be-4c65-bbb7-a774912f13f3",
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a04b4a18-bce4-4a01-a60a-2ff34ec8e9e1",
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "left",
+              "fadeSpeed": "2",
+              "__collapse": false
+            }
+          }
+        ]
+      },
+      "id": "50820aa1-d403-4e85-acf6-7ba3bc644f92"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 62,
+  "y": 11,
+  "_index": 1
+}

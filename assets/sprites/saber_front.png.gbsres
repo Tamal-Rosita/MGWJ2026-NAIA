@@ -1,0 +1,155 @@
+{
+  "_resourceType": "sprite",
+  "id": "87c30175-6da4-4730-86cd-989f550ef7cd",
+  "name": "saber_front",
+  "symbol": "sprite_sabertooth",
+  "states": [
+    {
+      "id": "f96ac43b-ee9d-496a-a16c-80b7ff3137e3",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "38f6f156-f124-40a0-b8d0-dfdd81f9a0fe",
+          "frames": [
+            {
+              "id": "95530c84-f98e-4e8c-ae4c-6aaf01db8884",
+              "tiles": [
+                {
+                  "id": "7df23516-1576-4a20-bbb3-a5d74b8b6bfb",
+                  "x": 1,
+                  "y": 16,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "dfd65d57-e0ce-410a-acfe-de04208ac10e",
+                  "x": 1,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "da6fb3a5-9b88-4f48-82e9-5e13e2730f6d",
+                  "x": 9,
+                  "y": 16,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "e6d6c406-3f6b-4187-85b0-0bde56af1b7f",
+                  "x": 9,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 16,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "42716a0e-deea-4257-88a8-f6dbbea28a7e",
+          "frames": [
+            {
+              "id": "56d37b14-4a73-42fa-adf8-520a53a74497",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e1a122f4-27a3-498e-9e11-ecf61a2aae03",
+          "frames": [
+            {
+              "id": "ec1ccd0f-ca7d-4c32-9af1-a0587499ea74",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "aa4bbbb8-7824-456e-a3c0-59d46ddf8bba",
+          "frames": [
+            {
+              "id": "6755253a-6e91-4299-948d-c4dada14f422",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0728cb0a-0249-4065-bc33-044b4e0c6089",
+          "frames": [
+            {
+              "id": "cad04546-5c8e-4ad9-9adc-27de53ed9305",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ec59dda7-1ceb-4be0-884d-0411f3fa1f89",
+          "frames": [
+            {
+              "id": "331843a9-d820-4d78-a3ac-961835d695b8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4c4a9280-7d75-46ce-8d33-94c71f5f856b",
+          "frames": [
+            {
+              "id": "c5c1b1e3-1746-4056-bca0-d40dc874728b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8b46ac47-0218-4263-9669-869db590843e",
+          "frames": [
+            {
+              "id": "888ecec9-2e1f-4fa4-9c88-091e2f6e7f57",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "saber_front.png",
+  "width": 32,
+  "height": 32,
+  "checksum": "4a05b0839d42246f88c451bdac57f2a5e9e81fba"
+}

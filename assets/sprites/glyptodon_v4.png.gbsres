@@ -1,0 +1,118 @@
+{
+  "_resourceType": "sprite",
+  "id": "5cb35296-ba63-415c-a95d-548e6cc555be",
+  "name": "glyptodon_v4",
+  "symbol": "sprite_glyptodon_v4_export",
+  "states": [
+    {
+      "id": "fa96e559-e148-4db6-949d-0a90dc64dba6",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "43447ed2-fd8b-4712-a586-d0172503049a",
+          "frames": [
+            {
+              "id": "6ad4b2c5-96d6-4671-80bd-48706034713e",
+              "tiles": []
+            },
+            {
+              "id": "666dce6b-f257-456c-abcf-63127ba1056b",
+              "tiles": []
+            },
+            {
+              "id": "5c5ba64f-c463-42f9-869d-dc00d998a843",
+              "tiles": []
+            },
+            {
+              "id": "c1094621-228e-45fd-bc7d-0ac2e7eb1364",
+              "tiles": []
+            },
+            {
+              "id": "76751466-f4f7-4e99-b7ce-d5577fb20725",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "faeff3e5-bbb0-452f-9572-54247d82a2e5",
+          "frames": [
+            {
+              "id": "3d866fc2-166e-44b8-ac69-6ac5e8fe8e89",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "795292b0-f612-4d9b-a71b-45bc0cf4b405",
+          "frames": [
+            {
+              "id": "61c1a006-782a-4f1c-b982-3376391ff8f2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c4e9a279-681e-438c-9b29-8c612e4e1d59",
+          "frames": [
+            {
+              "id": "634691b6-191e-420a-a8ad-00c6a992e54c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "060893eb-a079-4cfa-86f5-6d9923fa12a1",
+          "frames": [
+            {
+              "id": "4a735c43-e496-4665-a2b9-156dfcec9264",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8ea6b48a-0408-4fb1-b106-d4d7aeafa1da",
+          "frames": [
+            {
+              "id": "8346cf97-8e8f-48ff-b41f-99ed2b0a3239",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ebf2bef6-690f-40a5-a139-4ac15e9ed015",
+          "frames": [
+            {
+              "id": "6e76ffa7-131e-4b43-aba0-2e454ab2e7f0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "769a436d-ac1d-424c-9d0d-89b0a85baeca",
+          "frames": [
+            {
+              "id": "09724887-b0f6-43a4-90d5-53ec1bd93a46",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": -8,
+  "canvasWidth": 32,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "glyptodon_v4.png",
+  "width": 160,
+  "height": 32,
+  "checksum": "4e6ff1481052521318b066f8481ff73a184ec4ca"
+}
