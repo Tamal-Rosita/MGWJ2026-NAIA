@@ -1,0 +1,50 @@
+{
+  "_resourceType": "scene",
+  "id": "7c9888a2-da53-4bda-871e-2507088fb382",
+  "_index": 30,
+  "name": "Credits 2",
+  "backgroundId": "380440d1-ac9d-46a4-b2df-f7b849c68200",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_31",
+  "x": 632,
+  "y": 1064,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "d148f409-497c-4178-9116-4566182fff6b"
+    }
+  ],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "7c9888a2-da53-4bda-871e-2507088fb382",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "4ca856dc-adb7-4921-a2dd-25f3605edc67"
+    }
+  ],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "red"
+}

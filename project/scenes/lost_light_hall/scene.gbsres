@@ -24,6 +24,13 @@
         "__comment": true
       },
       "id": "e6268634-6d62-43a3-8284-3638af3e4754"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "6ae51d44-7ae8-4426-bec1-c009fbfc4e72"
+      },
+      "id": "f147176f-a85d-47ce-8867-8d9a61c00756"
     }
   ],
   "playerHit1Script": [],

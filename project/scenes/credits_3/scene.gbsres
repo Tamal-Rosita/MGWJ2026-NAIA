@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "708ffb37-46df-4dbe-8761-613bfacf8f0a",
-  "_index": 25,
-  "name": "Credits",
-  "backgroundId": "d3f9fcb4-a1dd-48c9-8265-14ed44f2c03d",
+  "id": "8bd91b1f-d64e-48f0-a23e-1ae6464aba91",
+  "_index": 31,
+  "name": "Credits 3",
+  "backgroundId": "4e5aeb4d-70f7-4cd4-a177-2ba2c7285815",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -13,16 +13,16 @@
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_26",
-  "x": 640,
-  "y": 880,
+  "symbol": "scene_32",
+  "x": 832,
+  "y": 1064,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "9d66a757-15ff-4c7e-82fe-cc85932dcf3f"
+      "id": "05ae6780-71d2-4391-ae5b-7c0b1dbf11b8"
     }
   ],
   "playerHit1Script": [],

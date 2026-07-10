@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4e5aeb4d-70f7-4cd4-a177-2ba2c7285815",
+  "name": "credits_screen_3",
+  "symbol": "bg_credits_screen_3",
+  "tileColors": "",
+  "filename": "credits_screen_3.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
