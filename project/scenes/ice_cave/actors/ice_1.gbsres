@@ -97,7 +97,7 @@
                     },
                     "y": {
                       "type": "number",
-                      "value": 5
+                      "value": 7
                     },
                     "speed": 1,
                     "__collapse": true
@@ -143,7 +143,7 @@
                       "type": "number",
                       "value": 2
                     },
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "2263074d-9c48-4b96-80a7-701bb7341b32"
                 },
@@ -171,18 +171,6 @@
                   "id": "6b4d13bf-95dd-4fce-9d3f-eebd7034a7f2"
                 },
                 {
-                  "command": "EVENT_CAMERA_LOCK",
-                  "args": {
-                    "speed": 1,
-                    "axis": [
-                      "x",
-                      "y"
-                    ],
-                    "__collapse": true
-                  },
-                  "id": "71d8f5cb-9e1f-4f62-ab42-6ced73c93cfb"
-                },
-                {
                   "command": "EVENT_TEXT",
                   "args": {
                     "__presetId": "1702e053-af77-42ab-8bc7-c02b451bcef6",
@@ -208,6 +196,18 @@
                     "__collapse": true
                   },
                   "id": "63e6a5f6-d22c-421e-add9-4fd5b6c00c9b"
+                },
+                {
+                  "command": "EVENT_CAMERA_LOCK",
+                  "args": {
+                    "speed": 1,
+                    "axis": [
+                      "x",
+                      "y"
+                    ],
+                    "__collapse": false
+                  },
+                  "id": "71d8f5cb-9e1f-4f62-ab42-6ced73c93cfb"
                 },
                 {
                   "command": "EVENT_SET_VALUE",

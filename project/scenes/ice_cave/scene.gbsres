@@ -38,7 +38,7 @@
       "id": "cf8c416d-9297-41a8-b29b-4a54e1957ed6",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Enemy Actors Init"
       },
       "children": {
