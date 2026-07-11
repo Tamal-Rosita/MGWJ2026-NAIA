@@ -20,11 +20,9 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "fc0473e5-f41f-4d3b-a10c-08758fa87346",
-        "__collapse": false,
-        "__comment": false
+        "musicId": "49ec93ea-9248-4f13-aa75-20fddf37192a"
       },
-      "id": "96f6b623-b5cd-4d53-9c8a-cd5e46c40ad1"
+      "id": "2f7735fa-bc71-4974-8abf-8a23942e8dcb"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
