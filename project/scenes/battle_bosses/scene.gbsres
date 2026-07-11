@@ -2,16 +2,16 @@
   "_resourceType": "scene",
   "id": "a04b4a18-bce4-4a01-a60a-2ff34ec8e9e1",
   "_index": 28,
-  "name": "Battle v2",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "name": "Battle Bosses",
+  "backgroundId": "53233ffb-9f88-4780-9804-185ef5788d7a",
   "tilesetId": "",
-  "width": 20,
+  "width": 22,
   "height": 18,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00168+",
+  "collisions": "0018c+",
   "autoFadeSpeed": 1,
   "symbol": "scene_28",
   "x": 1312,
@@ -27,6 +27,14 @@
       "id": "ae780b80-1849-41ca-9ffe-6c8352b2d810"
     },
     {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": false
+      },
+      "id": "aaf9843d-febc-4c9b-92ec-72db51a26937"
+    },
+    {
       "command": "EVENT_CAMERA_MOVE_TO",
       "args": {
         "x": {
@@ -39,7 +47,7 @@
         },
         "speed": 0,
         "__collapse": false,
-        "__comment": true
+        "__comment": false
       },
       "id": "b961311c-c631-4a66-a7b3-834ddf6abd05"
     },

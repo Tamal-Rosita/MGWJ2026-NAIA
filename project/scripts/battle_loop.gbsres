@@ -193,7 +193,7 @@
                           "option8": "",
                           "cancelOnB": false,
                           "layout": "menu",
-                          "__collapse": true,
+                          "__collapse": false,
                           "__label": "Main Menu"
                         }
                       },
@@ -955,7 +955,7 @@
                           "operator": "==",
                           "comparator": 2,
                           "__collapseElse": false,
-                          "__collapse": true,
+                          "__collapse": false,
                           "__label": "Magic",
                           "__comment": false,
                           "__disableElse": true,
@@ -3829,7 +3829,7 @@
                           "operator": "==",
                           "comparator": 3,
                           "__collapseElse": false,
-                          "__collapse": true,
+                          "__collapse": false,
                           "__label": "Item",
                           "__disableElse": true,
                           "condition": {

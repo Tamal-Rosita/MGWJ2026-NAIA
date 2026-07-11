@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
   "id": "0b42c32b-825f-4e4b-b2ec-9c9dd1830254",
-  "name": "Battle Loop v2",
+  "name": "Battle Loop Bosses",
   "description": "",
   "variables": {
     "V0": {
@@ -136,7 +136,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapseCase1": true,
+              "__collapseCase1": false,
               "value1": {
                 "type": "number",
                 "value": 1
@@ -223,7 +223,7 @@
                   "command": "EVENT_GROUP",
                   "args": {
                     "__label": "Player's Turn",
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -255,7 +255,7 @@
                           "operator": "==",
                           "comparator": 1,
                           "__collapseElse": false,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "Attack",
                           "__disableElse": true,
                           "condition": {
@@ -6977,16 +6977,17 @@
                           "actorId": "0",
                           "x": {
                             "type": "number",
-                            "value": 14
+                            "value": 10
                           },
                           "y": {
                             "type": "number",
-                            "value": 11
+                            "value": 7
                           },
                           "moveType": "horizontal",
                           "useCollisions": false,
                           "__collapse": false,
-                          "collideWith": []
+                          "collideWith": [],
+                          "__comment": false
                         }
                       },
                       {
@@ -7545,7 +7546,7 @@
                           "operator": "<=",
                           "comparator": "0",
                           "__collapseElse": false,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "Player Death",
                           "condition": {
                             "type": "lte",
@@ -7628,16 +7629,17 @@
                           "actorId": "0",
                           "x": {
                             "type": "number",
-                            "value": 5
+                            "value": 10
                           },
                           "y": {
                             "type": "number",
-                            "value": 11
+                            "value": 5
                           },
                           "moveType": "horizontal",
                           "useCollisions": false,
-                          "__collapse": true,
-                          "collideWith": []
+                          "__collapse": false,
+                          "collideWith": [],
+                          "__comment": false
                         }
                       },
                       {
@@ -7646,9 +7648,10 @@
                           "actorId": "0",
                           "direction": {
                             "type": "direction",
-                            "value": "right"
+                            "value": "down"
                           },
-                          "__collapse": true
+                          "__collapse": false,
+                          "__comment": false
                         },
                         "id": "e3b157ab-e912-4ec7-851e-55d1bb7a06d8"
                       },
@@ -7660,7 +7663,7 @@
                             "type": "number",
                             "value": 0
                           },
-                          "__collapse": false
+                          "__collapse": true
                         },
                         "id": "29c77623-b305-46a0-85a1-75d908506b76"
                       }
