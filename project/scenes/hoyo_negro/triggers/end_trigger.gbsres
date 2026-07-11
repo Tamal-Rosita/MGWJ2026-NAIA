@@ -4,7 +4,7 @@
   "name": "End Trigger",
   "prefabId": "",
   "x": 0,
-  "y": 7,
+  "y": 3,
   "symbol": "trigger_8",
   "prefabScriptOverrides": {},
   "width": 30,

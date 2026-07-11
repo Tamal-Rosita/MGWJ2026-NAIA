@@ -1,0 +1,43 @@
+{
+  "_resourceType": "trigger",
+  "id": "517da35d-c441-4a4b-baea-2697bc4f5d6e",
+  "name": "Casa Ajena 2",
+  "prefabId": "",
+  "x": 20,
+  "y": 2,
+  "symbol": "trigger_60",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Es de mala\neducación entrar",
+          "a casas ajenas.",
+          "Y agradeceré a\nlos guardianes."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "213b68a9-9b9c-47db-9690-49acf7d913eb"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}
