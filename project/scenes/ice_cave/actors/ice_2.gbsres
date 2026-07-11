@@ -133,6 +133,28 @@
             "children": {
               "true": [
                 {
+                  "command": "EVENT_SET_INPUT_SCRIPT",
+                  "args": {
+                    "input": [
+                      "b",
+                      "left",
+                      "up",
+                      "down",
+                      "right",
+                      "a",
+                      "start",
+                      "select"
+                    ],
+                    "override": true,
+                    "__scriptTabs": "press",
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": []
+                  },
+                  "id": "fed4983e-217d-42db-945d-d98c129829bb"
+                },
+                {
                   "command": "EVENT_CAMERA_MOVE_TO",
                   "args": {
                     "x": {
@@ -144,7 +166,7 @@
                       "value": 1
                     },
                     "speed": 1,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "e4546d7b-e827-43ea-af6d-5145071392ea"
                 },
@@ -187,7 +209,7 @@
                       "type": "number",
                       "value": 2
                     },
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "bd9ce89d-7f4a-4b1c-8472-85653d3ef88c"
                 },
@@ -210,7 +232,7 @@
                       "type": "number",
                       "value": 1
                     },
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "3871901f-01ae-491d-bf54-3165ec681169"
                 },
@@ -222,7 +244,7 @@
                       "x",
                       "y"
                     ],
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "5ee4c715-e1f2-4bba-9049-a39755a296d7"
                 },
@@ -249,7 +271,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "1062f8db-2527-4407-897e-a597dde92d6b"
                 },
@@ -263,6 +285,23 @@
                     "__collapse": true
                   },
                   "id": "e04e830e-a3d1-445f-b7fb-6c85415ac073"
+                },
+                {
+                  "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                  "args": {
+                    "input": [
+                      "b",
+                      "left",
+                      "up",
+                      "down",
+                      "right",
+                      "a",
+                      "start",
+                      "select"
+                    ],
+                    "__collapse": true
+                  },
+                  "id": "817669e6-51f9-4cdd-86e4-ac3264e50ebc"
                 }
               ],
               "false": []
