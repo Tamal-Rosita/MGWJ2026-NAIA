@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "53233ffb-9f88-4780-9804-185ef5788d7a",
+  "name": "battle_bosses",
+  "symbol": "bg_battle_bosses",
+  "tileColors": "",
+  "filename": "battle_bosses.png",
+  "width": 22,
+  "height": 18,
+  "imageWidth": 176,
+  "imageHeight": 144
+}

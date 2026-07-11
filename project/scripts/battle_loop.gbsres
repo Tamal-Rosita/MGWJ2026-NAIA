@@ -955,7 +955,7 @@
                           "operator": "==",
                           "comparator": 2,
                           "__collapseElse": false,
-                          "__collapse": true,
+                          "__collapse": false,
                           "__label": "Magic",
                           "__comment": false,
                           "__disableElse": true,
@@ -3852,9 +3852,9 @@
                               "args": {
                                 "variable": "V4",
                                 "items": 3,
-                                "option1": "Pocima",
-                                "option2": "Eter",
-                                "option3": "Elixir",
+                                "option1": "Frutos",
+                                "option2": "Nueces",
+                                "option3": "Miel",
                                 "option4": "Back",
                                 "option5": "",
                                 "option6": "",
@@ -3876,7 +3876,7 @@
                                 "comparator": 1,
                                 "__collapseElse": false,
                                 "__label": "Potion",
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__disableElse": true,
                                 "condition": {
                                   "type": "eq",
@@ -3928,7 +3928,7 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "Usaste una pocima!"
+                                              "Comiste un fruto!"
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -3939,22 +3939,101 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "Incrementdo el HP\npor 15."
+                                              "Incrementó tu HP\npor 15."
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
                                           }
                                         },
                                         {
-                                          "id": "cbb31f79-f4d4-454e-9028-a8e7340b2355",
-                                          "command": "EVENT_TEXT",
+                                          "command": "EVENT_SWITCH",
                                           "args": {
-                                            "text": [
-                                              "Aun te quedan\n$26$ pocimas."
+                                            "variable": "26",
+                                            "choices": 2,
+                                            "__collapseCase0": false,
+                                            "__collapseCase1": false,
+                                            "__collapseCase2": false,
+                                            "__collapseCase3": false,
+                                            "__collapseCase4": false,
+                                            "__collapseCase5": false,
+                                            "__collapseCase6": false,
+                                            "__collapseCase7": false,
+                                            "__collapseCase8": false,
+                                            "__collapseCase9": false,
+                                            "__collapseCase10": false,
+                                            "__collapseCase11": false,
+                                            "__collapseCase12": false,
+                                            "__collapseCase13": false,
+                                            "__collapseCase14": false,
+                                            "__collapseCase15": false,
+                                            "__collapseElse": false,
+                                            "value1": {
+                                              "type": "number",
+                                              "value": 1
+                                            },
+                                            "value0": {
+                                              "type": "number",
+                                              "value": 0
+                                            },
+                                            "__label": "Switch Display \"Potions left\"",
+                                            "__collapse": true
+                                          },
+                                          "children": {
+                                            "true0": [
+                                              {
+                                                "id": "759794d0-675d-4115-897a-a0db4611129c",
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "Comiste tu último\nfruto..."
+                                                  ],
+                                                  "avatarId": "",
+                                                  "__collapse": false
+                                                }
+                                              }
                                             ],
-                                            "avatarId": "",
-                                            "__collapse": false
-                                          }
+                                            "true1": [
+                                              {
+                                                "id": "aabfe3b7-229c-498c-a3c8-139acb046eb2",
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "Aún te queda\n1 fruto."
+                                                  ],
+                                                  "avatarId": "",
+                                                  "__collapse": false
+                                                }
+                                              }
+                                            ],
+                                            "true2": [],
+                                            "true3": [],
+                                            "true4": [],
+                                            "true5": [],
+                                            "true6": [],
+                                            "true7": [],
+                                            "true8": [],
+                                            "true9": [],
+                                            "true10": [],
+                                            "true11": [],
+                                            "true12": [],
+                                            "true13": [],
+                                            "true14": [],
+                                            "true15": [],
+                                            "false": [
+                                              {
+                                                "id": "cbb31f79-f4d4-454e-9028-a8e7340b2355",
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "Aún te quedan\n$26$ frutos."
+                                                  ],
+                                                  "avatarId": "",
+                                                  "__collapse": false
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          "id": "1a30a0c0-59e7-4d44-bc86-879519939a87"
                                         },
                                         {
                                           "id": "d7ce7a31-05ce-467a-8b29-f13c5adde10a",
@@ -3968,7 +4047,7 @@
                                             "minValue": "0",
                                             "maxValue": "255",
                                             "clamp": false,
-                                            "__collapse": false
+                                            "__collapse": true
                                           }
                                         },
                                         {
@@ -3979,7 +4058,7 @@
                                             "operator": ">=",
                                             "vectorY": "7",
                                             "__collapseElse": false,
-                                            "__collapse": false,
+                                            "__collapse": true,
                                             "condition": {
                                               "type": "gte",
                                               "valueA": {
@@ -4517,10 +4596,10 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "Ya no tienes pocimas!"
+                                              "Ya no tienes \nfrutos!"
                                             ],
                                             "avatarId": "",
-                                            "__collapse": false
+                                            "__collapse": true
                                           }
                                         },
                                         {
@@ -4580,7 +4659,7 @@
                                 "comparator": 2,
                                 "__collapseElse": false,
                                 "__label": "Ether",
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__disableElse": true,
                                 "condition": {
                                   "type": "eq",
@@ -4632,7 +4711,7 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "Usaste un Eter!"
+                                              "Comiste una nuez!"
                                             ],
                                             "avatarId": "",
                                             "__collapse": false
@@ -4650,15 +4729,94 @@
                                           }
                                         },
                                         {
-                                          "id": "f03dc6fb-46bd-420f-855a-efc761557314",
-                                          "command": "EVENT_TEXT",
+                                          "command": "EVENT_SWITCH",
                                           "args": {
-                                            "text": [
-                                              "Aun tienes $28$\nEteres."
+                                            "variable": "28",
+                                            "choices": 2,
+                                            "__collapseCase0": false,
+                                            "__collapseCase1": false,
+                                            "__collapseCase2": false,
+                                            "__collapseCase3": false,
+                                            "__collapseCase4": false,
+                                            "__collapseCase5": false,
+                                            "__collapseCase6": false,
+                                            "__collapseCase7": false,
+                                            "__collapseCase8": false,
+                                            "__collapseCase9": false,
+                                            "__collapseCase10": false,
+                                            "__collapseCase11": false,
+                                            "__collapseCase12": false,
+                                            "__collapseCase13": false,
+                                            "__collapseCase14": false,
+                                            "__collapseCase15": false,
+                                            "__collapseElse": false,
+                                            "value1": {
+                                              "type": "number",
+                                              "value": 1
+                                            },
+                                            "value0": {
+                                              "type": "number",
+                                              "value": 0
+                                            },
+                                            "__label": "Switch Display \"Ether left\"",
+                                            "__collapse": true
+                                          },
+                                          "children": {
+                                            "true0": [
+                                              {
+                                                "id": "7f8efd83-d608-4212-b5a7-49facb5feed6",
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "Comiste la última\nnuez..."
+                                                  ],
+                                                  "avatarId": "",
+                                                  "__collapse": false
+                                                }
+                                              }
                                             ],
-                                            "avatarId": "",
-                                            "__collapse": false
-                                          }
+                                            "true1": [
+                                              {
+                                                "id": "96d055f5-590d-4b87-9ad4-d2a316c5453d",
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "Aún te queda\nuna nuez."
+                                                  ],
+                                                  "avatarId": "",
+                                                  "__collapse": false
+                                                }
+                                              }
+                                            ],
+                                            "true2": [],
+                                            "true3": [],
+                                            "true4": [],
+                                            "true5": [],
+                                            "true6": [],
+                                            "true7": [],
+                                            "true8": [],
+                                            "true9": [],
+                                            "true10": [],
+                                            "true11": [],
+                                            "true12": [],
+                                            "true13": [],
+                                            "true14": [],
+                                            "true15": [],
+                                            "false": [
+                                              {
+                                                "id": "4ff12f0e-d379-4239-946e-b4b10034619d",
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "Aún tienes\n$28$ nueces."
+                                                  ],
+                                                  "avatarId": "",
+                                                  "__collapse": false
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          "id": "10ab8467-f5cb-420d-95cb-4831525e64b9"
                                         },
                                         {
                                           "id": "2fb31ea1-16da-401c-b161-33d03614ef7a",
@@ -5220,10 +5378,10 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "Ya no tienes Eter."
+                                              "Ya no tienes \nnueces."
                                             ],
                                             "avatarId": "",
-                                            "__collapse": false
+                                            "__collapse": true
                                           }
                                         },
                                         {
@@ -5283,7 +5441,7 @@
                                 "comparator": 3,
                                 "__collapseElse": false,
                                 "__label": "Elixer",
-                                "__collapse": true,
+                                "__collapse": false,
                                 "__disableElse": true,
                                 "condition": {
                                   "type": "eq",
@@ -5335,7 +5493,7 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "Usaste un Elixir!"
+                                              "Comiste un panal\nde miel!"
                                             ],
                                             "avatarId": "",
                                             "__collapse": true
@@ -5346,22 +5504,101 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "Incrementados HP y MP\npor 100!"
+                                              "Incrementados HP y\nMP por 50!"
                                             ],
                                             "avatarId": "",
-                                            "__collapse": true
+                                            "__collapse": false
                                           }
                                         },
                                         {
-                                          "id": "e8f31b61-0a05-4bd0-97aa-c6e6c922adcc",
-                                          "command": "EVENT_TEXT",
+                                          "command": "EVENT_SWITCH",
                                           "args": {
-                                            "text": [
-                                              "Aun tienes $30$\nElixires."
-                                            ],
-                                            "avatarId": "",
+                                            "variable": "30",
+                                            "choices": 2,
+                                            "__collapseCase0": false,
+                                            "__collapseCase1": false,
+                                            "__collapseCase2": false,
+                                            "__collapseCase3": false,
+                                            "__collapseCase4": false,
+                                            "__collapseCase5": false,
+                                            "__collapseCase6": false,
+                                            "__collapseCase7": false,
+                                            "__collapseCase8": false,
+                                            "__collapseCase9": false,
+                                            "__collapseCase10": false,
+                                            "__collapseCase11": false,
+                                            "__collapseCase12": false,
+                                            "__collapseCase13": false,
+                                            "__collapseCase14": false,
+                                            "__collapseCase15": false,
+                                            "__collapseElse": false,
+                                            "value1": {
+                                              "type": "number",
+                                              "value": 1
+                                            },
+                                            "value0": {
+                                              "type": "number",
+                                              "value": 0
+                                            },
+                                            "__label": "Switch Display \"Elixer left\"",
                                             "__collapse": true
-                                          }
+                                          },
+                                          "children": {
+                                            "true0": [
+                                              {
+                                                "id": "bc77b5de-1dbe-4e44-8d5e-5c036513f29f",
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "Comiste el último\npanal de miel..."
+                                                  ],
+                                                  "avatarId": "",
+                                                  "__collapse": false
+                                                }
+                                              }
+                                            ],
+                                            "true1": [
+                                              {
+                                                "id": "ea664acb-abe0-439f-9c6f-05640d551154",
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "Aún te queda\nun panal."
+                                                  ],
+                                                  "avatarId": "",
+                                                  "__collapse": false
+                                                }
+                                              }
+                                            ],
+                                            "true2": [],
+                                            "true3": [],
+                                            "true4": [],
+                                            "true5": [],
+                                            "true6": [],
+                                            "true7": [],
+                                            "true8": [],
+                                            "true9": [],
+                                            "true10": [],
+                                            "true11": [],
+                                            "true12": [],
+                                            "true13": [],
+                                            "true14": [],
+                                            "true15": [],
+                                            "false": [
+                                              {
+                                                "id": "98e28fc0-2275-4771-ae70-2325b2aaad68",
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "Aún tienes\n$30$ panales."
+                                                  ],
+                                                  "avatarId": "",
+                                                  "__collapse": false
+                                                }
+                                              }
+                                            ]
+                                          },
+                                          "id": "9170a11c-3117-4c9a-b435-f60356f203aa"
                                         },
                                         {
                                           "id": "3ed91a9f-30db-4188-beae-55cce99e155e",
@@ -5371,7 +5608,7 @@
                                             "operation": "add",
                                             "other": "val",
                                             "vectorY": "L0",
-                                            "value": 100,
+                                            "value": 50,
                                             "minValue": "0",
                                             "maxValue": "255",
                                             "clamp": false,
@@ -5386,7 +5623,7 @@
                                             "operation": "add",
                                             "other": "val",
                                             "vectorY": "L0",
-                                            "value": 100,
+                                            "value": 50,
                                             "minValue": "0",
                                             "maxValue": "255",
                                             "clamp": false,
@@ -6465,9 +6702,10 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "Ya no tienes Elixir."
+                                              "Ya no tienes miel."
                                             ],
-                                            "avatarId": ""
+                                            "avatarId": "",
+                                            "__collapse": true
                                           }
                                         },
                                         {
@@ -7260,7 +7498,7 @@
                           "operator": "<=",
                           "comparator": "0",
                           "__collapseElse": false,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "Player Death",
                           "condition": {
                             "type": "lte",
