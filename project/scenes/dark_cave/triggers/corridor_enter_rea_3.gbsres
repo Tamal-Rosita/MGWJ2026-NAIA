@@ -7,7 +7,7 @@
   "y": 12,
   "symbol": "trigger_62",
   "prefabScriptOverrides": {},
-  "width": 5,
+  "width": 3,
   "height": 5,
   "script": [
     {
@@ -17,7 +17,7 @@
         "__collapse": false,
         "$variable[V0]$": {
           "type": "number",
-          "value": 1
+          "value": 2
         }
       },
       "id": "394a1941-4be6-4d28-bae2-a76777383fb7"
@@ -32,5 +32,5 @@
       "id": "bacd3015-a536-44a9-a56b-e2844e82b779"
     }
   ],
-  "_index": 3
+  "_index": 2
 }

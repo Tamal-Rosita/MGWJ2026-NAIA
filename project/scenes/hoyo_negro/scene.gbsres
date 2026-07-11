@@ -60,6 +60,46 @@
         }
       },
       "id": "b8879a05-3142-406d-baee-a4570f64a67f"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "660e6cbb-9703-4dde-860a-0ea5d7b70b35",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "9c7610ed-6561-4a45-9d14-e53d226d2df0"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Por fin llegué\n ",
+          " al final de\n este viaje"
+        ],
+        "__section": "text",
+        "avatarId": "49293dcc-ea74-4960-8567-1949893e0f17",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "38d997f1-5135-4e19-a255-6fdca13b8a9a"
     }
   ],
   "playerHit1Script": [],

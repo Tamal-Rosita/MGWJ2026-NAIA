@@ -55,6 +55,33 @@
       "id": "53d737da-0b8c-4eb2-ab61-e5b633d011b2"
     },
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Los ríos se\n llevan las",
+          " impurezas...\n ",
+          " y a mí también\n :s"
+        ],
+        "__section": "text",
+        "avatarId": "49293dcc-ea74-4960-8567-1949893e0f17",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "fda50c38-3948-4d91-a387-5c296039fc82"
+    },
+    {
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
@@ -124,7 +151,7 @@
       "id": "4783cbe9-c9dc-4688-b551-a50a24563274",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Enemy Actors Init"
       },
       "children": {
@@ -181,7 +208,8 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "0bc61885-2ad2-443d-9047-f24f727d74cf"
+        "customEventId": "0bc61885-2ad2-443d-9047-f24f727d74cf",
+        "__collapse": true
       },
       "id": "94394b18-84ee-47af-be66-c4c7f80ca9d8"
     },
@@ -191,7 +219,8 @@
         "variable": "60",
         "value": {
           "type": "true"
-        }
+        },
+        "__collapse": true
       },
       "id": "57d63c29-32eb-49d0-8a52-07992463d6b9"
     }
@@ -200,5 +229,5 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "labelColor": "green",
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": true
 }
