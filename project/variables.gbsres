@@ -232,6 +232,26 @@
       "symbol": "var_numpasses_0"
     },
     {
+      "id": "65",
+      "name": "Visited Rivers Cave",
+      "symbol": "var_visited_rivers_cave"
+    },
+    {
+      "id": "66",
+      "name": "Visited Ice Cave",
+      "symbol": "var_visited_ice_cave"
+    },
+    {
+      "id": "67",
+      "name": "Visited Dark Cave",
+      "symbol": "var_visited_dark_cave"
+    },
+    {
+      "id": "68",
+      "name": "Visited Hideout",
+      "symbol": "var_visited_hideout"
+    },
+    {
       "id": "f4f59ce0-749b-4144-a5bc-86d33f4cc9ac__L0",
       "name": "MainMenu",
       "symbol": "var_mainmenu"
@@ -555,26 +575,6 @@
       "id": "a6c54910-ac02-4510-8edf-cbc1e5a9a126__L0",
       "name": "Singles",
       "symbol": "var_singles_18"
-    },
-    {
-      "id": "65",
-      "name": "Visited Rivers Cave",
-      "symbol": "var_visited_rivers_cave"
-    },
-    {
-      "id": "66",
-      "name": "Visited Ice Cave",
-      "symbol": "var_visited_ice_cave"
-    },
-    {
-      "id": "67",
-      "name": "Visited Dark Cave",
-      "symbol": "var_visited_dark_cave"
-    },
-    {
-      "id": "68",
-      "name": "Visited Hideout",
-      "symbol": "var_visited_hideout"
     }
   ],
   "constants": []
