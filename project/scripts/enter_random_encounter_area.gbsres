@@ -6,8 +6,8 @@
   "variables": {
     "V0": {
       "id": "V0",
-      "name": "Variable A",
-      "passByReference": true
+      "name": "Encounter Area ID",
+      "passByReference": false
     }
   },
   "actors": {},

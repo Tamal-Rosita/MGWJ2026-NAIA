@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "c64c2268-30e0-47e9-8f8d-8372d5fce7e4",
-  "name": "",
+  "id": "517da35d-c441-4a4b-baea-2697bc4f5d6e",
+  "name": "Casa Ajena 2",
   "prefabId": "",
-  "x": 8,
-  "y": 22,
-  "symbol": "trigger_57",
+  "x": 20,
+  "y": 2,
+  "symbol": "trigger_60",
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 1,
@@ -35,9 +35,9 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "42c6c7af-ac4a-4363-83c6-efdfee3f1d8f"
+      "id": "213b68a9-9b9c-47db-9690-49acf7d913eb"
     }
   ],
   "leaveScript": [],
-  "_index": 3
+  "_index": 4
 }
