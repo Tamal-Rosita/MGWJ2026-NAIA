@@ -8,7 +8,7 @@
   "symbol": "trigger_61",
   "prefabScriptOverrides": {},
   "width": 2,
-  "height": 20,
+  "height": 8,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -17,7 +17,7 @@
         "__collapse": false,
         "$variable[V0]$": {
           "type": "number",
-          "value": 1
+          "value": 2
         }
       },
       "id": "66c4f768-0ebf-4949-8fd1-d24866acdd9f"
@@ -32,5 +32,5 @@
       "id": "38021e70-cd2f-4e49-92a9-781cde89bf32"
     }
   ],
-  "_index": 2
+  "_index": 1
 }

@@ -27,6 +27,53 @@
       "id": "9ac28aa2-70f8-4e55-ad5a-babc85cacf39"
     },
     {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "66"
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " El hielo debe\n encontrar su",
+                " sitio. Hay un\n hueco en el",
+                " suelo para él."
+              ],
+              "__section": "text",
+              "avatarId": "49293dcc-ea74-4960-8567-1949893e0f17",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ba5c531c-67c0-4b29-bd37-f1a98d35243c"
+          }
+        ],
+        "false": []
+      },
+      "id": "1550d339-7cc4-4955-be01-50ab5bd78846"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "0683bdf9-6b08-4aa3-a333-58f4256d9b3b",
@@ -108,6 +155,16 @@
         }
       },
       "id": "50ed1de6-d4b0-4d63-bab0-78bc33d8f0f4"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "66",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "29c12873-05ae-4d5b-88e6-a6fb67044560"
     }
   ],
   "playerHit1Script": [],

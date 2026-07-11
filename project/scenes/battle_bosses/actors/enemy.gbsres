@@ -4,7 +4,7 @@
   "name": "Enemy",
   "frame": 0,
   "animate": true,
-  "spriteSheetId": "5272337b-ed9c-4476-8e01-c1cbefd2d6ed",
+  "spriteSheetId": "87c30175-6da4-4730-86cd-989f550ef7cd",
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,

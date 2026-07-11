@@ -20,23 +20,16 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "49ec93ea-9248-4f13-aa75-20fddf37192a"
-      },
-      "id": "f1756e49-99e8-46dc-9e94-ea0bb28b0224"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "0683bdf9-6b08-4aa3-a333-58f4256d9b3b",
+        "musicId": "6ae51d44-7ae8-4426-bec1-c009fbfc4e72",
         "__collapse": true
       },
-      "id": "186344b1-8427-4c7c-8b6c-a5e3b2afbed0"
+      "id": "f1756e49-99e8-46dc-9e94-ea0bb28b0224"
     },
     {
       "id": "6bace8cb-0b11-4faa-933b-225c4c631418",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Enemy Actors Init"
       },
       "children": {
@@ -93,10 +86,65 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "0bc61885-2ad2-443d-9047-f24f727d74cf",
+        "customEventId": "0683bdf9-6b08-4aa3-a333-58f4256d9b3b",
         "__collapse": false
       },
+      "id": "186344b1-8427-4c7c-8b6c-a5e3b2afbed0"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0bc61885-2ad2-443d-9047-f24f727d74cf",
+        "__collapse": true
+      },
       "id": "b925ed52-843c-41ac-9b73-5faff8e6448d"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "67"
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " El laberinto\n invisible...",
+                " Debo tener\n cuidado al \n pisar."
+              ],
+              "__section": "text",
+              "avatarId": "49293dcc-ea74-4960-8567-1949893e0f17",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "55158d4d-afbe-4397-87e6-fd5c7b24f1b1"
+          }
+        ],
+        "false": []
+      },
+      "id": "e036a16b-e949-4bfe-81d3-cd9e2de0e677"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -107,6 +155,16 @@
         }
       },
       "id": "48511185-5944-4402-bf5d-b26878e7ca6a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "67",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "89ac831e-fc20-4d29-8152-ab75a7a7126d"
     }
   ],
   "playerHit1Script": [],

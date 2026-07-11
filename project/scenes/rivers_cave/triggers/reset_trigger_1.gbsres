@@ -1,0 +1,49 @@
+{
+  "_resourceType": "trigger",
+  "id": "33c29ef6-a964-4ea0-b3b7-d37d2099a1f0",
+  "name": "Reset Trigger 1",
+  "prefabId": "",
+  "x": 51,
+  "y": 1,
+  "symbol": "trigger_33",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 8,
+  "script": [
+    {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 2,
+        "__collapse": false
+      },
+      "id": "3c56f67b-6198-493a-b525-78992b3007ad"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "1dbbe1c8-5d6a-439d-b723-7a10da8a4139"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f3dce52f-50b0-4d2d-8a4c-301a4a1effd2",
+        "x": {
+          "type": "number",
+          "value": 5
+        },
+        "y": {
+          "type": "number",
+          "value": 11
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      },
+      "id": "874d1ec9-a172-437d-aefe-70ad7e0f94c5"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}
