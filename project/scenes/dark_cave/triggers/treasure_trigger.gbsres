@@ -1,7 +1,7 @@
 {
   "_resourceType": "trigger",
   "id": "7c84bbb2-90d6-4ba0-95e3-d79e0a291832",
-  "name": "Lab 4 Trigger",
+  "name": "Treasure Trigger",
   "prefabId": "",
   "x": 22,
   "y": 20,
@@ -10,24 +10,6 @@
   "width": 3,
   "height": 2,
   "script": [
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "3e777f9e-88fd-4bf6-97ea-4243152b9056",
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 0
-        },
-        "direction": "",
-        "fadeSpeed": "2",
-        "__comment": true
-      },
-      "id": "8b927812-b13b-409a-bb85-6e41f56d642a"
-    },
     {
       "command": "EVENT_TEXT",
       "args": {

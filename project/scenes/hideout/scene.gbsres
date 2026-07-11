@@ -208,35 +208,65 @@
       "id": "26b22f8c-e1e2-467f-bb00-34193c895ffa"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          " No sé si soy\n una guardiana",
-          " O una\n prisionera",
-          " Solo espero que\n mi historia",
-          " sea contada...",
-          " y que el\n agua...\n ",
-          " regrese a mi\n tribu"
-        ],
-        "__section": "text",
-        "avatarId": "49293dcc-ea74-4960-8567-1949893e0f17",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": true
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "68"
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
       },
-      "id": "1d251b17-6be3-45cf-a912-c2d8a77cabc9"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " No sé si soy\n una guardiana",
+                " o una\n prisionera.",
+                " Solo espero que\n mi historia",
+                " sea contada...",
+                " y que el\n agua...",
+                " regrese a mi\n tribu."
+              ],
+              "__section": "text",
+              "avatarId": "49293dcc-ea74-4960-8567-1949893e0f17",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "1d251b17-6be3-45cf-a912-c2d8a77cabc9"
+          }
+        ],
+        "false": []
+      },
+      "id": "8ca69cad-3d98-4393-bde3-ec866602c738"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "68",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "57518f16-a246-4689-88b2-8015c4d2c83c"
     }
   ],
   "playerHit1Script": [],

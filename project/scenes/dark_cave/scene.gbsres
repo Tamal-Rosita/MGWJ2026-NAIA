@@ -25,30 +25,50 @@
       "id": "f1756e49-99e8-46dc-9e94-ea0bb28b0224"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          " El laberinto\n invisible...",
-          " Debo tener\n cuidado al \n pisar."
-        ],
-        "__section": "text",
-        "avatarId": "49293dcc-ea74-4960-8567-1949893e0f17",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "67"
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
       },
-      "id": "55158d4d-afbe-4397-87e6-fd5c7b24f1b1"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " El laberinto\n invisible...",
+                " Debo tener\n cuidado al \n pisar."
+              ],
+              "__section": "text",
+              "avatarId": "49293dcc-ea74-4960-8567-1949893e0f17",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "55158d4d-afbe-4397-87e6-fd5c7b24f1b1"
+          }
+        ],
+        "false": []
+      },
+      "id": "e036a16b-e949-4bfe-81d3-cd9e2de0e677"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -133,6 +153,16 @@
         }
       },
       "id": "48511185-5944-4402-bf5d-b26878e7ca6a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "67",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "89ac831e-fc20-4d29-8152-ab75a7a7126d"
     }
   ],
   "playerHit1Script": [],

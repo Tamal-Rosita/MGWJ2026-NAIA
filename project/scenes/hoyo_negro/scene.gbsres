@@ -52,16 +52,6 @@
       "id": "87b4b596-561b-4482-942e-e0ab35c4ceda"
     },
     {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "13",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "b8879a05-3142-406d-baee-a4570f64a67f"
-    },
-    {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
         "type": "660e6cbb-9703-4dde-860a-0ea5d7b70b35",
@@ -73,6 +63,16 @@
         "effect": 0
       },
       "id": "9c7610ed-6561-4a45-9d14-e53d226d2df0"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "13",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "b8879a05-3142-406d-baee-a4570f64a67f"
     },
     {
       "command": "EVENT_TEXT",

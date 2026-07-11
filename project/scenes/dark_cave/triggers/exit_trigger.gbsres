@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "f754413c-0fd1-4fdd-88c6-bbcc136ab802",
-  "name": "",
+  "id": "7c118732-01fd-46cd-bca8-8f96825b9a49",
+  "name": "Exit Trigger",
   "prefabId": "",
-  "x": 2,
-  "y": 11,
-  "symbol": "trigger_38",
+  "x": 3,
+  "y": 10,
+  "symbol": "trigger_29",
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 2,
@@ -33,7 +33,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "6587c482-fccd-4eb4-8110-1ad1d0f322e0"
+      "id": "f3ff353e-5292-4eef-bd9a-3e4c2d6a06e8"
     },
     {
       "command": "EVENT_CHOICE",
@@ -42,7 +42,7 @@
         "trueText": "Sí",
         "falseText": "No"
       },
-      "id": "ff136c6f-1a44-4b64-a97d-3e9641dfe9bb"
+      "id": "e8d301d5-5e91-43b7-917a-c709b81412cb"
     },
     {
       "command": "EVENT_IF",
@@ -77,14 +77,14 @@
               "direction": "right",
               "fadeSpeed": "2"
             },
-            "id": "b056ef68-a6fc-4281-a1e4-723a56702bdc"
+            "id": "8ee1a3f5-7c50-4cc2-936b-bfed31203d9f"
           }
         ],
         "false": []
       },
-      "id": "cc7ac0d2-5614-4beb-ad2f-2245f4732d88"
+      "id": "5a6c54ec-4a9d-489c-9d7a-76e9bb413e8e"
     }
   ],
   "leaveScript": [],
-  "_index": 4
+  "_index": 5
 }

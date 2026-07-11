@@ -15,7 +15,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_19",
   "x": 1528,
-  "y": 448,
+  "y": 456,
   "script": [
     {
       "command": "EVENT_REPLACE_TILE_XY",
@@ -55,31 +55,51 @@
       "id": "53d737da-0b8c-4eb2-ab61-e5b633d011b2"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          " Los ríos se\n llevan las",
-          " impurezas...\n ",
-          " y a mí también\n :s"
-        ],
-        "__section": "text",
-        "avatarId": "49293dcc-ea74-4960-8567-1949893e0f17",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "65"
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
       },
-      "id": "fda50c38-3948-4d91-a387-5c296039fc82"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Los ríos se\n llevan las",
+                " impurezas...\n ",
+                " y a mí también\n :s"
+              ],
+              "__section": "text",
+              "avatarId": "49293dcc-ea74-4960-8567-1949893e0f17",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "fda50c38-3948-4d91-a387-5c296039fc82"
+          }
+        ],
+        "false": []
+      },
+      "id": "7a021344-b17d-4b75-8040-ab72563d3c13"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -223,6 +243,16 @@
         "__collapse": true
       },
       "id": "57d63c29-32eb-49d0-8a52-07992463d6b9"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "65",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "f2dabaca-6eea-4d63-ac1f-bcbac24efc9b"
     }
   ],
   "playerHit1Script": [],

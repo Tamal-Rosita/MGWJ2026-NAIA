@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "33c29ef6-a964-4ea0-b3b7-d37d2099a1f0",
-  "name": "",
+  "id": "5f5a25f1-18e1-45c5-a933-2a5b7b924c04",
+  "name": "Reset Whirpool 1",
   "prefabId": "",
-  "x": 51,
-  "y": 1,
-  "symbol": "trigger_33",
+  "x": 34,
+  "y": 2,
+  "symbol": "trigger_30",
   "prefabScriptOverrides": {},
   "width": 2,
-  "height": 8,
+  "height": 2,
   "script": [
     {
       "command": "EVENT_TIMER_DISABLE",
@@ -16,7 +16,7 @@
         "timer": 2,
         "__collapse": false
       },
-      "id": "3c56f67b-6198-493a-b525-78992b3007ad"
+      "id": "ed1225e4-b001-43ee-b913-7e5acf6bce6d"
     },
     {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -24,7 +24,7 @@
         "actorId": "$self$",
         "speed": 1
       },
-      "id": "1dbbe1c8-5d6a-439d-b723-7a10da8a4139"
+      "id": "c7bffc45-0c5b-4cc9-ae7e-b9e6e160a16c"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -36,14 +36,14 @@
         },
         "y": {
           "type": "number",
-          "value": 11
+          "value": 10
         },
         "direction": "right",
         "fadeSpeed": "2"
       },
-      "id": "874d1ec9-a172-437d-aefe-70ad7e0f94c5"
+      "id": "778fb57d-7b70-4b76-8066-08011e3a60d0"
     }
   ],
   "leaveScript": [],
-  "_index": 1
+  "_index": 0
 }
